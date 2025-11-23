@@ -14,11 +14,3 @@ Addon Stremio simples para filmes dublados PT-BR.
 
 ## Adicionar filmes
 Edite `data/filmes.json` com objetos:
-{
-  "id": "umjolo-entre-dois-amores-2025",
-  "name": "Umjolo: Entre Dois Amores (2025)",
-  "poster": "https://i.imgur.com/dyKdIrT.jpeg",
-  "description": "Filme dublado PT-BR",
-  "year": 2025,
-  "stream": "http://batx7.lat:80/movie/689077610/846738191/7096087.mp4"
-}
