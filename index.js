@@ -1,48 +1,39 @@
-import { addonBuilder } from "stremio-addon-sdk";
-import express from "express";
-import cors from "cors";
-import fs from "fs";
+const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
+const fs = require("fs");
 
 // ------------------------------------------------------
-// Carregar JSONs (AGORA NO CAMINHO CORRETO)
+// CARREGAMENTO DE ARQUIVOS (SEU FORMATO ANTIGO)
 // ------------------------------------------------------
 const filmes = JSON.parse(fs.readFileSync("./data/filmes.json"));
 const series = JSON.parse(fs.readFileSync("./data/series.json"));
 
-// ========================================================
-// 🔥 METADATA DO ADDON
-// ========================================================
+// ------------------------------------------------------
+// MANIFESTO
+// ------------------------------------------------------
 const manifest = {
-  id: "brplayer-addon",
+  id: "cinema-dublado",
   version: "1.0.0",
-  name: "BR Player Dublado",
-  description: "Filmes e Séries dublados PT-BR",
-  logo: "https://i.imgur.com/3NUyZJp.png",
+  name: "Cinema Dublado",
+  description: "Addon focado em filmes e séries dublados PT-BR",
+  logo: "https://imgur.com/a/pBgbupn",
   resources: ["catalog", "meta", "stream"],
-  catalogs: [
-    {
-      id: "filmes",
-      type: "movie",
-      name: "Filmes Dublados"
-    },
-    {
-      id: "series",
-      type: "series",
-      name: "Séries Dubladas"
-    }
-  ],
   types: ["movie", "series"],
+  catalogs: [
+    { type: "movie", id: "catalogo-filmes", name: "Cinema Dublado" },
+    { type: "series", id: "catalogo-series", name: "Cinema Dublado" }
+  ]
 };
 
-// ========================================================
-// 🔥 INICIAR ADDON
-// ========================================================
+// ------------------------------------------------------
+// BUILDER
+// ------------------------------------------------------
 const builder = new addonBuilder(manifest);
 
-// ========================================================
-// 🔥 CATÁLOGOS
-// ========================================================
+// ------------------------------------------------------
+// CATÁLOGO
+// ------------------------------------------------------
 builder.defineCatalogHandler(args => {
+
   if (args.type === "movie") {
     return Promise.resolve({
       metas: filmes.map(f => ({
@@ -51,7 +42,7 @@ builder.defineCatalogHandler(args => {
         name: f.name,
         poster: f.poster,
         description: f.description,
-        year: f.year
+        releaseInfo: f.year?.toString()
       }))
     });
   }
@@ -64,18 +55,18 @@ builder.defineCatalogHandler(args => {
         name: s.name,
         poster: s.poster,
         description: s.description,
-        year: s.year
+        releaseInfo: s.year?.toString()
       }))
     });
   }
-
-  return Promise.resolve({ metas: [] });
 });
 
-// ========================================================
-// 🔥 META HANDLER (DETALHES DO FILME / SÉRIE)
-// ========================================================
+// ------------------------------------------------------
+// META - AGORA USANDO videos[] CORRETAMENTE
+// ------------------------------------------------------
 builder.defineMetaHandler(args => {
+
+  // Filme
   const filme = filmes.find(f => f.id === args.id);
   if (filme) {
     return Promise.resolve({
@@ -85,18 +76,12 @@ builder.defineMetaHandler(args => {
         name: filme.name,
         poster: filme.poster,
         description: filme.description,
-        year: filme.year,
-        videos: [
-          {
-            id: filme.id,
-            title: filme.name,
-            stream: filme.stream
-          }
-        ]
+        releaseInfo: filme.year?.toString()
       }
     });
   }
 
+  // Série
   const serie = series.find(s => s.id === args.id);
   if (serie) {
     return Promise.resolve({
@@ -106,13 +91,14 @@ builder.defineMetaHandler(args => {
         name: serie.name,
         poster: serie.poster,
         description: serie.description,
-        year: serie.year,
-        videos: serie.videos.map(v => ({
-          id: v.id,
-          title: v.title,
-          season: v.season,
-          episode: v.episode,
-          thumbnail: v.thumbnail
+        releaseInfo: serie.year?.toString(),
+
+        videos: serie.videos.map(ep => ({
+          id: ep.id,
+          title: ep.title,
+          season: ep.season,
+          episode: ep.episode,
+          thumbnail: ep.thumbnail
         }))
       }
     });
@@ -121,16 +107,13 @@ builder.defineMetaHandler(args => {
   return Promise.resolve({ meta: {} });
 });
 
-// ========================================================
-// 🔥 STREAM HANDLER (REPRODUÇÃO) — CORRIGIDO COMPLETO
-// ========================================================
+// ------------------------------------------------------
+// STREAM - AGORA COMPATÍVEL COM videos[]
+// ------------------------------------------------------
 builder.defineStreamHandler(args => {
 
-  // ⭐ IMPORTANTE: remover prefixo "series/" que o Stremio adiciona
-  const cleanId = args.id.replace("series/", "");
-
   // Filme
-  const filme = filmes.find(f => f.id === cleanId);
+  const filme = filmes.find(f => f.id === args.id);
   if (filme) {
     return Promise.resolve({
       streams: [
@@ -139,35 +122,28 @@ builder.defineStreamHandler(args => {
     });
   }
 
-  // Episódios de Séries
+  // Série Episódio
   for (const serie of series) {
-    const ep = serie.videos.find(v => v.id === cleanId);
-    if (ep) {
-      return Promise.resolve({
-        streams: [
-          {
-            title: `${ep.title} Dublado`,
-            url: ep.stream
-          }
-        ]
-      });
+    for (const ep of serie.videos) {
+      if (ep.id === args.id) {
+        return Promise.resolve({
+          streams: [
+            {
+              title: `${serie.name} - T${ep.season}E${ep.episode}`,
+              url: ep.stream
+            }
+          ]
+        });
+      }
     }
   }
 
   return Promise.resolve({ streams: [] });
 });
 
-// ========================================================
-// 🔥 EXPRESS SERVER
-// ========================================================
-const app = express();
-app.use(cors());
+// ------------------------------------------------------
+// SERVIDOR
+// ------------------------------------------------------
+serveHTTP(builder.getInterface(), { port: process.env.PORT || 3000 });
 
-const addonInterface = builder.getInterface();
-app.get("/:resource/:type/:id.json", (req, res) => addonInterface(req, res));
-app.get("/:resource/:type/:id", (req, res) => addonInterface(req, res));
-app.get("/:resource/:type", (req, res) => addonInterface(req, res));
-app.get("/", (req, res) => res.json(manifest));
-
-const PORT = process.env.PORT || 7777;
-app.listen(PORT, () => console.log("Addon ativo na porta " + PORT));
+console.log("Addon Cinema Dublado rodando...");
