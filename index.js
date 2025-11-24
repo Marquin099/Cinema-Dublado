@@ -1,7 +1,6 @@
 const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
 const fs = require("fs");
 const path = require("path");
-const axios = require("axios");
 
 // ------------------ Carregar arquivos JSON ------------------
 function safeReadJSON(file) {
@@ -32,15 +31,6 @@ const manifest = {
 };
 
 const builder = new addonBuilder(manifest);
-
-// ------------------ Função para decodificar 2x ------------------
-function decodeURL(url) {
-    try {
-        return decodeURIComponent(decodeURIComponent(url));
-    } catch (e) {
-        return url;
-    }
-}
 
 // ------------------ Catálogo ------------------
 builder.defineCatalogHandler(async args => {
@@ -88,18 +78,14 @@ builder.defineMetaHandler(async args => {
                 poster: filme.poster,
                 description: filme.description,
                 releaseInfo: filme.year?.toString(),
-                videos: [{
-                    id: filme.id,
-                    title: filme.name
-                }]
+                videos: [{ id: filme.id }]
             }
         };
     }
 
     const serie = series.find(s => `tmdb:${s.tmdb}` === args.id);
-
     if (serie) {
-        let videos = [];
+        const videos = [];
 
         serie.seasons.forEach(temp => {
             temp.episodes.forEach(ep => {
@@ -129,22 +115,28 @@ builder.defineMetaHandler(async args => {
     return { meta: {} };
 });
 
-// ------------------ Stream ------------------
+// ------------------ Stream (SEM M3U8, SEM DOWNLOAD) ------------------
 builder.defineStreamHandler(async args => {
     const id = args.id;
 
+    // Filme
     const filme = filmes.find(f =>
         f.id === id || (f.tmdb && `tmdb:${f.tmdb}` === id)
     );
 
     if (filme) {
         return {
-            streams: [{ title: "Dublado", url: filme.stream }]
+            streams: [
+                {
+                    title: "Dublado",
+                    url: filme.stream
+                }
+            ]
         };
     }
 
+    // Série (tmdb:ID:season:episode)
     const match = id.match(/^tmdb:(\d+):(\d+):(\d+)$/);
-
     if (match) {
         const tmdb = Number(match[1]);
         const season = Number(match[2]);
@@ -159,34 +151,15 @@ builder.defineStreamHandler(async args => {
         const ep = temp.episodes.find(e => e.episode === episode);
         if (!ep) return { streams: [] };
 
-        try {
-            const m3uOriginal = await axios.get(ep.stream);
-            const linhas = m3uOriginal.data.split("\n");
-
-            const m3uDecodificado = linhas
-                .map(linha => {
-                    if (linha.startsWith("http")) {
-                        return decodeURL(linha);
-                    }
-                    return linha;
-                })
-                .join("\n");
-
-            const m3uPath = `/m3u/${tmdb}-${season}-${episode}.m3u8`;
-            fs.writeFileSync(path.join(__dirname, m3uPath), m3uDecodificado);
-
-            return {
-                streams: [
-                    {
-                        title: "Dublado (HD)",
-                        url: `${process.env.RENDER_EXTERNAL_URL || ""}${m3uPath}`
-                    }
-                ]
-            };
-        } catch (err) {
-            console.error("Erro ao processar M3U8:", err);
-            return { streams: [] };
-        }
+        // retorna o stream DIRETO
+        return {
+            streams: [
+                {
+                    title: "Dublado (HD)",
+                    url: ep.stream
+                }
+            ]
+        };
     }
 
     return { streams: [] };
