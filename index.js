@@ -9,8 +9,8 @@ const manifest = {
   name: "Cinema Dublado",
   description: "Addon focado em filmes e séries dublados PT-BR",
   logo: "https://i.imgur.com/1wHZcFQ.png",
-  resources: ["catalog", "stream"],
 
+  resources: ["catalog", "meta", "stream"],
   types: ["movie", "series"],
 
   catalogs: [
@@ -77,19 +77,67 @@ builder.defineCatalogHandler(args => {
         id: s.id,
         type: "series",
         name: s.name,
-        poster: s.poster,        // <- AGORA A CAPA PRINCIPAL APARECE
+        poster: s.poster,
         description: s.description,
         releaseInfo: s.year?.toString()
       }))
     });
   }
-
 });
 
-// ------------------ Stream handler ------------------
+// ------------------ META HANDLER (OBRIGATÓRIO PARA SÉRIES) ------------------
+builder.defineMetaHandler(args => {
+
+  // Filme
+  const filme = filmes.find(f => f.id === args.id);
+  if (filme) {
+    return Promise.resolve({
+      meta: {
+        id: filme.id,
+        type: "movie",
+        name: filme.name,
+        poster: filme.poster,
+        description: filme.description,
+        releaseInfo: filme.year?.toString(),
+        streams: []
+      }
+    });
+  }
+
+  // Série
+  const serie = series.find(s => s.id === args.id);
+  if (serie) {
+    return Promise.resolve({
+      meta: {
+        id: serie.id,
+        type: "series",
+        name: serie.name,
+        poster: serie.poster,
+        description: serie.description,
+        releaseInfo: serie.year?.toString(),
+
+        // Importante: estrutura que o Stremio exige
+        seasons: serie.seasons.map(temp => ({
+          season: temp.season,
+          episodes: temp.episodes.map(ep => ({
+            id: `${serie.id}:${temp.season}:${ep.episode}`,
+            episode: ep.episode,
+            season: temp.season,
+            title: ep.title,
+            thumbnail: ep.thumbnail
+          }))
+        }))
+      }
+    });
+  }
+
+  return Promise.resolve({ meta: {} });
+});
+
+// ------------------ STREAM HANDLER ------------------
 builder.defineStreamHandler(args => {
 
-  // Primeiro procurar se é filme
+  // Verificar se é filme
   const filme = filmes.find(f => f.id === args.id);
   if (filme) {
     return Promise.resolve({
@@ -97,16 +145,15 @@ builder.defineStreamHandler(args => {
         { title: "Dublado PT-BR", url: filme.stream }
       ]
     });
-  }
+    }
 
-  // Depois procurar se pertence a alguma série
+  // Verificar se pertence a uma série
   for (const serie of series) {
     if (!serie.seasons) continue;
 
     for (const temporada of serie.seasons) {
       for (const ep of temporada.episodes) {
 
-        // ID dos episódios vira: ttXXXXXX:1:3  (s1e3)
         const epId = `${serie.id}:${temporada.season}:${ep.episode}`;
 
         if (epId === args.id) {
@@ -116,7 +163,6 @@ builder.defineStreamHandler(args => {
             ]
           });
         }
-
       }
     }
   }
