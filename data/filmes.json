@@ -12,7 +12,15 @@
     "name": "Frankenstein",
     "poster": "https://images.metahub.space/poster/small/tt1312221/img",
     "description": "Filme dublado PT-BR",
-    "year": 2015,
+    "year": 2025,
     "stream": "http://37.27.132.97:80/d3/v/59a3b2fd3b45358606369f2d1b62039cd2ddb1fd368983e59c9c19cd88b71b01.mp4"
+  },
+  {
+    "id": "tt36240772",
+    "name": "K.O",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/o0brhd2qdfFL3o7VxFDsUfUSaML.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "stream": "https://vod3.cf.dmcdn.net/sec2(taUNZwO52dr2pUUCEDfn6EtmnuH8yFAKOKxJUQ5YPCeS6tVh9hW_1GnKbWRV9DzOIpxUhXjrBsid8hsPGrxnxs5bmI10DT4GXHoDKjup03OuZ3SuN8gANmkd6cYNudOES3sVa8cJ8xcBfQSYcDSUJiThJXzsXAhDy2sasqx5g0V6mqyo2AoA_P7OvX4FexHR)/video/090/340/580043090_mp4_h264_aac_hd_3.m3u8#cell=cf3"
   }
 ]
