@@ -1,61 +1,47 @@
-const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
-const fs = require("fs");
-const path = require("path");
+import { addonBuilder } from "stremio-addon-sdk";
+import express from "express";
+import cors from "cors";
+import fs from "fs";
 
-// ------------------ Manifesto ------------------
+// ========================================================
+// 🔥 CARREGAR DADOS DE FILMES E SÉRIES
+// ========================================================
+const filmes = JSON.parse(fs.readFileSync("./filmes.json"));
+const series = JSON.parse(fs.readFileSync("./series.json"));
+
+// ========================================================
+// 🔥 METADATA DO ADDON
+// ========================================================
 const manifest = {
-  id: "cinema-dublado",
+  id: "brplayer-addon",
   version: "1.0.0",
-  name: "Cinema Dublado",
-  description: "Addon focado em filmes e séries dublados PT-BR",
-  logo: "https://imgur.com/a/pBgbupn",
-
+  name: "BR Player Dublado",
+  description: "Filmes e Séries dublados PT-BR",
+  logo: "https://i.imgur.com/3NUyZJp.png",
   resources: ["catalog", "meta", "stream"],
-  types: ["movie", "series"],
-
   catalogs: [
     {
+      id: "filmes",
       type: "movie",
-      id: "catalogo-filmes",
-      name: "Cinema Dublado"
+      name: "Filmes Dublados"
     },
     {
+      id: "series",
       type: "series",
-      id: "catalogo-series",
-      name: "Cinema Dublado"
+      name: "Séries Dubladas"
     }
-  ]
+  ],
+  types: ["movie", "series"],
 };
 
-// ------------------ Carregar filmes ------------------
-function carregarFilmes() {
-  try {
-    const raw = fs.readFileSync(path.join(__dirname, "data", "filmes.json"), "utf8");
-    return JSON.parse(raw);
-  } catch (err) {
-    console.error("Erro ao carregar filmes.json:", err);
-    return [];
-  }
-}
-
-// ------------------ Carregar séries ------------------
-function carregarSeries() {
-  try {
-    const raw = fs.readFileSync(path.join(__dirname, "data", "series.json"), "utf8");
-    return JSON.parse(raw);
-  } catch (err) {
-    console.error("Erro ao carregar series.json:", err);
-    return [];
-  }
-}
-
-const filmes = carregarFilmes();
-const series = carregarSeries();
-
-// ------------------ Builder ------------------
+// ========================================================
+// 🔥 INICIAR ADDON
+// ========================================================
 const builder = new addonBuilder(manifest);
 
-// ------------------ Catálogo ------------------
+// ========================================================
+// 🔥 CATÁLOGOS
+// ========================================================
 builder.defineCatalogHandler(args => {
   if (args.type === "movie") {
     return Promise.resolve({
@@ -65,7 +51,7 @@ builder.defineCatalogHandler(args => {
         name: f.name,
         poster: f.poster,
         description: f.description,
-        releaseInfo: f.year?.toString()
+        year: f.year
       }))
     });
   }
@@ -78,14 +64,38 @@ builder.defineCatalogHandler(args => {
         name: s.name,
         poster: s.poster,
         description: s.description,
-        releaseInfo: s.year?.toString()
+        year: s.year
       }))
     });
   }
+
+  return Promise.resolve({ metas: [] });
 });
 
-// ------------------ META HANDLER ------------------
+// ========================================================
+// 🔥 META HANDLER (DETALHES DO FILME / SÉRIE)
+// ========================================================
 builder.defineMetaHandler(args => {
+  const filme = filmes.find(f => f.id === args.id);
+  if (filme) {
+    return Promise.resolve({
+      meta: {
+        id: filme.id,
+        type: "movie",
+        name: filme.name,
+        poster: filme.poster,
+        description: filme.description,
+        year: filme.year,
+        videos: [
+          {
+            id: filme.id,
+            title: filme.name,
+            stream: filme.stream
+          }
+        ]
+      }
+    });
+  }
 
   const serie = series.find(s => s.id === args.id);
   if (serie) {
@@ -96,8 +106,7 @@ builder.defineMetaHandler(args => {
         name: serie.name,
         poster: serie.poster,
         description: serie.description,
-        releaseInfo: serie.year?.toString(),
-
+        year: serie.year,
         videos: serie.videos.map(v => ({
           id: v.id,
           title: v.title,
@@ -109,27 +118,19 @@ builder.defineMetaHandler(args => {
     });
   }
 
-  const filme = filmes.find(f => f.id === args.id);
-  if (filme) {
-    return Promise.resolve({
-      meta: {
-        id: filme.id,
-        type: "movie",
-        name: filme.name,
-        poster: filme.poster,
-        description: filme.description,
-        releaseInfo: filme.year?.toString()
-      }
-    });
-  }
-
   return Promise.resolve({ meta: {} });
 });
 
-// ------------------ STREAM HANDLER ------------------
+// ========================================================
+// 🔥 STREAM HANDLER (REPRODUÇÃO) — CORRIGIDO COMPLETO
+// ========================================================
 builder.defineStreamHandler(args => {
 
-  const filme = filmes.find(f => f.id === args.id);
+  // ⭐ IMPORTANTE: remover prefixo "series/" que o Stremio adiciona
+  const cleanId = args.id.replace("series/", "");
+
+  // Filme
+  const filme = filmes.find(f => f.id === cleanId);
   if (filme) {
     return Promise.resolve({
       streams: [
@@ -138,9 +139,9 @@ builder.defineStreamHandler(args => {
     });
   }
 
-  // Episódios de série
+  // Episódios de Séries
   for (const serie of series) {
-    const ep = serie.videos.find(v => v.id === args.id);
+    const ep = serie.videos.find(v => v.id === cleanId);
     if (ep) {
       return Promise.resolve({
         streams: [
@@ -156,7 +157,17 @@ builder.defineStreamHandler(args => {
   return Promise.resolve({ streams: [] });
 });
 
-// ------------------ Servidor HTTP ------------------
-serveHTTP(builder.getInterface(), { port: process.env.PORT || 3000 });
+// ========================================================
+// 🔥 EXPRESS SERVER
+// ========================================================
+const app = express();
+app.use(cors());
 
-console.log("Addon Cinema Dublado rodando...");
+const addonInterface = builder.getInterface();
+app.get("/:resource/:type/:id.json", (req, res) => addonInterface(req, res));
+app.get("/:resource/:type/:id", (req, res) => addonInterface(req, res));
+app.get("/:resource/:type", (req, res) => addonInterface(req, res));
+app.get("/", (req, res) => res.json(manifest));
+
+const PORT = process.env.PORT || 7777;
+app.listen(PORT, () => console.log("Addon ativo na porta " + PORT));
