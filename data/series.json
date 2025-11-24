@@ -1,69 +1,5 @@
 [
   {
-    "id": "tmdb:61381",
-    "tmdb": 61381,
-    "name": "Safe",
-    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
-    "description": "Um pai viúvo tenta descobrir o paradeiro de sua filha desaparecida enquanto desenterra segredos obscuros da sua comunidade.",
-    "year": 2018,
-    "seasons": [
-      {
-        "season": 1,
-        "episodes": [
-          {
-            "episode": 1,
-            "title": "Episódio 1",
-            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
-            "stream": "http://batx7.lat:80/series/689077610/846738191/8183801.mp4"
-          },
-          {
-            "episode": 2,
-            "title": "Episódio 2",
-            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
-            "stream": "http://batx7.lat:80/series/689077610/846738191/8183802.mp4"
-          },
-          {
-            "episode": 3,
-            "title": "Episódio 3",
-            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
-            "stream": "http://batx7.lat:80/series/689077610/846738191/8183803.mp4"
-          },
-          {
-            "episode": 4,
-            "title": "Episódio 4",
-            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
-            "stream": "http://batx7.lat:80/series/689077610/846738191/8183804.mp4"
-          },
-          {
-            "episode": 5,
-            "title": "Episódio 5",
-            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
-            "stream": "http://batx7.lat:80/series/689077610/846738191/8183805.mp4"
-          },
-          {
-            "episode": 6,
-            "title": "Episódio 6",
-            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
-            "stream": "http://batx7.lat:80/series/689077610/846738191/8183806.mp4"
-          },
-          {
-            "episode": 7,
-            "title": "Episódio 7",
-            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
-            "stream": "http://batx7.lat:80/series/689077610/846738191/8183807.mp4"
-          },
-          {
-            "episode": 8,
-            "title": "Episódio 8 (Final)",
-            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
-            "stream": "http://batx7.lat:80/series/689077610/846738191/8183808.mp4"
-          }
-        ]
-      }
-    ]
-  },
-
-  {
     "id": "i-love-la-2025",
     "tmdb": 271053,
     "name": "I Love LA",
@@ -77,8 +13,35 @@
           {
             "episode": 1,
             "title": "Episódio 1",
-            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/placeholder.jpg",
+            "thumbnail": "https://www.themoviedb.org/t/p/w600_and_h900_face/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
             "stream": "https://watch.brplayer.cc/m3u8/27/407f5bc47339074637a289fb2b000805/master.m3u8?s=1&id=33868&cache=1"
+          },
+          {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 2,
+            "title": "Episódio 2",
+            "thumbnail": "https://www.themoviedb.org/t/p/w600_and_h900_face/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+            "stream": "https://watch.brplayer.cc/m3u8/27/d5f6b27eed9d01f58d2e943b6c319081/master.m3u8?s=1&id=34363&cache=1"
+          },
+          {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 3,
+            "title": "Episódio 3",
+            "thumbnail": "https://www.themoviedb.org/t/p/w600_and_h900_face/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+            "stream": "https://watch.brplayer.cc/m3u8/27/dcbf540f6a9056d33884b1f54a610c1b/master.m3u8?s=1&id=34647&cache=1"
+          },
+          {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 4,
+            "title": "Episódio 4",
+            "thumbnail": "https://www.themoviedb.org/t/p/w600_and_h900_face/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+            "stream": "https://watch.brplayer.cc/m3u8/27/44e99af76e0d3f4e7eb331b3f3ef8e38/master.m3u8?s=1&id=34840&cache=1"
           }
         ]
       }
