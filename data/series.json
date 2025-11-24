@@ -61,5 +61,27 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "i-love-la-2025",
+    "tmdb": 271053,
+    "name": "I Love LA",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+    "description": "Série lançada em 2025.",
+    "year": 2025,
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Episódio 1",
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/placeholder.jpg",
+            "stream": "https://watch.brplayer.cc/stream/bTN1OC8yNy80MDdmNWJjNDczMzkwNzQ2MzdhMjg5ZmIyYjAwMDgwNS83MjBwLzcyMHAubTN1OD9pZD0zMzg2OA=="
+          }
+        ]
+      }
+    ]
   }
 ]
