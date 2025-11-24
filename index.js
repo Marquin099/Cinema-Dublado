@@ -33,34 +33,38 @@ const manifest = {
 const builder = new addonBuilder(manifest);
 
 // ------------------ Catálogo ------------------
-builder.defineCatalogHandler(args => {
+builder.defineCatalogHandler(async args => {
     if (args.type === "movie") {
-        return { metas: filmes.map(f => ({
-            id: f.id,
-            type: "movie",
-            name: f.name,
-            poster: f.poster,
-            description: f.description,
-            releaseInfo: f.year?.toString()
-        })) };
+        return {
+            metas: filmes.map(f => ({
+                id: f.id,
+                type: "movie",
+                name: f.name,
+                poster: f.poster,
+                description: f.description,
+                releaseInfo: f.year?.toString()
+            }))
+        };
     }
 
     if (args.type === "series") {
-        return { metas: series.map(s => ({
-            id: `tmdb:${s.tmdb}`, // importante!
-            type: "series",
-            name: s.name,
-            poster: s.poster,
-            description: s.description,
-            releaseInfo: s.year?.toString()
-        })) };
+        return {
+            metas: series.map(s => ({
+                id: `tmdb:${s.tmdb}`,
+                type: "series",
+                name: s.name,
+                poster: s.poster,
+                description: s.description,
+                releaseInfo: s.year?.toString()
+            }))
+        };
     }
 
     return { metas: [] };
 });
 
 // ------------------ Meta ------------------
-builder.defineMetaHandler(args => {
+builder.defineMetaHandler(async args => {
 
     // Filme
     const filme = filmes.find(f =>
@@ -85,9 +89,7 @@ builder.defineMetaHandler(args => {
     }
 
     // Série
-    const serie = series.find(s =>
-        `tmdb:${s.tmdb}` === args.id
-    );
+    const serie = series.find(s => `tmdb:${s.tmdb}` === args.id);
 
     if (serie) {
         let videos = [];
@@ -121,7 +123,7 @@ builder.defineMetaHandler(args => {
 });
 
 // ------------------ Stream ------------------
-builder.defineStreamHandler(args => {
+builder.defineStreamHandler(async args => {
     const id = args.id;
 
     // Filme
@@ -154,7 +156,10 @@ builder.defineStreamHandler(args => {
 
         return {
             streams: [
-                { title: `${serie.name} T${season}E${episode} (Dublado)`, url: ep.stream }
+                {
+                    title: `${serie.name} T${season}E${episode} (Dublado)`,
+                    url: ep.stream
+                }
             ]
         };
     }
