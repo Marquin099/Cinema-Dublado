@@ -8,7 +8,7 @@ const manifest = {
   version: "1.0.0",
   name: "Cinema Dublado",
   description: "Addon focado em filmes e séries dublados PT-BR",
-  logo: "https://i.imgur.com/1wHZcFQ.png",
+  logo: "https://imgur.com/a/pBgbupn",
 
   resources: ["catalog", "meta", "stream"],
   types: ["movie", "series"],
