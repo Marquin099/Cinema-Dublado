@@ -17,12 +17,12 @@ const manifest = {
     {
       type: "movie",
       id: "catalogo-filmes",
-      name: "Cinema Dublado - Filmes"
+      name: "Cinema Dublado"
     },
     {
       type: "series",
       id: "catalogo-series",
-      name: "Cinema Dublado - Séries"
+      name: "Cinema Dublado"
     }
   ]
 };
