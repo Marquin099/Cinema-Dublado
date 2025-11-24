@@ -1,11 +1,11 @@
 [
   {
-    "id": "tmdb:271053",
-    "tmdb": 271053,
-    "name": "I Love LA",
-    "poster": "https://image.tmdb.org/t/p/w600_and_h900_face/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
-    "description": "Série dublada PT-BR",
-    "year": 2025,
+    "id": "tmdb:61381",
+    "tmdb": 61381,
+    "name": "Safe",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
+    "description": "Um pai viúvo tenta descobrir o paradeiro de sua filha desaparecida enquanto desenterra segredos obscuros da sua comunidade.",
+    "year": 2018,
     "seasons": [
       {
         "season": 1,
@@ -13,26 +13,50 @@
           {
             "episode": 1,
             "title": "Episódio 1",
-            "thumbnail": "https://writethroughthenight.com/wp-content/uploads/2025/11/ilovela101.png?w=816",
-            "stream": "https://watch.brplayer.cc/stream/bTN1OC8yNy80MDdmNWJjNDczMzkwNzQ2MzdhMjg5ZmIyYjAwMDgwNS83MjBwLzcyMHAubTN1OD9pZD0zMzg2OA=="
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
+            "stream": "http://batx7.lat:80/series/689077610/846738191/8183801.mp4"
           },
           {
             "episode": 2,
             "title": "Episódio 2",
-            "thumbnail": "https://writethroughthenight.com/wp-content/uploads/2025/11/ilovela102.png?w=816",
-            "stream": "https://watch.brplayer.cc/stream/bTN1OC8yNy9kNWY2YjI3ZWVkOWQwMWY1OGQyZTk0M2I2YzMxOTA4MS83MjBwLzcyMHAubTN1OD9pZD0zNDM2Mw=="
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
+            "stream": "http://batx7.lat:80/series/689077610/846738191/8183802.mp4"
           },
           {
             "episode": 3,
             "title": "Episódio 3",
-            "thumbnail": "https://writethroughthenight.com/wp-content/uploads/2025/11/ilovela103.png?w=816",
-            "stream": "https://watch.brplayer.cc/stream/bTN1OC8yNy9kNWY2YjI3ZWVkOWQwMWY1OGQyZTk0M2I2YzMxOTA4MS83MjBwLzcyMHAubTN1OD9pZD0zNDM2Mw=="
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
+            "stream": "http://batx7.lat:80/series/689077610/846738191/8183803.mp4"
           },
           {
             "episode": 4,
             "title": "Episódio 4",
-            "thumbnail": "https://img.pastemagazine.com/wp-content/avuploads/2025/11/21145033/ill4-recap-header.jpg",
-            "stream": "https://watch.brplayer.cc/stream/bTN1OC8yNy80NGU5OWFmNzZlMGQzZjRlN2ViMzMxYjNmM2VmOGUzOC83MjBwLzcyMHAubTN1OD9pZD0zNDg0MA=="
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
+            "stream": "http://batx7.lat:80/series/689077610/846738191/8183804.mp4"
+          },
+          {
+            "episode": 5,
+            "title": "Episódio 5",
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
+            "stream": "http://batx7.lat:80/series/689077610/846738191/8183805.mp4"
+          },
+          {
+            "episode": 6,
+            "title": "Episódio 6",
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
+            "stream": "http://batx7.lat:80/series/689077610/846738191/8183806.mp4"
+          },
+          {
+            "episode": 7,
+            "title": "Episódio 7",
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
+            "stream": "http://batx7.lat:80/series/689077610/846738191/8183807.mp4"
+          },
+          {
+            "episode": 8,
+            "title": "Episódio 8 (Final)",
+            "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hfZct5mRfebQtNSccLv42JTSywK.jpg",
+            "stream": "http://batx7.lat:80/series/689077610/846738191/8183808.mp4"
           }
         ]
       }
