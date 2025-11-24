@@ -27,6 +27,17 @@ const manifest = {
   ]
 };
 
+// ------------------ Função de Alias para IDs ------------------
+function normalizarId(id) {
+
+  // Alias para série "I Love LA"
+  if (id.startsWith("tt33362589")) {
+    return id.replace("tt33362589", "i-love-la");
+  }
+
+  return id;
+}
+
 // ------------------ Carregar filmes ------------------
 function carregarFilmes() {
   try {
@@ -85,11 +96,13 @@ builder.defineCatalogHandler(args => {
   }
 });
 
-// ------------------ META HANDLER (OBRIGATÓRIO PARA SÉRIES) ------------------
+// ------------------ META HANDLER ------------------
 builder.defineMetaHandler(args => {
 
+  const id = normalizarId(args.id);
+
   // Filme
-  const filme = filmes.find(f => f.id === args.id);
+  const filme = filmes.find(f => f.id === id);
   if (filme) {
     return Promise.resolve({
       meta: {
@@ -105,7 +118,7 @@ builder.defineMetaHandler(args => {
   }
 
   // Série
-  const serie = series.find(s => s.id === args.id);
+  const serie = series.find(s => s.id === id);
   if (serie) {
     return Promise.resolve({
       meta: {
@@ -116,7 +129,6 @@ builder.defineMetaHandler(args => {
         description: serie.description,
         releaseInfo: serie.year?.toString(),
 
-        // Importante: estrutura que o Stremio exige
         seasons: serie.seasons.map(temp => ({
           season: temp.season,
           episodes: temp.episodes.map(ep => ({
@@ -137,17 +149,19 @@ builder.defineMetaHandler(args => {
 // ------------------ STREAM HANDLER ------------------
 builder.defineStreamHandler(args => {
 
-  // Verificar se é filme
-  const filme = filmes.find(f => f.id === args.id);
+  const id = normalizarId(args.id);
+
+  // Filme
+  const filme = filmes.find(f => f.id === id);
   if (filme) {
     return Promise.resolve({
       streams: [
         { title: "Dublado PT-BR", url: filme.stream }
       ]
     });
-    }
+  }
 
-  // Verificar se pertence a uma série
+  // Série / Episódio
   for (const serie of series) {
     if (!serie.seasons) continue;
 
@@ -156,7 +170,7 @@ builder.defineStreamHandler(args => {
 
         const epId = `${serie.id}:${temporada.season}:${ep.episode}`;
 
-        if (epId === args.id) {
+        if (epId === id) {
           return Promise.resolve({
             streams: [
               { title: `T${temporada.season}E${ep.episode} Dublado`, url: ep.stream }
