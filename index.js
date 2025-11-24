@@ -27,17 +27,6 @@ const manifest = {
   ]
 };
 
-// ------------------ Função de Alias para IDs ------------------
-function normalizarId(id) {
-
-  // Alias para série "I Love LA"
-  if (id.startsWith("tt33362589")) {
-    return id.replace("tt33362589", "i-love-la");
-  }
-
-  return id;
-}
-
 // ------------------ Carregar filmes ------------------
 function carregarFilmes() {
   try {
@@ -68,7 +57,6 @@ const builder = new addonBuilder(manifest);
 
 // ------------------ Catálogo ------------------
 builder.defineCatalogHandler(args => {
-
   if (args.type === "movie") {
     return Promise.resolve({
       metas: filmes.map(f => ({
@@ -99,26 +87,7 @@ builder.defineCatalogHandler(args => {
 // ------------------ META HANDLER ------------------
 builder.defineMetaHandler(args => {
 
-  const id = normalizarId(args.id);
-
-  // Filme
-  const filme = filmes.find(f => f.id === id);
-  if (filme) {
-    return Promise.resolve({
-      meta: {
-        id: filme.id,
-        type: "movie",
-        name: filme.name,
-        poster: filme.poster,
-        description: filme.description,
-        releaseInfo: filme.year?.toString(),
-        streams: []
-      }
-    });
-  }
-
-  // Série
-  const serie = series.find(s => s.id === id);
+  const serie = series.find(s => s.id === args.id);
   if (serie) {
     return Promise.resolve({
       meta: {
@@ -129,16 +98,27 @@ builder.defineMetaHandler(args => {
         description: serie.description,
         releaseInfo: serie.year?.toString(),
 
-        seasons: serie.seasons.map(temp => ({
-          season: temp.season,
-          episodes: temp.episodes.map(ep => ({
-            id: `${serie.id}:${temp.season}:${ep.episode}`,
-            episode: ep.episode,
-            season: temp.season,
-            title: ep.title,
-            thumbnail: ep.thumbnail
-          }))
+        videos: serie.videos.map(v => ({
+          id: v.id,
+          title: v.title,
+          season: v.season,
+          episode: v.episode,
+          thumbnail: v.thumbnail
         }))
+      }
+    });
+  }
+
+  const filme = filmes.find(f => f.id === args.id);
+  if (filme) {
+    return Promise.resolve({
+      meta: {
+        id: filme.id,
+        type: "movie",
+        name: filme.name,
+        poster: filme.poster,
+        description: filme.description,
+        releaseInfo: filme.year?.toString()
       }
     });
   }
@@ -149,10 +129,7 @@ builder.defineMetaHandler(args => {
 // ------------------ STREAM HANDLER ------------------
 builder.defineStreamHandler(args => {
 
-  const id = normalizarId(args.id);
-
-  // Filme
-  const filme = filmes.find(f => f.id === id);
+  const filme = filmes.find(f => f.id === args.id);
   if (filme) {
     return Promise.resolve({
       streams: [
@@ -161,23 +138,18 @@ builder.defineStreamHandler(args => {
     });
   }
 
-  // Série / Episódio
+  // Episódios de série
   for (const serie of series) {
-    if (!serie.seasons) continue;
-
-    for (const temporada of serie.seasons) {
-      for (const ep of temporada.episodes) {
-
-        const epId = `${serie.id}:${temporada.season}:${ep.episode}`;
-
-        if (epId === id) {
-          return Promise.resolve({
-            streams: [
-              { title: `T${temporada.season}E${ep.episode} Dublado`, url: ep.stream }
-            ]
-          });
-        }
-      }
+    const ep = serie.videos.find(v => v.id === args.id);
+    if (ep) {
+      return Promise.resolve({
+        streams: [
+          {
+            title: `${ep.title} Dublado`,
+            url: ep.stream
+          }
+        ]
+      });
     }
   }
 
