@@ -7,35 +7,57 @@ const manifest = {
   id: "cinema-dublado",
   version: "1.0.0",
   name: "Cinema Dublado",
-  description: "Addon 100% focado em conteúdo dublado PT-BR",
+  description: "Addon focado em filmes e séries dublados PT-BR",
   logo: "https://i.imgur.com/1wHZcFQ.png",
   resources: ["catalog", "stream"],
+
   types: ["movie", "series"],
+
   catalogs: [
-    { type: "movie", id: "catalogo-filmes", name: "Filmes Dublados" },
-    { type: "series", id: "catalogo-series", name: "Séries Dubladas" }
+    {
+      type: "movie",
+      id: "catalogo-filmes",
+      name: "Cinema Dublado - Filmes"
+    },
+    {
+      type: "series",
+      id: "catalogo-series",
+      name: "Cinema Dublado - Séries"
+    }
   ]
 };
 
-// ------------------ Carregar arquivos JSON ------------------
-function carregarArquivo(nome) {
+// ------------------ Carregar filmes ------------------
+function carregarFilmes() {
   try {
-    const raw = fs.readFileSync(path.join(__dirname, "data", nome), "utf8");
+    const raw = fs.readFileSync(path.join(__dirname, "data", "filmes.json"), "utf8");
     return JSON.parse(raw);
   } catch (err) {
-    console.error(`Erro ao carregar ${nome}:`, err);
+    console.error("Erro ao carregar filmes.json:", err);
     return [];
   }
 }
 
-const filmes = carregarArquivo("filmes.json");
-const series = carregarArquivo("series.json");
+// ------------------ Carregar séries ------------------
+function carregarSeries() {
+  try {
+    const raw = fs.readFileSync(path.join(__dirname, "data", "series.json"), "utf8");
+    return JSON.parse(raw);
+  } catch (err) {
+    console.error("Erro ao carregar series.json:", err);
+    return [];
+  }
+}
+
+const filmes = carregarFilmes();
+const series = carregarSeries();
 
 // ------------------ Builder ------------------
 const builder = new addonBuilder(manifest);
 
-// Catálogo
+// ------------------ Catálogo ------------------
 builder.defineCatalogHandler(args => {
+
   if (args.type === "movie") {
     return Promise.resolve({
       metas: filmes.map(f => ({
@@ -44,7 +66,7 @@ builder.defineCatalogHandler(args => {
         name: f.name,
         poster: f.poster,
         description: f.description,
-        releaseInfo: f.year ? `${f.year}` : undefined
+        releaseInfo: f.year?.toString()
       }))
     });
   }
@@ -55,47 +77,54 @@ builder.defineCatalogHandler(args => {
         id: s.id,
         type: "series",
         name: s.name,
-        poster: s.poster,
+        poster: s.poster,        // <- AGORA A CAPA PRINCIPAL APARECE
         description: s.description,
-        releaseInfo: s.year ? `${s.year}` : undefined
+        releaseInfo: s.year?.toString()
       }))
     });
   }
 
-  return Promise.resolve({ metas: [] });
 });
 
-// Stream Handler
+// ------------------ Stream handler ------------------
 builder.defineStreamHandler(args => {
-  // Filme
+
+  // Primeiro procurar se é filme
   const filme = filmes.find(f => f.id === args.id);
   if (filme) {
     return Promise.resolve({
-      streams: [{ title: "Dublado PT-BR", url: filme.stream }]
+      streams: [
+        { title: "Dublado PT-BR", url: filme.stream }
+      ]
     });
   }
 
-  // Série (id = ttxxxx:1:3 → imdb:season:episode)
-  const partes = args.id.split(":");
-  const imdb = partes[0];
-  const season = parseInt(partes[1]);
-  const episode = parseInt(partes[2]);
+  // Depois procurar se pertence a alguma série
+  for (const serie of series) {
+    if (!serie.seasons) continue;
 
-  const serie = series.find(s => s.id === imdb);
-  if (!serie) return Promise.resolve({ streams: [] });
+    for (const temporada of serie.seasons) {
+      for (const ep of temporada.episodes) {
 
-  const temporada = serie.seasons.find(t => t.season === season);
-  if (!temporada) return Promise.resolve({ streams: [] });
+        // ID dos episódios vira: ttXXXXXX:1:3  (s1e3)
+        const epId = `${serie.id}:${temporada.season}:${ep.episode}`;
 
-  const ep = temporada.episodes.find(e => e.episode === episode);
-  if (!ep) return Promise.resolve({ streams: [] });
+        if (epId === args.id) {
+          return Promise.resolve({
+            streams: [
+              { title: `T${temporada.season}E${ep.episode} Dublado`, url: ep.stream }
+            ]
+          });
+        }
 
-  return Promise.resolve({
-    streams: [{ title: `Episódio ${episode} Dublado`, url: ep.stream }]
-  });
+      }
+    }
+  }
+
+  return Promise.resolve({ streams: [] });
 });
 
-// ------------------ Servidor ------------------
+// ------------------ Servidor HTTP ------------------
 serveHTTP(builder.getInterface(), { port: process.env.PORT || 3000 });
 
-console.log("🍿 Addon Cinema Dublado rodando...");
+console.log("Addon Cinema Dublado rodando...");
