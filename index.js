@@ -6,8 +6,8 @@ import fs from "fs";
 // ========================================================
 // 🔥 CARREGAR DADOS DE FILMES E SÉRIES
 // ========================================================
-const filmes = JSON.parse(fs.readFileSync("./filmes.json"));
-const series = JSON.parse(fs.readFileSync("./series.json"));
+const filmes = JSON.parse(fs.readFileSync("./data/filmes.json"));
+const series = JSON.parse(fs.readFileSync("./data/series.json"));
 
 // ========================================================
 // 🔥 METADATA DO ADDON
