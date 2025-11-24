@@ -17,26 +17,17 @@
             "stream": "https://watch.brplayer.cc/m3u8/27/407f5bc47339074637a289fb2b000805/master.m3u8?s=1&id=33868&cache=1"
           },
           {
-        "season": 1,
-        "episodes": [
-          {
             "episode": 2,
             "title": "Episódio 2",
             "thumbnail": "https://www.themoviedb.org/t/p/w600_and_h900_face/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
             "stream": "https://watch.brplayer.cc/m3u8/27/d5f6b27eed9d01f58d2e943b6c319081/master.m3u8?s=1&id=34363&cache=1"
           },
           {
-        "season": 1,
-        "episodes": [
-          {
             "episode": 3,
             "title": "Episódio 3",
             "thumbnail": "https://www.themoviedb.org/t/p/w600_and_h900_face/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
             "stream": "https://watch.brplayer.cc/m3u8/27/dcbf540f6a9056d33884b1f54a610c1b/master.m3u8?s=1&id=34647&cache=1"
           },
-          {
-        "season": 1,
-        "episodes": [
           {
             "episode": 4,
             "title": "Episódio 4",
