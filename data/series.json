@@ -1,0 +1,41 @@
+[
+  {
+    "id": "tt33362589",
+    "name": "I Love LA",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_face/2CtlYVVRoaJDCvYIh7LwzxubU4R.jpg",
+    "description": "Série dublada PT-BR",
+    "year": 2025,
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Episódio 1",
+            "thumbnail": "https://writethroughthenight.com/wp-content/uploads/2025/11/ilovela101.png?w=816",
+            "stream": "https://watch.brplayer.cc/stream/bTN1OC8yNy80MDdmNWJjNDczMzkwNzQ2MzdhMjg5ZmIyYjAwMDgwNS83MjBwLzcyMHAubTN1OD9pZD0zMzg2OA=="
+          },
+          {
+            "episode": 2,
+            "title": "Episódio 2",
+            "thumbnail": "https://writethroughthenight.com/wp-content/uploads/2025/11/ilovela102.png?w=816",
+            "stream": "https://watch.brplayer.cc/stream/bTN1OC8yNy9kNWY2YjI3ZWVkOWQwMWY1OGQyZTk0M2I2YzMxOTA4MS83MjBwLzcyMHAubTN1OD9pZD0zNDM2Mw=="
+          },
+          {
+            "episode": 3,
+            "title": "Episódio 3",
+            "thumbnail": "https://writethroughthenight.com/wp-content/uploads/2025/11/ilovela103.png?w=816",
+            "stream": "https://watch.brplayer.cc/stream/bTN1OC8yNy9kNWY2YjI3ZWVkOWQwMWY1OGQyZTk0M2I2YzMxOTA4MS83MjBwLzcyMHAubTN1OD9pZD0zNDM2Mw=="
+          },
+          {
+            "episode": 4,
+            "title": "Episódio 4",
+            "thumbnail": "https://img.pastemagazine.com/wp-content/avuploads/2025/11/21145033/ill4-recap-header.jpg",
+            "stream": "https://watch.brplayer.cc/stream/bTN1OC8yNy80NGU5OWFmNzZlMGQzZjRlN2ViMzMxYjNmM2VmOGUzOC83MjBwLzcyMHAubTN1OD9pZD0zNDg0MA=="
+          }
+        ]
+      }
+    ]
+  }
+]
