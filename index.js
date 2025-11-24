@@ -1,6 +1,7 @@
 const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
 const fs = require("fs");
 const path = require("path");
+const axios = require("axios");
 
 // ------------------ Carregar arquivos JSON ------------------
 function safeReadJSON(file) {
@@ -31,6 +32,15 @@ const manifest = {
 };
 
 const builder = new addonBuilder(manifest);
+
+// ------------------ Função para decodificar 2x ------------------
+function decodeURL(url) {
+    try {
+        return decodeURIComponent(decodeURIComponent(url));
+    } catch (e) {
+        return url;
+    }
+}
 
 // ------------------ Catálogo ------------------
 builder.defineCatalogHandler(async args => {
@@ -65,8 +75,6 @@ builder.defineCatalogHandler(async args => {
 
 // ------------------ Meta ------------------
 builder.defineMetaHandler(async args => {
-
-    // Filme
     const filme = filmes.find(f =>
         f.id === args.id || (f.tmdb && `tmdb:${f.tmdb}` === args.id)
     );
@@ -88,7 +96,6 @@ builder.defineMetaHandler(async args => {
         };
     }
 
-    // Série
     const serie = series.find(s => `tmdb:${s.tmdb}` === args.id);
 
     if (serie) {
@@ -126,7 +133,6 @@ builder.defineMetaHandler(async args => {
 builder.defineStreamHandler(async args => {
     const id = args.id;
 
-    // Filme
     const filme = filmes.find(f =>
         f.id === id || (f.tmdb && `tmdb:${f.tmdb}` === id)
     );
@@ -137,7 +143,6 @@ builder.defineStreamHandler(async args => {
         };
     }
 
-    // Episódio
     const match = id.match(/^tmdb:(\d+):(\d+):(\d+)$/);
 
     if (match) {
@@ -154,20 +159,40 @@ builder.defineStreamHandler(async args => {
         const ep = temp.episodes.find(e => e.episode === episode);
         if (!ep) return { streams: [] };
 
-        return {
-            streams: [
-                {
-                    title: `${serie.name} T${season}E${episode} (Dublado)`,
-                    url: ep.stream
-                }
-            ]
-        };
+        try {
+            const m3uOriginal = await axios.get(ep.stream);
+            const linhas = m3uOriginal.data.split("\n");
+
+            const m3uDecodificado = linhas
+                .map(linha => {
+                    if (linha.startsWith("http")) {
+                        return decodeURL(linha);
+                    }
+                    return linha;
+                })
+                .join("\n");
+
+            const m3uPath = `/m3u/${tmdb}-${season}-${episode}.m3u8`;
+            fs.writeFileSync(path.join(__dirname, m3uPath), m3uDecodificado);
+
+            return {
+                streams: [
+                    {
+                        title: "Dublado (HD)",
+                        url: `${process.env.RENDER_EXTERNAL_URL || ""}${m3uPath}`
+                    }
+                ]
+            };
+        } catch (err) {
+            console.error("Erro ao processar M3U8:", err);
+            return { streams: [] };
+        }
     }
 
     return { streams: [] };
 });
 
-// ------------------ Iniciar servidor ------------------
+// ------------------ Servidor ------------------
 serveHTTP(builder.getInterface(), { port: process.env.PORT || 3000 });
 
 console.log("Cinema Dublado Addon iniciado.");
