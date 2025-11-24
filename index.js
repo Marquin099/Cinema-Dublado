@@ -3,9 +3,9 @@ import express from "express";
 import cors from "cors";
 import fs from "fs";
 
-// ========================================================
-// 🔥 CARREGAR DADOS DE FILMES E SÉRIES
-// ========================================================
+// ------------------------------------------------------
+// Carregar JSONs (AGORA NO CAMINHO CORRETO)
+// ------------------------------------------------------
 const filmes = JSON.parse(fs.readFileSync("./data/filmes.json"));
 const series = JSON.parse(fs.readFileSync("./data/series.json"));
 
