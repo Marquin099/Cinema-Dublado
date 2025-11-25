@@ -29,7 +29,7 @@ function getCatalogs(items, type) {
     const catalogs = Array.from(categories).map(cat => ({
         type: type,
         id: `catalogo-${type}-${cat}`,
-        name: `${type === 'movie' ? 'Filmes' : 'Séries'} - ${cat.toUpperCase()}`,
+        name: cat.toUpperCase(),
         featured: type === 'movie' ? true : undefined
     }));
 
@@ -37,7 +37,7 @@ function getCatalogs(items, type) {
     catalogs.unshift({
         type: type,
         id: `catalogo-${type}-todos`,
-        name: `${type === 'movie' ? 'Filmes' : 'Séries'} - Todos`,
+        name: "Cinema Dublado",
         featured: type === 'movie' ? true : undefined
     });
 
