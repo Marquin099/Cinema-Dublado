@@ -30,6 +30,8 @@ const manifest = {
 
 const builder = new addonBuilder(manifest);
 
+// ====================== CATÁLOGO ======================
+
 builder.defineCatalogHandler(async args => {
     if (args.type === "movie") {
         return {
@@ -62,6 +64,8 @@ builder.defineCatalogHandler(async args => {
     return { metas: [] };
 });
 
+// ====================== META ======================
+
 builder.defineMetaHandler(async args => {
 
     const filme = filmes.find(f =>
@@ -83,7 +87,6 @@ builder.defineMetaHandler(async args => {
                 releaseInfo: filme.year?.toString(),
                 genres: filme.genres || [],
 
-                // cast funciona
                 cast: filme.cast || [],
 
                 imdbRating: filme.rating?.imdb ? Number(filme.rating.imdb) : null,
@@ -109,7 +112,7 @@ builder.defineMetaHandler(async args => {
                 const runtimeString = `${rt} min`;
 
                 videos.push({
-                    id: `${serie.id}:${temp.season}:${ep.episode}`
+                    id: `${serie.id}:${temp.season}:${ep.episode}`, // ← vírgula aqui!
                     title: ep.title,
                     season: temp.season,
                     episode: ep.episode,
@@ -121,7 +124,7 @@ builder.defineMetaHandler(async args => {
 
         return {
             meta: {
-                id: `tmdb:${serie.tmdb}`,
+                id: serie.id,
                 type: "series",
                 name: serie.name,
                 poster: serie.poster,
@@ -130,7 +133,6 @@ builder.defineMetaHandler(async args => {
                 releaseInfo: serie.year?.toString(),
                 genres: serie.genres || [],
 
-                // cast funcionando direto do JSON
                 cast: serie.cast || [],
 
                 imdbRating: serie.rating?.imdb ? Number(serie.rating.imdb) : null,
@@ -145,6 +147,8 @@ builder.defineMetaHandler(async args => {
 
     return { meta: {} };
 });
+
+// ====================== STREAM ======================
 
 builder.defineStreamHandler(async args => {
     const id = args.id;
@@ -179,6 +183,8 @@ builder.defineStreamHandler(async args => {
 
     return { streams: [] };
 });
+
+// ====================== START ======================
 
 serveHTTP(builder.getInterface(), { port: process.env.PORT || 3000 });
 
