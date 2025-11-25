@@ -13,11 +13,18 @@
     "genres": ["Comédia", "Drama"],
 
     "cast": [
-      "Rachel Sennott",
-      "Josh Hutcherson",
-      "Miles Robbins",
-      "Ayo Edebiri"
+      { "name": "Rachel Sennott" },
+      { "name": "Josh Hutcherson" },
+      { "name": "Miles Robbins" },
+      { "name": "Ayo Edebiri" },
+
+      /* --- DIRETORES --- */
+      { "name": "Michael Showalter", "role": "Director" },
+      { "name": "Desiree Akhavan", "role": "Director" },
+      { "name": "Andrew DeYoung", "role": "Director" },
+      { "name": "Heather Jack", "role": "Director" }
     ],
+
     "rating": {
       "imdb": "5.8",
       "imdb_id": "tt33362589"
