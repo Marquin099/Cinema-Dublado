@@ -25,11 +25,8 @@ const manifest = {
     name: "Cinema Dublado",
     description: "Filmes e séries dublados PT-BR",
     logo: "https://i.imgur.com/0eM1y5b.jpeg",
-    // Os recursos que o addon suporta
     resources: ["catalog", "meta", "stream"],
-    // Os tipos de conteúdo que o addon oferece
     types: ["movie", "series"],
-    // Catálogos que aparecerão no Stremio
     catalogs: [
         { type: "movie", id: "catalogo-filmes", name: "Cinema Dublado" },
         { type: "series", id: "catalogo-series", name: "Cinema Dublado" }
@@ -58,7 +55,6 @@ builder.defineCatalogHandler(async args => {
     if (args.type === "series" && args.id === "catalogo-series") {
         return {
             metas: series.map(s => ({
-                // Corrigido: o ID de séries no catálogo deve usar o prefixo "tmdb:" para compatibilidade com o Stremio
                 id: `tmdb:${s.tmdb}`, 
                 type: "series",
                 name: s.name,
@@ -89,7 +85,6 @@ builder.defineMetaHandler(async args => {
                 background: filme.background,
                 description: filme.description,
                 releaseInfo: filme.year?.toString(),
-                // Adiciona um vídeo dummy para carregar a seção de stream
                 videos: [{ id: filme.id }]
             }
         };
@@ -109,37 +104,40 @@ builder.defineMetaHandler(async args => {
                     title: ep.title,
                     thumbnail: ep.thumbnail,
                     season: temp.season,
-                    episode: ep.episode
+                    episode: ep.episode,
+                    overview: ep.overview // Adicionado para aparecer a descrição do episódio
                 });
             });
         });
 
-        // Este LOGO OFICIAL é um exemplo. No código original, ele estava fora do objeto 'serie'.
-        const logoOficial = serie.logo || "https://placeholder-logo-url.png"; 
+        const logoOficial = serie.logo || null;
 
         return {
             meta: {
-                // Corrigido: O ID da série deve ser uma string com o prefixo 'tmdb:'
                 id: `tmdb:${serie.tmdb}`, 
                 type: "series",
                 name: serie.name,
-
                 poster: serie.poster,
                 background: serie.background,
                 logo: logoOficial,
-
                 description: serie.description,
-                releaseInfo: serie.year?.toString(),
-
-                // CAMPOS QUE ATIVAM O LAYOUT PREMIUM (Usados aqui como valores de exemplo do seu código original)
-                genres: serie.genres || ["Gênero Desconhecido"],
+                
+                // --- ALTERAÇÕES APLICADAS AQUI ---
+                // Adiciona o tracinho "2025-" para indicar série contínua
+                releaseInfo: serie.year ? `${serie.year}-` : "", 
+                
+                // Mapeia a nota do IMDB corretamente para aparecer o quadrado amarelo
+                imdbRating: serie.rating?.imdb,
+                
+                // Mapeia o tempo de duração (Lembre de adicionar "runtime" no JSON)
+                runtime: serie.runtime,
+                
+                // Gêneros e Elenco
+                genres: serie.genres || [],
                 cast: serie.cast || [],
-                // É melhor usar os dados do JSON da série se existirem
-                // director: ["Sam Levinson"], // Removido para usar os dados do JSON
-                // writer: ["Rachel Sennott"], // Removido para usar os dados do JSON
-
+                
                 // Lista de episódios
-                videos
+                videos: videos
             }
         };
     }
@@ -151,7 +149,7 @@ builder.defineMetaHandler(async args => {
 builder.defineStreamHandler(async args => {
     const id = args.id;
 
-    // Stream de Filme (ID do filme ou tmdb:ID)
+    // Stream de Filme
     const filme = filmes.find(f =>
         f.id === id || (f.tmdb && `tmdb:${f.tmdb}` === id)
     );
@@ -166,32 +164,27 @@ builder.defineStreamHandler(async args => {
         };
     }
 
-    // Stream de Episódio de Série (ID no formato tmdb:{ID_SERIE}:{TEMPORADA}:{EPISODIO})
-    // Regex para extrair TMDB ID, Temporada e Episódio
+    // Stream de Episódio de Série
     const match = id.match(/^tmdb:(\d+):(\d+):(\d+)$/);
 
     if (match) {
-        // Extrai os valores do regex match
         const tmdb = Number(match[1]);
         const season = Number(match[2]);
         const episode = Number(match[3]);
 
-        // Busca a série
         const serie = series.find(s => s.tmdb === tmdb);
         if (!serie) return { streams: [] };
 
-        // Busca a temporada
         const temp = serie.seasons.find(t => t.season === season);
         if (!temp) return { streams: [] };
 
-        // Busca o episódio
         const ep = temp.episodes.find(e => e.episode === episode);
         if (!ep) return { streams: [] };
 
         return {
             streams: [
                 {
-                    title: `Dublado S${season}E${episode}`, // Título mais descritivo
+                    title: `Dublado S${season}E${episode}`,
                     url: ep.stream
                 }
             ]
@@ -202,7 +195,6 @@ builder.defineStreamHandler(async args => {
 });
 
 // ------------------ Servidor ------------------
-// Inicia o servidor HTTP para hospedar o addon
 serveHTTP(builder.getInterface(), { port: process.env.PORT || 3000 });
 
 console.log(`🎬 Cinema Dublado Addon iniciado na porta ${process.env.PORT || 3000}.`);
