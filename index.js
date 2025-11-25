@@ -42,8 +42,6 @@ builder.defineCatalogHandler(async args => {
                 name: f.name,
                 poster: f.poster,
                 description: f.description,
-                background: f.background,
-                logo: f.logo,
                 releaseInfo: f.year?.toString()
             }))
         };
@@ -57,8 +55,6 @@ builder.defineCatalogHandler(async args => {
                 name: s.name,
                 poster: s.poster,
                 description: s.description,
-                background: s.background, // CORRIGIDO
-                logo: s.logo,             // CORRIGIDO
                 releaseInfo: s.year?.toString()
             }))
         };
@@ -69,6 +65,7 @@ builder.defineCatalogHandler(async args => {
 
 // ------------------ Meta ------------------
 builder.defineMetaHandler(async args => {
+    // FILME
     const filme = filmes.find(f =>
         f.id === args.id || (f.tmdb && `tmdb:${f.tmdb}` === args.id)
     );
@@ -80,17 +77,19 @@ builder.defineMetaHandler(async args => {
                 type: "movie",
                 name: filme.name,
                 poster: filme.poster,
-                description: filme.description,
                 background: filme.background,
-                logo: filme.logo,
+                description: filme.description,
                 releaseInfo: filme.year?.toString(),
                 videos: [{ id: filme.id }]
             }
         };
     }
 
+    // SÉRIE
     const serie = series.find(s => `tmdb:${s.tmdb}` === args.id);
     if (serie) {
+
+        // Construir episódios para o Stremio
         const videos = [];
 
         serie.seasons.forEach(temp => {
@@ -98,23 +97,47 @@ builder.defineMetaHandler(async args => {
                 videos.push({
                     id: `tmdb:${serie.tmdb}:${temp.season}:${ep.episode}`,
                     title: ep.title,
+                    thumbnail: ep.thumbnail,
                     season: temp.season,
-                    episode: ep.episode,
-                    thumbnail: ep.thumbnail
+                    episode: ep.episode
                 });
             });
         });
+
+        // LOGO QUE VOCÊ ESCOLHEU
+        const logoOficial =
+            "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/cd7ce855-0cfa-414e-8762-ed65ae036e04/97188ec6-a60d-11f0-abb1-0afffd029469?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=4320";
 
         return {
             meta: {
                 id: `tmdb:${serie.tmdb}`,
                 type: "series",
                 name: serie.name,
+
                 poster: serie.poster,
+                background: serie.background,
+                logo: logoOficial,
+
+                // Descrição principal
                 description: serie.description,
-                background: serie.background, // CORRIGIDO
-                logo: serie.logo,             // CORRIGIDO
+
+                // Ano
                 releaseInfo: serie.year?.toString(),
+
+                // -------------------------------
+                // CAMPOS QUE ATIVAM O LAYOUT PREMIUM
+                // -------------------------------
+                genres: ["Comédia", "Drama", "Sátira Social"],
+                cast: [
+                    "Rachel Sennott",
+                    "Josh Hutcherson",
+                    "Miles Teller",
+                    "Sophie Thatcher"
+                ],
+                director: ["Sam Levinson"],
+                writer: ["Rachel Sennott"],
+
+                // Episódios
                 videos
             }
         };
@@ -131,7 +154,6 @@ builder.defineStreamHandler(async args => {
     const filme = filmes.find(f =>
         f.id === id || (f.tmdb && `tmdb:${f.tmdb}` === id)
     );
-
     if (filme) {
         return {
             streams: [
@@ -143,8 +165,9 @@ builder.defineStreamHandler(async args => {
         };
     }
 
-    // Série (tmdb:ID:season:episode)
+    // Episódio de série
     const match = id.match(/^tmdb:(\d+):(\d+):(\d+)$/);
+
     if (match) {
         const tmdb = Number(match[1]);
         const season = Number(match[2]);
