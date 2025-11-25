@@ -125,11 +125,14 @@ builder.defineMetaHandler(async args => {
                 description: serie.description,
                 releaseInfo: serie.year?.toString(),
 
-                // ⭐ AGORA FUNCIONA A PORRA DA NOTA DA SÉRIE ⭐
                 imdbRating: serie.rating?.imdb ? parseFloat(serie.rating.imdb) : undefined,
 
                 runtime: serie.runtime ? serie.runtime : undefined,
                 genres: serie.genres || [],
+
+                // ⭐⭐⭐ ELENCO DA SÉRIE AQUI ⭐⭐⭐
+                cast: serie.cast || [],
+
                 videos
             }
         };
