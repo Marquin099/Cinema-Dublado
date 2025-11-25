@@ -110,5 +110,13 @@
     "description": "Filme dublado PT-BR",
     "year": 2025,
     "stream": "https://watch.brplayer.cc/m3u8/26/95616f3aeb1feb9c4afb8768c0997527/master.m3u8?s=1&id=34566&cache=1"
+  },
+  {
+    "id": "tt34433451",
+    "name": "Lefter: O Professor",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/peQTKTerXAxBZeQwTk0NyFR47T.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "stream": "https://watch.brplayer.cc/m3u8/27/cf7e4e52a148d66670e30a3b94735e72/master.m3u8?s=1&id=34556&cache=1"
   }
 ]
