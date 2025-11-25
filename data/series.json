@@ -1,7 +1,7 @@
 [
   {
     "id": "i-love-la-2025",
-    "tmdb": 271053,
+    "tmdb": "271053",
     "type": "series",
     "name": "I Love LA",
     "runtime": "30 min",
@@ -19,6 +19,7 @@
     ],
     "director": ["Sam Levinson"],
     "writer": ["Rachel Sennott"],
+
     "rating": {
       "imdb": "5.8",
       "imdb_id": "tt33362589"
