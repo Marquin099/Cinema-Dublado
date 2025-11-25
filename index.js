@@ -41,6 +41,7 @@ builder.defineCatalogHandler(async args => {
                 type: "movie",
                 name: f.name,
                 poster: f.poster,
+                background: f.background || null,
                 description: f.description,
                 releaseInfo: f.year?.toString()
             }))
@@ -67,40 +68,50 @@ builder.defineCatalogHandler(async args => {
 // ------------------ Meta ------------------
 builder.defineMetaHandler(async args => {
 
-    // ---------- FILME ----------
+    // ------------------ FILME ------------------
     const filme = filmes.find(f =>
         f.id === args.id || (f.tmdb && `tmdb:${f.tmdb}` === args.id)
     );
 
     if (filme) {
+        // runtime padrão (minutos)
+        const runtime = filme.runtime || 0;
+
         return {
             meta: {
                 id: filme.id,
                 type: "movie",
                 name: filme.name,
+
                 poster: filme.poster,
                 background: filme.background || null,
                 logo: filme.logo || null,
+
                 description: filme.description,
                 releaseInfo: filme.year?.toString(),
 
                 genres: filme.genres || [],
+                // cast como array de objetos
                 cast: (filme.cast || []).map(actor => ({ name: actor })),
 
-                rating: filme.rating ? {
-                    imdb: filme.rating.imdb,
-                    imdb_id: filme.rating.imdb_id
-                } : {},
+                // campos que o Stremio realmente usa para rating
+                imdbRating: filme.rating?.imdb ? Number(filme.rating.imdb) : null,
+                imdb_id: filme.rating?.imdb_id || null,
 
-                videos: [{ id: filme.id }]
+                // runtime (em minutos) — o Stremio formata como "X min"
+                runtime: runtime,
+
+                // vídeos (movie)
+                videos: [{ id: filme.id, runtime }]
             }
         };
     }
 
-    // ---------- SÉRIE ----------
+    // ------------------ SÉRIE ------------------
     const serie = series.find(s => `tmdb:${s.tmdb}` === args.id);
     if (serie) {
         const videos = [];
+        const runtime = serie.runtime || 30; // padrão 30 min por episódio
 
         serie.seasons.forEach(temp => {
             temp.episodes.forEach(ep => {
@@ -109,12 +120,12 @@ builder.defineMetaHandler(async args => {
                     title: ep.title,
                     season: temp.season,
                     episode: ep.episode,
-                    thumbnail: ep.thumbnail
+                    thumbnail: ep.thumbnail || null,
+                    // runtime por episódio (ajuda UI a mostrar "30 min")
+                    runtime: ep.runtime || runtime
                 });
             });
         });
-
-        const runtime = serie.runtime || 30;
 
         return {
             meta: {
@@ -130,17 +141,15 @@ builder.defineMetaHandler(async args => {
                 releaseInfo: serie.year?.toString(),
 
                 genres: serie.genres || [],
-
-                // ---------- CAST NO FORMATO CORRETO ----------
+                // cast corretamente formatado
                 cast: (serie.cast || []).map(actor => ({ name: actor })),
 
-                // ---------- NOTA IMDb ----------
+                // nota imdb (numérica) e id
                 imdbRating: serie.rating?.imdb ? Number(serie.rating.imdb) : null,
                 imdb_id: serie.rating?.imdb_id || null,
 
-                // ---------- RUNTIME CORRIGIDO (30 min) ----------
+                // runtime no meta também (minutos) — Stremio mostrará "30 min"
                 runtime: runtime,
-                runtimeStr: `${runtime} min`,
 
                 videos
             }
@@ -150,7 +159,7 @@ builder.defineMetaHandler(async args => {
     return { meta: {} };
 });
 
-// ------------------ Stream (SEM M3U8, SEM DOWNLOAD) ------------------
+// ------------------ Stream ------------------
 builder.defineStreamHandler(async args => {
     const id = args.id;
 
@@ -170,7 +179,7 @@ builder.defineStreamHandler(async args => {
         };
     }
 
-    // Série
+    // Série (tmdb:ID:season:episode)
     const match = id.match(/^tmdb:(\d+):(\d+):(\d+)$/);
     if (match) {
         const tmdb = Number(match[1]);
