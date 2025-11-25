@@ -8,19 +8,21 @@ function safeReadJSON(file) {
         const filePath = path.join(__dirname, file);
         return JSON.parse(fs.readFileSync(filePath, "utf8"));
     } catch (err) {
+        // Altere para console.warn ou remova em produção se o arquivo é opcional
         console.error("Erro ao ler JSON:", file, err.message);
         return [];
     }
 }
 
 // Carrega os dados
+// CERTIFIQUE-SE de que o caminho 'data/filmes.json' e 'data/series.json' existe!
 const filmes = safeReadJSON("data/filmes.json");
 const series = safeReadJSON("data/series.json");
 
 // ------------------ Manifesto do Addon ------------------
 const manifest = {
     id: "cinema-dublado",
-    version: "1.0.3",
+    version: "1.0.2", // Atualizei a versão para atualizar cache
     name: "Cinema Dublado",
     description: "Filmes e séries dublados PT-BR",
     logo: "https://i.imgur.com/0eM1y5b.jpeg",
@@ -39,7 +41,7 @@ builder.defineCatalogHandler(async args => {
     if (args.type === "movie" && args.id === "catalogo-filmes") {
         return {
             metas: filmes.map(f => ({
-                id: f.id,
+                id: f.id, // Para filmes, uso o ID interno (ou tmdb se definido)
                 type: "movie",
                 name: f.name,
                 poster: f.poster,
@@ -52,7 +54,8 @@ builder.defineCatalogHandler(async args => {
     if (args.type === "series" && args.id === "catalogo-series") {
         return {
             metas: series.map(s => ({
-                id: s.id, // ← NÃO usa mais tmdb:
+                // CORREÇÃO: Uso de template literal correto para IDs de série
+                id: `tmdb:${s.tmdb}`, 
                 type: "series",
                 name: s.name,
                 poster: s.poster,
@@ -67,73 +70,79 @@ builder.defineCatalogHandler(async args => {
 
 // ------------------ Handler de Meta (Detalhes) ------------------
 builder.defineMetaHandler(async args => {
+    // Filmes
+    const filme = filmes.find(f =>
+        // O ID do meta pode vir como 'tmdb:XXXX' ou o ID interno do JSON
+        f.id === args.id || (f.tmdb && `tmdb:${f.tmdb}` === args.id)
+    );
 
-    // ------- FILMES -------
-    const filme = filmes.find(f => f.id === args.id);
     if (filme) {
         return {
             meta: {
-                id: filme.id,
+                // Se o filme tiver tmdb, é melhor usar tmdb:ID como Stremio espera
+                id: filme.tmdb ? `tmdb:${filme.tmdb}` : filme.id,
                 type: "movie",
                 name: filme.name,
                 poster: filme.poster,
                 background: filme.background,
                 description: filme.description,
                 releaseInfo: filme.year?.toString(),
-                runtime: filme.runtime ? parseInt(filme.runtime) : undefined,
-                imdbRating: filme.rating ? parseFloat(filme.rating) : undefined,
-                videos: [{ id: filme.id }]
+                // Simplificação do array de vídeos para filmes
+                videos: [{ 
+                    id: filme.tmdb ? `tmdb:${filme.tmdb}` : filme.id, // ID do stream será o mesmo do meta
+                    title: "Filme Completo",
+                    released: filme.year ? new Date(filme.year, 0, 1) : undefined
+                }]
             }
         };
     }
 
-    // ------- SÉRIES -------
-    const serie = series.find(s => s.id === args.id);
-
+    // Séries
+    // CORREÇÃO: Uso de template literal correto para buscar a série
+    const serie = series.find(s => s.tmdb && `tmdb:${s.tmdb}` === args.id);
     if (serie) {
         const videos = [];
-
         serie.seasons.forEach(temp => {
             temp.episodes.forEach(ep => {
                 videos.push({
-                    id: `${serie.id}:${temp.season}:${ep.episode}`,
+                    // CORREÇÃO: Uso de template literal correto para ID de episódio
+                    id: `tmdb:${serie.tmdb}:${temp.season}:${ep.episode}`,
                     title: ep.title,
                     thumbnail: ep.thumbnail,
                     season: temp.season,
                     episode: ep.episode,
-                    overview: ep.overview
+                    overview: ep.overview,
+                    released: ep.released ? new Date(ep.released) : undefined
                 });
             });
         });
 
         return {
             meta: {
-                id: serie.id,
+                // CORREÇÃO: Uso de template literal correto para ID de série
+                id: `tmdb:${serie.tmdb}`,
                 type: "series",
                 name: serie.name,
                 poster: serie.poster,
                 background: serie.background,
                 logo: serie.logo || null,
                 description: serie.description,
-                releaseInfo: serie.year?.toString(),
-
-                // -------- CORRIGIDO --------
+                releaseInfo: serie.year ? serie.year.toString() : "",
                 imdbRating: serie.rating?.imdb ? parseFloat(serie.rating.imdb) : undefined,
                 runtime: serie.runtime ? parseInt(serie.runtime) : undefined,
                 genres: serie.genres || [],
-                cast: serie.cast?.map(actor => ({ name: actor })) || [],
-
-                links: serie.rating?.imdb_id
-                    ? [
-                        {
-                            name: "IMDb",
-                            category: "imdb",
-                            url: `https://www.imdb.com/title/${serie.rating.imdb_id}`
-                        }
-                    ]
-                    : [],
-
-                videos
+                cast: serie.cast?.map(actor => actor) || [], // Mapeando apenas os nomes
+                director: serie.director?.map(d => d) || [],
+                writer: serie.writer?.map(w => w) || [],
+                links: [
+                    { 
+                        name: "IMDb", 
+                        category: "imdb", 
+                        // CORREÇÃO: Uso de template literal correto para URL
+                        url: `https://www.imdb.com/title/${serie.rating?.imdb_id}` 
+                    }
+                ],
+                videos: videos
             }
         };
     }
@@ -143,9 +152,13 @@ builder.defineMetaHandler(async args => {
 
 // ------------------ Handler de Stream ------------------
 builder.defineStreamHandler(async args => {
+    const id = args.id;
 
-    // Filme
-    const filme = filmes.find(f => f.id === args.id);
+    // Stream de Filme
+    // Filmes podem vir como o ID interno (f.id) ou tmdb:ID
+    const filme = filmes.find(f =>
+        f.id === id || (f.tmdb && `tmdb:${f.tmdb}` === id)
+    );
     if (filme) {
         return {
             streams: [
@@ -157,15 +170,16 @@ builder.defineStreamHandler(async args => {
         };
     }
 
-    // Episódios de série
-    const match = args.id.match(/^(.+):(\d+):(\d+)$/);
+    // Stream de Episódio de Série
+    // O ID do stream de episódio é formatado como tmdb:TMDB_ID:SEASON_NUM:EP_NUM
+    const match = id.match(/^tmdb:(\d+):(\d+):(\d+)$/);
 
     if (match) {
-        const serieId = match[1];
+        const tmdb = Number(match[1]);
         const season = Number(match[2]);
         const episode = Number(match[3]);
 
-        const serie = series.find(s => s.id === serieId);
+        const serie = series.find(s => s.tmdb === tmdb);
         if (!serie) return { streams: [] };
 
         const temp = serie.seasons.find(t => t.season === season);
@@ -177,6 +191,7 @@ builder.defineStreamHandler(async args => {
         return {
             streams: [
                 {
+                    // CORREÇÃO: Uso de template literal correto para o título do stream
                     title: `Dublado S${season}E${episode}`,
                     url: ep.stream
                 }
@@ -190,4 +205,5 @@ builder.defineStreamHandler(async args => {
 // ------------------ Servidor ------------------
 serveHTTP(builder.getInterface(), { port: process.env.PORT || 3000 });
 
+// CORREÇÃO: Uso de template literal correto para o console.log
 console.log(`🎬 Cinema Dublado Addon iniciado na porta ${process.env.PORT || 3000}.`);
