@@ -30,8 +30,6 @@ const manifest = {
 
 const builder = new addonBuilder(manifest);
 
-// ====================== CATÁLOGO ======================
-
 builder.defineCatalogHandler(async args => {
     if (args.type === "movie") {
         return {
@@ -50,7 +48,7 @@ builder.defineCatalogHandler(async args => {
     if (args.type === "series") {
         return {
             metas: series.map(s => ({
-                id: s.id,
+                id: `tmdb:${s.tmdb}`,
                 type: "series",
                 name: s.name,
                 poster: s.poster,
@@ -63,8 +61,6 @@ builder.defineCatalogHandler(async args => {
 
     return { metas: [] };
 });
-
-// ====================== META ======================
 
 builder.defineMetaHandler(async args => {
 
@@ -87,6 +83,7 @@ builder.defineMetaHandler(async args => {
                 releaseInfo: filme.year?.toString(),
                 genres: filme.genres || [],
 
+                // cast funciona
                 cast: filme.cast || [],
 
                 imdbRating: filme.rating?.imdb ? Number(filme.rating.imdb) : null,
@@ -99,7 +96,7 @@ builder.defineMetaHandler(async args => {
         };
     }
 
-    const serie = series.find(s => s.id === args.id);
+    const serie = series.find(s => `tmdb:${s.tmdb}` === args.id);
     if (serie) {
 
         const defaultRuntime = 30;
@@ -112,7 +109,7 @@ builder.defineMetaHandler(async args => {
                 const runtimeString = `${rt} min`;
 
                 videos.push({
-                    id: `${serie.id}:${temp.season}:${ep.episode}`, // ← vírgula aqui!
+                    id: `tmdb:${serie.tmdb}:${temp.season}:${ep.episode}`,
                     title: ep.title,
                     season: temp.season,
                     episode: ep.episode,
@@ -124,7 +121,7 @@ builder.defineMetaHandler(async args => {
 
         return {
             meta: {
-                id: serie.id,
+                id: `tmdb:${serie.tmdb}`,
                 type: "series",
                 name: serie.name,
                 poster: serie.poster,
@@ -133,6 +130,7 @@ builder.defineMetaHandler(async args => {
                 releaseInfo: serie.year?.toString(),
                 genres: serie.genres || [],
 
+                // cast funcionando direto do JSON
                 cast: serie.cast || [],
 
                 imdbRating: serie.rating?.imdb ? Number(serie.rating.imdb) : null,
@@ -148,8 +146,6 @@ builder.defineMetaHandler(async args => {
     return { meta: {} };
 });
 
-// ====================== STREAM ======================
-
 builder.defineStreamHandler(async args => {
     const id = args.id;
 
@@ -161,13 +157,13 @@ builder.defineStreamHandler(async args => {
         return { streams: [{ title: "Dublado", url: filme.stream }] };
     }
 
-    const match = id.match(/^(.+):(\d+):(\d+)$/);
+    const match = id.match(/^tmdb:(\d+):(\d+):(\d+)$/);
     if (match) {
-        const serieId = match[1];
+        const tmdb = Number(match[1]);
         const season = Number(match[2]);
         const episode = Number(match[3]);
 
-        const serie = series.find(s => s.id === serieId);
+        const serie = series.find(s => s.tmdb === tmdb);
         if (!serie) return { streams: [] };
 
         const temp = serie.seasons.find(t => t.season === season);
@@ -183,8 +179,6 @@ builder.defineStreamHandler(async args => {
 
     return { streams: [] };
 });
-
-// ====================== START ======================
 
 serveHTTP(builder.getInterface(), { port: process.env.PORT || 3000 });
 
