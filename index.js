@@ -37,7 +37,7 @@ function getCatalogs(items, type) {
     catalogs.unshift({
         type: type,
         id: `catalogo-${type}-todos`,
-        name: "Cinema Dublado",
+        name: "Cinema Dublado Lançamentos",
         featured: type === 'movie' ? true : undefined
     });
 
