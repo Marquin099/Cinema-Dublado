@@ -67,7 +67,7 @@ builder.defineCatalogHandler(async args => {
 // ------------------ Meta ------------------
 builder.defineMetaHandler(async args => {
 
-    // ------------------ FILME ------------------
+    // ---------- FILME ----------
     const filme = filmes.find(f =>
         f.id === args.id || (f.tmdb && `tmdb:${f.tmdb}` === args.id)
     );
@@ -85,20 +85,19 @@ builder.defineMetaHandler(async args => {
                 releaseInfo: filme.year?.toString(),
 
                 genres: filme.genres || [],
-                cast: filme.cast || [],
+                cast: (filme.cast || []).map(actor => ({ name: actor })),
 
-                // --- CAMPOS QUE O STREMIO REALMENTE USA ---
-                imdbRating: filme.rating?.imdb ? Number(filme.rating.imdb) : null,
-                imdb_id: filme.rating?.imdb_id || null,
-
-                runtime: filme.runtime || null,
+                rating: filme.rating ? {
+                    imdb: filme.rating.imdb,
+                    imdb_id: filme.rating.imdb_id
+                } : {},
 
                 videos: [{ id: filme.id }]
             }
         };
     }
 
-    // ------------------ SÉRIE ------------------
+    // ---------- SÉRIE ----------
     const serie = series.find(s => `tmdb:${s.tmdb}` === args.id);
     if (serie) {
         const videos = [];
@@ -115,6 +114,8 @@ builder.defineMetaHandler(async args => {
             });
         });
 
+        const runtime = serie.runtime || 30;
+
         return {
             meta: {
                 id: `tmdb:${serie.tmdb}`,
@@ -129,14 +130,17 @@ builder.defineMetaHandler(async args => {
                 releaseInfo: serie.year?.toString(),
 
                 genres: serie.genres || [],
-                cast: serie.cast || [],
 
-                // ---- CAMPOS QUE FAZEM A NOTA APARECER ----
+                // ---------- CAST NO FORMATO CORRETO ----------
+                cast: (serie.cast || []).map(actor => ({ name: actor })),
+
+                // ---------- NOTA IMDb ----------
                 imdbRating: serie.rating?.imdb ? Number(serie.rating.imdb) : null,
                 imdb_id: serie.rating?.imdb_id || null,
 
-                // ---- PARA O TEMPO DA SÉRIE APARECER ----
-                runtime: serie.runtime || 30, // padrão 30 min por episódio se não existir
+                // ---------- RUNTIME CORRIGIDO (30 min) ----------
+                runtime: runtime,
+                runtimeStr: `${runtime} min`,
 
                 videos
             }
@@ -146,7 +150,7 @@ builder.defineMetaHandler(async args => {
     return { meta: {} };
 });
 
-// ------------------ Stream ------------------
+// ------------------ Stream (SEM M3U8, SEM DOWNLOAD) ------------------
 builder.defineStreamHandler(async args => {
     const id = args.id;
 
