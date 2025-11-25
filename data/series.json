@@ -14,11 +14,12 @@
     "year": 2025,
 
     "genres": ["Comédia", "Drama"],
+
     "cast": [
-      "Rachel Sennott",
-      "Josh Hutcherson",
-      "Miles Robbins",
-      "Ayo Edebiri"
+      { "name": "Rachel Sennott" },
+      { "name": "Josh Hutcherson" },
+      { "name": "Miles Robbins" },
+      { "name": "Ayo Edebiri" }
     ],
 
     "rating": {
