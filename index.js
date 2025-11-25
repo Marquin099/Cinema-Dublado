@@ -20,7 +20,7 @@ const series = safeReadJSON("data/series.json");
 // ------------------ Manifesto do Addon ------------------
 const manifest = {
     id: "cinema-dublado",
-    version: "1.0.1", // Subi a versão para ajudar a atualizar o cache
+    version: "1.0.2", // Atualizei a versão para atualizar cache
     name: "Cinema Dublado",
     description: "Filmes e séries dublados PT-BR",
     logo: "https://i.imgur.com/0eM1y5b.jpeg",
@@ -36,7 +36,6 @@ const builder = new addonBuilder(manifest);
 
 // ------------------ Handler de Catálogo ------------------
 builder.defineCatalogHandler(async args => {
-    // Catálogo de Filmes
     if (args.type === "movie" && args.id === "catalogo-filmes") {
         return {
             metas: filmes.map(f => ({
@@ -50,7 +49,6 @@ builder.defineCatalogHandler(async args => {
         };
     }
 
-    // Catálogo de Séries
     if (args.type === "series" && args.id === "catalogo-series") {
         return {
             metas: series.map(s => ({
@@ -69,7 +67,7 @@ builder.defineCatalogHandler(async args => {
 
 // ------------------ Handler de Meta (Detalhes) ------------------
 builder.defineMetaHandler(async args => {
-    // Trata Filmes
+    // Filmes
     const filme = filmes.find(f =>
         f.id === args.id || (f.tmdb && `tmdb:${f.tmdb}` === args.id)
     );
@@ -89,10 +87,9 @@ builder.defineMetaHandler(async args => {
         };
     }
 
-    // Trata Séries
+    // Séries
     const serie = series.find(s => `tmdb:${s.tmdb}` === args.id);
     if (serie) {
-        // Monta a lista de episódios
         const videos = [];
         serie.seasons.forEach(temp => {
             temp.episodes.forEach(ep => {
@@ -107,30 +104,22 @@ builder.defineMetaHandler(async args => {
             });
         });
 
-        const logoOficial = serie.logo || null;
-
         return {
             meta: {
-                id: `tmdb:${serie.tmdb}`, 
+                id: `tmdb:${serie.tmdb}`,
                 type: "series",
                 name: serie.name,
                 poster: serie.poster,
                 background: serie.background,
-                logo: logoOficial,
+                logo: serie.logo || null,
                 description: serie.description,
-                
-                // Detalhes visuais (Nota, Tempo, Ano)
-                releaseInfo: serie.year ? `${serie.year}-` : "", 
-                imdbRating: serie.rating?.imdb,
-                runtime: serie.runtime,
+                releaseInfo: serie.year ? serie.year.toString() : "",
+                imdbRating: serie.rating?.imdb ? parseFloat(serie.rating.imdb) : undefined,
+                runtime: serie.runtime ? parseInt(serie.runtime) : undefined,
                 genres: serie.genres || [],
-
-                // --- CONFIGURAÇÃO DO ELENCO E EQUIPE ---
-                cast: serie.cast || [],      // Atores
-                director: serie.director || [], // Diretores
-                writer: serie.writer || [],     // Roteiristas
-
-                // Link do IMDb (ajuda na validação visual)
+                cast: serie.cast?.map(actor => ({ name: actor })) || [],
+                director: serie.director?.map(d => ({ name: d })) || [],
+                writer: serie.writer?.map(w => ({ name: w })) || [],
                 links: [
                     { 
                         name: "IMDb", 
@@ -138,7 +127,6 @@ builder.defineMetaHandler(async args => {
                         url: `https://www.imdb.com/title/${serie.rating?.imdb_id}` 
                     }
                 ],
-
                 videos: videos
             }
         };
