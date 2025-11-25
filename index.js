@@ -6,6 +6,7 @@ const path = require("path");
 function safeReadJSON(file) {
     try {
         const filePath = path.join(__dirname, file);
+        // O retorno padrão deve ser um array vazio para que o .map não quebre
         return JSON.parse(fs.readFileSync(filePath, "utf8"));
     } catch (err) {
         console.error("Erro ao ler JSON:", file, err.message);
@@ -19,13 +20,14 @@ const series = safeReadJSON("data/series.json");
 // ------------------ Extrair Categorias Únicas ------------------
 // O usuário quer categorizar por "terror" e "netflix", mas o código deve ser dinâmico.
 // Vamos extrair todas as categorias únicas presentes nos itens.
+// O .filter(c => c) garante que apenas categorias válidas (não undefined, null ou string vazia) sejam consideradas.
 const categoriasFilmes = [...new Set(filmes.map(f => f.categoria).filter(c => c))];
 const categoriasSeries = [...new Set(series.map(s => s.categoria).filter(c => c))];
 
 // ------------------ Manifesto do Addon ------------------
 const manifest = {
     id: "cinema-dublado",
-    version: "1.0.4", // Versão atualizada
+    version: "1.0.5", // Versão atualizada
     name: "Cinema Dublado",
     description: "Filmes e séries dublados PT-BR com categorias!",
     logo: "https://i.imgur.com/0eM1y5b.jpeg",
@@ -35,6 +37,7 @@ const manifest = {
 };
 
 // Adicionar catálogo "Todos os Filmes"
+// Adicionamos este catálogo incondicionalmente
 manifest.catalogs.push({ type: "movie", id: "catalogo-filmes-todos", name: "Filmes - Todos" });
 
 // Adicionar catálogos de filmes por categoria
@@ -84,6 +87,7 @@ builder.defineCatalogHandler(async args => {
 
     return {
         metas: items.map(item => ({
+            // Usar item.type para garantir que o ID seja formatado corretamente
             id: item.type === "movie" ? (item.tmdb ? `tmdb:${item.tmdb}` : item.id) : `tmdb:${item.tmdb}`,
             type: item.type,
             name: item.name,
@@ -95,6 +99,7 @@ builder.defineCatalogHandler(async args => {
 });
 
 // ------------------ Handler de Meta ------------------
+// Os Handlers de Meta e Stream não precisam de alteração, pois já buscam em todos os arrays.
 builder.defineMetaHandler(async args => {
 
     // FILMES
