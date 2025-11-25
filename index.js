@@ -159,6 +159,12 @@ builder.defineMetaHandler(async args => {
 
                 runtime: serie.runtime ? serie.runtime : undefined,
                 genres: serie.genres || [],
+                cast: [
+                    // Elenco (sem role, o Stremio infere)
+                    ...(serie.cast || []).map(c => ({ name: c.name })),
+                    // Diretores (com role)
+                    ...(serie.directors || []).map(d => ({ name: d.name, role: d.role || "Diretor" }))
+                ],
                 videos
             }
         };
