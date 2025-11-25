@@ -5,11 +5,11 @@ const PORT = process.env.PORT || 7000;
 // 🔹 Carrega database local
 const series = require("./series.json");
 
-// 🔹 URL do teu logo oficial
+// 🔹 Logo oficial do addon
 const logoOficial = "https://raw.githubusercontent.com/SEU-REPO/logo.png";
 
 // --------------------------------------------------------------------
-// MANIFESTO DO ADDON
+// MANIFESTO
 // --------------------------------------------------------------------
 const manifest = {
     id: "cinema-dublado",
@@ -55,7 +55,7 @@ builder.defineCatalogHandler(args => {
 });
 
 // --------------------------------------------------------------------
-// META (INFORMAÇÕES COMPLETAS DA SÉRIE)
+// META
 // --------------------------------------------------------------------
 builder.defineMetaHandler(args => {
     const id = args.id.replace("tmdb:", "");
@@ -65,7 +65,7 @@ builder.defineMetaHandler(args => {
         return { meta: {} };
     }
 
-    // Monta episódios
+    // Episódios
     const videos = [];
 
     for (const temp of serie.seasons) {
@@ -95,15 +95,15 @@ builder.defineMetaHandler(args => {
             description: serie.description,
             releaseInfo: serie.year?.toString(),
 
-            // 🔥 CAMPOS QUE ATIVAM O LAYOUT COMPLETO
+            // 🔥 METADADOS COMPLETOS
             genres: serie.genres || [],
             cast: serie.cast || [],
             director: serie.director || [],
             writer: serie.writer || [],
             imdbRating: serie.rating?.imdb ? Number(serie.rating.imdb) : null,
             imdb_id: serie.rating?.imdb_id || null,
-            
-            // 🔥 Tempo do episódio em minutos – coloque o real se quiser
+
+            // 🔥 Tempo médio dos episódios
             runtime: serie.runtime || 49,
 
             videos
@@ -112,7 +112,7 @@ builder.defineMetaHandler(args => {
 });
 
 // --------------------------------------------------------------------
-// STREAMING (LINK DO EPISÓDIO)
+// STREAM
 // --------------------------------------------------------------------
 builder.defineStreamHandler(args => {
     const partes = args.id.split(":");
