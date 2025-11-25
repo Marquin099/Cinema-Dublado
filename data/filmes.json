@@ -126,7 +126,7 @@
     "poster": "https://cinegratis.tv/uploads/posts/2025-11/98120361-ab4c-4a81-8bdd-b2f967a2c3a2.webp",
     "description": "Filme dublado PT-BR",
     "year": 2025,
-    "categoria": "terror",
+    "categoria": "Terror",
     "stream": "https://watch.brplayer.cc/m3u8/26/8f889aa39c01b85d103ee1d6c21bda48/master.m3u8?s=1&id=34539&cache=1"
   },
   {
@@ -197,5 +197,14 @@
     "year": 2025,
     "categoria": "Netflix",
     "stream": "https://watch.brplayer.cc/m3u8/26/ff51fb7a9bcb22c595616b4fa368880a/master.m3u8?s=1&id=34490&cache=1"
+  },
+  {
+    "id": "tt29644189",
+    "name": "O Telefone Preto 2",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-10/117e4bb3-b592-45fa-a9fe-05f2b2281220.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Terror",
+    "stream": "https://watch.brplayer.cc/m3u8/26/765070fb45e2b95f4352c9172c2e2edb/master.m3u8?s=1&id=34639&cache=1"
   }
 ]
