@@ -66,5 +66,71 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "pluribus-2025",
+    "tmdb": 225171,
+    "type": "series",
+    "name": "Pluribus",
+    "runtime": "48 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/p9J7CXVI5gjkyUo6trV7m85gssW.jpg",
+    "background": "https://www.themoviedb.org/t/p/w600_and_h900_face/p9J7CXVI5gjkyUo6trV7m85gssW.jpg",
+    "logo": "https://image.tmdb.org/t/p/original/reZsBkM7ox8GCTslDVXwZTuNBEs.png",
+    "description": "Em um futuro dominado por uma consciência coletiva de felicidade, uma mulher que não se encaixa precisa salvar a humanidade.",
+    "year": 2025,
+    "genres": ["Ficção científica", "Drama", "Suspense"],
+
+    "cast": [
+      { "name": "Rhea Seehorn" },
+      { "name": "Karolina Wydra" },
+      { "name": "Carlos-Manuel Vesga" },
+      { "name": "Miriam Shor" }
+    ],
+
+    "directors": [
+      { "name": "Vince Gilligan", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "9.2",
+      "imdb_id": "tt22202452"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "We Is Us",
+            "thumbnail": "",
+            "overview": "Uma descoberta científica provoca uma reação global e deixa Carol completamente em choque.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/94ae78261adc94a727c0a99edd823f7d/master.m3u8?s=1&id=34224&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Pirate Lady",
+            "thumbnail": "",
+            "overview": "Uma figura inesperada tenta mostrar a Carol como o mundo mudou — para melhor, ou pior.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/2448f48c086548deacdad3a56a3c0215/master.m3u8?s=1&id=34229&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Grenade",
+            "thumbnail": "",
+            "overview": "Quando todos tentam ajudar Carol, ela perde o controle e algo devastador acontece.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/2027b3d8d3a2a87ef879af0feaad8100/master.m3u8?s=1&id=34529&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Please, Carol",
+            "thumbnail": "",
+            "overview": "Informações ainda não disponíveis.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/ef482c2b5df361ebe176e3bade57d833/master.m3u8?s=1&id=34756&cache=1"
+          }
+        ]
+      }
+    ]
   }
 ]
