@@ -1,15 +1,16 @@
 [
   {
-    "id": "i-love-la-2025",
-    "tmdb": 271053,
-    "name": "I Love LA",
-    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+  "id": "i-love-la-2025",
+  "type": "series",
+  "name": "I Love LA",
 
-    "background": "https://image.tmdb.org/t/p/original/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+  "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+  "background": "https://image.tmdb.org/t/p/original/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
 
-    "description": "Um grupo de amigos co-dependentes navega pela vida e pelo amor em Los Angeles.",
-
-    "year": 2025,
+  "description": "Um grupo de amigos co-dependentes navega pela vida e pelo amor em Los Angeles.",
+  "year": 2025,
+    
+  "videos": []
 
     "seasons": [
       {
