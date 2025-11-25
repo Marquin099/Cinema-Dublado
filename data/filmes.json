@@ -78,5 +78,37 @@
     "description": "Filme dublado PT-BR",
     "year": 2025,
     "stream": ""
+   },
+  {
+    "id": "tt15431864",
+    "name": "The Senior: O Idoso",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/359f99ed-c6c8-4198-b5f8-eeb6643ed028.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "stream": "https://watch.brplayer.cc/m3u8/26/92a09a6958a7bc231e259ce2daaf1422/master.m3u8?s=1&id=34595&cache=1"
+  },
+  {
+    "id": "tt20222166",
+    "name": "Isto é Spinal Tap 2",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/dafa79a9-6d72-4d1b-b413-5aca76faad90.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "stream": "https://watch.brplayer.cc/m3u8/26/d5f4cdab5d41ba833dac5ae51ecb8b41/master.m3u8?s=1&id=34577&cache=1"
+  },
+  {
+    "id": "tt9339936",
+    "name": "Sombras no Deserto",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/j9SJUsybZSmEYqAsn5cxencuoEX.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "stream": ""
+  },
+  {
+    "id": "tt27560723",
+    "name": "Tudo Vai dar Certo",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/d59c0049-9874-4e2d-bf4a-fb6387c61c69.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "stream": "https://watch.brplayer.cc/m3u8/26/95616f3aeb1feb9c4afb8768c0997527/master.m3u8?s=1&id=34566&cache=1"
   }
 ]
