@@ -5,7 +5,6 @@ const path = require("path");
 // ------------------ Carregar arquivos JSON ------------------
 function safeReadJSON(file) {
     try {
-        // Usa path.join para garantir compatibilidade com diferentes SOs
         const filePath = path.join(__dirname, file);
         return JSON.parse(fs.readFileSync(filePath, "utf8"));
     } catch (err) {
@@ -14,14 +13,14 @@ function safeReadJSON(file) {
     }
 }
 
-// Assumindo que os arquivos 'filmes.json' e 'series.json' existem no diretório 'data'
+// Carrega os dados
 const filmes = safeReadJSON("data/filmes.json");
 const series = safeReadJSON("data/series.json");
 
 // ------------------ Manifesto do Addon ------------------
 const manifest = {
     id: "cinema-dublado",
-    version: "1.0.0",
+    version: "1.0.1", // Subi a versão para ajudar a atualizar o cache
     name: "Cinema Dublado",
     description: "Filmes e séries dublados PT-BR",
     logo: "https://i.imgur.com/0eM1y5b.jpeg",
@@ -70,7 +69,7 @@ builder.defineCatalogHandler(async args => {
 
 // ------------------ Handler de Meta (Detalhes) ------------------
 builder.defineMetaHandler(async args => {
-    // Trata Filmes (Pode usar ID interno ou ID do TMDB)
+    // Trata Filmes
     const filme = filmes.find(f =>
         f.id === args.id || (f.tmdb && `tmdb:${f.tmdb}` === args.id)
     );
@@ -90,22 +89,20 @@ builder.defineMetaHandler(async args => {
         };
     }
 
-    // Trata Séries (Usa ID do TMDB)
+    // Trata Séries
     const serie = series.find(s => `tmdb:${s.tmdb}` === args.id);
     if (serie) {
-        // Construir episódios (videos) para o Stremio
+        // Monta a lista de episódios
         const videos = [];
-
         serie.seasons.forEach(temp => {
             temp.episodes.forEach(ep => {
                 videos.push({
-                    // ID do episódio no formato Stremio: tmdb:{ID_SERIE}:{TEMPORADA}:{EPISODIO}
                     id: `tmdb:${serie.tmdb}:${temp.season}:${ep.episode}`,
                     title: ep.title,
                     thumbnail: ep.thumbnail,
                     season: temp.season,
                     episode: ep.episode,
-                    overview: ep.overview // Adicionado para aparecer a descrição do episódio
+                    overview: ep.overview
                 });
             });
         });
@@ -122,21 +119,26 @@ builder.defineMetaHandler(async args => {
                 logo: logoOficial,
                 description: serie.description,
                 
-                // --- ALTERAÇÕES APLICADAS AQUI ---
-                // Adiciona o tracinho "2025-" para indicar série contínua
+                // Detalhes visuais (Nota, Tempo, Ano)
                 releaseInfo: serie.year ? `${serie.year}-` : "", 
-                
-                // Mapeia a nota do IMDB corretamente para aparecer o quadrado amarelo
                 imdbRating: serie.rating?.imdb,
-                
-                // Mapeia o tempo de duração (Lembre de adicionar "runtime" no JSON)
                 runtime: serie.runtime,
-                
-                // Gêneros e Elenco
                 genres: serie.genres || [],
-                cast: serie.cast || [],
-                
-                // Lista de episódios
+
+                // --- CONFIGURAÇÃO DO ELENCO E EQUIPE ---
+                cast: serie.cast || [],      // Atores
+                director: serie.director || [], // Diretores
+                writer: serie.writer || [],     // Roteiristas
+
+                // Link do IMDb (ajuda na validação visual)
+                links: [
+                    { 
+                        name: "IMDb", 
+                        category: "imdb", 
+                        url: `https://www.imdb.com/title/${serie.rating?.imdb_id}` 
+                    }
+                ],
+
                 videos: videos
             }
         };
