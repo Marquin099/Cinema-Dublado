@@ -18,7 +18,7 @@
       { "name": "Miles Robbins" },
       { "name": "Ayo Edebiri" },
 
-      /* --- DIRETORES --- */
+      "director": [
       { "name": "Michael Showalter", "role": "Director" },
       { "name": "Desiree Akhavan", "role": "Director" },
       { "name": "Andrew DeYoung", "role": "Director" },
