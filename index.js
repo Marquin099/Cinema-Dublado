@@ -42,6 +42,8 @@ builder.defineCatalogHandler(async args => {
                 name: f.name,
                 poster: f.poster,
                 description: f.description,
+                background: f.background,
+                logo: f.logo,
                 releaseInfo: f.year?.toString()
             }))
         };
@@ -55,6 +57,8 @@ builder.defineCatalogHandler(async args => {
                 name: s.name,
                 poster: s.poster,
                 description: s.description,
+                background: s.background, // CORRIGIDO
+                logo: s.logo,             // CORRIGIDO
                 releaseInfo: s.year?.toString()
             }))
         };
@@ -77,6 +81,8 @@ builder.defineMetaHandler(async args => {
                 name: filme.name,
                 poster: filme.poster,
                 description: filme.description,
+                background: filme.background,
+                logo: filme.logo,
                 releaseInfo: filme.year?.toString(),
                 videos: [{ id: filme.id }]
             }
@@ -106,6 +112,8 @@ builder.defineMetaHandler(async args => {
                 name: serie.name,
                 poster: serie.poster,
                 description: serie.description,
+                background: serie.background, // CORRIGIDO
+                logo: serie.logo,             // CORRIGIDO
                 releaseInfo: serie.year?.toString(),
                 videos
             }
@@ -115,7 +123,7 @@ builder.defineMetaHandler(async args => {
     return { meta: {} };
 });
 
-// ------------------ Stream (SEM M3U8, SEM DOWNLOAD) ------------------
+// ------------------ Stream ------------------
 builder.defineStreamHandler(async args => {
     const id = args.id;
 
@@ -151,7 +159,6 @@ builder.defineStreamHandler(async args => {
         const ep = temp.episodes.find(e => e.episode === episode);
         if (!ep) return { streams: [] };
 
-        // retorna o stream DIRETO
         return {
             streams: [
                 {
