@@ -104,7 +104,7 @@ builder.defineMetaHandler(args => {
             imdb_id: serie.rating?.imdb_id || null,
             
             // 🔥 Tempo do episódio em minutos – coloque o real se quiser
-            runtime: serie.runtime || 49 min,
+            runtime: serie.runtime || 49,
 
             videos
         }
