@@ -1,95 +1,105 @@
-import { addonBuilder, serveHTTP } from "stremio-addon-sdk";
-import fetch from "node-fetch";
-import fs from "fs";
+const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
+const fs = require("fs");
+const path = require("path");
 
-// Carregar JSON manualmente (Render + Node compatível)
-const movies = JSON.parse(fs.readFileSync("./movies.json", "utf8"));
-const series = JSON.parse(fs.readFileSync("./series.json", "utf8"));
+// ------------------ Carregar arquivos JSON ------------------
+function safeReadJSON(file) {
+    try {
+        const filePath = path.join(__dirname, file);
+        return JSON.parse(fs.readFileSync(filePath, "utf8"));
+    } catch (err) {
+        console.error("Erro ao ler JSON:", file, err.message);
+        return [];
+    }
+}
 
+const filmes = safeReadJSON("data/filmes.json");
+const series = safeReadJSON("data/series.json");
+
+// ------------------ Manifesto do Addon ------------------
 const manifest = {
-    id: "community.superflix",
-    version: "1.0.0",
-    catalogs: [],
-    resources: ["stream", "meta"],
+    id: "cinema-dublado",
+    version: "1.0.3",
+    name: "Cinema Dublado",
+    description: "Filmes e séries dublados PT-BR",
+    logo: "https://i.imgur.com/0eM1y5b.jpeg",
+    resources: ["catalog", "meta", "stream"],
     types: ["movie", "series"],
-    name: "Superflix Addon",
-    description: "Addon que usa TMDB + Superflix API",
-    idPrefixes: ["tmdb"]
+    catalogs: [
+        { type: "movie", id: "catalogo-filmes", name: "Cinema Dublado" },
+        { type: "series", id: "catalogo-series", name: "Cinema Dublado" }
+    ]
 };
 
 const builder = new addonBuilder(manifest);
 
-// ============================================================
-// 📌 META HANDLER (FILMES + SÉRIES)
-// ============================================================
-builder.defineMetaHandler(async (args) => {
-    console.log("META:", args.id);
+// ------------------ Handler de Catálogo ------------------
+builder.defineCatalogHandler(async args => {
 
-    const tmdbKey = process.env.TMDB_KEY;
-    const tmdbToken = process.env.TMDB_TOKEN;
+    if (args.type === "movie" && args.id === "catalogo-filmes") {
+        return {
+            metas: filmes.map(f => ({
+                id: f.tmdb ? `tmdb:${f.tmdb}` : f.id,
+                type: "movie",
+                name: f.name,
+                poster: f.poster,
+                description: f.description,
+                releaseInfo: f.year?.toString()
+            }))
+        };
+    }
 
-    // ------------------------------------------------------------
-    // 🎬 FILMES
-    // ------------------------------------------------------------
-    const movie = movies.find(m => args.id.includes(m.tmdb?.toString()));
+    if (args.type === "series" && args.id === "catalogo-series") {
+        return {
+            metas: series.map(s => ({
+                id: `tmdb:${s.tmdb}`,
+                type: "series",
+                name: s.name,
+                poster: s.poster,
+                description: s.description,
+                releaseInfo: s.year?.toString()
+            }))
+        };
+    }
 
-    if (movie) {
+    return { metas: [] };
+});
+
+// ------------------ Handler de Meta ------------------
+builder.defineMetaHandler(async args => {
+
+    // FILMES
+    const filme = filmes.find(f =>
+        args.id === f.id || args.id === `tmdb:${f.tmdb}`
+    );
+
+    if (filme) {
         return {
             meta: {
-                id: `tmdb:${movie.tmdb}`,
+                id: filme.tmdb ? `tmdb:${filme.tmdb}` : filme.id,
                 type: "movie",
-                name: movie.title,
-                poster: movie.poster,
-                background: movie.background,
-                logo: movie.logo || null,
-                description: movie.description,
-                releaseInfo: movie.year?.toString(),
-                runtime: movie.runtime,
-                genres: movie.genres || [],
-                imdbRating: movie.rating?.imdb ? parseFloat(movie.rating.imdb) : undefined,
-                cast: movie.cast || []
+                name: filme.name,
+                poster: filme.poster,
+                background: filme.background,
+                description: filme.description,
+                releaseInfo: filme.year?.toString(),
+                videos: [{
+                    id: filme.tmdb ? `tmdb:${filme.tmdb}` : filme.id,
+                    title: "Filme Completo",
+                    released: filme.year ? new Date(filme.year, 0, 1) : undefined
+                }]
             }
         };
     }
 
-    // ------------------------------------------------------------
-    // 📺 SÉRIES
-    // ------------------------------------------------------------
-    const serie = series.find(s => args.id.includes(s.tmdb?.toString()));
+    // SÉRIES
+    const serie = series.find(s =>
+        args.id.includes(s.tmdb.toString())
+    );
 
     if (serie) {
 
-        let tmdbData = null;
-
-        try {
-            tmdbData = await fetch(
-                `https://api.themoviedb.org/3/tv/${serie.tmdb}?api_key=${tmdbKey}&language=pt-BR&append_to_response=credits`,
-                {
-                    headers: {
-                        Authorization: `Bearer ${tmdbToken}`
-                    }
-                }
-            ).then(r => r.json());
-        } catch (err) {
-            console.error("Erro TMDB série:", err);
-        }
-
-        const castFix = [];
-
-        if (tmdbData?.credits?.cast) {
-            tmdbData.credits.cast.slice(0, 20).forEach(actor => {
-                castFix.push({
-                    name: actor.name,
-                    character: actor.character,
-                    photo: actor.profile_path
-                        ? `https://image.tmdb.org/t/p/w300${actor.profile_path}`
-                        : null
-                });
-            });
-        }
-
         const videos = [];
-
         serie.seasons.forEach(temp => {
             temp.episodes.forEach(ep => {
                 videos.push({
@@ -114,55 +124,61 @@ builder.defineMetaHandler(async (args) => {
                 logo: serie.logo || null,
                 description: serie.description,
                 releaseInfo: serie.year?.toString(),
-                runtime: serie.runtime,
-                genres: serie.genres || [],
+
+                // ⭐ AGORA FUNCIONA A PORRA DA NOTA DA SÉRIE ⭐
                 imdbRating: serie.rating?.imdb ? parseFloat(serie.rating.imdb) : undefined,
 
-                cast: castFix.length ? castFix : serie.cast || [],
-
+                runtime: serie.runtime ? serie.runtime : undefined,
+                genres: serie.genres || [],
                 videos
             }
         };
     }
 
-    return { meta: null };
+    return { meta: {} };
 });
 
-// ============================================================
-// 📌 STREAM HANDLER — Superflix API
-// ============================================================
-builder.defineStreamHandler(async (args) => {
-    console.log("STREAM:", args.id);
+// ------------------ STREAM HANDLER ------------------
+builder.defineStreamHandler(async args => {
 
-    const parts = args.id.split(":");
+    // Filme
+    const filme = filmes.find(f =>
+        args.id === f.id || args.id === `tmdb:${f.tmdb}`
+    );
 
-    if (parts.length === 2) {
-        const tmdb = parts[1];
+    if (filme) {
         return {
             streams: [{
-                title: "Superflix",
-                url: `https://superflixapi.asia/movie/${tmdb}`
+                title: "Filme Dublado",
+                url: filme.stream
             }]
         };
     }
 
-    if (parts.length === 4) {
-        const tmdb = parts[1];
-        const season = parts[2];
-        const episode = parts[3];
+    // Série (episódio)
+    const [_, tmdb, season, episode] = args.id.split(":");
 
-        return {
-            streams: [{
-                title: "Superflix",
-                url: `https://superflixapi.asia/serie/${tmdb}/${season}/${episode}`
-            }]
-        };
+    const serie = series.find(s => s.tmdb.toString() === tmdb);
+
+    if (serie) {
+        const temp = serie.seasons.find(t => t.season.toString() === season);
+        if (temp) {
+            const ep = temp.episodes.find(e => e.episode.toString() === episode);
+            if (ep) {
+                return {
+                    streams: [{
+                        title: `S${season}E${episode} - Dublado`,
+                        url: ep.stream
+                    }]
+                };
+            }
+        }
     }
 
     return { streams: [] };
 });
 
-// ============================================================
+// ------------------ Servidor ------------------
+serveHTTP(builder.getInterface(), { port: process.env.PORT || 7000 });
 
-serveHTTP(builder.getInterface(), { port: process.env.PORT || 7777 });
-console.log("Addon rodando!");
+console.log("Addon Cinema Dublado rodando na porta 7000.");
