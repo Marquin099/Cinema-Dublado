@@ -6,24 +6,21 @@ const path = require("path");
 function safeReadJSON(file) {
     try {
         const filePath = path.join(__dirname, file);
-        // A leitura agora espera um objeto com categorias, não um array
         return JSON.parse(fs.readFileSync(filePath, "utf8"));
     } catch (err) {
         console.error("Erro ao ler JSON:", file, err.message);
-        return {}; // Retorna um objeto vazio em caso de erro
+        return [];
     }
 }
 
-const filmesPorCategoria = safeReadJSON("data/filmes.json");
-const seriesPorCategoria = safeReadJSON("data/series.json");
+const filmes = safeReadJSON("data/filmes.json");
+const series = safeReadJSON("data/series.json");
 
-// Função auxiliar para obter todos os itens de todas as categorias
-function getAllItems(categorizedItems) {
-    return Object.values(categorizedItems).flat();
-}
-
-const todosFilmes = getAllItems(filmesPorCategoria);
-const todasSeries = getAllItems(seriesPorCategoria);
+// ------------------ Extrair Categorias Únicas ------------------
+// O usuário quer categorizar por "terror" e "netflix", mas o código deve ser dinâmico.
+// Vamos extrair todas as categorias únicas presentes nos itens.
+const categoriasFilmes = [...new Set(filmes.map(f => f.categoria).filter(c => c))];
+const categoriasSeries = [...new Set(series.map(s => s.categoria).filter(c => c))];
 
 // ------------------ Manifesto do Addon ------------------
 const manifest = {
@@ -37,68 +34,71 @@ const manifest = {
     catalogs: []
 };
 
-// Adicionar catálogos de filmes
-for (const id in filmesPorCategoria) {
+// Adicionar catálogo "Todos os Filmes"
+manifest.catalogs.push({ type: "movie", id: "catalogo-filmes-todos", name: "Filmes - Todos" });
+
+// Adicionar catálogos de filmes por categoria
+categoriasFilmes.forEach(cat => {
     manifest.catalogs.push({
         type: "movie",
-        id: `filmes-${id}`,
-        name: `Filmes - ${id.charAt(0).toUpperCase() + id.slice(1)}`, // Ex: Filmes - Terror
+        id: `filmes-${cat}`,
+        name: `Filmes - ${cat.charAt(0).toUpperCase() + cat.slice(1)}`,
         extra: [{ name: "search", isRequired: false }]
     });
-}
+});
 
-// Adicionar catálogos de séries
-for (const id in seriesPorCategoria) {
+// Adicionar catálogo "Todas as Séries"
+manifest.catalogs.push({ type: "series", id: "catalogo-series-todas", name: "Séries - Todas" });
+
+// Adicionar catálogos de séries por categoria
+categoriasSeries.forEach(cat => {
     manifest.catalogs.push({
         type: "series",
-        id: `series-${id}`,
-        name: `Séries - ${id.charAt(0).toUpperCase() + id.slice(1)}`, // Ex: Séries - Netflix
+        id: `series-${cat}`,
+        name: `Séries - ${cat.charAt(0).toUpperCase() + cat.slice(1)}`,
         extra: [{ name: "search", isRequired: false }]
     });
-}
+});
 
 const builder = new addonBuilder(manifest);
 
 // ------------------ Handler de Catálogo ------------------
 builder.defineCatalogHandler(async args => {
-    const [typePrefix, categoryId] = args.id.split("-");
+    let items = [];
 
-    if (typePrefix === "filmes" && filmesPorCategoria[categoryId]) {
-        const filmes = filmesPorCategoria[categoryId];
-        return {
-            metas: filmes.map(f => ({
-                id: f.tmdb ? `tmdb:${f.tmdb}` : f.id,
-                type: "movie",
-                name: f.name,
-                poster: f.poster,
-                description: f.description,
-                releaseInfo: f.year?.toString()
-            }))
-        };
+    if (args.type === "movie") {
+        if (args.id === "catalogo-filmes-todos") {
+            items = filmes;
+        } else if (args.id.startsWith("filmes-")) {
+            const categoryId = args.id.replace("filmes-", "");
+            items = filmes.filter(f => f.categoria === categoryId);
+        }
+    } else if (args.type === "series") {
+        if (args.id === "catalogo-series-todas") {
+            items = series;
+        } else if (args.id.startsWith("series-")) {
+            const categoryId = args.id.replace("series-", "");
+            items = series.filter(s => s.categoria === categoryId);
+        }
     }
 
-    if (typePrefix === "series" && seriesPorCategoria[categoryId]) {
-        const series = seriesPorCategoria[categoryId];
-        return {
-            metas: series.map(s => ({
-                id: `tmdb:${s.tmdb}`,
-                type: "series",
-                name: s.name,
-                poster: s.poster,
-                description: s.description,
-                releaseInfo: s.year?.toString()
-            }))
-        };
-    }
-
-    return { metas: [] };
+    return {
+        metas: items.map(item => ({
+            id: item.type === "movie" ? (item.tmdb ? `tmdb:${item.tmdb}` : item.id) : `tmdb:${item.tmdb}`,
+            type: item.type,
+            name: item.name,
+            poster: item.poster,
+            description: item.description,
+            releaseInfo: item.year?.toString()
+        }))
+    };
 });
 
 // ------------------ Handler de Meta ------------------
 builder.defineMetaHandler(async args => {
 
     // FILMES
-    const filme = todosFilmes.find(f =>
+    const filme = filmes.find(f =>
         args.id === f.id || args.id === `tmdb:${f.tmdb}`
     );
 
@@ -122,7 +122,7 @@ builder.defineMetaHandler(async args => {
     }
 
     // SÉRIES
-    const serie = todasSeries.find(s =>
+    const serie = series.find(s =>
         args.id.includes(s.tmdb.toString())
     );
 
@@ -171,7 +171,7 @@ builder.defineMetaHandler(async args => {
 builder.defineStreamHandler(async args => {
 
     // Filme
-    const filme = todosFilmes.find(f =>
+    const filme = filmes.find(f =>
         args.id === f.id || args.id === `tmdb:${f.tmdb}`
     );
 
@@ -187,7 +187,7 @@ builder.defineStreamHandler(async args => {
     // Série (episódio)
     const [_, tmdb, season, episode] = args.id.split(":");
 
-    const serie = todasSeries.find(s => s.tmdb.toString() === tmdb);
+    const serie = series.find(s => s.tmdb.toString() === tmdb);
 
     if (serie) {
         const temp = serie.seasons.find(t => t.season.toString() === season);
