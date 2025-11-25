@@ -74,7 +74,6 @@ builder.defineMetaHandler(async args => {
     );
 
     if (filme) {
-        // runtime padrão (minutos)
         const runtime = filme.runtime || 0;
 
         return {
@@ -91,17 +90,13 @@ builder.defineMetaHandler(async args => {
                 releaseInfo: filme.year?.toString(),
 
                 genres: filme.genres || [],
-                // cast como array de objetos
                 cast: (filme.cast || []).map(actor => ({ name: actor })),
 
-                // campos que o Stremio realmente usa para rating
                 imdbRating: filme.rating?.imdb ? Number(filme.rating.imdb) : null,
                 imdb_id: filme.rating?.imdb_id || null,
 
-                // runtime (em minutos) — o Stremio formata como "X min"
                 runtime: runtime,
 
-                // vídeos (movie)
                 videos: [{ id: filme.id, runtime }]
             }
         };
@@ -110,19 +105,25 @@ builder.defineMetaHandler(async args => {
     // ------------------ SÉRIE ------------------
     const serie = series.find(s => `tmdb:${s.tmdb}` === args.id);
     if (serie) {
+
+        const defaultRuntime = 30;
         const videos = [];
-        const runtime = serie.runtime || 30; // padrão 30 min por episódio
 
         serie.seasons.forEach(temp => {
             temp.episodes.forEach(ep => {
+
+                const runtime =
+                    ep.runtime ||
+                    serie.runtime ||
+                    defaultRuntime;
+
                 videos.push({
                     id: `tmdb:${serie.tmdb}:${temp.season}:${ep.episode}`,
                     title: ep.title,
                     season: temp.season,
                     episode: ep.episode,
                     thumbnail: ep.thumbnail || null,
-                    // runtime por episódio (ajuda UI a mostrar "30 min")
-                    runtime: ep.runtime || runtime
+                    runtime: runtime
                 });
             });
         });
@@ -141,15 +142,12 @@ builder.defineMetaHandler(async args => {
                 releaseInfo: serie.year?.toString(),
 
                 genres: serie.genres || [],
-                // cast corretamente formatado
-                cast: (serie.cast || []).map(actor => ({ name: actor })),
+                cast: serie.cast || [],
 
-                // nota imdb (numérica) e id
                 imdbRating: serie.rating?.imdb ? Number(serie.rating.imdb) : null,
                 imdb_id: serie.rating?.imdb_id || null,
 
-                // runtime no meta também (minutos) — Stremio mostrará "30 min"
-                runtime: runtime,
+                runtime: serie.runtime || defaultRuntime,
 
                 videos
             }
