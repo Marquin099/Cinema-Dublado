@@ -54,6 +54,7 @@ builder.defineCatalogHandler(async args => {
                 type: "series",
                 name: s.name,
                 poster: s.poster,
+                background: s.background || null,
                 description: s.description,
                 releaseInfo: s.year?.toString()
             }))
@@ -77,9 +78,19 @@ builder.defineMetaHandler(async args => {
                 type: "movie",
                 name: filme.name,
                 poster: filme.poster,
-                background: filme.background,
+                background: filme.background || null,
+                logo: filme.logo || null,
                 description: filme.description,
                 releaseInfo: filme.year?.toString(),
+
+                genres: filme.genres || [],
+                cast: filme.cast || [],
+
+                rating: filme.rating ? {
+                    imdb: filme.rating.imdb,
+                    imdb_id: filme.rating.imdb_id
+                } : {},
+
                 videos: [{ id: filme.id }]
             }
         };
@@ -88,8 +99,6 @@ builder.defineMetaHandler(async args => {
     // SÉRIE
     const serie = series.find(s => `tmdb:${s.tmdb}` === args.id);
     if (serie) {
-
-        // Construir episódios para o Stremio
         const videos = [];
 
         serie.seasons.forEach(temp => {
@@ -97,16 +106,12 @@ builder.defineMetaHandler(async args => {
                 videos.push({
                     id: `tmdb:${serie.tmdb}:${temp.season}:${ep.episode}`,
                     title: ep.title,
-                    thumbnail: ep.thumbnail,
                     season: temp.season,
-                    episode: ep.episode
+                    episode: ep.episode,
+                    thumbnail: ep.thumbnail
                 });
             });
         });
-
-        // LOGO QUE VOCÊ ESCOLHEU
-        const logoOficial =
-            "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/cd7ce855-0cfa-414e-8762-ed65ae036e04/97188ec6-a60d-11f0-abb1-0afffd029469?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=4320";
 
         return {
             meta: {
@@ -115,29 +120,22 @@ builder.defineMetaHandler(async args => {
                 name: serie.name,
 
                 poster: serie.poster,
-                background: serie.background,
-                logo: logoOficial,
+                background: serie.background || null,
+                logo: serie.logo || null,
 
-                // Descrição principal
                 description: serie.description,
-
-                // Ano
                 releaseInfo: serie.year?.toString(),
 
-                // -------------------------------
-                // CAMPOS QUE ATIVAM O LAYOUT PREMIUM
-                // -------------------------------
-                genres: ["Comédia", "Drama", "Sátira Social"],
-                cast: [
-                    "Rachel Sennott",
-                    "Josh Hutcherson",
-                    "Miles Teller",
-                    "Sophie Thatcher"
-                ],
-                director: ["Sam Levinson"],
-                writer: ["Rachel Sennott"],
+                genres: serie.genres || [],
+                cast: serie.cast || [],
 
-                // Episódios
+                rating: serie.rating ? {
+                    imdb: serie.rating.imdb,
+                    imdb_id: serie.rating.imdb_id
+                } : {},
+
+                runtime: serie.runtime || null,
+
                 videos
             }
         };
@@ -146,7 +144,7 @@ builder.defineMetaHandler(async args => {
     return { meta: {} };
 });
 
-// ------------------ Stream ------------------
+// ------------------ Stream (SEM M3U8, SEM DOWNLOAD) ------------------
 builder.defineStreamHandler(async args => {
     const id = args.id;
 
@@ -154,6 +152,7 @@ builder.defineStreamHandler(async args => {
     const filme = filmes.find(f =>
         f.id === id || (f.tmdb && `tmdb:${f.tmdb}` === id)
     );
+
     if (filme) {
         return {
             streams: [
@@ -165,9 +164,8 @@ builder.defineStreamHandler(async args => {
         };
     }
 
-    // Episódio de série
+    // Série
     const match = id.match(/^tmdb:(\d+):(\d+):(\d+)$/);
-
     if (match) {
         const tmdb = Number(match[1]);
         const season = Number(match[2]);
