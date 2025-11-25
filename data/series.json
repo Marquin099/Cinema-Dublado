@@ -21,10 +21,7 @@
     ],
 
     "directors": [
-      { "name": "Michael Showalter", "role": "Director" },
-      { "name": "Desiree Akhavan", "role": "Director" },
-      { "name": "Andrew DeYoung", "role": "Director" },
-      { "name": "Heather Jack", "role": "Director" }
+      { "name": "Rachel Sennott", "role": "Director" }
     ],
 
     "rating": {
