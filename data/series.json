@@ -103,29 +103,29 @@
         "episodes": [
           {
             "episode": 1,
-            "title": "We Is Us",
-            "thumbnail": "",
+            "title": "Nós Somos Nós",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BNjNlNzRiYjEtYjJmMS00YTY0LThkMDItOTFmMjE4ZGMyZjFlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
             "overview": "Uma descoberta científica provoca uma reação global e deixa Carol completamente em choque.",
             "stream": "https://watch.brplayer.cc/m3u8/27/94ae78261adc94a727c0a99edd823f7d/master.m3u8?s=1&id=34224&cache=1"
           },
           {
             "episode": 2,
-            "title": "Pirate Lady",
-            "thumbnail": "",
+            "title": "Senhora Pirata",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BODg2ZWFjNDgtMzliNy00OWE5LWE5NTQtYTQxMjE1MTJiYjg0XkEyXkFqcGc@._V1_QL75_UX522_.jpg",
             "overview": "Uma figura inesperada tenta mostrar a Carol como o mundo mudou — para melhor, ou pior.",
             "stream": "https://watch.brplayer.cc/m3u8/27/2448f48c086548deacdad3a56a3c0215/master.m3u8?s=1&id=34229&cache=1"
           },
           {
             "episode": 3,
-            "title": "Grenade",
-            "thumbnail": "",
+            "title": "Granada",
+            "thumbnail": "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/grenade_3.jpg",
             "overview": "Quando todos tentam ajudar Carol, ela perde o controle e algo devastador acontece.",
             "stream": "https://watch.brplayer.cc/m3u8/27/2027b3d8d3a2a87ef879af0feaad8100/master.m3u8?s=1&id=34529&cache=1"
           },
           {
             "episode": 4,
-            "title": "Please, Carol",
-            "thumbnail": "",
+            "title": "Por Favor, Carol",
+            "thumbnail": "https://geeksandgamers.com/wp-content/uploads/2025/11/Carol-Medicine.jpg",
             "overview": "Informações ainda não disponíveis.",
             "stream": "https://watch.brplayer.cc/m3u8/27/ef482c2b5df361ebe176e3bade57d833/master.m3u8?s=1&id=34756&cache=1"
           }
