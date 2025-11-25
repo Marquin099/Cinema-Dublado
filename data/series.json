@@ -16,10 +16,10 @@
     "genres": ["Comédia", "Drama"],
 
     "cast": [
-      { "name": "Rachel Sennott" },
-      { "name": "Josh Hutcherson" },
-      { "name": "Miles Robbins" },
-      { "name": "Ayo Edebiri" }
+      "Rachel Sennott",
+      "Josh Hutcherson",
+      "Miles Robbins",
+      "Ayo Edebiri"
     ],
 
     "rating": {
