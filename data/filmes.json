@@ -58,9 +58,25 @@
   {
     "id": "tt31973693",
     "name": "Os Roses: Até Que a Morte os Separe",
-    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/ax3cx4fXILjSbZHtLRedYNsUnD2.jpg",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/mfiWbnvOSxGhh3dHRg2slHIyUb8.jpg",
     "description": "Filme dublado PT-BR",
     "year": 2025,
     "stream": "https://watch.brplayer.cc/m3u8/26/914ab31795cb9e8bef95c87061c74ed4/master.m3u8?s=1&id=34729&cache=1"
+  },
+  {
+    "id": "tt11214558",
+    "name": "Coração de Lutador",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/eTL21IzXn7BHB0jsMe9xPgMHfHE.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "stream": "https://watch.brplayer.cc/m3u8/26/fe21067b5bd2406e6a8f449af946d61b/master.m3u8?s=1&id=34726&cache=1"
+  },
+  {
+    "id": "tt31227572",
+    "name": "Predador: Terras Selvagens",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-10/0d75f00a-316c-4aac-be70-4f6964ea9fbf.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "stream": ""
   }
 ]
