@@ -11,6 +11,7 @@
     "description": "Um grupo de amigos co-dependentes navega pela vida e pelo amor em Los Angeles.",
     "year": 2025,
     "genres": ["Comédia", "Drama"],
+
     "cast": [
       "Rachel Sennott",
       "Josh Hutcherson",
@@ -19,7 +20,6 @@
     ],
     "director": ["Sam Levinson"],
     "writer": ["Rachel Sennott"],
-
     "rating": {
       "imdb": "5.8",
       "imdb_id": "tt33362589"
