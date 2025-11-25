@@ -2,11 +2,10 @@ const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
 const fs = require("fs");
 const path = require("path");
 
-// ------------------ Carregar arquivos JSON ------------------
+// ------------------ Carregar JSON ------------------
 function safeReadJSON(file) {
     try {
-        const filePath = path.join(__dirname, file);
-        return JSON.parse(fs.readFileSync(filePath, "utf8"));
+        return JSON.parse(fs.readFileSync(path.join(__dirname, file), "utf8"));
     } catch (err) {
         console.error("Erro ao ler JSON:", file, err.message);
         return [];
@@ -16,27 +15,54 @@ function safeReadJSON(file) {
 const filmes = safeReadJSON("data/filmes.json");
 const series = safeReadJSON("data/series.json");
 
-// ------------------ Manifesto do Addon ------------------
+// ------------------ Categorias automáticas ------------------
+function gerarCategorias(lista) {
+    const categorias = new Set();
+    lista.forEach(item => {
+        if (item.categoria) categorias.add(item.categoria.toLowerCase());
+    });
+    return [...categorias];
+}
+
+const categoriasFilmes = gerarCategorias(filmes);
+const categoriasSeries = gerarCategorias(series);
+
+// ------------------ Manifesto Dinâmico ------------------
 const manifest = {
     id: "cinema-dublado",
-    version: "1.0.3",
+    version: "1.1.0",
     name: "Cinema Dublado",
     description: "Filmes e séries dublados PT-BR",
     logo: "https://i.imgur.com/0eM1y5b.jpeg",
     resources: ["catalog", "meta", "stream"],
     types: ["movie", "series"],
     catalogs: [
-        { type: "movie", id: "catalogo-filmes", name: "Cinema Dublado" },
-        { type: "series", id: "catalogo-series", name: "Cinema Dublado" }
+        { type: "movie", id: "todos-filmes", name: "📺 Todos os Filmes" },
+        { type: "series", id: "todas-series", name: "📺 Todas as Séries" },
+
+        // FILMES por categoria
+        ...categoriasFilmes.map(cat => ({
+            type: "movie",
+            id: `filmes-${cat}`,
+            name: `🎬 ${cat.toUpperCase()}`
+        })),
+
+        // SÉRIES por categoria
+        ...categoriasSeries.map(cat => ({
+            type: "series",
+            id: `series-${cat}`,
+            name: `📺 ${cat.toUpperCase()}`
+        }))
     ]
 };
 
 const builder = new addonBuilder(manifest);
 
-// ------------------ Handler de Catálogo ------------------
+// ------------------ Handler Catálogo ------------------
 builder.defineCatalogHandler(async args => {
 
-    if (args.type === "movie" && args.id === "catalogo-filmes") {
+    // FILMES - Todos
+    if (args.id === "todos-filmes") {
         return {
             metas: filmes.map(f => ({
                 id: f.tmdb ? `tmdb:${f.tmdb}` : f.id,
@@ -49,7 +75,8 @@ builder.defineCatalogHandler(async args => {
         };
     }
 
-    if (args.type === "series" && args.id === "catalogo-series") {
+    // SÉRIES - Todas
+    if (args.id === "todas-series") {
         return {
             metas: series.map(s => ({
                 id: `tmdb:${s.tmdb}`,
@@ -62,10 +89,44 @@ builder.defineCatalogHandler(async args => {
         };
     }
 
+    // FILMES por categoria
+    if (args.id.startsWith("filmes-")) {
+        const categoria = args.id.replace("filmes-", "").toLowerCase();
+        return {
+            metas: filmes
+                .filter(f => f.categoria?.toLowerCase() === categoria)
+                .map(f => ({
+                    id: f.tmdb ? `tmdb:${f.tmdb}` : f.id,
+                    type: "movie",
+                    name: f.name,
+                    poster: f.poster,
+                    description: f.description,
+                    releaseInfo: f.year?.toString()
+                }))
+        };
+    }
+
+    // SÉRIES por categoria
+    if (args.id.startsWith("series-")) {
+        const categoria = args.id.replace("series-", "").toLowerCase();
+        return {
+            metas: series
+                .filter(s => s.categoria?.toLowerCase() === categoria)
+                .map(s => ({
+                    id: `tmdb:${s.tmdb}`,
+                    type: "series",
+                    name: s.name,
+                    poster: s.poster,
+                    description: s.description,
+                    releaseInfo: s.year?.toString()
+                }))
+        };
+    }
+
     return { metas: [] };
 });
 
-// ------------------ Handler de Meta ------------------
+// ------------------ Handler META ------------------
 builder.defineMetaHandler(async args => {
 
     // FILMES
@@ -98,8 +159,8 @@ builder.defineMetaHandler(async args => {
     );
 
     if (serie) {
-
         const videos = [];
+
         serie.seasons.forEach(temp => {
             temp.episodes.forEach(ep => {
                 videos.push({
@@ -121,14 +182,10 @@ builder.defineMetaHandler(async args => {
                 name: serie.name,
                 poster: serie.poster,
                 background: serie.background,
-                logo: serie.logo || null,
                 description: serie.description,
                 releaseInfo: serie.year?.toString(),
-
-                // ⭐ AGORA FUNCIONA A PORRA DA NOTA DA SÉRIE ⭐
                 imdbRating: serie.rating?.imdb ? parseFloat(serie.rating.imdb) : undefined,
-
-                runtime: serie.runtime ? serie.runtime : undefined,
+                runtime: serie.runtime || undefined,
                 genres: serie.genres || [],
                 videos
             }
@@ -155,9 +212,8 @@ builder.defineStreamHandler(async args => {
         };
     }
 
-    // Série (episódio)
+    // Série episódio
     const [_, tmdb, season, episode] = args.id.split(":");
-
     const serie = series.find(s => s.tmdb.toString() === tmdb);
 
     if (serie) {
@@ -180,5 +236,4 @@ builder.defineStreamHandler(async args => {
 
 // ------------------ Servidor ------------------
 serveHTTP(builder.getInterface(), { port: process.env.PORT || 7000 });
-
 console.log("Addon Cinema Dublado rodando na porta 7000.");
