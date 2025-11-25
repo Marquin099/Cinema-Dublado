@@ -16,41 +16,51 @@ const filmes = safeReadJSON("data/filmes.json");
 const series = safeReadJSON("data/series.json");
 
 // ------------------ Criar categorias automaticamente ------------------
-const categorias = new Set();
 
-// Pega todas categorias existentes no filmes.json
+// FILMES
+const categoriasFilmes = new Set();
 filmes.forEach(f => {
-    if (f.categoria) categorias.add(f.categoria.toLowerCase());
+    if (f.categoria) categoriasFilmes.add(f.categoria.toLowerCase());
 });
+categoriasFilmes.add("sem categoria");
 
-// Filmes SEM categoria entram aqui
-categorias.add("sem-categoria");
+const listaCategoriasFilmes = [...categoriasFilmes];
 
-// Converte Set → Array
-const listaCategorias = [...categorias];
+// SÉRIES
+const categoriasSeries = new Set();
+series.forEach(s => {
+    if (s.categoria) categoriasSeries.add(s.categoria.toLowerCase());
+});
+categoriasSeries.add("sem categoria");
+
+const listaCategoriasSeries = [...categoriasSeries];
 
 // ------------------ Manifesto dinâmico ------------------
 const catalogs = [];
 
-// Criar catálogo para cada categoria de filmes
-listaCategorias.forEach(cat => {
+// CATÁLOGOS DE FILMES
+listaCategoriasFilmes.forEach(cat => {
     catalogs.push({
         type: "movie",
-        id: `filmes-${cat}`,
-        name: `Cinema Dublado — ${cat.replace("-", " ")}`.replace(/\b\w/g, l => l.toUpperCase())
+        id: `filmes-${cat.replace(/ /g, "-")}`,
+        name: `Cinema Dublado — ${cat}`
+            .replace(/\b\w/g, l => l.toUpperCase())
     });
 });
 
-// Catálogo único para séries
-catalogs.push({
-    type: "series",
-    id: "catalogo-series",
-    name: "Cinema Dublado — Séries"
+// CATÁLOGOS DE SÉRIES (agora separados corretamente)
+listaCategoriasSeries.forEach(cat => {
+    catalogs.push({
+        type: "series",
+        id: `series-${cat.replace(/ /g, "-")}`,
+        name: `Cinema Dublado — ${cat}`
+            .replace(/\b\w/g, l => l.toUpperCase())
+    });
 });
 
 const manifest = {
     id: "cinema-dublado",
-    version: "1.1.0",
+    version: "1.2.0",
     name: "Cinema Dublado",
     description: "Filmes e séries dublados PT-BR organizados por categorias",
     logo: "https://i.imgur.com/0eM1y5b.jpeg",
@@ -64,14 +74,14 @@ const builder = new addonBuilder(manifest);
 // ------------------ CATÁLOGO ------------------
 builder.defineCatalogHandler(async args => {
 
-    // Filmes por categoria
+    // FILMES
     if (args.type === "movie") {
-        const categoriaSolicitada = args.id.replace("filmes-", "");
+        const categoria = args.id.replace("filmes-", "").replace(/-/g, " ");
 
         const metas = filmes
             .filter(f => {
-                const cat = f.categoria ? f.categoria.toLowerCase() : "sem-categoria";
-                return cat === categoriaSolicitada;
+                const cat = f.categoria ? f.categoria.toLowerCase() : "sem categoria";
+                return cat === categoria;
             })
             .map(f => ({
                 id: f.tmdb ? `tmdb:${f.tmdb}` : f.id,
@@ -85,18 +95,25 @@ builder.defineCatalogHandler(async args => {
         return { metas };
     }
 
-    // Catálogo de séries
-    if (args.type === "series" && args.id === "catalogo-series") {
-        return {
-            metas: series.map(s => ({
+    // SÉRIES
+    if (args.type === "series") {
+        const categoria = args.id.replace("series-", "").replace(/-/g, " ");
+
+        const metas = series
+            .filter(s => {
+                const cat = s.categoria ? s.categoria.toLowerCase() : "sem categoria";
+                return cat === categoria;
+            })
+            .map(s => ({
                 id: `tmdb:${s.tmdb}`,
                 type: "series",
                 name: s.name,
                 poster: s.poster,
                 description: s.description,
                 releaseInfo: s.year?.toString()
-            }))
-        };
+            }));
+
+        return { metas };
     }
 
     return { metas: [] };
@@ -187,10 +204,10 @@ builder.defineStreamHandler(async args => {
         };
     }
 
-    // SÉRIES — EPISÓDIOS
+    // SÉRIES
     const [_, tmdb, season, episode] = args.id.split(":");
-
     const serie = series.find(s => s.tmdb.toString() === tmdb);
+
     if (serie) {
         const temp = serie.seasons.find(t => t.season.toString() === season);
         if (temp) {
