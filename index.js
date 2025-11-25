@@ -48,7 +48,7 @@ builder.defineCatalogHandler(async args => {
     if (args.type === "series") {
         return {
             metas: series.map(s => ({
-                id: `tmdb:${s.tmdb}`,
+                id: s.id,
                 type: "series",
                 name: s.name,
                 poster: s.poster,
@@ -96,7 +96,7 @@ builder.defineMetaHandler(async args => {
         };
     }
 
-    const serie = series.find(s => `tmdb:${s.tmdb}` === args.id);
+    const serie = series.find(s => s.id === args.id);
     if (serie) {
 
         const defaultRuntime = 30;
@@ -109,7 +109,7 @@ builder.defineMetaHandler(async args => {
                 const runtimeString = `${rt} min`;
 
                 videos.push({
-                    id: `tmdb:${serie.tmdb}:${temp.season}:${ep.episode}`,
+                    id: `${serie.id}:${temp.season}:${ep.episode}`
                     title: ep.title,
                     season: temp.season,
                     episode: ep.episode,
@@ -157,13 +157,13 @@ builder.defineStreamHandler(async args => {
         return { streams: [{ title: "Dublado", url: filme.stream }] };
     }
 
-    const match = id.match(/^tmdb:(\d+):(\d+):(\d+)$/);
+    const match = id.match(/^(.+):(\d+):(\d+)$/);
     if (match) {
-        const tmdb = Number(match[1]);
+        const serieId = match[1];
         const season = Number(match[2]);
         const episode = Number(match[3]);
 
-        const serie = series.find(s => s.tmdb === tmdb);
+        const serie = series.find(s => s.id === serieId);
         if (!serie) return { streams: [] };
 
         const temp = serie.seasons.find(t => t.season === season);
