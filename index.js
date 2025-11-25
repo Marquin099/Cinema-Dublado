@@ -1,7 +1,10 @@
 import { addonBuilder, serveHTTP } from "stremio-addon-sdk";
 import fetch from "node-fetch";
-import movies from "./movies.json" assert { type: "json" };
-import series from "./series.json" assert { type: "json" };
+import fs from "fs";
+
+// Carregar JSON manualmente (Render + Node compatível)
+const movies = JSON.parse(fs.readFileSync("./movies.json", "utf8"));
+const series = JSON.parse(fs.readFileSync("./series.json", "utf8"));
 
 const manifest = {
     id: "community.superflix",
@@ -17,7 +20,7 @@ const manifest = {
 const builder = new addonBuilder(manifest);
 
 // ============================================================
-// 📌 META HANDLER COMPLETO (FILMES + SÉRIES)
+// 📌 META HANDLER (FILMES + SÉRIES)
 // ============================================================
 builder.defineMetaHandler(async (args) => {
     console.log("META:", args.id);
@@ -56,9 +59,6 @@ builder.defineMetaHandler(async (args) => {
 
     if (serie) {
 
-        // ============================
-        // 📌 BUSCAR TMDB (COM ELENCO)
-        // ============================
         let tmdbData = null;
 
         try {
@@ -74,9 +74,6 @@ builder.defineMetaHandler(async (args) => {
             console.error("Erro TMDB série:", err);
         }
 
-        // --------------------------
-        // 🎭 ELENCO AUTOMÁTICO
-        // --------------------------
         const castFix = [];
 
         if (tmdbData?.credits?.cast) {
@@ -91,9 +88,6 @@ builder.defineMetaHandler(async (args) => {
             });
         }
 
-        // --------------------------
-        // 🎞️ EPISÓDIOS
-        // --------------------------
         const videos = [];
 
         serie.seasons.forEach(temp => {
@@ -124,7 +118,6 @@ builder.defineMetaHandler(async (args) => {
                 genres: serie.genres || [],
                 imdbRating: serie.rating?.imdb ? parseFloat(serie.rating.imdb) : undefined,
 
-                // 🎭 ELENCO FINAL
                 cast: castFix.length ? castFix : serie.cast || [],
 
                 videos
@@ -135,16 +128,14 @@ builder.defineMetaHandler(async (args) => {
     return { meta: null };
 });
 
-
 // ============================================================
-// 📌 STREAM DO FILME OU EPISÓDIO (Superflix API)
+// 📌 STREAM HANDLER — Superflix API
 // ============================================================
 builder.defineStreamHandler(async (args) => {
     console.log("STREAM:", args.id);
 
     const parts = args.id.split(":");
 
-    // FILME
     if (parts.length === 2) {
         const tmdb = parts[1];
         return {
@@ -155,7 +146,6 @@ builder.defineStreamHandler(async (args) => {
         };
     }
 
-    // SÉRIE: tmdb:ID:temp:ep
     if (parts.length === 4) {
         const tmdb = parts[1];
         const season = parts[2];
@@ -174,5 +164,5 @@ builder.defineStreamHandler(async (args) => {
 
 // ============================================================
 
-serveHTTP(builder.getInterface(), { port: 7777 });
-console.log("Addon rodando em http://localhost:7777/manifest.json");
+serveHTTP(builder.getInterface(), { port: process.env.PORT || 7777 });
+console.log("Addon rodando!");
