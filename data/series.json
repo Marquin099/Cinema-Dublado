@@ -10,6 +10,7 @@
     "logo": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/cd7ce855-0cfa-414e-8762-ed65ae036e04/97188ec6-a60d-11f0-abb1-0afffd029469?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=4320",
     "description": "Um grupo de amigos co-dependentes navega pela vida e pelo amor em Los Angeles.",
     "year": 2025,
+    "categoria": "hbo-max",
     "genres": ["Comédia", "Drama"],
 
     "cast": [
@@ -79,6 +80,7 @@
     "logo": "https://image.tmdb.org/t/p/original/reZsBkM7ox8GCTslDVXwZTuNBEs.png",
     "description": "Em um futuro dominado por uma consciência coletiva de felicidade, uma mulher que não se encaixa precisa salvar a humanidade.",
     "year": 2025,
+    "categoria": "apple-tv",
     "genres": ["Ficção científica", "Drama", "Suspense"],
 
     "cast": [
