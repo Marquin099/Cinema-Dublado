@@ -16,9 +16,10 @@
       { "name": "Rachel Sennott" },
       { "name": "Josh Hutcherson" },
       { "name": "Miles Robbins" },
-      { "name": "Ayo Edebiri" },
+      { "name": "Ayo Edebiri" }
+    ],
 
-      "director": [
+    "directors": [
       { "name": "Michael Showalter", "role": "Director" },
       { "name": "Desiree Akhavan", "role": "Director" },
       { "name": "Andrew DeYoung", "role": "Director" },
