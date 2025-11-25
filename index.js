@@ -6,7 +6,6 @@ const path = require("path");
 function safeReadJSON(file) {
     try {
         const filePath = path.join(__dirname, file);
-        // O retorno padrão deve ser um array vazio para que o .map não quebre
         return JSON.parse(fs.readFileSync(filePath, "utf8"));
     } catch (err) {
         console.error("Erro ao ler JSON:", file, err.message);
@@ -17,89 +16,85 @@ function safeReadJSON(file) {
 const filmes = safeReadJSON("data/filmes.json");
 const series = safeReadJSON("data/series.json");
 
-// ------------------ Extrair Categorias Únicas ------------------
-// O usuário quer categorizar por "terror" e "netflix", mas o código deve ser dinâmico.
-// Vamos extrair todas as categorias únicas presentes nos itens.
-// O .filter(c => c) garante que apenas categorias válidas (não undefined, null ou string vazia) sejam consideradas.
-const categoriasFilmes = [...new Set(filmes.map(f => f.categoria).filter(c => c))];
-const categoriasSeries = [...new Set(series.map(s => s.categoria).filter(c => c))];
+// ------------------ Funções de Ajuda ------------------
+
+/**
+ * Agrupa os itens por categoria e retorna uma lista de objetos de catálogo.
+ * @param {Array<Object>} items - Lista de filmes ou séries.
+ * @param {string} type - Tipo do catálogo ('movie' ou 'series').
+ * @returns {Array<Object>} Lista de objetos de catálogo para o Stremio.
+ */
+function getCatalogs(items, type) {
+    const categories = new Set(items.map(item => item.categoria).filter(Boolean));
+    const catalogs = Array.from(categories).map(cat => ({
+        type: type,
+        id: `catalogo-${type}-${cat}`,
+        name: `${type === 'movie' ? 'Filmes' : 'Séries'} - ${cat.toUpperCase()}`,
+        featured: type === 'movie' ? true : undefined
+    }));
+
+    // Adiciona o catálogo principal "Todos"
+    catalogs.unshift({
+        type: type,
+        id: `catalogo-${type}-todos`,
+        name: `${type === 'movie' ? 'Filmes' : 'Séries'} - Todos`,
+        featured: type === 'movie' ? true : undefined
+    });
+
+    return catalogs;
+}
+
+const movieCatalogs = getCatalogs(filmes, "movie");
+const seriesCatalogs = getCatalogs(series, "series");
 
 // ------------------ Manifesto do Addon ------------------
 const manifest = {
     id: "cinema-dublado",
-    version: "1.0.5", // Versão atualizada
+    version: "1.0.4", // Versão atualizada
     name: "Cinema Dublado",
-    description: "Filmes e séries dublados PT-BR com categorias!",
+    description: "Filmes e séries dublados PT-BR",
     logo: "https://i.imgur.com/0eM1y5b.jpeg",
     resources: ["catalog", "meta", "stream"],
     types: ["movie", "series"],
-    catalogs: []
+    catalogs: [...movieCatalogs, ...seriesCatalogs]
 };
-
-// Adicionar catálogo "Todos os Filmes"
-// Adicionamos este catálogo incondicionalmente
-manifest.catalogs.push({ type: "movie", id: "catalogo-filmes-todos", name: "Filmes - Todos" });
-
-// Adicionar catálogos de filmes por categoria
-categoriasFilmes.forEach(cat => {
-    manifest.catalogs.push({
-        type: "movie",
-        id: `filmes-${cat}`,
-        name: `Filmes - ${cat.charAt(0).toUpperCase() + cat.slice(1)}`,
-        extra: [{ name: "search", isRequired: false }]
-    });
-});
-
-// Adicionar catálogo "Todas as Séries"
-manifest.catalogs.push({ type: "series", id: "catalogo-series-todas", name: "Séries - Todas" });
-
-// Adicionar catálogos de séries por categoria
-categoriasSeries.forEach(cat => {
-    manifest.catalogs.push({
-        type: "series",
-        id: `series-${cat}`,
-        name: `Séries - ${cat.charAt(0).toUpperCase() + cat.slice(1)}`,
-        extra: [{ name: "search", isRequired: false }]
-    });
-});
 
 const builder = new addonBuilder(manifest);
 
 // ------------------ Handler de Catálogo ------------------
 builder.defineCatalogHandler(async args => {
-    let items = [];
+    const isMovieCatalog = args.type === "movie" && args.id.startsWith("catalogo-movie-");
+    const isSeriesCatalog = args.type === "series" && args.id.startsWith("catalogo-series-");
 
-    if (args.type === "movie") {
-        if (args.id === "catalogo-filmes-todos") {
-            items = filmes;
-        } else if (args.id.startsWith("filmes-")) {
-            const categoryId = args.id.replace("filmes-", "");
-            items = filmes.filter(f => f.categoria === categoryId);
+    if (isMovieCatalog || isSeriesCatalog) {
+        const data = isMovieCatalog ? filmes : series;
+        const prefix = isMovieCatalog ? "catalogo-movie-" : "catalogo-series-";
+        const itemType = isMovieCatalog ? "movie" : "series";
+        
+        const category = args.id.substring(prefix.length);
+
+        let filteredItems = data;
+
+        if (category !== "todos") {
+            filteredItems = data.filter(item => item.categoria === category);
         }
-    } else if (args.type === "series") {
-        if (args.id === "catalogo-series-todas") {
-            items = series;
-        } else if (args.id.startsWith("series-")) {
-            const categoryId = args.id.replace("series-", "");
-            items = series.filter(s => s.categoria === categoryId);
-        }
+
+        return {
+            metas: filteredItems.map(item => ({
+                id: item.tmdb ? `tmdb:${item.tmdb}` : item.id,
+                type: itemType,
+                name: item.name,
+                poster: item.poster,
+                description: item.description,
+                releaseInfo: item.year?.toString()
+            }))
+        };
     }
 
-    return {
-        metas: items.map(item => ({
-            // Usar item.type para garantir que o ID seja formatado corretamente
-            id: item.type === "movie" ? (item.tmdb ? `tmdb:${item.tmdb}` : item.id) : `tmdb:${item.tmdb}`,
-            type: item.type,
-            name: item.name,
-            poster: item.poster,
-            description: item.description,
-            releaseInfo: item.year?.toString()
-        }))
-    };
+    return { metas: [] };
 });
 
 // ------------------ Handler de Meta ------------------
-// Os Handlers de Meta e Stream não precisam de alteração, pois já buscam em todos os arrays.
 builder.defineMetaHandler(async args => {
 
     // FILMES
