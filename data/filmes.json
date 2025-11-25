@@ -170,5 +170,32 @@
     "year": 2025,
     "categoria": "Disney+",
     "stream": "https://watch.brplayer.cc/m3u8/26/62f0ccd9ecceb9655f5cc3c805fa8ec7/master.m3u8?s=1&id=34531&cache=1"
+  },
+  {
+    "id": "tt27604215",
+    "name": "Nos Seus Sonhos",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/f9915723-e2bc-419d-86a1-1881ffacf978.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Netflix+",
+    "stream": "https://watch.brplayer.cc/m3u8/26/3fd45b2ea4e5e54b553ba47f6460585a/master.m3u8?s=1&id=34530&cache=1"
+  },
+  {
+    "id": "tt35669044",
+    "name": "Tee Yai: Nascido Para o Mal",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/e6137cf0-dba2-427e-8b6d-2dd284a862f1.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Netflix+",
+    "stream": "https://watch.brplayer.cc/m3u8/26/ff51fb7a9bcb22c595616b4fa368880a/master.m3u8?s=1&id=34490&cache=1"
+  },
+  {
+    "id": "tt32082522",
+    "name": "La Ola La Ola",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/dce57daf-65a2-40e9-8ae1-ada82263f27e.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Netflix+",
+    "stream": "https://watch.brplayer.cc/m3u8/26/ff51fb7a9bcb22c595616b4fa368880a/master.m3u8?s=1&id=34490&cache=1"
   }
 ]
