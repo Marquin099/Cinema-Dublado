@@ -20,7 +20,7 @@ const series = safeReadJSON("data/series.json");
 // ------------------ Manifesto do Addon ------------------
 const manifest = {
     id: "cinema-dublado",
-    version: "1.0.2", // Atualizei a versão para atualizar cache
+    version: "1.0.3",
     name: "Cinema Dublado",
     description: "Filmes e séries dublados PT-BR",
     logo: "https://i.imgur.com/0eM1y5b.jpeg",
@@ -52,7 +52,7 @@ builder.defineCatalogHandler(async args => {
     if (args.type === "series" && args.id === "catalogo-series") {
         return {
             metas: series.map(s => ({
-                id: `tmdb:${s.tmdb}`, 
+                id: s.id, // ← NÃO usa mais tmdb:
                 type: "series",
                 name: s.name,
                 poster: s.poster,
@@ -67,11 +67,9 @@ builder.defineCatalogHandler(async args => {
 
 // ------------------ Handler de Meta (Detalhes) ------------------
 builder.defineMetaHandler(async args => {
-    // Filmes
-    const filme = filmes.find(f =>
-        f.id === args.id || (f.tmdb && `tmdb:${f.tmdb}` === args.id)
-    );
 
+    // ------- FILMES -------
+    const filme = filmes.find(f => f.id === args.id);
     if (filme) {
         return {
             meta: {
@@ -82,19 +80,23 @@ builder.defineMetaHandler(async args => {
                 background: filme.background,
                 description: filme.description,
                 releaseInfo: filme.year?.toString(),
+                runtime: filme.runtime ? parseInt(filme.runtime) : undefined,
+                imdbRating: filme.rating ? parseFloat(filme.rating) : undefined,
                 videos: [{ id: filme.id }]
             }
         };
     }
 
-    // Séries
-    const serie = series.find(s => `tmdb:${s.tmdb}` === args.id);
+    // ------- SÉRIES -------
+    const serie = series.find(s => s.id === args.id);
+
     if (serie) {
         const videos = [];
+
         serie.seasons.forEach(temp => {
             temp.episodes.forEach(ep => {
                 videos.push({
-                    id: `tmdb:${serie.tmdb}:${temp.season}:${ep.episode}`,
+                    id: `${serie.id}:${temp.season}:${ep.episode}`,
                     title: ep.title,
                     thumbnail: ep.thumbnail,
                     season: temp.season,
@@ -106,28 +108,32 @@ builder.defineMetaHandler(async args => {
 
         return {
             meta: {
-                id: `tmdb:${serie.tmdb}`,
+                id: serie.id,
                 type: "series",
                 name: serie.name,
                 poster: serie.poster,
                 background: serie.background,
                 logo: serie.logo || null,
                 description: serie.description,
-                releaseInfo: serie.year ? serie.year.toString() : "",
+                releaseInfo: serie.year?.toString(),
+
+                // -------- CORRIGIDO --------
                 imdbRating: serie.rating?.imdb ? parseFloat(serie.rating.imdb) : undefined,
                 runtime: serie.runtime ? parseInt(serie.runtime) : undefined,
                 genres: serie.genres || [],
                 cast: serie.cast?.map(actor => ({ name: actor })) || [],
-                director: serie.director?.map(d => ({ name: d })) || [],
-                writer: serie.writer?.map(w => ({ name: w })) || [],
-                links: [
-                    { 
-                        name: "IMDb", 
-                        category: "imdb", 
-                        url: `https://www.imdb.com/title/${serie.rating?.imdb_id}` 
-                    }
-                ],
-                videos: videos
+
+                links: serie.rating?.imdb_id
+                    ? [
+                        {
+                            name: "IMDb",
+                            category: "imdb",
+                            url: `https://www.imdb.com/title/${serie.rating.imdb_id}`
+                        }
+                    ]
+                    : [],
+
+                videos
             }
         };
     }
@@ -137,12 +143,9 @@ builder.defineMetaHandler(async args => {
 
 // ------------------ Handler de Stream ------------------
 builder.defineStreamHandler(async args => {
-    const id = args.id;
 
-    // Stream de Filme
-    const filme = filmes.find(f =>
-        f.id === id || (f.tmdb && `tmdb:${f.tmdb}` === id)
-    );
+    // Filme
+    const filme = filmes.find(f => f.id === args.id);
     if (filme) {
         return {
             streams: [
@@ -154,15 +157,15 @@ builder.defineStreamHandler(async args => {
         };
     }
 
-    // Stream de Episódio de Série
-    const match = id.match(/^tmdb:(\d+):(\d+):(\d+)$/);
+    // Episódios de série
+    const match = args.id.match(/^(.+):(\d+):(\d+)$/);
 
     if (match) {
-        const tmdb = Number(match[1]);
+        const serieId = match[1];
         const season = Number(match[2]);
         const episode = Number(match[3]);
 
-        const serie = series.find(s => s.tmdb === tmdb);
+        const serie = series.find(s => s.id === serieId);
         if (!serie) return { streams: [] };
 
         const temp = serie.seasons.find(t => t.season === season);
