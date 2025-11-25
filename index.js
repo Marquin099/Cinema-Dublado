@@ -2,7 +2,6 @@ const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
 const fs = require("fs");
 const path = require("path");
 
-// ------------------ Carregar arquivos JSON ------------------
 function safeReadJSON(file) {
     try {
         return JSON.parse(fs.readFileSync(path.join(__dirname, file), "utf8"));
@@ -15,7 +14,6 @@ function safeReadJSON(file) {
 const filmes = safeReadJSON("data/filmes.json");
 const series = safeReadJSON("data/series.json");
 
-// ------------------ Manifesto ------------------
 const manifest = {
     id: "cinema-dublado",
     version: "1.0.0",
@@ -32,7 +30,6 @@ const manifest = {
 
 const builder = new addonBuilder(manifest);
 
-// ------------------ Catálogo ------------------
 builder.defineCatalogHandler(async args => {
     if (args.type === "movie") {
         return {
@@ -65,32 +62,29 @@ builder.defineCatalogHandler(async args => {
     return { metas: [] };
 });
 
-// ------------------ Meta ------------------
 builder.defineMetaHandler(async args => {
 
-    // ------------------ FILME ------------------
     const filme = filmes.find(f =>
         f.id === args.id || (f.tmdb && `tmdb:${f.tmdb}` === args.id)
     );
 
     if (filme) {
-        const runtime = filme.runtime || 0;
+
+        const runtime = filme.runtime ? `${filme.runtime} min` : null;
 
         return {
             meta: {
                 id: filme.id,
                 type: "movie",
                 name: filme.name,
-
                 poster: filme.poster,
                 background: filme.background || null,
-                logo: filme.logo || null,
-
                 description: filme.description,
                 releaseInfo: filme.year?.toString(),
-
                 genres: filme.genres || [],
-                cast: (filme.cast || []).map(actor => ({ name: actor })),
+
+                // cast funciona
+                cast: filme.cast || [],
 
                 imdbRating: filme.rating?.imdb ? Number(filme.rating.imdb) : null,
                 imdb_id: filme.rating?.imdb_id || null,
@@ -102,7 +96,6 @@ builder.defineMetaHandler(async args => {
         };
     }
 
-    // ------------------ SÉRIE ------------------
     const serie = series.find(s => `tmdb:${s.tmdb}` === args.id);
     if (serie) {
 
@@ -112,10 +105,8 @@ builder.defineMetaHandler(async args => {
         serie.seasons.forEach(temp => {
             temp.episodes.forEach(ep => {
 
-                const runtime =
-                    ep.runtime ||
-                    serie.runtime ||
-                    defaultRuntime;
+                const rt = ep.runtime || serie.runtime || defaultRuntime;
+                const runtimeString = `${rt} min`;
 
                 videos.push({
                     id: `tmdb:${serie.tmdb}:${temp.season}:${ep.episode}`,
@@ -123,7 +114,7 @@ builder.defineMetaHandler(async args => {
                     season: temp.season,
                     episode: ep.episode,
                     thumbnail: ep.thumbnail || null,
-                    runtime: runtime
+                    runtime: runtimeString
                 });
             });
         });
@@ -133,21 +124,19 @@ builder.defineMetaHandler(async args => {
                 id: `tmdb:${serie.tmdb}`,
                 type: "series",
                 name: serie.name,
-
                 poster: serie.poster,
                 background: serie.background || null,
-                logo: serie.logo || null,
-
                 description: serie.description,
                 releaseInfo: serie.year?.toString(),
-
                 genres: serie.genres || [],
+
+                // cast funcionando direto do JSON
                 cast: serie.cast || [],
 
                 imdbRating: serie.rating?.imdb ? Number(serie.rating.imdb) : null,
                 imdb_id: serie.rating?.imdb_id || null,
 
-                runtime: serie.runtime || defaultRuntime,
+                runtime: `${serie.runtime || defaultRuntime} min`,
 
                 videos
             }
@@ -157,27 +146,17 @@ builder.defineMetaHandler(async args => {
     return { meta: {} };
 });
 
-// ------------------ Stream ------------------
 builder.defineStreamHandler(async args => {
     const id = args.id;
 
-    // Filme
     const filme = filmes.find(f =>
         f.id === id || (f.tmdb && `tmdb:${f.tmdb}` === id)
     );
 
     if (filme) {
-        return {
-            streams: [
-                {
-                    title: "Dublado",
-                    url: filme.stream
-                }
-            ]
-        };
+        return { streams: [{ title: "Dublado", url: filme.stream }] };
     }
 
-    // Série (tmdb:ID:season:episode)
     const match = id.match(/^tmdb:(\d+):(\d+):(\d+)$/);
     if (match) {
         const tmdb = Number(match[1]);
@@ -194,19 +173,13 @@ builder.defineStreamHandler(async args => {
         if (!ep) return { streams: [] };
 
         return {
-            streams: [
-                {
-                    title: "Dublado (HD)",
-                    url: ep.stream
-                }
-            ]
+            streams: [{ title: "Dublado (HD)", url: ep.stream }]
         };
     }
 
     return { streams: [] };
 });
 
-// ------------------ Servidor ------------------
 serveHTTP(builder.getInterface(), { port: process.env.PORT || 3000 });
 
 console.log("Cinema Dublado Addon iniciado.");
