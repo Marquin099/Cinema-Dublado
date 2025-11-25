@@ -4,34 +4,51 @@
     "tmdb": 271053,
     "name": "I Love LA",
     "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
-    "description": "Série lançada em 2025.",
+
+    "background": "https://www.themoviedb.org/t/p/original/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+
+    "description": "Um grupo de amigos co-dependentes navega pela vida e pelo amor em Los Angeles.",
+
     "year": 2025,
+
     "seasons": [
       {
         "season": 1,
         "episodes": [
           {
             "episode": 1,
-            "title": "Episódio 1",
-            "thumbnail": "https://www.themoviedb.org/t/p/w600_and_h900_face/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+            "title": "Episódio 1 - Bloqueá-la",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREDzrLKxCZC3-KG7Yb1aDpDvywo9XMOVb7Jg&s",
+
+            "overview": "Depois de anos longe de casa, um jovem retorna a Los Angeles e descobre segredos que podem mudar sua vida para sempre, enquanto enfrenta novas alianças e velhos inimigos.",
+
             "stream": "https://watch.brplayer.cc/m3u8/27/407f5bc47339074637a289fb2b000805/master.m3u8?s=1&id=33868&cache=1"
           },
           {
             "episode": 2,
-            "title": "Episódio 2",
-            "thumbnail": "https://www.themoviedb.org/t/p/w600_and_h900_face/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+            "title": "Episódio 2 - Roger & Munchy",
+            "thumbnail": "https://rollingstone.com.br/wp-content/uploads/2025/11/Que-horas-estreia-o-3o-episodio-de-I-Love-LA-com-Rachel-Sennott-e-Josh-Hutcherson-800x450.jpg",
+
+            "overview": "foca na superficialidade de Los Angeles através de uma sátira ao consumismo e às relações digitais..",
+
             "stream": "https://watch.brplayer.cc/m3u8/27/d5f6b27eed9d01f58d2e943b6c319081/master.m3u8?s=1&id=34363&cache=1"
           },
           {
             "episode": 3,
-            "title": "Episódio 3",
-            "thumbnail": "https://www.themoviedb.org/t/p/w600_and_h900_face/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+            "title": "Episódio 3 - Girl's Girl",
+            "thumbnail": "https://writethroughthenight.com/wp-content/uploads/2025/11/ilovela103.png?w=816",
+
+            "overview": "A agência da influenciadora sugere uma estratégia de comunicação calculada, incluindo um pedido de desculpas público e a alegação de estar iniciando um tratamento para vício em cetamina, o que coloca as duas em um dilema.",
+
             "stream": "https://watch.brplayer.cc/m3u8/27/dcbf540f6a9056d33884b1f54a610c1b/master.m3u8?s=1&id=34647&cache=1"
           },
           {
             "episode": 4,
-            "title": "Episódio 4",
-            "thumbnail": "https://www.themoviedb.org/t/p/w600_and_h900_face/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+            "title": "Episódio 4 - ação de graças",
+            "thumbnail": "https://cosmonerd.com.br/wp-content/uploads/2025/11/I-Love-LA-Episodio-4-da-serie-de-Rachel-Sennott-para-a-HBO-Max.png",
+
+            "overview": "enquanto Tallulah se envolve com a criação de conteúdo e Charlie conhece alguém novo.",
+
             "stream": "https://watch.brplayer.cc/m3u8/27/44e99af76e0d3f4e7eb331b3f3ef8e38/master.m3u8?s=1&id=34840&cache=1"
           }
         ]
