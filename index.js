@@ -66,7 +66,8 @@ builder.defineCatalogHandler(async args => {
 
 // ------------------ Meta ------------------
 builder.defineMetaHandler(async args => {
-    // FILME
+
+    // ------------------ FILME ------------------
     const filme = filmes.find(f =>
         f.id === args.id || (f.tmdb && `tmdb:${f.tmdb}` === args.id)
     );
@@ -86,17 +87,18 @@ builder.defineMetaHandler(async args => {
                 genres: filme.genres || [],
                 cast: filme.cast || [],
 
-                rating: filme.rating ? {
-                    imdb: filme.rating.imdb,
-                    imdb_id: filme.rating.imdb_id
-                } : {},
+                // --- CAMPOS QUE O STREMIO REALMENTE USA ---
+                imdbRating: filme.rating?.imdb ? Number(filme.rating.imdb) : null,
+                imdb_id: filme.rating?.imdb_id || null,
+
+                runtime: filme.runtime || null,
 
                 videos: [{ id: filme.id }]
             }
         };
     }
 
-    // SÉRIE
+    // ------------------ SÉRIE ------------------
     const serie = series.find(s => `tmdb:${s.tmdb}` === args.id);
     if (serie) {
         const videos = [];
@@ -129,12 +131,12 @@ builder.defineMetaHandler(async args => {
                 genres: serie.genres || [],
                 cast: serie.cast || [],
 
-                rating: serie.rating ? {
-                    imdb: serie.rating.imdb,
-                    imdb_id: serie.rating.imdb_id
-                } : {},
+                // ---- CAMPOS QUE FAZEM A NOTA APARECER ----
+                imdbRating: serie.rating?.imdb ? Number(serie.rating.imdb) : null,
+                imdb_id: serie.rating?.imdb_id || null,
 
-                runtime: serie.runtime || null,
+                // ---- PARA O TEMPO DA SÉRIE APARECER ----
+                runtime: serie.runtime || 30, // padrão 30 min por episódio se não existir
 
                 videos
             }
@@ -144,7 +146,7 @@ builder.defineMetaHandler(async args => {
     return { meta: {} };
 });
 
-// ------------------ Stream (SEM M3U8, SEM DOWNLOAD) ------------------
+// ------------------ Stream ------------------
 builder.defineStreamHandler(async args => {
     const id = args.id;
 
