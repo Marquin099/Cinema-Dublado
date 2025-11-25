@@ -128,5 +128,47 @@
     "year": 2025,
     "categoria": "terror",
     "stream": "https://watch.brplayer.cc/m3u8/26/8f889aa39c01b85d103ee1d6c21bda48/master.m3u8?s=1&id=34539&cache=1"
+  },
+  {
+    "id": "tt27543578",
+    "name": "Quando o Céu se Engana",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/8a4a34a7-3fec-44f4-84b3-ff14c9762843.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "stream": "https://watch.brplayer.cc/m3u8/26/52746115ed4579e191e8a82c2c6682b5/master.n3u8?s=1&id=34534&cache=1"
+  },
+  {
+    "id": "tt37531036",
+    "name": "Belén: Uma História de Injustiça",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/d4b01660-67c0-45c4-8b11-4f809dae4f60.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "stream": "https://watch.brplayer.cc/m3u8/26/bc3e6127ca2263a0a9375a2efab8dae4/master.m3u8?s=1&id=34533&cache=1"
+  },
+  {
+    "id": "tt29544253",
+    "name": "Noite No Zoo",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/36abb8f8-df4a-4008-a9de-1dfc13179af7.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "stream": "https://watch.brplayer.cc/m3u8/26/652d0eea3ab8a9afd8719cc584253a4c/master.m3u8?s=1&id=34532&cache=1"
+  },
+  {
+    "id": "tt29544253",
+    "name": "Noite No Zoo",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/36abb8f8-df4a-4008-a9de-1dfc13179af7.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Aventura",
+    "stream": "https://watch.brplayer.cc/m3u8/26/652d0eea3ab8a9afd8719cc584253a4c/master.m3u8?s=1&id=34532&cache=1"
+  },
+  {
+    "id": "tt35600079",
+    "name": "Um Natal Bem Jonas Brothers",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/154d80bd-b0e1-48ff-a80d-a0822ff0dd35.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Disney+",
+    "stream": "https://watch.brplayer.cc/m3u8/26/62f0ccd9ecceb9655f5cc3c805fa8ec7/master.m3u8?s=1&id=34531&cache=1"
   }
 ]
