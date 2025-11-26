@@ -138,5 +138,89 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "tudo-e-justo-2025",
+    "tmdb": 258742,
+    "type": "series",
+    "name": "Tudo e Justo",
+    "runtime": "43 min",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/AkHzJBLSEp6nNsSSC0Fai7dvu6e.jpg",
+    "background": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/AkHzJBLSEp6nNsSSC0Fai7dvu6e.jpg",
+    "logo": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019a4ccd-4d42-7cf2-9ba9-c7d771d2caa6/compose?format=webp",
+    "description": "Tudo é Justo é uma série de drama jurídico sobre um grupo de advogadas de divórcio que saem de um escritório dominado por homens para fundar seu próprio negócio de sucesso em Los Angeles.",
+    "year": 2025,
+    "categoria": "Disney+",
+    "genres": ["Drama jurídico"],
+
+    "cast": [
+      { "name": "Kim Kardashian" },
+      { "name": "Naomi Watts" },
+      { "name": "Niecy Nash" },
+      { "name": "Teyana Taylor" },
+      { "name": "Matthew Noszka" },
+      { "name": "Sarah Paulson" },
+      { "name": "Glenn Close" }
+    ],
+
+    "directors": [
+      { "name": "Ryan Murphy", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "3.0",
+      "imdb_id": "tt30291387"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Piloto",
+            "thumbnail": "https://image.tmdb.org/t/p/original/nBeFvjqdUBRByi11hm9tHgKEdf3.jpg",
+            "overview": "acompanha um grupo de advogadas de divórcio que saem de um escritório dominado por homens para fundar sua própria firma em Los Angeles.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/8fd2aa96c03c97513ead09138475efd9/master.m3u8?s=1&id=33873&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Quando Éramos Jovens",
+            "thumbnail": "https://image.tmdb.org/t/p/original/9LkGCXj5Hf0OFYGtaeK98Ap6kAH.jpg",
+            "overview": "foca em vários desenvolvimentos, incluindo uma revelação chocante sobre o relacionamento de Chase e Milan, uma proposta de casamento inesperada de Liberty para Reggie, e um plano de Dina para punir Arthur.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/e56190db0f818922806925ad4c2894f0/master.m3u8?s=1&id=33874&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Eu Quero Vingança",
+            "thumbnail": "https://image.tmdb.org/t/p/original/A5R9d4rusAc09r58pxfI5xyyLzj.jpg",
+            "overview": "foca em Allura enquanto ela lida com as sequelas de seu casamento tóxico e busca vingança contra seu ex-marido, Chase.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/dda7639e08ddeee089a4e3a22f77ab5a/master.m3u8?s=1&id=33875&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Todo Mundo Dançando Agora",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/DHWity4wkvncTo9LyuAzCw/1200x675.webp",
+            "overview": "foca nas consequências de um evento passado quando o ex-parceiro de Emerald, Ray, revela a morte do suspeito, que aparenta ter sido suicídio.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/e45e346bebac5fb8db1d1c63f751f3d8/master.m3u8?s=1&id=34430&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "Essa Sou Eu Tentando e",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/CKTQ4PPnVooFgRQsuEv7zg/1200x675.webp",
+            "overview": "Carr Precisa de ajuda",
+            "stream": "https://watch.brplayer.cc/m3u8/27/01949fe85ea9c64f1a9ee2dee805ae50/master.m3u8?s=1&id=34661&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "O Divórcio é Como Morrer",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/DSv2skZcfyM-w_UlMhY3Iw/1200x675.webp",
+            "overview": "O escritório encara sua mediação mais difícil e pessoal.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/b08d78964e17a35d839c83272194e1c4/master.m3u8?s=1&id=34872&cache=1"
+          }
+        ]
+      }
+    ]
   }
 ]
