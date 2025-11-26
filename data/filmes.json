@@ -288,5 +288,59 @@
     "year": 2025,
     "categoria": "Netflix",
     "stream": "https://watch.brplayer.cc/m3u8/27/f432fa27b2b43ed5fd747a0a7096d5dd/master.m3u8?s=1&id=31124&cache=1"
-   }
+  },
+  {
+    "id": "tt28078628",
+    "name": "Alma em Chamas",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/sUdO2i5Acl7OlTKL0UyeJ2GZq3F.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Drama",
+    "stream": "https://watch.brplayer.cc/m3u8/26/1d10712905e2faf91de6700424d443f6/master.m3u8?s=1&id=34486&cache=1"
+  },
+  {
+    "id": "tt27075958",
+    "name": "Fonte da Juventude",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/hMUnFKLmd42tUgammOf8QIlRk9.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Ação",
+    "stream": "https://watch.brplayer.cc/m3u8/26/6c91e2bfb5160ae267d4f353cf706f52/master.m3u8?s=1&id=27283&cache=1"
+  },
+  {
+    "id": "tt32658507",
+    "name": "A Maldição da Sereia 2",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/fb8b6cc8-84dd-4229-be23-ad0057de4697.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Terror",
+    "stream": "https://watch.brplayer.cc/m3u8/12/9c378d1a05807d8cb9a0d28cd81e566d/master.m3u8?s=1&id=33643&cache=1"
+  },
+  {
+    "id": "tt27368237",
+    "name": "Raposa de Pedra Fria",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/yGMuIDdcOTsfgKyHGEisIGQCbQC.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Ação",
+    "stream": "https://watch.brplayer.cc/m3u8/12/9c378d1a05807d8cb9a0d28cd81e566d/master.m3u8?s=1&id=33643&cache=1"
+  },
+  {
+    "id": "tt36016168",
+    "name": "O Combinado Não Sai Caro",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/gS9dfGfdg2iBSdYBQIjsy5kwOn1.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Comédia",
+    "stream": "https://watch.brplayer.cc/m3u8/26/0668a01b2098b4335c37c1a1ac0dd71a/master.m3u8?s=1&id=34439&cache=1"
+  },
+  {
+    "id": "tt35627915",
+    "name": "Eu, Eddie",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/a2e5INPF9dgfOO3f50SeP7cdD0A.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/26/0bc58258e6f3c040a65fa2bfc9d0c907/master.m3u8?s=1&id=34438&cache=1"
+  }
 ]
