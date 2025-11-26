@@ -206,5 +206,59 @@
     "year": 2025,
     "categoria": "Terror",
     "stream": "https://watch.brplayer.cc/m3u8/26/765070fb45e2b95f4352c9172c2e2edb/master.m3u8?s=1&id=34639&cache=1"
+  },
+  {
+    "id": "tt29344903",
+    "name": "A Meia-Irmã Feia",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/pFGV547rvjXlNiK89KC2elChz1p.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Terror",
+    "stream": "https://watch.brplayer.cc/m3u8/26/fb52538ee970026501864b2272852dc4/master.m3u8?s=1&id=34903&cache=1"
+  },
+  {
+    "id": "tt36499994",
+    "name": "Dois Mundos, Um Desejo",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/9hz2kCHTvAkKEnEkc43Vebg0Wuu.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Romançe",
+    "stream": "https://watch.brplayer.cc/m3u8/26/b2fdb4e6edcd80ed0c1620ddf6ff5389/master.m3u8?s=1&id=34902&cache=1"
+  },
+  {
+    "id": "tt32536315",
+    "name": "Blue Moon",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/258fa749-923b-4e21-82e9-544d783402a8.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Drama",
+    "stream": "https://watch.brplayer.cc/m3u8/26/6203f1dde486c7e691c5438115e54e0e/master.m3u8?s=1&id=34901&cache=1"
+  },
+  {
+    "id": "tt33088452",
+    "name": "Se Não Fosse Você",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/qnd2rTJD4rjuhHZ45RVN3M2ZGhT.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Romançe",
+    "stream": "https://watch.brplayer.cc/m3u8/26/e2a25d092213dd181de2501aa0d8b987/master.m3u8?s=1&id=34898&cache=1"
+  },
+  {
+    "id": "tt34767956",
+    "name": "Silvio Santos Vem Aí!",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/84fd334d-f836-44be-b9b9-659935117c00.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Cinema",
+    "stream": "https://watch.brplayer.cc/m3u8/12/437aadef672e77658e88fa71c9bd224c/master.m3u8?s=1&id=34862&cache=1"
+  },
+  {
+    "id": "tt34767956",
+    "name": "Silvio Santos Vem Aí!",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/84fd334d-f836-44be-b9b9-659935117c00.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Cinema",
+    "stream": "https://watch.brplayer.cc/m3u8/12/437aadef672e77658e88fa71c9bd224c/master.m3u8?s=1&id=34862&cache=1"
   }
 ]
