@@ -222,5 +222,81 @@
         ]
       }
     ]
+  },
+
+  {
+
+    "id": "Tremembé-2025",
+    "tmdb": ,279013
+    "type": "series",
+    "name": "Tremembé",
+    "runtime": "46 min",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/eVqBFACBpovk0sEtjx3HEb3jOYS.jpg",
+    "background": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/eVqBFACBpovk0sEtjx3HEb3jOYS.jpg",
+    "logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/f/fc/Trememb%C3%A9_%28teless%C3%A9rie%29.webp/600px-Trememb%C3%A9_%28teless%C3%A9rie%29.webp.png",
+    "description": "Essa produção de ficção foca na Penitenciária Doutor José Augusto César Salgado, popularmente conhecida como Tremembé, localizada próxima à cidade de Taubaté, em São Paulo. Ao longo dos anos, a unidade prisional Taubaté II abrigou e ainda abriga condenados por crimes que ganharam grande destaque na mídia nacional. Inspirada nos livros “Elize Matsunaga: A mulher que esquartejou o marido” e “Suzane: assassina e manipuladora”, escritos pelo jornalista Ulisses Campbell, a série acompanha o cotidiano e as experiências de detentos famosos como Suzane von Richtofen, Cristian Cravinhos, Elize Matsunaga e Roger Abdelmassih durante o cumprimento de suas penas.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "genres": ["true crime", "Drama"],
+
+    "cast": [
+      { "name": "Marina Ruy Barbosa" },
+      { "name": "Carol Garcia" },
+      { "name": "Letícia Rodrigues" },
+      { "name": "Bianca Comparato" },
+      { "name": "Felipe" },
+    ],
+
+    "directors": [
+      { "name": "Vera Egito", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "6.7",
+      "imdb_id": "tt34467643"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Confia em mim",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/3752592df41d37adc83d823021ea34ed831e4b70cbb4f6ec862752d24985fd64._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Suzane é transferida para Tremembé e descobre quem manda ali: Sandrão, detenta que namora Elize Matsunaga. Jatobá é ameaçada. No masculino, Daniel fica deprimido com a chegada de Suzane, enquanto Cristian se interessa por Luka.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/1a6aab4673655fb39ccc8d6cd645f584/master.m3u8?s=1&id=33826&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Até que a morte nos separe",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/1dcbc21cb5bd7a00ca88e3ce70bf5ce081d9c971fabceea756d5e557c1f42132._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Suzane e Elize disputam o interesse de Sandrão. Uma notícia abala a relação de Jatobá e Nardoni. Roger tenta comprar um laudo médico falso. E o dia de visitas traz encontros marcantes, aumentando a voltagem das relações no presídio.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/fd7d20b9c2863af38093925e27205843/master.m3u8?s=1&id=33827&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Assassinas na TV",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/fd0c1f5fb72a0a3821fcfba5e6f767ae52e4a71eed2e486e05607ee3aa274dc2._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Jatobá tenta se aproximar dos filhos. Gugu entrevista Suzane ao vivo. Elize decide contar sua história. Daniel começa um novo namoro e Cristian descobre que Luka vai sair. A chegada de uma nova presa complica as coisas para Suzane.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/0ca410c8d727f9fe3ad4f29b4cacf1fa/master.m3u8?s=1&id=33828&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Acerto de contas",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/2d0fc93cf2950820bf3a063e3fd31178b94e5b1a411d0a2ae1a870811ba27aeb._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Suzane vira a nova líder de Tremembé. O livro do detento Acir Filó chama a atenção da justiça. Nardoni, Jatobá, Cristian, Daniel, Suzane e Elize se preparam para a saidinha. Luka e a esposa de Cristian esperam por ele na saída do presídio.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/5e8900c415afdd93abdc76e826e3a51f/master.m3u8?s=1&id=33829&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "Justiça seja feita",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/63acd538a5975133d7280d171d9e7a82f2b0af4b9cddbd6f43910d9d88108448._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Os criminosos mais famosos do Brasil têm 7 dias para aproveitar a liberdade. Nardoni e Jatobá se reencontram, Elize grava seu documentário, Suzane dá testemunho numa igreja e Cristian e Daniel lidam com as consequências de suas escolhas.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/5dddaf9d765767a1a9fbce4362325e89/master.m3u8?s=1&id=33830&cache=1"
+          }
+        ]
+      }
+    ]
   }
 ]
