@@ -20,9 +20,6 @@ const series = safeReadJSON("data/series.json");
 
 /**
  * Agrupa os itens por categoria e retorna uma lista de objetos de catálogo.
- * @param {Array<Object>} items - Lista de filmes ou séries.
- * @param {string} type - Tipo do catálogo ('movie' ou 'series').
- * @returns {Array<Object>} Lista de objetos de catálogo para o Stremio.
  */
 function getCatalogs(items, type) {
     const categories = new Set(items.map(item => item.categoria).filter(Boolean));
@@ -50,7 +47,7 @@ const seriesCatalogs = getCatalogs(series, "series");
 // ------------------ Manifesto do Addon ------------------
 const manifest = {
     id: "cinema-dublado",
-    version: "1.0.4", // Versão atualizada
+    version: "1.0.5", // Subi a versão para forçar atualização no Stremio
     name: "Cinema Dublado",
     description: "Filmes e séries dublados PT-BR",
     logo: "https://i.imgur.com/0eM1y5b.jpeg",
@@ -122,15 +119,17 @@ builder.defineMetaHandler(async args => {
     }
 
     // SÉRIES
-    const serie = series.find(s =>
-        args.id.includes(s.tmdb.toString())
+    // Modificado para encontrar a série mesmo se o ID vier incompleto ou apenas numérico
+    const serie = series.find(s => 
+        args.id.includes(s.tmdb.toString()) || 
+        (s.rating && s.rating.imdb_id && args.id.includes(s.rating.imdb_id))
     );
 
     if (serie) {
-
         const videos = [];
         serie.seasons.forEach(temp => {
             temp.episodes.forEach(ep => {
+                // Monta o ID do vídeo no padrão TMDB para manter consistência interna
                 videos.push({
                     id: `tmdb:${serie.tmdb}:${temp.season}:${ep.episode}`,
                     title: ep.title,
@@ -145,7 +144,7 @@ builder.defineMetaHandler(async args => {
 
         return {
             meta: {
-                id: `tmdb:${serie.tmdb}`,
+                id: args.id, // Retorna o mesmo ID que foi solicitado para evitar confusão no Stremio
                 type: "series",
                 name: serie.name,
                 poster: serie.poster,
@@ -153,16 +152,11 @@ builder.defineMetaHandler(async args => {
                 logo: serie.logo || null,
                 description: serie.description,
                 releaseInfo: serie.year?.toString(),
-
-                // ⭐ AGORA FUNCIONA A PORRA DA NOTA DA SÉRIE ⭐
                 imdbRating: serie.rating?.imdb ? parseFloat(serie.rating.imdb) : undefined,
-
                 runtime: serie.runtime ? serie.runtime : undefined,
                 genres: serie.genres || [],
                 cast: [
-                    // Elenco (sem role, o Stremio infere)
                     ...(serie.cast || []).map(c => ({ name: c.name })),
-                    // Diretores (com role)
                     ...(serie.directors || []).map(d => ({ name: d.name, role: d.role || "Diretor" }))
                 ],
                 videos
@@ -173,10 +167,10 @@ builder.defineMetaHandler(async args => {
     return { meta: {} };
 });
 
-// ------------------ STREAM HANDLER ------------------
+// ------------------ STREAM HANDLER (CORRIGIDO) ------------------
 builder.defineStreamHandler(async args => {
-
-    // Filme
+    
+    // 1. Tenta achar Filme
     const filme = filmes.find(f =>
         args.id === f.id || args.id === `tmdb:${f.tmdb}`
     );
@@ -190,19 +184,41 @@ builder.defineStreamHandler(async args => {
         };
     }
 
-    // Série (episódio)
-    const [_, tmdb, season, episode] = args.id.split(":");
+    // 2. Lógica Inteligente para Séries (IMDb vs TMDB)
+    let serieEncontrada = null;
+    let seasonReq = null;
+    let episodeReq = null;
 
-    const serie = series.find(s => s.tmdb.toString() === tmdb);
+    // CASO A: Stremio enviou ID do IMDb (Ex: tt34467643:1:1) -> TREMEMBÉ
+    if (args.id.startsWith("tt")) {
+        const parts = args.id.split(":");
+        const imdbId = parts[0]; 
+        seasonReq = parts[1];
+        episodeReq = parts[2];
 
-    if (serie) {
-        const temp = serie.seasons.find(t => t.season.toString() === season);
+        // Busca pela propriedade imdb_id dentro de rating
+        serieEncontrada = series.find(s => s.rating && s.rating.imdb_id === imdbId);
+    } 
+    // CASO B: Stremio enviou seu ID TMDB (Ex: tmdb:279013:1:1) -> OUTRAS SÉRIES
+    else if (args.id.startsWith("tmdb:")) {
+        const parts = args.id.split(":");
+        const tmdbId = parts[1];
+        seasonReq = parts[2];
+        episodeReq = parts[3];
+
+        serieEncontrada = series.find(s => s.tmdb && s.tmdb.toString() === tmdbId);
+    }
+
+    // Se achou a série, busca o episódio
+    if (serieEncontrada) {
+        // Usa "==" para garantir que string "1" seja igual a número 1
+        const temp = serieEncontrada.seasons.find(t => t.season == seasonReq);
         if (temp) {
-            const ep = temp.episodes.find(e => e.episode.toString() === episode);
+            const ep = temp.episodes.find(e => e.episode == episodeReq);
             if (ep) {
                 return {
                     streams: [{
-                        title: `S${season}E${episode} - Dublado`,
+                        title: `S${seasonReq}E${episodeReq} - Dublado`,
                         url: ep.stream
                     }]
                 };
