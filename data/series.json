@@ -242,8 +242,7 @@
       { "name": "Marina Ruy Barbosa" },
       { "name": "Carol Garcia" },
       { "name": "Letícia Rodrigues" },
-      { "name": "Bianca Comparato" },
-      { "name": "Felipe" }
+      { "name": "Bianca Comparato" }
     ],
 
     "directors": [
@@ -298,3 +297,4 @@
       }
     ]
   }
+]
