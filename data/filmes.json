@@ -8,6 +8,42 @@
     "stream": "https://watch.brplayer.cc/m3u8/26/0291fd85422559cef53644838ad97856/master.m3u8?s=1&id=34491&cache=1"
   },
   {
+    "id": "tt31425731",
+    "name": "Um Dia Fora de Controle",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/20660fa4-72ca-4156-b012-c8beac3f54ee.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Ação",
+    "stream": "https://watch.brplayer.cc/m3u8/26/c6c209418814b5cee2107e6e744bb737/master.m3u8?s=1&id=34437&cache=1"
+  },
+  {
+    "id": "tt31956415",
+    "name": "Uma Sexta-Feira Mais Louca Ainda",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-08/580829cc-5ce5-4e40-90bb-74efc2d47b88.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Comédia",
+    "stream": "https://watch.brplayer.cc/m3u8/26/ccd986d2de4c75133c049e26005b3dbc/master.m3u8?s=1&id=34436&cache=1"
+  },
+  {
+    "id": "tt37850663",
+    "name": "Spidey and Iron Man",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/01be7329-da1a-4dcb-b27b-397d2e8b556f.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Disney+",
+    "stream": "https://watch.brplayer.cc/m3u8/27/3a647ff6d4d2328a51836ae6ab9600eb/master.m3u8?s=1&id=34425&cache=1"
+  },
+  {
+    "id": "tt37850663",
+    "name": "Spidey and Iron Man",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/01be7329-da1a-4dcb-b27b-397d2e8b556f.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Aventura",
+    "stream": "https://watch.brplayer.cc/m3u8/27/3a647ff6d4d2328a51836ae6ab9600eb/master.m3u8?s=1&id=34425&cache=1"
+  },
+  {
     "id": "tt1312221",
     "name": "Frankenstein",
     "poster": "https://images.metahub.space/poster/small/tt1312221/img",
@@ -342,5 +378,31 @@
     "year": 2025,
     "categoria": "Netflix",
     "stream": "https://watch.brplayer.cc/m3u8/26/0bc58258e6f3c040a65fa2bfc9d0c907/master.m3u8?s=1&id=34438&cache=1"
+  },
+  {
+    "id": "tt24850708",
+    "name": "Gunslingers: Terra de Pistoleiros",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/ed92ba5c-a1bb-4f28-a297-60af628ccf50.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Ação",
+    "stream": "https://watch.brplayer.cc/m3u8/26/31a67bdbe13f907c857a7a27a3111509/master.m3u8?s=1&id=34364&cache=1"
+  },
+  {
+    "id": "tt4627382",
+    "name": "O Bom Bandido",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/A8s9WG1GOv8e17rmEDCTNQx8nms.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Drama",
+    "stream": "https://watch.brplayer.cc/m3u8/12/aff857de2196e157fbeac66b619bfe05/master.m3u8?s=1&id=34267&cache=1"
+  },
+  {
+    "id": "tt34581855",
+    "name": "Confia: Sonho de Cria",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/6m5ryNvYBc4xZxZkPD4hJSJzQh8.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "stream": "https://watch.brplayer.cc/m3u8/26/92ea7d01cd7d6245f19a2da8aa6534b4/master.m3u8?s=1&id=31352&cache=1"
   }
 ]
