@@ -72,14 +72,6 @@
     "stream": "https://watch.brplayer.cc/m3u8/26/fe21067b5bd2406e6a8f449af946d61b/master.m3u8?s=1&id=34726&cache=1"
   },
   {
-    "id": "tt31227572",
-    "name": "Predador: Terras Selvagens",
-    "poster": "https://cinegratis.tv/uploads/posts/2025-10/0d75f00a-316c-4aac-be70-4f6964ea9fbf.webp",
-    "description": "Filme dublado PT-BR",
-    "year": 2025,
-    "stream": ""
-   },
-  {
     "id": "tt15431864",
     "name": "The Senior: O Idoso",
     "poster": "https://cinegratis.tv/uploads/posts/2025-11/359f99ed-c6c8-4198-b5f8-eeb6643ed028.webp",
@@ -260,5 +252,41 @@
     "year": 2025,
     "categoria": "Cinema",
     "stream": "https://watch.brplayer.cc/m3u8/12/437aadef672e77658e88fa71c9bd224c/master.m3u8?s=1&id=34862&cache=1"
-  }
+  },
+  {
+    "id": "tt14107334",
+    "name": "O Sobrevivente",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/8nBuPCAXLFSuUBjO1WvJ2blEVmK.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Cinema",
+    "stream": "https://watch.brplayer.cc/m3u8/12/c0da153a42f724454914583e91772bc7/master.m3u8?s=1&id=34746&cache=1"
+  },
+  {
+    "id": "tt19847976",
+    "name": "Wicked: Parte II",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/dtEQlBNKMlT2vIoRFkPSErZBKQg.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Cinema",
+    "stream": "https://watch.brplayer.cc/m3u8/12/bbd792695f31428707ac8c744d04d05d/master.m3u8?s=1&id=34741&cache=1"
+  },
+  {
+    "id": "tt31227572",
+    "name": "Predador: Terras Selvagens",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-10/0d75f00a-316c-4aac-be70-4f6964ea9fbf.webp",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Cinema",
+    "stream": "https://watch.brplayer.cc/m3u8/12/64f9b199132a3f597af54f875ba0078d/master.m3u8?s=1&id=34657&cache=1"
+  },
+  {
+    "id": "tt35882698",
+    "name": "Tornado: Joplin em Ruínas",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/p91IMcRiHvDc1Ou8rDBdEIHZcli.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/27/f432fa27b2b43ed5fd747a0a7096d5dd/master.m3u8?s=1&id=31124&cache=1"
+   }
 ]
