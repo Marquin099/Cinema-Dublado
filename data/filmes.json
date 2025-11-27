@@ -997,5 +997,77 @@
     "year": 2025,
     "categoria": "Ficção científica",
     "stream": "https://watch.brplayer.cc/m3u8/12/0dcd794d2a317673735c3baf4bf63b71/master.m3u8?s=1&id=33297&cache=1"
+  },
+  {
+    "id": "tt23134380",
+    "name": "Any Day Now",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-10/55b94c07-957f-49a7-b586-4fdda736b6d7.webp",
+    "description": "Para executar um assalto à altura de uma verdadeira obra-prima, é necessário tempo, aliados e muita coragem. Steve possui dois desses três elementos.",
+    "year": 2025,
+    "categoria": "Comédia",
+    "stream": "https://watch.brplayer.cc/m3u8/12/565b7e1332c5d26362dd2487ea625746/master.m3u8?s=1&id=33295&cache=1"
+  },
+  {
+    "id": "tt30852384",
+    "name": "Por Inteiro",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/16ndbEL3c0y5tW953EzqxY0cgvb.jpg",
+    "description": "Por Inteiro é um drama romântico que narra a história de Laura (Imogen Poots) e Simon (Brett Goldstein), dois melhores amigos que escondem um amor profundo um pelo outro. Mesmo após um teste indicar que um deles encontrou sua suposta alma gêmea, o sentimento entre eles permanece presente.",
+    "year": 2025,
+    "categoria": "Romançe",
+    "stream": "https://watch.brplayer.cc/m3u8/26/e25f42d74afdf8c6ca6a3b7ece3af051/master.m3u8?s=1&id=31930&cache=1"
+  },
+  {
+    "id": "tt19865716",
+    "name": "Absolute Dominion",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-09/570e7eb7-40a0-4b4f-9058-c594bd025c3e.webp",
+    "description": "No ano de 2063, diante do iminente colapso causado por uma guerra santa global, os líderes mundiais criam um torneio rigoroso de artes marciais. O objetivo é escolher um campeão cuja crença servirá de guia para a humanidade, promovendo a paz e garantindo um futuro melhor para todos.",
+    "year": 2025,
+    "categoria": "Ação",
+    "stream": "https://watch.brplayer.cc/m3u8/12/ecc3ebf4a557b4a5f1f8655ccd8897f3/master.m3u8?s=1&id=33312&cache=1"
+  },
+  {
+    "id": "tt19865716",
+    "name": "Absolute Dominion",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-09/570e7eb7-40a0-4b4f-9058-c594bd025c3e.webp",
+    "description": "No ano de 2063, diante do iminente colapso causado por uma guerra santa global, os líderes mundiais criam um torneio rigoroso de artes marciais. O objetivo é escolher um campeão cuja crença servirá de guia para a humanidade, promovendo a paz e garantindo um futuro melhor para todos.",
+    "year": 2025,
+    "categoria": "Ficção científica",
+    "stream": "https://watch.brplayer.cc/m3u8/12/ecc3ebf4a557b4a5f1f8655ccd8897f3/master.m3u8?s=1&id=33312&cache=1"
+  },
+  {
+    "id": "tt32139458",
+    "name": "A Desert",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-10/58773a6b-c438-4c6d-92d9-5dd4b96f57f0.webp",
+    "description": "A viagem de um fotógrafo muda drasticamente após conhecer um casal perigoso na estrada, mergulhando-o em uma trama noir de pesadelo e terror.",
+    "year": 2025,
+    "categoria": "Terror",
+    "stream": "https://watch.brplayer.cc/m3u8/12/b0c9e160e327f8ab9224e62e57494e94/master.m3u8?s=1&id=33290&cache=1"
+  },
+  {
+    "id": "tt32139458",
+    "name": "A Desert",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-10/58773a6b-c438-4c6d-92d9-5dd4b96f57f0.webp",
+    "description": "A viagem de um fotógrafo muda drasticamente após conhecer um casal perigoso na estrada, mergulhando-o em uma trama noir de pesadelo e terror.",
+    "year": 2025,
+    "categoria": "Suspense",
+    "stream": "https://watch.brplayer.cc/m3u8/12/b0c9e160e327f8ab9224e62e57494e94/master.m3u8?s=1&id=33290&cache=1"
+  },
+  {
+    "id": "tt31433402",
+    "name": "Rua do Medo: Rainha do Baile",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-09/9d0f3a1c-ba46-4139-86b7-bb5b4171ccb5.webp",
+    "description": "Na cidade de Shadyside, Ohio, o baile está chegando. Garotas populares estão correndo pela coroa. Logo, as garotas começam a desaparecer misteriosamente.",
+    "year": 2025,
+    "categoria": "Terror",
+    "stream": "https://watch.brplayer.cc/m3u8/26/ee4fc5879a7f4f3f200ea3d194facf12/master.m3u8?s=1&id=30940&cache=1"
+  },
+  {
+    "id": "tt31433402",
+    "name": "Rua do Medo: Rainha do Baile",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-09/9d0f3a1c-ba46-4139-86b7-bb5b4171ccb5.webp",
+    "description": "Na cidade de Shadyside, Ohio, o baile está chegando. Garotas populares estão correndo pela coroa. Logo, as garotas começam a desaparecer misteriosamente.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/26/ee4fc5879a7f4f3f200ea3d194facf12/master.m3u8?s=1&id=30940&cache=1"
   }
 ]
