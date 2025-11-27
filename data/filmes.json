@@ -322,7 +322,7 @@
     "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/9hz2kCHTvAkKEnEkc43Vebg0Wuu.jpg",
     "description": "Filme dublado PT-BR",
     "year": 2025,
-    "categoria": "Romançe",
+    "categoria": "Romance",
     "stream": "https://watch.brplayer.cc/m3u8/26/b2fdb4e6edcd80ed0c1620ddf6ff5389/master.m3u8?s=1&id=34902&cache=1"
   },
   {
@@ -340,7 +340,7 @@
     "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/qnd2rTJD4rjuhHZ45RVN3M2ZGhT.jpg",
     "description": "Filme dublado PT-BR",
     "year": 2025,
-    "categoria": "Romançe",
+    "categoria": "Romance",
     "stream": "https://watch.brplayer.cc/m3u8/26/e2a25d092213dd181de2501aa0d8b987/master.m3u8?s=1&id=34898&cache=1"
   },
   {
@@ -716,7 +716,7 @@
     "poster": "https://cinegratis.tv/uploads/posts/2025-10/19f4d5bd-974d-413a-9356-4f5fb29ef3f7.webp",
     "description": "Em Hedda, acompanhamos a trajetória de Hedda, filha de um general, que luta para conciliar uma vida doméstica que não deseja, um casamento infeliz e o retorno de uma antiga paixão. Dividida entre as mágoas de um amor do passado e a opressão da sua rotina atual, ela enfrenta uma noite intensa onde desejos ocultos e tensões reprimidas explodem, desencadeando uma sequência de traições, paixões e jogos de manipulação que envolvem todos ao seu redor.",
     "year": 2025,
-    "categoria": "Romançe",
+    "categoria": "Romance",
     "stream": "https://watch.brplayer.cc/m3u8/27/4f6e1bfb01ad1e44d8c958c58cd22051/master.m3u8?s=1&id=33714&cache=1"
   },
   {
@@ -896,7 +896,7 @@
     "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/yr3VU1spstT79VIddR08JjJ7r0Z.jpg",
     "description": "Downton Abbey: O Grande Final encerra a emblemática trajetória da família Crawley, trazendo à tona os desafios, romances e transformações sociais que marcaram o início dos anos 1930. Nesta nova fase, a aristocracia e seus empregados enfrentam mudanças significativas. Lady Mary se vê envolvida em um escândalo que ameaça a reputação da família, enquanto os Crawley lidam com dificuldades financeiras que colocam todos em risco de sofrer humilhações sociais.",
     "year": 2025,
-    "categoria": "Romançe",
+    "categoria": "Romance",
     "stream": "https://watch.brplayer.cc/m3u8/26/975d9f0ff98ed5bc3f6c862609372b59/master.m3u8?s=1&id=33562&cache=1"
   },
   {
@@ -1013,7 +1013,7 @@
     "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/16ndbEL3c0y5tW953EzqxY0cgvb.jpg",
     "description": "Por Inteiro é um drama romântico que narra a história de Laura (Imogen Poots) e Simon (Brett Goldstein), dois melhores amigos que escondem um amor profundo um pelo outro. Mesmo após um teste indicar que um deles encontrou sua suposta alma gêmea, o sentimento entre eles permanece presente.",
     "year": 2025,
-    "categoria": "Romançe",
+    "categoria": "Romance",
     "stream": "https://watch.brplayer.cc/m3u8/26/e25f42d74afdf8c6ca6a3b7ece3af051/master.m3u8?s=1&id=31930&cache=1"
   },
   {
@@ -1134,12 +1134,48 @@
     "stream": "https://watch.brplayer.cc/m3u8/26/0f3a2f98e96a7814843c08149489dc12/master.m3u8?s=1&id=33071&cache=1"
   },
   {
-    "id": "tt38689142",
+    "id": "tt3045628",
     "name": "Holland",
     "poster": "https://image.tmdb.org/t/p/w342/eMUTVypJbNChb2jP0LltzfnROTJ.jpg",
     "description": "Uma mulher suspeita que seu marido a está traindo e se arrisca a ter seu próprio caso, antes de descobrir a verdadeira e obscura vida secreta do marido.",
     "year": 2025,
     "categoria": "Suspense",
     "stream": "https://watch.brplayer.cc/m3u8/26/0f3a2f98e96a7814843c08149489dc12/master.m3u8?s=1&id=33071&cache=1"
+  },
+  {
+    "id": "tt35683795",
+    "name": "Mestres do Assalto",
+    "poster": "https://image.tmdb.org/t/p/w342/9AzMgk6HVqwqTmAbzAuD8fVmnOd.jpg",
+    "description": "Nora é manobrista e formou a equipe Carjackers com Zoé, Steve e Prestance, seus colegas e amigos. De dia atendem clientes ricos em palácios, mas fora do trabalho roubam aqueles cujas más ações conhecem.",
+    "year": 2025,
+    "categoria": "Ação",
+    "stream": "https://watch.brplayer.cc/m3u8/27/8fe8b1a271feba2ac9af3584caddbf89/master.m3u8?s=1&id=31104&cache=1"
+  },
+  {
+    "id": "tt38131576",
+    "name": "História do Fascismo",
+    "poster": "https://image.tmdb.org/t/p/w342/133T31ZJRj8dC7Kb2ABHOGrefy1.jpg",
+    "description": "Em busca da verdade sobre o Fascismo, uma equipe percorre Europa e América entrevistando historiadores renomados. A trilogia revela as origens e consequências de uma ideologia que mudou o rumo do século XX.",
+    "year": 2025,
+    "categoria": "Documentário",
+    "stream": "https://watch.brplayer.cc/m3u8/27/52e554cdb04f5149a995245284f2c62e/master.m3u8?s=1&id=32797&cache=1"
+   },
+  {
+    "id": "tt33311244",
+    "name": "Nossa Culpa",
+    "poster": "https://image.tmdb.org/t/p/w342/iXAdQgDZJJCS2JQXQjXQKhM5Bqj.jpg",
+    "description": "O relacionamento de Nick e Noah está passando por seu melhor momento. Parece que nada será o mesmo para o casal. Uma série de eventos acontecerá para que os dois finalmente entendam se foram realmente feitos um para o outro.",
+    "year": 2025,
+    "categoria": "Romance",
+    "stream": "https://watch.brplayer.cc/m3u8/27/c57308dbc364628556b75e71d3093050/master.m3u8?s=1&id=32938&cache=1"
+  },
+  {
+    "id": "tt33311244",
+    "name": "Nossa Culpa",
+    "poster": "https://image.tmdb.org/t/p/w342/iXAdQgDZJJCS2JQXQjXQKhM5Bqj.jpg",
+    "description": "O relacionamento de Nick e Noah está passando por seu melhor momento. Parece que nada será o mesmo para o casal. Uma série de eventos acontecerá para que os dois finalmente entendam se foram realmente feitos um para o outro.",
+    "year": 2025,
+    "categoria": "Drama",
+    "stream": "https://watch.brplayer.cc/m3u8/27/c57308dbc364628556b75e71d3093050/master.m3u8?s=1&id=32938&cache=1"
   }
 ]
