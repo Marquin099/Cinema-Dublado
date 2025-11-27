@@ -389,5 +389,94 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "cacador-de-marajas-2025",
+    "tmdb": 303191,
+    "type": "series",
+    "name": "Cacador de Marajas",
+    "runtime": "41 min",
+    "poster": "https://s2.glbimg.com/cpmj1jtCDZNlw_XuVqMvkIGGtAk=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/L/i/La3NhsTZyl1OlF1EBPvA/2025-5034-cacador-de-marajas-poster.jpg",
+    "background": "https://s2-globo-play.glbimg.com/L4SXbRZyOlmbFiopWcSMYzqfvGs=/830x0/https://s2-globo-play.glbimg.com/0yzrYw_v43-C6sL09MqxGsr5NEg=/627x0:3840x2160/https://s2-globo-play.glbimg.com/BA9_xhIAnRACfIYYWgxegQY12Oc=/https://s2.glbimg.com/gT9BIR-wI9Q9ZZm1uo3mFBNwikk=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/H/G/ifYjHXTBiJfb4abYLeMQ/2025-5034-cacador-de-marajas-background.jpg",
+    "logo": "https://is1-ssl.mzstatic.com/image/thumb/RKUUYpc_vBil_MnMS_D9DA/432x162.png",
+    "description": "A ascensão e queda de Fernando Collor de Mello, o mais jovem presidente do Brasil e o primeiro presidente das Américas a sofrer um impeachment.",
+    "year": 2025,
+    "categoria": "Globoplay",
+    "genres": ["Documentário"],
+
+    "cast": [
+      { "name": "Luiz Inácio Lula da Silva" },
+      { "name": "Fernando Collor de Mello" },
+      { "name": "Pedro Collor" },
+      { "name": "Thereza Collor" },
+      { "name": "PC Farias" }
+    ],
+
+    "directors": [
+      { "name": "Charly Braun", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "8.5",
+      "imdb_id": "tt38748047"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Filhos do poder",
+            "thumbnail": "https://s04.video.glbimg.com/x216/13996791.jpg",
+            "overview": "Após uma vitória surpreendente que o leva a presidência, Fernando Collor é engolido por escândalos após ser denunciado pelo irmão. As origens familiares, as primeiras disputas entre os dois e o nascimento do político que viraria presidente.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/9228db1427178a9ac1bd4709da0ca695/master.m3u8?s=1&id=33555&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "O caçador de marajás",
+            "thumbnail": "https://s02.video.glbimg.com/x216/13996801.jpg",
+            "overview": "Em meio ao fim da ditadura, Collor passa de deputado inexpressivo a um dos governadores mais populares do país, projetando-se nacionalmente como o caçador de marajás.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/e4896488c5652d4055ab54948d9a6284/master.m3u8?s=1&id=33556&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Salvador da pátria",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREH4O69BOizSLjz-T96yK8CJY5zEOupVIvtQ&s",
+            "overview": "Na primeira eleição direta à presidência em quase 30 anos, Collor começa como um candidato nanico, mas encanta o eleitorado e quase vence no primeiro turno. Na reta final, contra Lula, a disputa se torna acirrada e polêmica.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/3e56b8187fd5a55054e2fb61a30092a6/master.m3u8?s=1&id=33557&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": " Indiana Collor",
+            "thumbnail": "https://s01.video.glbimg.com/x216/13996660.jpg",
+            "overview": "Na tentativa de conter uma inflação galopante, o governo Collor lança um plano econômico que traumatiza o país, ofuscando algumas de suas políticas mais acertadas. À frente dele, Collor demonstra um personalismo exibicionista.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/c6ef94de41b0abd7509a937022950f8b/master.m3u8?s=1&id=33558&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "República de Alagoas",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu8SXgBzDzzmOlf5Io-9PydcnJOdbHgJltig&s",
+            "overview": "PC Farias, tesoureiro da campanha de Collor, começa a ganhar notoriedade por seu envolvimento nas eleições de Alagoas e negócios cada vez maiores. Um deles, um grupo de comunicação, desperta a ira de Pedro Collor, irmão caçula do presidente.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/e1bd06c3f8089e7552aa0552cb387c92/master.m3u8?s=1&id=33559&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "Collor versus Collor",
+            "thumbnail": "https://s02.video.glbimg.com/x216/14003665.jpg",
+            "overview": "A briga entre Pedro Collor e PC Farias acaba se esparramando para a família Collor e o presidente, quando Pedro faz denúncias bombásticas na imprensa.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/6bca76cea8f3c180cd035d70f9bc7b0c/master.m3u8?s=1&id=33560&cache=1"
+          },
+          {
+            "episode": 7,
+            "title": "Não me deixem só",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/rxlRkySBoTT3esVDA2duIQ/1200x675.webp",
+            "overview": "Os desdobramentos das denúncias de Pedro Collor e os escândalos desencavados pela imprensa fazem com que a classe política e o povo abandonem o presidente, que, cada vez mais isolado, enfrenta um processo de impeachment.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/0401ed6796f1f9b637d18a4ba337e1d6/master.txt?s=1&id=33561&cache=1"
+          }
+        ]
+      }
+    ]
   }
 ]
