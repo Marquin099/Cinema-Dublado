@@ -1,5 +1,14 @@
 [
   {
+    "id": "tt24852126",
+    "name": "Feliz Assalto!",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/w2gsk9B7AJHKaN47IULaIbNHFdx.jpg",
+    "description": "Cansados de serem enganados, eles se unem para arquitetar a vingança perfeita e dar o troco. Sophia, uma vendedora inteligente, está exausta de sustentar a si mesma trabalhando em dois empregos. Nick, um faz-tudo azarado, foi contratado para aprimorar o sistema de segurança da loja onde Sophia trabalha, mas nunca recebeu pelo serviço prestado.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/26/cdb36ea731ecf2d69881eaff7220b10e/master.m3u8?s=1&id=34960&cache=1"
+  },
+  {
     "id": "tt20990442",
     "name": "GOAT",
     "poster": "https://cinegratis.tv/uploads/posts/2025-09/ca275431-eb69-422f-9d43-fc67d60f2686.webp",
@@ -24,6 +33,33 @@
     "description": "Filme dublado PT-BR",
     "year": 2025,
     "stream": "https://watch.brplayer.cc/m3u8/26/0291fd85422559cef53644838ad97856/master.m3u8?s=1&id=34491&cache=1"
+  },
+  {
+    "id": "tt27611143",
+    "name": "Amanhecer Sangrento",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/dD91yowrHP7kjbrzxbYzQVzQKCk.jpg",
+    "description": "Um xerife recém-empossado e seu vice hesitante enfrentam uma teia de mentiras e corrupção enquanto investigam um homicídio.",
+    "year": 2025,
+    "categoria": "Ação",
+    "stream": "https://watch.brplayer.cc/m3u8/26/bdbd71e61c60aeef26e59efc4eeb3b92/master.m3u8?s=1&id=34946&cache=1"
+  },
+  {
+    "id": "tt27986457",
+    "name": "Fuga Fatal",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/038d0c4d-9c95-4c5e-8e44-96aaf8abd2d0.webp",
+    "description": "Em Fuga Fatal, Nate busca recomeçar a vida após anos encarcerado, desejando deixar para trás um passado criminoso e inimigos perigosos. No entanto, ao decidir romper com a antiga gangue para a qual trabalhava, ele acaba provocando uma retaliação que coloca sua família em grave perigo. Para proteger sua filha de 11 anos, Polly — com quem nunca teve uma relação próxima ou paternal — Nate foge, ensinando a menina a se defender e sobreviver.",
+    "year": 2025,
+    "categoria": "Ação",
+    "stream": "https://watch.brplayer.cc/m3u8/26/591b740db2a4df23bfd646521d585d55/master.m3u8?s=1&id=34948&cache=1"
+  },
+  {
+    "id": "tt32565484",
+    "name": "Caçadores da Fronteira",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/sd4wZxN3tZebHRa8gr6XyV0xlC7.jpg",
+    "description": "A história acompanha um militar dos Estados Unidos que parte rumo ao México em uma missão pessoal de vingança. Motivado pela morte trágica de seu irmão, um policial, assassinado por um perigoso traficante de drogas ligado a um cartel mexicano, ele se envolve em uma busca implacável por justiça.",
+    "year": 2025,
+    "categoria": "Ação",
+    "stream": "https://watch.brplayer.cc/m3u8/26/f804411d398dd198bf24e255a639e4c4/master.m3u8?s=1&id=34959&cache=1"
   },
   {
     "id": "tt31425731",
@@ -447,16 +483,16 @@
     "description": "Filme dublado PT-BR",
     "year": 2025,
     "categoria": "Netflix",
-    "stream": "https://watch.brplayer.cc/m3u8/26/73907fed82d21d4b3700c31aefb6b3c0/master.txt?s=1&id=34242&cache=1"
+    "stream": "https://watch.brplayer.cc/m3u8/26/73907fed82d21d4b3700c31aefb6b3c0/master.m3u8?s=1&id=34242&cache=1"
   },
   {
     "id": "tt33293169",
-    "name": "Manga",
-    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/8aTla8ofmtJdfhInKyLTyZifA3k.jpg",
-    "description": "Filme dublado PT-BR",
+    "name": "",
+    "poster": "",
+    "description": "",
     "year": 2025,
-    "categoria": "Netflix",
-    "stream": "https://watch.brplayer.cc/m3u8/26/73907fed82d21d4b3700c31aefb6b3c0/master.txt?s=1&id=34242&cache=1"
+    "categoria": "",
+    "stream": ""
   },
   {
     "id": "tt35713227",
@@ -573,7 +609,7 @@
     "description": "Terror em Shelby Oaks narra a história de Mia (Camille Sullivan), uma mulher enfrentando um momento devastador ao buscar incansavelmente sua irmã mais nova desaparecida.",
     "year": 2025,
     "categoria": "Cinema",
-    "stream": "https://watch.brplayer.cc/m3u8/12/b754a30717cd71d8944a731e26b113f0/master.txt?s=1&id=33834&cache=1"
+    "stream": "https://watch.brplayer.cc/m3u8/12/b754a30717cd71d8944a731e26b113f0/master.m3u8?s=1&id=33834&cache=1"
   },
   {
     "id": "tt31923069",
@@ -763,5 +799,32 @@
     "year": 2025,
     "categoria": "Prime Video",
     "stream": "https://watch.brplayer.cc/m3u8/26/c0dba5809c620f70942856ad09b144d0/master.m3u8?s=1&id=33859&cache=1"
+  },
+  {
+    "id": "tt32565484",
+    "name": "Caçadores da Fronteira",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/sd4wZxN3tZebHRa8gr6XyV0xlC7.jpg",
+    "description": "A história acompanha um militar dos Estados Unidos que parte rumo ao México em uma missão pessoal de vingança. Motivado pela morte trágica de seu irmão, um policial, assassinado por um perigoso traficante de drogas ligado a um cartel mexicano, ele se envolve em uma busca implacável por justiça.",
+    "year": 2025,
+    "categoria": "Suspense",
+    "stream": "https://watch.brplayer.cc/m3u8/26/f804411d398dd198bf24e255a639e4c4/master.m3u8?s=1&id=34959&cache=1"
+  },
+  {
+    "id": "tt27986457",
+    "name": "Fuga Fatal",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/038d0c4d-9c95-4c5e-8e44-96aaf8abd2d0.webp",
+    "description": "Em Fuga Fatal, Nate busca recomeçar a vida após anos encarcerado, desejando deixar para trás um passado criminoso e inimigos perigosos. No entanto, ao decidir romper com a antiga gangue para a qual trabalhava, ele acaba provocando uma retaliação que coloca sua família em grave perigo. Para proteger sua filha de 11 anos, Polly — com quem nunca teve uma relação próxima ou paternal — Nate foge, ensinando a menina a se defender e sobreviver.",
+    "year": 2025,
+    "categoria": "Suspense",
+    "stream": "https://watch.brplayer.cc/m3u8/26/f804411d398dd198bf24e255a639e4c4/master.m3u8?s=1&id=34959&cache=1"
+  },
+  {
+    "id": "tt27611143",
+    "name": "Amanhecer Sangrento",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/dD91yowrHP7kjbrzxbYzQVzQKCk.jpg",
+    "description": "Um xerife recém-empossado e seu vice hesitante enfrentam uma teia de mentiras e corrupção enquanto investigam um homicídio.",
+    "year": 2025,
+    "categoria": "Thriller",
+    "stream": "https://watch.brplayer.cc/m3u8/26/bdbd71e61c60aeef26e59efc4eeb3b92/master.m3u8?s=1&id=34946&cache=1"
   }
 ]
