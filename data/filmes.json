@@ -889,5 +889,32 @@
     "year": 2025,
     "categoria": "Romançe",
     "stream": "https://watch.brplayer.cc/m3u8/26/975d9f0ff98ed5bc3f6c862609372b59/master.m3u8?s=1&id=33562&cache=1"
+  },
+  {
+    "id": "tt26657977",
+    "name": "Vida Adulta",
+    "poster": "https://image.tmdb.org/t/p/w342/vDh07YJQer0wudiWo6YcteLMkwb.jpg",
+    "description": "Em *Adulthood*, os laços familiares são testados ao extremo quando dois irmãos se veem obrigados a encobrir um crime inesperado. Após a mãe de Megan e Noah sofrer um infarto e ser hospitalizada, eles decidem fazer uma viagem até a casa da família para revisitar as memórias e os objetos acumulados da infância.",
+    "year": 2025,
+    "categoria": "Comédia",
+    "stream": "https://watch.brplayer.cc/m3u8/26/d797c16377b1498bb3fe153d37fedc89/master.m3u8?s=1&id=33511&cache=1"
+  },
+  {
+    "id": "tt1210027",
+    "name": "Caçadores do Fim do Mundo",
+    "poster": "https://image.tmdb.org/t/p/w342/1ZhnVSuIPj0u1UBsrgkihYznbky.jpg",
+    "description": "Em Caçadores do Fim do Mundo, a Terra foi devastada por uma explosão solar que eliminou toda a tecnologia, transformando o planeta em um cenário pós-apocalíptico. Nesse ambiente caótico, Jake (Dave Bautista), um caçador de tesouros experiente, sobrevive buscando relíquias valiosas do antigo mundo para clientes poderosos. Dez anos após a tempestade solar, o ex-soldado enfrenta seu maior desafio ao receber uma missão de Valentine (Samuel L. Jackson): recuperar a famosa obra-prima de Leonardo Da Vinci, a Mona Lisa. Para conseguir isso, Jake precisará unir forças com um lutador rebelde para garantir que a pintura não caia em mãos erradas.",
+    "year": 2025,
+    "categoria": "Ficção científica",
+    "stream": "https://watch.brplayer.cc/m3u8/26/5bb8eb8417b7f8beacc2978bc3f1c002/master.m3u8?s=1&id=33510&cache=1"
+  },
+  {
+    "id": "tt1210027",
+    "name": "Caçadores do Fim do Mundo",
+    "poster": "https://image.tmdb.org/t/p/w342/1ZhnVSuIPj0u1UBsrgkihYznbky.jpg",
+    "description": "Em Caçadores do Fim do Mundo, a Terra foi devastada por uma explosão solar que eliminou toda a tecnologia, transformando o planeta em um cenário pós-apocalíptico. Nesse ambiente caótico, Jake (Dave Bautista), um caçador de tesouros experiente, sobrevive buscando relíquias valiosas do antigo mundo para clientes poderosos. Dez anos após a tempestade solar, o ex-soldado enfrenta seu maior desafio ao receber uma missão de Valentine (Samuel L. Jackson): recuperar a famosa obra-prima de Leonardo Da Vinci, a Mona Lisa. Para conseguir isso, Jake precisará unir forças com um lutador rebelde para garantir que a pintura não caia em mãos erradas.",
+    "year": 2025,
+    "categoria": "Ação",
+    "stream": "https://watch.brplayer.cc/m3u8/26/5bb8eb8417b7f8beacc2978bc3f1c002/master.m3u8?s=1&id=33510&cache=1"
   }
 ]
