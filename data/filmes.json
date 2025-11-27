@@ -833,7 +833,7 @@
     "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/dD91yowrHP7kjbrzxbYzQVzQKCk.jpg",
     "description": "Um xerife recém-empossado e seu vice hesitante enfrentam uma teia de mentiras e corrupção enquanto investigam um homicídio.",
     "year": 2025,
-    "categoria": "Thriller",
+    "categoria": "Suspense",
     "stream": "https://watch.brplayer.cc/m3u8/26/bdbd71e61c60aeef26e59efc4eeb3b92/master.m3u8?s=1&id=34946&cache=1"
   },
   {
@@ -1078,5 +1078,68 @@
     "year": 2025,
     "categoria": "Drama",
     "stream": "https://watch.brplayer.cc/m3u8/27/960a11a4601a7c97b0c171654688d787/master.m3u8?s=1&id=33036&cache=1"
+  },
+  {
+    "id": "tt38706291",
+    "name": "Quem é Morto Sempre Aparece",
+    "poster": "https://image.tmdb.org/t/p/w342/6hgfhhJ9wGyYY73hlTnChi27AJ4.jpg",
+    "description": "Porteiro encontra milionário morto em seu apartamento. Antes que possa tomar qualquer atitude, surge um malandro que enxerga uma chance única ao saber que o falecido não tem família.",
+    "year": 2025,
+    "categoria": "Comédia",
+    "stream": "https://watch.brplayer.cc/m3u8/26/b6b61fb59c825749bc444ee690e0e097/master.m3u8?s=1&id=33140&cache=1"
+  },
+  {
+    "id": "tt38095263",
+    "name": "27 Noites",
+    "poster": "https://image.tmdb.org/t/p/w342/fo2MUxHn8sTaNYldpBCd5Q4Nu1y.jpg",
+    "description": "Depois de ser internada em uma clínica psiquiátrica por suas filhas por causa de seu estilo de vida despreocupado, um especialista deve determinar se a mulher está doente ou simplesmente quer aproveitar a vida.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/26/2a105749194b245dc8fed18134ced7a6/master.m3u8?s=1&id=33089&cache=1"
+  },
+  {
+    "id": "tt32129665",
+    "name": "Um Fantasma na Batalha",
+    "poster": "https://image.tmdb.org/t/p/w342/ijgAJV26tkiZnLPbadDFXVqKHWg.jpg",
+    "description": "Uma jovem oficial abandona tudo ao se disfarçar de integrante do ETA e passar mais de uma década se dedicando a encontrar os esconderijos de grupos terroristas na França.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/27/d52a281185b41daea7ad4f5bab21e7dc/master.m3u8?s=1&id=33088&cache=1"
+  },
+  {
+    "id": "tt0498396",
+    "name": "Os Pestes",
+    "poster": "https://image.tmdb.org/t/p/w342/1xw2Nl7QykRxZEQF07tI5arpwbO.jpg",
+    "description": "Uma dupla de brincalhões malvados planeja um roubo elaborado junto com sua equipe de animais altamente treinados.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/27/5b92e4945eb3a04990671a4da604ff17/master.m3u8?s=1&id=33085&cache=1"
+  },
+  {
+    "id": "tt0498396",
+    "name": "Os Pestes",
+    "poster": "https://image.tmdb.org/t/p/w342/1xw2Nl7QykRxZEQF07tI5arpwbO.jpg",
+    "description": "Uma dupla de brincalhões malvados planeja um roubo elaborado junto com sua equipe de animais altamente treinados.",
+    "year": 2025,
+    "categoria": "Aventura",
+    "stream": "https://watch.brplayer.cc/m3u8/27/5b92e4945eb3a04990671a4da604ff17/master.m3u8?s=1&id=33085&cache=1"
+  },
+  {
+    "id": "tt38689142",
+    "name": "De Volta ao Sítio: Uma Nova Aventura",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-10/4d477d66-3ceb-4d90-8e2d-67035c50da28.webp",
+    "description": "Em um sítio encantador, onde café e bolo perfumam as tardes, Narizinho e Emília vivem dias de fantasia. A chegada do Visconde com uma carta misteriosa sobre a venda da propriedade põe em risco não só seu lar, mas também amizades especiais.",
+    "year": 2025,
+    "categoria": "Aventura",
+    "stream": "https://watch.brplayer.cc/m3u8/26/0f3a2f98e96a7814843c08149489dc12/master.m3u8?s=1&id=33071&cache=1"
+  },
+  {
+    "id": "tt38689142",
+    "name": "Holland",
+    "poster": "https://image.tmdb.org/t/p/w342/eMUTVypJbNChb2jP0LltzfnROTJ.jpg",
+    "description": "Uma mulher suspeita que seu marido a está traindo e se arrisca a ter seu próprio caso, antes de descobrir a verdadeira e obscura vida secreta do marido.",
+    "year": 2025,
+    "categoria": "Suspense",
+    "stream": "https://watch.brplayer.cc/m3u8/26/0f3a2f98e96a7814843c08149489dc12/master.m3u8?s=1&id=33071&cache=1"
   }
 ]
