@@ -582,5 +582,115 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "vampirina-uma-vampirinha-2025",
+    "tmdb": 275722,
+    "type": "series",
+    "name": "Vampirina Uma Vampirinha",
+    "runtime": "26 min",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-10/2688467f-64a2-4b3f-8e8a-2b33e1095187.webp",
+    "background": "https://is1-ssl.mzstatic.com/image/thumb/f6_gIusyOJ01vHrMwCA6JA/1200x675sr.webp",
+    "logo": "https://is1-ssl.mzstatic.com/image/thumb/cFTcM4YeCbLsP3WdMUYxdA/432x162.png",
+    "description": "Uma vampira adolescente frequenta uma escola de artes cênicas escondendo sua identidade. Um pai superprotetor designa a ela um guardião fantasmagórico para ficar de olho nela enquanto ela persegue sua paixão pela música.",
+    "year": 2025,
+    "categoria": "Disney+",
+    "genres": ["Aventura", "Comédia", "Fanstasia", "Família", "Musical"],
+
+    "cast": [
+      { "name": "Kenzi Richardson" },
+      { "name": "Jiwon Lee" },
+      { "name": "Faith Hedley" },
+      { "name": "Shaun Dixon" },
+      { "name": "Milo Maharlika" }
+    ],
+
+    "directors": [
+      { "name": "Randi Barnes", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "6.1",
+      "imdb_id": "tt34385400"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Primeiro Ano Promissor",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/lab53T87pPFFBjAJrzTCew/1200x675.jpg",
+            "overview": "Ao chegar no Wilson Hall, Vã descobre que o internato de artes cênicas pode ter mais desafios do que ela imaginava. Demi promete proteger Vã dos Van",
+            "stream": "https://watch.brplayer.cc/m3u8/27/1f07bbddc628eada053a189cb95d88de/master.m3u8?s=1&id=32907&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Primeiro Dia de Escola",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/ZwCz-s8meuekUwf0meMqjw/1200x675.jpg",
+            "overview": "Os planos de Vã para ter um primeiro dia de aula incrível são ameaçados por um aviso terrível do Conselho de Vampiros. Demi continua sua busca por Van…",
+            "stream": "https://watch.brplayer.cc/m3u8/27/1876af03cdc28f1b1d02014a0b91a7c9/master.m3u8?s=1&id=32904&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Primeiro Baile",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/Weg-AgR4gz8z_zwktc4OrA/1200x675.jpg",
+            "overview": "Boas-Vindas do Wilson Hall, Vã e Elijah lutam contra os desequilíbrios de poder. Enquanto isso, Sophie busca sua indentidade",
+            "stream": "https://watch.brplayer.cc/m3u8/27/7bd5137ed5ca385bcf5453dee7f0591f/master.m3u8?s=1&id=32905&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Primeiro Dia da Família",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/hJdjgVZmjbEeqUDd1cLnVw/1200x675.jpg",
+            "overview": "Quando o Dia da Família se aproxima, Vã e Elijah lutam para impedir que seus pais se encontrem. Enquanto isso, Demi aprende a disfarçar sua forma fant…",
+            "stream": "https://watch.brplayer.cc/m3u8/27/3ee734aef151cd670413a9ce474c814d/master.m3u8?s=1&id=32906&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "Primeira Inimiga",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/kXOx6mmz1iUDuNZd5naDjw/1200x675.jpg",
+            "overview": "Vã e Sophie tentam impressionar Moriah, irmã de Elijah, que convida os amigos para jantar. Enquanto isso, Demi e Britney formam uma amizade improvável…",
+            "stream": ""
+          },
+          {
+            "episode": 6,
+            "title": "Primeiro Clube",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/veik4X5IuJbamnsrzJRkFw/1200x675.jpg",
+            "overview": "Vã, Sophie e Britney fazem o teste para o \"The Spotlights\", um clube exclusivo para meninas no Wilson Hall. Enquanto isso, Elijah e Demi tentam ser co…",
+            "stream": ""
+          },
+          {
+            "episode": 7,
+            "title": "Primeiro Halloween",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/1diTTW3jTNYWbtOSP-PLKw/1200x675.jpg",
+            "overview": "Vã faz um pedido à Lua de Sangue para refazer o Halloween com a ajuda de um diabinho lunar. Elijah ajuda Demi a provar que ainda pode ser assustador e…",
+            "stream": ""
+          },
+          {
+            "episode": 8,
+            "title": "Primeiro Pesadelo",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/Uq8j1UQ5DQ-5Fz6sKHEHQw/1200x675.jpg",
+            "overview": "A visita de uma gárgula impede Elijah de contar um segredo a Vã. Já Sophie e Demi usam um esqueleto de brinquedo para ajudar Elijah com uma tarefa de",
+            "stream": ""
+          },
+          {
+            "episode": 9,
+            "title": "Primeiro Final",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/mllOtcFBSCz98t3ezrKbxg/1200x675.jpg",
+            "overview": "Quando Vã pede a ajuda de Demi para uma apresentação na aula, seu segredo fantasmagórico é colocado em risco. Por sua vez, Elijah é convidado para uma…",
+            "stream": ""
+          },
+          {
+            "episode": 10,
+            "title": "Primeiro Feriado",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/neQt2k9Wc3wX4xTWrp6ptg/1200x675.jpg",
+            "overview": "Sem saber o que comprar de Amigo Secreto, Vã pede uma ajudinha transilvana. Enquanto isso, Elijah e Demi tentam achar o presente perfeito para Sophie.",
+            "stream": ""
+          }
+        ]
+      }
+    ]
   }
 ]
