@@ -297,5 +297,97 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "misterio-em-cemytery-road-2025",
+    "tmdb": 252000,
+    "type": "series",
+    "name": "Mistério Em Cemytery Road",
+    "runtime": "51 min",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/f28b0d17-fe27-44dd-9ba5-2053e41c361d.webp",
+    "background": "https://is1-ssl.mzstatic.com/image/thumb/aaUrlXLRLXTDhfyNB2kYuQ/1200x675sr.webp",
+    "logo": "https://is1-ssl.mzstatic.com/image/thumb/pPIvPCML4TxPrX6sUvtlPw/432x162.png",
+    "description": "A série Down Cemetery Road apresenta um thriller investigativo centrado na parceria entre uma dona de casa e uma detetive particular. A história acompanha Sarah Tucker (Ruth Wilson), uma mulher determinada a descobrir o paradeiro de uma jovem vizinha desaparecida após uma explosão misteriosa em uma pacata residência no subúrbio de Oxford. Para desvendar o mistério, Sarah busca a ajuda da investigadora Zoë Boehm (Emma Thompson). Juntas, elas mergulham em uma complexa conspiração que revela que indivíduos dados como mortos continuam vivos, enquanto os que estão vivos correm grande perigo de se tornarem vítimas fatais.",
+    "year": 2025,
+    "categoria": "Apple-TV",
+    "genres": ["Drama", "Crime", "Mistério"],
+
+    "cast": [
+      { "name": "Ruth Wilson" },
+      { "name": "Emma Thompson" },
+      { "name": "Adam Godley" },
+      { "name": "Darren Boyd" },
+      { "name": "Adeel Akhtar" },
+      { "name": "Tom Riley" },
+      { "name": "Fehinti Balogun" },
+      { "name": "Sinéad Matthews" }
+    ],
+
+    "directors": [
+      { "name": "Natalie Bailey", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.1",
+      "imdb_id": "tt32132630"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Quase Verdade",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/-FsVRkAm_RF1Mh4DlcYV2w/1200x675.jpg",
+            "overview": "Um acontecimento catastrófico apavora South Oxford. Sarah suspeita dos serviços de emergência. Ao investigar, ela conhece Zoë Boehm.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/dcfd8313e81a8482c23165f7abf5d1ef/master.m3u8?s=1&id=33901&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Um Tipo De Luto",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/x-9HKXRxJ3gNQMkcmqLxQg/1200x675.jpg",
+            "overview": "Zoë vai atrás de respostas enquanto Sarah começa a surtar. Hamza é pressionada para controlar a crise.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/a0f2c291f44a631ce0ebf71f7e02b3b9/master.m3u8?s=1&id=33902&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Trabalho Sujo",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/GsKCxoiq15YtTft_GY70Cw/1200x675.jpg",
+            "overview": "Sarah acaba em uma viagem de carro inesperada. Zoë começa a seguir a trilha deixada por Joe e suspeita de algo sério acontecendo.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/2a250dac511b301faaf82502eedbb198/master.txt?s=1&id=33903&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Meus Amigos Não Gostam De Mim",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/ezS74PJq-L7pcxXVilkZhA/1200x675.jpg",
+            "overview": "Em fuga, Sarah descobre mais sobre Downey. Zoë arregaça as mangas e procura novos colaboradores para sua investigação.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/1b56cc9502e48c2d42cbb7262dab2f8c/master.m3u8?s=1&id=34937&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "Morte Lenta",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/l1m7Jz9D18i0HmEzwfm-dQ/1200x675.jpg",
+            "overview": "Zoë faz uma descoberta impressionante que aumenta a dimensão da conspiração. Sarah e Downey seguem para o norte e compartilham seus passados no caminho.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/9c108d0cb8dd18ea82733a05930b1aed/master.m3u8?s=1&id=34936&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "Aguas Negligenciadas",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/yaYO_e_1hY2hOw3MZHfQyg/1200x675.jpg",
+            "overview": "Um jogo perigoso de gato e rato começa em um trem para a Escócia. Sarah e Zoë tentam descobrir a localização exata de Dinah.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/46b9cf2d91977c26d75e1edd363ab08b/master.m3u8?s=1&id=34938&cache=1"
+          },
+          {
+            "episode": 7,
+            "title": "As Luzes Se Apagam",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/3TM7_1NO6NoE5Hdf_3haUQ/1200x675.jpg",
+            "overview": "Downey e Amos se encontram quando a corrida em busca de Dinah chega a um ponto decisivo. Sarah precisa dar um salto no escuro.",
+            "stream": ""
+          }
+        ]
+      }
+    ]
   }
 ]
