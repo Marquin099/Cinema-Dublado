@@ -692,5 +692,119 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "a-ultima-fronteira-2025",
+    "tmdb": 221079,
+    "type": "series",
+    "name": "A Última Fronteira",
+    "runtime": "120 min",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-10/3a28c76b002832e52b7647edfb08b0df.webp",
+    "background": "https://is1-ssl.mzstatic.com/image/thumb/1Kz8J8Argvh9BfxN78Yh_Q/1200x675.webp",
+    "logo": "https://is1-ssl.mzstatic.com/image/thumb/dEmLaTJ2s4FAQJzgWg1A7A/432x162.png",
+    "description": "Acompanha Frank Remnick, um U.S. Marshal encarregado dos tranquilos e desgastados pântanos do Alasca, que precisa lidar com a queda de um avião de transporte prisional cheio de presos violentos dentro de sua jurisdição.",
+    "year": 2025,
+    "categoria": "Apple-TV",
+    "genres": ["Ação", "Drama", "Suspense"],
+
+    "cast": [
+      { "name": "Jason Clarke" },
+      { "name": "Dominic Cooper" },
+      { "name": "Haley Bennett" },
+      { "name": "Simone Kessell" },
+      { "name": "Dallas Goldtooth" },
+      { "name": "Tait Blum" },
+      { "name": "Alfre Woodard" },
+      { "name": "Josh Cruddas" },
+      { "name": "Theresa Cutknife" },
+    ],
+
+    "directors": [
+      { "name": "John Curran", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "6.8",
+      "imdb_id": "tt26862142"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Céu azul",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/mgGD85mQ72qfjuka0lpeyw/1200x675.jpg",
+            "overview": "Uma emergência sem precedentes coloca Fairbanks em confinamento. Frank reúne todos os recursos disponíveis para montar uma resposta em grande escala.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/fc6515df8b8222ae9cdf71b55a021935/master.m3u8?s=1&id=32469&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Vento da mudança",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/NecIxahBeuIYxUBxlffaQw/1200x675.jpg",
+            "overview": "Luke tenta voltar para casa enquanto a caçada por Havlock se intensifica. Frank pondera se deve ceder a uma série de exigências.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/2f8ad0a8b0f357680b14408c30c53a11/master.m3u8?s=1&id=32471&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "País do Car*lho",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/tiPvemi8IjA8SZLAvYuocg/1200x675.jpg",
+            "overview": "O desaparecimento de Sarah aumenta a urgência da busca de Frank. O plano de Havlock toma um rumo inesperado, aumentando o número de reféns.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/b565accf0eb5014ea306fc7b1deef0e5/master.m3u8?s=1&id=33086&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Sonho americano",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/VEU6wbJDmCqv78wBZRNdog/1200x675.jpg",
+            "overview": "Um policial estadual desaparece, ampliando a investigação de Frank. Moradores armados se juntam à caçada. Sarah fica preocupada com o paradeiro de Luk…",
+            "stream": "https://watch.brplayer.cc/m3u8/27/73ea78729d717e6a435948b8912a67cf/master.m3u8?s=1&id=33575&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "Arnaq",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/SAvaVSy_SCUDFZkJlfwnWg/1200x675.jpg",
+            "overview": "Frank se concentra em rastrear Luke. O envolvimento da CIA aumenta à medida que o plano de Havlock entra em uma nova fase.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/e9da253f577b6879e057eaf0ed7fea4e/master.m3u8?s=1&id=33793&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "O diabo veste terno e gravata",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/mTFqeAosB2fIhwOgmcobQQ/1200x675.jpg",
+            "overview": "Fairbanks sofre uma grande queda de energia. Sarah avista alguém suspeito no pronto-socorro. Sidney tenta obter uma prova crucial.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/0febd8884d4018ef0f494a74d24b63a3/master.m3u8?s=1&id=34225&cache=1"
+          },
+          {
+            "episode": 7,
+            "title": "Mudança de tempo",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/dHNnUfPmTjMjvVwimiOAyw/1200x675.jpg",
+            "overview": "Um novo suspeito misterioso é interrogado. O segredo de Frank vem à tona. Havlock trabalha para recuperar o conteúdo do seu disco rígido.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/a3730c053af5cc03c79a0ec559f404c5/master.m3u8?s=1&id=34535&cache=1"
+          },
+          {
+            "episode": 8,
+            "title": "L’air Perdu",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/n3VYfhI5HSzPQnSV4LXtMg/1200x675.jpg",
+            "overview": "Sidney descobre o passado de seu pai, o Protocolo Atwater e as informações confidenciais do Arquivo 6.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/67012a7770c47eba3bc1b811ca28ecc6/master.m3u8?s=1&id=34753&cache=1"
+          },
+          {
+            "episode": 9,
+            "title": "Convergir",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/O4ak3RPHAhNYJb46Lz50Tg/1200x675.jpg",
+            "overview": "Bradford chega a Fairbanks com uma força-tarefa da CIA e um novo alvo principal. Sidney faz uma tentativa desesperada de expor a verdade.",
+            "stream": ""
+          },
+          {
+            "episode": 10,
+            "title": "Tentando de tudo",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/1Kz8J8Argvh9BfxN78Yh_Q/1200x675.jpg",
+            "overview": "Final da temporada. Sidney e Havlock arriscam tudo para tomar posse do arquivo. Frank parte em uma missão para salvar vidas.",
+            "stream": ""
+          }
+        ]
+      }
+    ]
   }
 ]
