@@ -1333,7 +1333,7 @@
     "description": "Uma história de afirmação da vida e de mudança de gênero baseada no romance de Stephen King sobre três capítulos da vida de um homem comum chamado Charles Krantz.",
     "year": 2025,
     "categoria": "Drama",
-    "stream": "https://watch.brplayer.cc/m3u8/26/811e05e694d7c8fa0d584db91ca5fba9/master.m3u8?s=1&id=32517&cache=1"
+    "stream": "https://watch.brplayer.cc/m3u8/26/0e22aa2a44e7e297c6365f23dbedd92c/master.m3u8?s=1&id=32510&cache=1"
   },
   {
     "id": "tt12908150",
@@ -1342,6 +1342,24 @@
     "description": "Uma história de afirmação da vida e de mudança de gênero baseada no romance de Stephen King sobre três capítulos da vida de um homem comum chamado Charles Krantz.",
     "year": 2025,
     "categoria": "Ficção Científica",
-    "stream": "https://watch.brplayer.cc/m3u8/26/811e05e694d7c8fa0d584db91ca5fba9/master.m3u8?s=1&id=32517&cache=1"
+    "stream": "https://watch.brplayer.cc/m3u8/26/0e22aa2a44e7e297c6365f23dbedd92c/master.m3u8?s=1&id=32510&cache=1"
+  },
+  {
+    "id": "tt12908150",
+    "name": "Desenhos",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/pVNUoueDS6aZxZ7vMma7sbzGCMw.jpg",
+    "description": "Quando o caderno de desenhos de uma garota cai em um lago estranho, suas criações perigosamente reais ganham vida. Conforme a cidade se torna um caos, ela e o irmão precisam rastrear as criaturas antes que elas deixem danos permanentes.",
+    "year": 2025,
+    "categoria": "Aventura",
+    "stream": "https://watch.brplayer.cc/m3u8/26/e77d89a5cfa17ff55d0b928bf21b2d0f/master.m3u8?s=1&id=32493&cache=1"
+  },
+  {
+    "id": "tt12908150",
+    "name": "O Valente",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/3AhlvcWi2Ej3nXNAktSG5ARjWSu.jpg",
+    "description": "Um helicóptero americano cai no lado norte-coreano, agora os sobreviventes devem trabalhar juntos para proteger um especialista em tecnologia civil e encontrar a saída sem a ajuda do apoio militar dos EUA.",
+    "year": 2025,
+    "categoria": "Guerra",
+    "stream": "https://watch.brplayer.cc/m3u8/26/b084aaefa0a2f7ab72363110bcda458e/master.m3u8?s=1&id=32481&cache=1"
   }
 ]
