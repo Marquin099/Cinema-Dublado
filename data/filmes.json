@@ -1325,5 +1325,23 @@
     "year": 2025,
     "categoria": "Terror",
     "stream": "https://watch.brplayer.cc/m3u8/26/811e05e694d7c8fa0d584db91ca5fba9/master.m3u8?s=1&id=32517&cache=1"
+  },
+  {
+    "id": "tt12908150",
+    "name": "A Vida de Chuck",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/oWFjidLwezQAXz8uRU0ujH8hTXy.jpg",
+    "description": "Uma história de afirmação da vida e de mudança de gênero baseada no romance de Stephen King sobre três capítulos da vida de um homem comum chamado Charles Krantz.",
+    "year": 2025,
+    "categoria": "Drama",
+    "stream": "https://watch.brplayer.cc/m3u8/26/811e05e694d7c8fa0d584db91ca5fba9/master.m3u8?s=1&id=32517&cache=1"
+  },
+  {
+    "id": "tt12908150",
+    "name": "A Vida de Chuck",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/oWFjidLwezQAXz8uRU0ujH8hTXy.jpg",
+    "description": "Uma história de afirmação da vida e de mudança de gênero baseada no romance de Stephen King sobre três capítulos da vida de um homem comum chamado Charles Krantz.",
+    "year": 2025,
+    "categoria": "Ficção Científica",
+    "stream": "https://watch.brplayer.cc/m3u8/26/811e05e694d7c8fa0d584db91ca5fba9/master.m3u8?s=1&id=32517&cache=1"
   }
 ]
