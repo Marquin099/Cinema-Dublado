@@ -806,5 +806,102 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "os-donos-do-jogo-2025",
+    "tmdb": 282440,
+    "type": "series",
+    "name": "Os Donos do Jogo",
+    "runtime": "50 min",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-10/9e2aa1b3-7f1d-42c4-bd6a-45ac2496478f.webp",
+    "background": "https://cinegratis.tv/uploads/posts/2025-10/9e2aa1b3-7f1d-42c4-bd6a-45ac2496478f.webp",
+    "logo": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABUBcn3mjuZTT0fJYkL4Fb1wHn5uFVG2o-kFnSRo-w71XhBbqT3vs5MU0tRa69PnDf8JgoXfsb7iRHKt9AdHREFbfBSej5PbKNQ.png?r=18e",
+    "description": "O submundo do crime no Rio entra em caos com a possível legalização do jogo, enquanto uma organização criminosa estrangeira mira o mercado local e um novo jogador, Profeta, ascende rapidamente ao poder.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "genres": ["Português", "Gângster", "Crime", "Drama"],
+
+    "cast": [
+      { "name": "Xamã" },
+      { "name": "Juliana Paes" },
+      { "name": "André Lamoglia" },
+      { "name": "Mel Maia" },
+      { "name": "Giullia Buscacio" },
+      { "name": "Chico Díaz" }
+    ],
+
+    "directors": [
+      { "name": "Bernardo Barcellos", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.3",
+      "imdb_id": "tt38091266"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Profeta",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbTjNIozVBQA8IxlGZWRdSCnIKS8VAGXKqqnO6x9NYR_HGl6jAeUz1HJtvocE7BWuvhGP7g27UaJTOJBnyxHV0q3aggx4o1-smotbLxUdEHAJQn_1r9DMAsS.jpg?r=de8",
+            "overview": "Profeta bola um plano arriscado para aumentar sua influência no mundo do jogo do bicho. Uma festa de casamento é pano de fundo para acordos secretos e parcerias.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/b1c22d171a128f2defc188ce786fbbf8/master.m3u8?s=1&id=33716&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "All in",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABcyo4icmGjNIOUT5zKzheRLTXFVpGS7y5yul5tEIkz9nVB-orS-uDT3uLEoElh82DvPWd0uJQm5QmK9W6pygOT8HGsO0iTEeQkk.jpg?r=be4",
+            "overview": "Após um encontro com Búfalo, Profeta faz uma promessa ousada. Leila atrai um investidor francês para uma aliança perigosa.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/af523c5d4c1038a5f074c4320af0ce78/master.m3u8?s=1&id=33717&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "O burro e a águia",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABVV05YjnCkDjw9LPnDG2M5gkfd2_-sUmfWcHD2VcCPE41HpHA1acEpr43euCqWazbWoZ56StwXR20T7RtZbs89mTTuI4xb_gLww.jpg?r=1e1",
+            "overview": "Profeta e Mirna armam um esquema envolvendo os caça-níqueis de Búfalo, e Suzana desconfia. Em um churrasco de família, antigas tensões e vínculos inesperados vêm à tona.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/da7966481086a4e3a2dde7c2ccbc49e3/master.m3u8?s=1&id=33718&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Pirâmide",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXJ1jkFQOgR7GPeakAq5ZLGA5OC7aj41tP9cGCyJNgLAokpfwv2qzvpVJ_VGg88f1I2G_J1fWX7eAK6kV5zJgIMsGUFMWgEASUYf6xza29mtTXcWSD1OGAU9.jpg?r=ee4",
+            "overview": "Os políticos discutem a legalização do jogo do bicho. Suzana conspira contra Profeta e Mirna, e uma noite violenta ameaça acabar com tudo.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/cfef40996e0de2c0f3fe1031421403fd/master.m3u8?s=1&id=33719&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "Ninho e prisão",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABaB4iH7uvS_rU_pIhNMom3TaRs7iR5fL_09vGVoUeuQr9ElMvBwdmnOF_qv9eiFpzygm-5T-KY9tGGXuIvjjnPX4nPQAfsRGu3Q.jpg?r=68e",
+            "overview": "Com o destino de Profeta em jogo, segredos do passado de Leila ressurgem. Mirna faz de tudo para justificar suas ações para a Cúpula.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/ffb51c2a27a66718f1ba1515c250c722/master.m3u8?s=1&id=33720&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "Briga de elefantes",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABeFf06SW2Q8RMP46-V2F2qCY9IkCaz_QCFUUVBUGEt66w0sifLhVVt2G_P1m6iHz3-q7dE956TwBt7yb_cqtVOc0QBPF9DXWjbw.jpg?r=c3e",
+            "overview": "Mirna e Profeta assinam um acordo. Um ensaio de escola de samba acaba em violência, e uma pessoa próxima à família de Profeta descobre o preço da traição.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/015de601ee1e62453e29e4fee1be359a/master.m3u8?s=1&id=33721&cache=1"
+          },
+          {
+            "episode": 7,
+            "title": "Bicho traiçoeiro",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABaUaS_6ogd6mwgzhzOO7Q92R9If2q3J6xCtsaiMl_TcQcV_SXLIOQtqNrpt53GK15b43elVrT7j_TutHR4JlLk3Hwk5vMH3pkGZfEWJEeeTzGMdHrYM6x3HT.jpg?r=eaa",
+            "overview": "Búfalo e Profeta são convocados pela Cúpula. O terror toma conta de um funeral, e um baile de carnaval é marcado pelo caos.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/1dec579f2996d9974e0777084bb8ab2c/master.m3u8?s=1&id=33722&cache=1"
+          },
+          {
+            "episode": 8,
+            "title": "A cúpula",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXprIjAyDzoMQIMQhUbzZ5svXvbgj-MaG9ZysJoHwaxy1eJf2cnfPeoWW61tB4HgxK5AQOVrXJPMcRwy9i1Hizo5-5jUNzg61BG8EqXgsEaJA7FSUaRLDjBB.jpg?r=cd3",
+            "overview": "A Cúpula se reúne para definir o futuro de Profeta. Xavier manipula Santiago para liderar a escola de samba, e segredos enterrados há muito tempo finalmente vêm à tona.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/d537ee491b74b6c989edc42876533028/master.m3u8?s=1&id=33715&cache=1"
+          }
+        ]
+      }
+    ]
   }
 ]
