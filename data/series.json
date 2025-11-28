@@ -903,5 +903,106 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "ncis-tony-&-ziva-2025",
+    "tmdb": 247732,
+    "type": "series",
+    "name": "NCIS Tony & Ziva",
+    "runtime": "50 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/zNIANQsAs2kbxbzbTTe5dTBzhKe.jpg",
+    "background": "https://www.themoviedb.org/t/p/w600_and_h900_face/zNIANQsAs2kbxbzbTTe5dTBzhKe.jpg",
+    "logo": "https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w500-q80/show_asset/31/78/67/show_asset_b476f2eb-c711-4893-93b4-01f95fa8b76d.png?format=webp",
+    "description": "Após a aparente morte de Ziva, Tony cria sua filha Tali. Anos depois, Ziva retorna e se reúne com Tony. A empresa de Tony é atacada e a família vai para a Europa, tentando descobrir quem está atrás deles e confiar uns nos outros novamente.",
+    "year": 2025,
+    "categoria": "Paramount+",
+    "genres": ["Crime", "Drama"],
+
+    "cast": [
+      { "name": "Michael Weatherly" },
+      { "name": "Cote de Pablo" },
+      { "name": "Amita Suman" },
+      { "name": "Maximilian Osinski" },
+      { "name": "Nassima Benchicou" },
+      { "name": "Isla Gie" },
+      { "name": "Julian Ovenden" },
+      { "name": "Lara Rossi" },
+      { "name": "James D'Arcy" },
+      { "name": "Olivia Brody" },
+    ],
+
+    "directors": [
+      { "name": "Mairzee Almas", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.1",
+      "imdb_id": "tt31512256"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Nenhum País Está Seguro: Com sua família em perigo, Tony e Ziva devem descobrir quem está por trás de um ataque cibernético abominável.",
+            "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/01/2448181828001/PPCBS_NCISTONYANDZIVA_101_UHD_3358842_1920x1080.jpg",
+            "overview": "Com sua família em perigo, Tony e Ziva devem descobrir quem está por trás de um ataque cibernético abominável.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/7b4e82cb855801d7098534835e2ca260/master.m3u8?s=1&id=32439&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Não É Meu Amigo: Tony e Ziva rastreiam um hacker escorregadio, mas acabam se juntando a ele quando a Interpol se aproxima.",
+            "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/02/2448382019804/PPCBS_NCISTONYANDZIVA_102_UHD_3359890_1920x1080.jpg",
+            "overview": "Tony e Ziva rastreiam um hacker escorregadio, mas acabam se juntando a ele quando a Interpol se aproxima.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/cb5d9f6a68a14dea6dfeef9c4fc5ece9/master.m3u8?s=1&id=32440&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Acobertamento: Sem saber em quem confiar e acusados de um ataque terrorista, Tony e Ziva ficam fora de vista.",
+            "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/02/2448390211740/PPCBS_NCISTONYANDZIVA_103_UHD_3359840_1920x1080.jpg",
+            "overview": "Sem saber em quem confiar e acusados de um ataque terrorista, Tony e Ziva ficam fora de vista.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/919635985f213275b60878669bba0be0/master.m3u8?s=1&id=32442&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Penetras De Casamento: Tony e Ziva usam um casamento como uma operação disfarçada para acabar com seus inimigos.",
+            "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/02/2448401475749/PPCBS_NCISTONYANDZIVA_104_UHD_3360152_1920x1080.jpg",
+            "overview": "Tony e Ziva usam um casamento como uma operação disfarçada para acabar com seus inimigos.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/e724e5ad0d0df625744239ef1c60e5e8/master.m3u8?s=1&id=32443&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "A Determinar: O secretário-geral desaparecido da Interpol guia Tony e Ziva numa prisão de segurança máxima.",
+            "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/08/2450128963631/PPCBS_NCISTONYANDZIVA_105_UHD_3368014_1920x1080.jpg",
+            "overview": "O secretário-geral desaparecido da Interpol guia Tony e Ziva numa prisão de segurança máxima.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/68d7496649e857a0149ab0cdd40233e2/master.m3u8?s=1&id=32444&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "Temos Companhia: Os riscos aumentam ainda mais quando a casa segura que Tali está escondida é comprometida.",
+            "thumbnail": "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2025/09/04/2449091139828/PPCBS_NCISTONYANDZIVA_106_UHD_3363428_1920x1080.jpg",
+            "overview": "Os riscos aumentam ainda mais quando a casa segura que Tali está escondida é comprometida.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/39aca26227b4762cf59f50e09159ca84/master.m3u8?s=1&id=32445&cache=1"
+          },
+          {
+            "episode": 7,
+            "title": "Espelhamento Sombrio: Tony e Ziva voltam a Paris numa missão para espionar agentes duplos que estão sujando o nome deles.",
+            "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/09/2450373187915/PPCBS_NCISTONYANDZIVA_107_UHD_3368600_1920x1080.jpg",
+            "overview": "Tony e Ziva voltam a Paris numa missão para espionar agentes duplos que estão sujando o nome deles.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/8aa7db6b925810b453eb63028f4f770a/master.m3u8?s=1&id=32446&cache=1"
+          },
+          {
+            "episode": 8,
+            "title": "Venda De Fogo: Juntar os pontos sobre uma fábrica de armas tecnológicas coloca Tony e Ziva no fogo cruzado.",
+            "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/09/2450373699730/PPCBS_NCISTONYANDZIVA_108_UHD_3368579_1920x1080.jpg",
+            "overview": "Juntar os pontos sobre uma fábrica de armas tecnológicas coloca Tony e Ziva no fogo cruzado.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/ef1b9b0b9c5ad1de09b779f4f97ca59b/master.m3u8?s=1&id=32447&cache=1"
+          }
+        ]
+      }
+    ]
   }
 ]
