@@ -1397,5 +1397,14 @@
     "year": 2025,
     "categoria": "Netflix",
     "stream": "https://watch.brplayer.cc/m3u8/26/94a7358e05938307a0e91a10c608d675/master.m3u8?s=1&id=32477&cache=1"
+  },
+  {
+    "id": "tt31511689",
+    "name": "Presente Maldito",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/bGFPrhbMWE7ziQ2WLDQEoL2YUq0.jpg",
+    "description": "Uma mulher passa a noite lutando por sua existência enquanto desliza por uma toca de coelho contida em um presente de um visitante noturno.",
+    "year": 2025,
+    "categoria": "Terror",
+    "stream": "https://watch.brplayer.cc/m3u8/26/2ae659bde981b0ad9c0f24835a8d1232/master.m3u8?s=1&id=32459&cache=1"
   }
 ]
