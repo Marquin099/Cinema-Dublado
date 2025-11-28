@@ -1008,6 +1008,28 @@
     "stream": "https://watch.brplayer.cc/m3u8/12/565b7e1332c5d26362dd2487ea625746/master.m3u8?s=1&id=33295&cache=1"
   },
   {
+  "id": "any-day-now-2025", 
+  "type": "movie",
+  "name": "Any Day Now",
+  "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/d3zaN75hqxdQxMm1kaesIkxobpd.jpg",
+  "background": "https://i.ytimg.com/vi/R3tZL2xVH08/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCdv505CIbw8GoDgsr1QGe7qXxbhg",
+  "description": "Para executar um assalto à altura de uma verdadeira obra-prima, é necessário tempo, aliados e muita coragem. Steve possui dois desses três elementos.",
+  "year": 2025,
+  "genres": ["Comédia"], 
+  "cast": [
+    { "name": "Paul Guilfoyle" },
+    { "name": "Taylor Gray" },
+    { "name": "Alexandra Templer" }
+  ],
+  "directors": [
+    { "name": "Travis Fine", "role": "Director" }
+  ],
+  "rating": {
+    "imdb": "5.0"
+  },
+  "stream": "https://watch.brplayer.cc/m3u8/12/565b7e1332c5d26362dd2487ea625746/master.m3u8?s=1&id=33295&cache=1"
+  },
+  {
     "id": "tt30852384",
     "name": "Por Inteiro",
     "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/16ndbEL3c0y5tW953EzqxY0cgvb.jpg",
