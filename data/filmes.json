@@ -1478,5 +1478,41 @@
     "year": 2025,
     "categoria": "Prime Video",
     "stream": "https://watch.brplayer.cc/m3u8/27/6ffbb022729a7e0f41cf74c280927314/master.m3u8?s=1&id=32359&cache=1"
+  },
+  {
+    "id": "tt32549601",
+    "name": "Caramelo",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/c4ZEAah5a01cu27w7vT2IAoFogk.jpg",
+    "description": "Um cativante cão de rua embarca em uma jornada extraordinária, forjando amizades improváveis e superando obstáculos.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/27/b6c0ad241e762099a0a6706761975ec6/master.m3u8?s=1&id=32360&cache=1"
+  },
+  {
+    "id": "tt32831747",
+    "name": "Virgínia e Adelaide",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/2X6k2VHGycAyYvf1Lsne6TWMd5X.jpg",
+    "description": "A história da amizade entre a psicanalista alemã Adelheid Koch e a brasileira Virgína Leone Bicudo, que viria a ser a primeira não-médica a ser reconhecida como psicanalista no Brasil.",
+    "year": 2025,
+    "categoria": "Drama",
+    "stream": "https://watch.brplayer.cc/m3u8/27/ea7fe912d5c09bd9597f4b03217e8fff/master.m3u8?s=1&id=32361&cache=1"
+  },
+  {
+    "id": "tt26697087",
+    "name": "O Peso da Vitória",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/iL804GT7hOpieQ8wYog9aEfsni6.jpg",
+    "description": "A história da amizade entre a psicanalista alemã Adelheid Koch e a brasileira Virgína Leone Bicudo, que viria a ser a primeira não-médica a ser reconhecida como psicanalista no Brasil.",
+    "year": 2025,
+    "categoria": "Suspense",
+    "stream": "https://watch.brplayer.cc/m3u8/26/74061f08793737e9374dd85cd2233d3c/master.m3u8?s=1&id=32335&cache=1"
+  },
+  {
+    "id": "tt26697087",
+    "name": "Os Enforcados",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/6x3670ZuV4v7YUome28WSGlSblv.jpg",
+    "description": "Regina e Valério são um casal feliz que busca uma saída para os negócios criminosos da família, mas seus esforços só os empurram cada vez mais para o buraco do qual esperavam escapar.",
+    "year": 2025,
+    "categoria": "Suspense",
+    "stream": "https://watch.brplayer.cc/m3u8/26/9917c3b8ac1b209796960d2a2f0f7931/master.m3u8?s=1&id=32336&cache=1"
   }
 ]
