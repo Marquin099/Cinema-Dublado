@@ -1354,12 +1354,39 @@
     "stream": "https://watch.brplayer.cc/m3u8/26/e77d89a5cfa17ff55d0b928bf21b2d0f/master.m3u8?s=1&id=32493&cache=1"
   },
   {
-    "id": "tt12908150",
+    "id": "tt21442114",
     "name": "O Valente",
     "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/3AhlvcWi2Ej3nXNAktSG5ARjWSu.jpg",
     "description": "Um helicóptero americano cai no lado norte-coreano, agora os sobreviventes devem trabalhar juntos para proteger um especialista em tecnologia civil e encontrar a saída sem a ajuda do apoio militar dos EUA.",
     "year": 2025,
     "categoria": "Guerra",
     "stream": "https://watch.brplayer.cc/m3u8/26/b084aaefa0a2f7ab72363110bcda458e/master.m3u8?s=1&id=32481&cache=1"
+  },
+  {
+    "id": "tt38466379",
+    "name": "Meu Pai, o Assassino BTK",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/htsK4pcE3k7EtFRgEnoOujXDV1F.jpg",
+    "description": "O homem de família e líder escoteiro Dennis Rader teve uma vida dupla como assassino BTK. Sua filha Kerri Rawson compartilha sua experiência com os crimes horríveis de seu pai.",
+    "year": 2025,
+    "categoria": "Documentário",
+    "stream": "https://watch.brplayer.cc/m3u8/26/ebc764ed84593fef4bd6cde9eb72be0a/master.m3u8?s=1&id=32479&cache=1"
+  },
+  {
+    "id": "tt38466379",
+    "name": "Meu Pai, o Assassino BTK",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/htsK4pcE3k7EtFRgEnoOujXDV1F.jpg",
+    "description": "O homem de família e líder escoteiro Dennis Rader teve uma vida dupla como assassino BTK. Sua filha Kerri Rawson compartilha sua experiência com os crimes horríveis de seu pai.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/26/ebc764ed84593fef4bd6cde9eb72be0a/master.m3u8?s=1&id=32479&cache=1"
+  },
+  {
+    "id": "tt34682204",
+    "name": "Limpia",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/oGXot1GsSocNQS0eDLdkshdgYKc.jpg",
+    "description": "Um jovem do interior chileno se muda para Santiago para trabalhar como empregada doméstica em uma casa de pessoas administradas, abandonando sua família.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/26/3f882a4bb95c43e27924205306955021/master.m3u8?s=1&id=32478&cache=1"
   }
 ]
