@@ -47,7 +47,7 @@ const seriesCatalogs = getCatalogs(series, "series");
 // ------------------ Manifesto do Addon ------------------
 const manifest = {
     id: "cinema-dublado",
-    version: "1.0.6", // Subi a versão para forçar atualização no Stremio
+    version: "1.0.7", // Subi a versão para forçar atualização no Stremio
     name: "Cinema Dublado",
     description: "Filmes e séries dublados PT-BR",
     logo: "https://i.imgur.com/0eM1y5b.jpeg",
