@@ -1071,5 +1071,86 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "a-estação-das-garotas-perdidas-2025",
+    "tmdb": 237052,
+    "type": "series",
+    "name": "A Estação das Garotas Perdidas",
+    "runtime": "42 min",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-10/e323e02d-dcb6-41ec-917c-2b4f4ce98c38.webp",
+    "background": "https://is1-ssl.mzstatic.com/image/thumb/3MkRurtSgigN4qH6bknacg/1200x675sr.webp",
+    "logo": "https://is1-ssl.mzstatic.com/image/thumb/lPgXVKcFsiaZXJMINP5MAg/432x162.png",
+    "description": "A incansável caçada de duas décadas de um policial a um serial killer que assassinou quatro jovens mulheres no sul da França.",
+    "year": 2025,
+    "categoria": "Disney+",
+    "genres": ["Frânçes", "Crime", "Policial", "Drama", "Suspense",],
+
+    "cast": [
+      { "name": "Camille Razat" },
+      { "name": "Hugo Becker" },
+      { "name": "Patrick Timsit" },
+      { "name": "Mélanie Doutey" }
+    ],
+
+    "directors": [
+      { "name": "Virginie Sauveur", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "6.6",
+      "imdb_id": "tt31844356"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Episodio 1",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/ipUXoJYuUtpZ9ejwgnqaIg/1200x675.webp",
+            "overview": "Em 1995, Tatiana, uma jovem de dezessete anos, desaparece misteriosamente nas imediações da estação de trem de Perpignan, deixando sua família em angústia",
+            "stream": "https://watch.brplayer.cc/m3u8/27/7cab59661cfaa9701dba0ee2d13eb25f/master.m3u8?s=1&id=32383&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Episodio 2",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/HAc4Rf6aKyj7LCssi3kIDw/1200x675.webp",
+            "overview": "À medida que a investigação sobre o assassinato de Leïla se intensifica, a equipe de Vidal concentra seus esforços em Olivio Palomyno, um médico com comportamento estranho",
+            "stream": "https://watch.brplayer.cc/m3u8/27/f41f94e3576a8e292c03201210b90cbb/master.m3u8?s=1&id=32384&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Episodio 3",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/u0vdpAHNdGQBsLJTfMM6nQ/1200x675.webp",
+            "overview": "Olivio Palomyno está sob custódia e é interrogado como principal suspeito do assassinato de Leïla. Embora ele seja a principal pista há meses, a investigação muda de rumo",
+            "stream": "https://watch.brplayer.cc/m3u8/27/8e9a0e5f19caa707db6dfae2a3551504/master.m3u8?s=1&id=32385&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Episodio 4",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/GVhq64rbXI0PbQwYkd0N1w/1200x675.webp",
+            "overview": "Enquanto o mundo se prepara para entrar no ano 2000, a investigação estagna, mergulhando a equipe em dúvidas. Para ajudá-los, um profiler polêmico é enviado de paris",
+            "stream": "https://watch.brplayer.cc/m3u8/27/32492a842010652919d07f02c6de8608/master.m3u8?s=1&id=32386&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "Episodio 5",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/j8yL0Y3iOQ_ke0UIguajog/1200x675.webp",
+            "overview": "Os investigadores correm contra o tempo para prender um novo suspeito. No entanto, suas confissões levantam mais perguntas do que respostas. O corpo de Nora e encontrado, mas a investigação continua cheio de incertezas sobre as outras vítimas.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/6fddc5cb7045037050c550acf1b6d183/master.m3u8?s=1&id=32387&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "Episodio 6",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/_x-VAyQiZ2CvCqx6x05P8Q/1200x675bb.webp",
+            "overview": "Após dezesseis anos de investigação, a equipe finalmente consegue prender o autor de dois assassinatos graças a uma correspondência de DNA. Durante um interrogatorio",
+            "stream": "https://watch.brplayer.cc/m3u8/27/8c2208cf33090f61a75c8dbfdf78b61b/master.m3u8?s=1&id=32388&cache=1"
+          }
+        ]
+      }
+    ]
   }
 ]
