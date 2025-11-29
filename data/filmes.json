@@ -80,6 +80,15 @@
     "stream": "https://watch.brplayer.cc/m3u8/26/c6c209418814b5cee2107e6e744bb737/master.m3u8?s=1&id=34437&cache=1"
   },
   {
+    "id": "tt38502827",
+    "name": "Ninguém Sabe Quem Eu Sou",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/nXXlJ79U31qFM0mylVc2GSDNtRI.jpg",
+    "description": "Dos criadores de “Você Sabe com Quem Está Falando?” chega esta comédia de erros em que, após ser confundida com a médica e companheira de um milionário em coma, uma garçonete (Liss Pereira) tenta manter a farsa com a ajuda de suas amigas.",
+    "year": 2025,
+    "categoria": "Comédia",
+    "stream": "https://watch.brplayer.cc/m3u8/27/6181d7a40d05ec551c178d3c720b3cde/master.m3u8?s=1&id=35029&cache=1"
+  },
+  {
     "id": "tt31956415",
     "name": "Uma Sexta-Feira Mais Louca Ainda",
     "poster": "https://cinegratis.tv/uploads/posts/2025-08/580829cc-5ce5-4e40-90bb-74efc2d47b88.webp",
@@ -1550,5 +1559,50 @@
     "year": 2025,
     "categoria": "Cinema",
     "stream": "https://watch.brplayer.cc/m3u8/12/8cf4ff2dc2db6902d222b0c7dcc98d04/master.m3u8?s=1&id=34843&cache=1"
+  },
+  {
+    "id": "tt22898462",
+    "name": "Invocação do Mal 4 - O Último Ritual",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/aXpMqIPndxuDxDA3d2uoNlwc4L.jpg",
+    "description": "Quando o casal de investigadores paranormais, Ed e Lorraine Warren se encontram presos a mais um medonho caso envolvendo criaturas misteriosas, eles se vêem na obrigação de resolverem tudo pela última vez.",
+    "year": 2025,
+    "categoria": "Terror",
+    "stream": "https://watch.brplayer.cc/m3u8/10/70a46919ffec2a1fe70c2d18aa6289d3/master.m3u8?s=1&id=32317&cache=1"
+  },
+  {
+    "id": "tt1493274",
+    "name": "Ladrões",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-10/5f296074-342c-4ee8-a5e1-284663fd9fe6.webp",
+    "description": "O ex-jogador de beisebol Hank Thompson se envolve em uma perigosa luta pela sobrevivência em meio ao submundo do crime da Nova York dos anos 90, forçado a navegar em um submundo traiçoeiro que ele nunca imaginou.",
+    "year": 2025,
+    "categoria": "Suspense",
+    "stream": "https://watch.brplayer.cc/m3u8/10/1f710d07916bb3151c453c764cfaf1ca/master.txt?s=1&id=32090&cache=1"
+  },
+  {
+    "id": "tt32194932",
+    "name": "O Ritual",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/fQv7neaPTFjBzvKkysAA6FXDIz7.jpg",
+    "description": "Dois padres — um questionando sua fé e outro dono de um passado conturbado — devem colocar de lado suas diferenças para tentar salvar uma jovem usando o exorcismo.",
+    "year": 2025,
+    "categoria": "Terror",
+    "stream": "https://watch.brplayer.cc/m3u8/10/9dbd49ba9d0391088bde2b8090110ec8/master.m3u8?s=1&id=31918&cache=1"
+  },
+  {
+    "id": "tt28996126",
+    "name": "Anônimo 2",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6ObRyIQHJAY2X575hLVgKsnNlar.jpg",
+    "description": "O pai suburbano Hutch Mansell, ex-assassino letal, é levado de volta ao seu passado violento depois de impedir uma invasão domiciliar, desencadeando uma cadeia de eventos que revela segredos sobre o passado de sua esposa Becca.",
+    "year": 2025,
+    "categoria": "Ação",
+    "stream": "https://watch.brplayer.cc/m3u8/26/d9f53a87e571214d24718690a39f67e9/master.m3u8?s=1&id=32523&cache=1"
+  },
+  {
+    "id": "tt28996126",
+    "name": "Os Caras Malvados 2",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/dbpNAldCtWjotI4vEiphPrz8DJh.jpg",
+    "description": "Os Caras Malvados lutam para encontrar confiança e aceitação para sua recente condição de bons moços, quando são forçados, por um esquadrão de mulheres criminosas, a abandonar a aposentadoria para fazer "um último trabalho".",
+    "year": 2025,
+    "categoria": "Aventura",
+    "stream": "https://watch.brplayer.cc/m3u8/27/90a85209de63519f0c04728a1bdb9313/master.m3u8?s=1&id=31166&cache=1"
   }
 ]
