@@ -947,59 +947,126 @@
         "episodes": [
           {
             "episode": 1,
-            "title": "Nenhum País Está Seguro: Com sua família em perigo, Tony e Ziva devem descobrir quem está por trás de um ataque cibernético abominável.",
+            "title": "Nenhum País Está Seguro",
             "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/01/2448181828001/PPCBS_NCISTONYANDZIVA_101_UHD_3358842_1920x1080.jpg",
             "overview": "Com sua família em perigo, Tony e Ziva devem descobrir quem está por trás de um ataque cibernético abominável.",
             "stream": "https://watch.brplayer.cc/m3u8/27/7b4e82cb855801d7098534835e2ca260/master.m3u8?s=1&id=32439&cache=1"
           },
           {
             "episode": 2,
-            "title": "Não É Meu Amigo: Tony e Ziva rastreiam um hacker escorregadio, mas acabam se juntando a ele quando a Interpol se aproxima.",
+            "title": "Não É Meu Amigo",
             "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/02/2448382019804/PPCBS_NCISTONYANDZIVA_102_UHD_3359890_1920x1080.jpg",
             "overview": "Tony e Ziva rastreiam um hacker escorregadio, mas acabam se juntando a ele quando a Interpol se aproxima.",
             "stream": "https://watch.brplayer.cc/m3u8/27/cb5d9f6a68a14dea6dfeef9c4fc5ece9/master.m3u8?s=1&id=32440&cache=1"
           },
           {
             "episode": 3,
-            "title": "Acobertamento: Sem saber em quem confiar e acusados de um ataque terrorista, Tony e Ziva ficam fora de vista.",
+            "title": "Acobertamento",
             "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/02/2448390211740/PPCBS_NCISTONYANDZIVA_103_UHD_3359840_1920x1080.jpg",
             "overview": "Sem saber em quem confiar e acusados de um ataque terrorista, Tony e Ziva ficam fora de vista.",
             "stream": "https://watch.brplayer.cc/m3u8/27/919635985f213275b60878669bba0be0/master.m3u8?s=1&id=32442&cache=1"
           },
           {
             "episode": 4,
-            "title": "Penetras De Casamento: Tony e Ziva usam um casamento como uma operação disfarçada para acabar com seus inimigos.",
+            "title": "Penetras De Casamento",
             "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/02/2448401475749/PPCBS_NCISTONYANDZIVA_104_UHD_3360152_1920x1080.jpg",
             "overview": "Tony e Ziva usam um casamento como uma operação disfarçada para acabar com seus inimigos.",
             "stream": "https://watch.brplayer.cc/m3u8/27/e724e5ad0d0df625744239ef1c60e5e8/master.m3u8?s=1&id=32443&cache=1"
           },
           {
             "episode": 5,
-            "title": "A Determinar: O secretário-geral desaparecido da Interpol guia Tony e Ziva numa prisão de segurança máxima.",
+            "title": "A Determinar",
             "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/08/2450128963631/PPCBS_NCISTONYANDZIVA_105_UHD_3368014_1920x1080.jpg",
             "overview": "O secretário-geral desaparecido da Interpol guia Tony e Ziva numa prisão de segurança máxima.",
             "stream": "https://watch.brplayer.cc/m3u8/27/68d7496649e857a0149ab0cdd40233e2/master.m3u8?s=1&id=32444&cache=1"
           },
           {
             "episode": 6,
-            "title": "Temos Companhia: Os riscos aumentam ainda mais quando a casa segura que Tali está escondida é comprometida.",
+            "title": "Temos Companhia",
             "thumbnail": "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2025/09/04/2449091139828/PPCBS_NCISTONYANDZIVA_106_UHD_3363428_1920x1080.jpg",
             "overview": "Os riscos aumentam ainda mais quando a casa segura que Tali está escondida é comprometida.",
             "stream": "https://watch.brplayer.cc/m3u8/27/39aca26227b4762cf59f50e09159ca84/master.m3u8?s=1&id=32445&cache=1"
           },
           {
             "episode": 7,
-            "title": "Espelhamento Sombrio: Tony e Ziva voltam a Paris numa missão para espionar agentes duplos que estão sujando o nome deles.",
+            "title": "Espelhamento Sombrio",
             "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/09/2450373187915/PPCBS_NCISTONYANDZIVA_107_UHD_3368600_1920x1080.jpg",
             "overview": "Tony e Ziva voltam a Paris numa missão para espionar agentes duplos que estão sujando o nome deles.",
             "stream": "https://watch.brplayer.cc/m3u8/27/8aa7db6b925810b453eb63028f4f770a/master.m3u8?s=1&id=32446&cache=1"
           },
           {
             "episode": 8,
-            "title": "Venda De Fogo: Juntar os pontos sobre uma fábrica de armas tecnológicas coloca Tony e Ziva no fogo cruzado.",
+            "title": "Venda De Fogo",
             "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/09/09/2450373699730/PPCBS_NCISTONYANDZIVA_108_UHD_3368579_1920x1080.jpg",
             "overview": "Juntar os pontos sobre uma fábrica de armas tecnológicas coloca Tony e Ziva no fogo cruzado.",
             "stream": "https://watch.brplayer.cc/m3u8/27/ef1b9b0b9c5ad1de09b779f4f97ca59b/master.m3u8?s=1&id=32447&cache=1"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "angela-diniz-assassinada-e-condenada-2025",
+    "tmdb": 260637,
+    "type": "series",
+    "name": "Ângela Diniz: Assassinada e Condenada",
+    "runtime": "41 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/1yJoVM9YffuJDWVVctGSlPDlQD5.jpg",
+    "background": "https://loucosporfilmeseseries.com.br/wp-content/uploads/2025/09/Angela-Diniz-Assassinada-e-Condenada.jpg",
+    "logo": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/88607228-228e-4f07-831e-00a5978a624d/fb66b7b2-ab88-11f0-bd53-025dd06c5a1b?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=4320",
+    "description": "Baseada no podcast Praia dos Ossos narra a vida de Angela Diniz e seu assassinato nos anos 70 por seu ex-marido Doca Street, absolvido por defesa da honra Retrata Angela lutando por liberdade.",
+    "year": 2025,
+    "categoria": "hbo-max",
+    "genres": ["Biografia", "Drama", "Crime"],
+
+    "cast": [
+      { "name": "Maria Volpe" },
+      { "name": "Marjorie Estiano" },
+      { "name": "Emilio Dantas" },
+      { "name": "Antônio Fagundes" }
+    ],
+
+    "directors": [
+      { "name": "Andrucha Waddington", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.1",
+      "imdb_id": "tt32236037"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Quero Me Separar",
+            "thumbnail": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/f9f664ba2c2c7173d70ad04d30909433eba7d9b076796cb592789e8f14333d07._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Nos anos 70, a socialite mineira Ângela Diniz se divorcia e tenta recomeçar, mas o assassinato de outra mulher divorciada a deixa em alerta.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/3e25bc0b028b05f646267d3d84e61558/master.m3u8?s=1&id=34734&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "A Pantera de Minas",
+            "thumbnail": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/a8ed0c2124be9a310b75a4af4ea4ec36e6660885253fb37b25c28ac297a80dfc._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Vivendo no Rio de Janeiro, Ângela tenta recomeçar em meio à elite carioca, mas tudo muda quando é acusada de sequestrar a própria filha.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/b3a36c38b2a370995afb25590c8ac245/master.m3u8?s=1&id=34735&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "As Garras da Pantera",
+            "thumbnail": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/3780750414f3211a5a9bafbe608388c9d7e5c88d5a092ece6abcc495ff30a6f0._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Acusada de tráfico de drogas, Ângela inicia um romance com o colunista Ibrahim Sued, mas logo se vê atraída pelo empresário Doca Street.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/983e9d76e1db559f224d6ab1f0dfeb3c/master.m3u8?s=1&id=34733&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Ponte Aérea",
+            "thumbnail": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/f885aafa2f56c99995640d4bf1567487f9e419120af4437f0ca3e5a346358d65._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Após o conselho do advogado para levar uma vida mais estável, Ângela aposta em Doca, mas ele logo mostra sua verdadeira face.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/86cdc69dedab1cd08a93e76e89632a7d/master.m3u8?s=1&id=35026&cache=1"
           }
         ]
       }
