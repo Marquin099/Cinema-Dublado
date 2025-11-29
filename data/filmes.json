@@ -711,6 +711,15 @@
     "stream": "https://watch.brplayer.cc/m3u8/10/2d425507027fe5ccf5e23dc6bf98af4b/master.m3u8?s=1&id=34690&cache=1"
   },
   {
+    "id": "tt31137117",
+    "name": "O Mistério da Família Carman (2025)",
+    "poster": "https://image.tmdb.org/t/p/w185/n7yDizjHIL5Eokyyy4pfLyNBgHY.jpg",
+    "description": "Após naufrágio durante pescaria, Nathan sobrevive dias à deriva enquanto sua mãe Linda desaparece no mar. O resgate desperta suspeitas sobre a morte do avô e gera conflito familiar por herança com descobertas surpreendentes.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/10/2d425507027fe5ccf5e23dc6bf98af4b/master.m3u8?s=1&id=34690&cache=1"
+  },
+  {
     "id": "tt38457052",
     "name": "Aileen Queen of the Serial Killers",
     "poster": "https://cinegratis.tv/uploads/posts/2025-10/3c642bac-91ef-4d99-a8b7-624810cd12aa.webp",
@@ -1532,5 +1541,14 @@
     "year": 2025,
     "categoria": "Suspense",
     "stream": "https://watch.brplayer.cc/m3u8/26/9917c3b8ac1b209796960d2a2f0f7931/master.m3u8?s=1&id=32336&cache=1"
+  },
+  {
+    "id": "tt4712810",
+    "name": "Truque de Mestre: O 3° Ato (EM BREVE)",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/zND5xdLVINaOcqHO5HRNfqS1eSZ.jpg",
+    "description": "Um roubo de diamantes reúne ilusionistas aposentados dos Horsemen com os novos artistas Greenblatt, Smith e Sessa enquanto eles atacam criminosos perigosos.",
+    "year": 2025,
+    "categoria": "Cinema",
+    "stream": "https://watch.brplayer.cc/m3u8/12/8cf4ff2dc2db6902d222b0c7dcc98d04/master.m3u8?s=1&id=34843&cache=1"
   }
 ]
