@@ -1340,5 +1340,169 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "stranger-things-2025",
+    "tmdb": 66732,
+    "type": "series",
+    "name": "Stranger Things",
+    "runtime": "49 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/7EZcuL3GuiNvwn5RlKLaWazzekL.jpg",
+    "background": "",
+    "logo": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABYMPQniJ_SYfQi2wk7KLe31p0P62xIxIs2eDHW3ok6clf75XTH7VL5cN5OAPGci6-LmmgBkflv2QPPjOzlNVdMVAoreB2zFBHg.png?r=59a",
+    "description": "Depois do desaparecimento de um menino, sua mãe, um chefe de polícia e seus amigos precisam enfrentar forças aterrorizantes para trazê-lo de volta.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "genres": ["Terror", "Drama", "Terror Sobrenatural"],
+
+    "cast": [
+      { "name": "Winona Ryder" },
+      { "name": "David Harbour" },
+      { "name": "Finn Wolfhard" },
+      { "name": "Millie Bobby Brown" }
+    ],
+
+    "directors": [
+      { "name": "Matt Duffer", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "8.6",
+      "imdb_id": "tt4574334"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "O desaparecimento de Will Byerss",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUNFbtlgiA9Dr3VpSnaTuTi9Ekaps7YNF9s3ijNMQU4hFkcMzL_02GXWQ-iVXRtcZJnepREtRqe-v-pilcVOYiPq5kITn3Sba1FpZoZcKBTCYawnS91_T9tb.jpg?r=b6b",
+            "overview": "No caminho de volta para casa, Will é aterrorizado por alguma coisa. Não longe dali, um laboratório secreto guarda um segredo sinistro.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/0fe47dbb289a999610c8c5ab9aeb2107/master.m3u8?s=1&id=28090&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "A estranha da Maple Street",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfLeaCNpSNxl6IFPjNDvRjIasIe1llHZErsozjd58uEhL4qJPJtQ0zkA8e1n92Tk8rMBSynHaPJte7bUKVa0weI66x3crFyDjY8Iud7ITldYWUYRMtUa4oxw.jpg?r=cc9",
+            "overview": "Lucas, Mike e Dustin tentam conversar com a menina que encontram. Hopper tem perguntas para uma Joyce extremamente ansiosa.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/068bcdad6accbee0b2adc53cb82eb533/master.m3u8?s=1&id=28091&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Caramba",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXIZ8NcYYy8njNDPxK0pA31NbQhzVUgsQUcSackwsteUNGWv8GhtxLCnaP4Bt9t6ef_7keDV8jBZYLpAGfueSdws4SKoLd2GwX-QG5WQFpFM6Dp9UnM8JRFv.jpg?r=b26",
+            "overview": "Cada vez mais preocupada, Nancy procura Barb e acaba descobrindo o que Jonathan anda fazendo. Joyce está convencida de que Will está tentando se comunicar com ela.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/f7ae036c695ff77ff4bd82e015a2f624/master.m3u8?s=1&id=28092&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "O corpo",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXZlWT2lFs813W3J3An_4h37S1FW_YsxPaImt8OQ9-RbFD3qJ17FGBOhfmB7W8nB2DGYqM5tIdXGZsxpHZ6FZ5KkOsBvxpDptqdtbzjTxcMUp753Yh4SDXge.jpg?r=6ad",
+            "overview": "Joyce se recusa a acreditar de Will morreu, e tenta se comunicar com ele. Os meninos transformam o visual de Onze. Nancy e Jonathan acabam se unindo.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/5e5bd82a90466d9434c270b85ddf187c/master.m3u8?s=1&id=28093&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "A pulga e o acrobata",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABSSuTVT5grkTBS6ZhCaK8YadKVUs_wyhYcuNXe7dAjlAL-3WD3NMCaErZM5a_uaSsr7UGCol8qjj4Ku2lX_6jNpMRUVYjztd8XjORln7TOd70-c0tO2lgJP1.jpg?r=6d4",
+            "overview": "Hopper consegue entrar no laboratório enquanto Nancy e Jonathan confrontam as forças que levaram Will. Os meninos perguntam ao Sr. Clarke como se vai para outra dimensão.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/d348d11f7f80d82e49a05e3c2269d373/master.m3u8?s=1&id=28094&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "O monstro",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQcAEPyez7K3vqxJQLk83GaIOd7G54k-V8_VVBmCbjTVHGQzCgcqGh1wSwtO-vWONkl6h1byWKF-Bhn9J0f19KlAECThDncngMvxyWNNv8nhqQO9kFe_IGZ3.jpg?r=3df",
+            "overview": "Desesperado, Jonathan procura por Nancy na escuridão, mas Steve faz a mesma coisa. Hopper e Joyce descobrem a verdade sobre os experimentos conduzidos no laboratório.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/c4caf9e04a0d4f83565449f2cce9d5d5/master.m3u8?s=1&id=28095&cache=1"
+          },
+          {
+            "episode": 7,
+            "title": "A banheira",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWuZ848PZMyhryxnMDxBmlHGdjMQ9HN2FYNEmvLPSNO0qsc5vSc1vYqbzWdrJsh7GMnGWv6Is66M6XUtac7lAt1s9_2I6bGIM48CvEfkRKMVsTNIbOAFTKzP.jpg?r=5b6",
+            "overview": "Onze tenta chegar a Will, mas Lucas dá o alerta de perigo. Nancy e Jonathan mostram à polícia as imagens capturadas pela câmera.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/e607b9b80358410a2bcdcbc7e9978ce1/master.m3u8?s=1&id=28096&cache=1"
+          },
+          {
+            "episode": 8,
+            "title": "De ponta-cabeça",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABSdjDAuWq-H8cyC1vSl63_ZcGj4BqqX5HF6jX9fysdTRLat7JISqq8bWzff540umrsT0w5WDs0fI05cceYlVhkjIqrOU55rJow1QeUoABTFKrdy82EOOzp7X.jpg?r=445",
+            "overview": "O Dr. Brenner interroga Hopper e Joyce enquanto os meninos e Onze esperam no ginásio. Nancy e Jonathan se preparam para uma nova batalha.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/3090f54f8d8eecd6469c3a9eb3ddb48a/master.m3u8?s=1&id=28097&cache=1"
+          }
+        ]
+      }, 
+      
+      { 
+        "season": 2, 
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Mad Max",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQUMYtsTN4KdVWkrbwDzBWgWcCBRC6LJeKig_lg2-l8ckfWJNS5o-pw7obbOxAspQPdqWUiqoa951sQ8UWzq3bHwToyiUHx5P789A_M0sKmHIz9-n5dIThA7.jpg?r=9e5",
+            "overview": "Na véspera do Halloween, um rival bagunça as coisas no fliperama. Cético, Hopper inspeciona uma plantação de abóboras apodrecidas.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/82166899aa3db47b87226f5e2abfbca7/master.m3u8?s=1&id=28098&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Gostosura ou travessura, aberração",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABcnB-qnwO1sUPaVJARIfQ4cepl8COqxxmEMwdPjRDQCai0X1WWQUmkfQY8dviPkZYL1sqeECm7rNzGLOsXxSTq5j5-qt7aoVI1HcyCXlDV_wGR4eh8nR8eev.jpg?r=2e8",
+            "overview": "Depois que Will vê algo terrível na noite das gostosuras ou travessuras, Mike se pergunta se Onze ainda está por perto. Nancy enfrenta a verdade sobre a morte de Barb.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/0a688ad7351b2e3cfec7ee3112206e6b/master.m3u8?s=1&id=28099&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "O girino",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABc_IMC687TJGFkG90U1Dmtw3SuQ3OOd12VHvKYnnuE2rybFtlSubNc2kzzQbITxoXPpDDFyJqNg5bzE7gkGDuY5z973Q2RjbbztK_BfbC4JYV22f1i3o03kX.jpg?r=cfc",
+            "overview": "Dustin adota um animal de estimação estranho, e Onze fica cada vez mais impaciente. Bem-intencionado, Bob incentiva Will a encarar os seus medos",
+            "stream": "https://watch.brplayer.cc/m3u8/26/aa6753f1f7962a29a43ffa397473774f/master.m3u8?s=1&id=28100&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Will, o sábio",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABSe_J13sgszg8cxbuJP4wY4Uu0clLX4YBsGf4RP8Wsjp17ZAuMTuRsbuvAHE2MqRxErY8PaQuA8A65fP-hhn0iKRcz4I3NPgoa1hEHL7GNxSqU47OQDTSAPW.jpg?r=cb5",
+            "overview": "Debilitado, Will se abre com Joice, e o resultado é perturbador. Enquanto Hopper busca a verdade, Onze faz uma descoberta surpreendente.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/f6a81a05f0dc6797d195dfb9aad909bb/master.m3u8?s=1&id=28102&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "Dig Dug",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbm2FgBxjj7GbwxWOln-9fXjQnmoj0STql_HqxfsfeBeubREcOQEXfrTRG1JZeA8rpCg0-PU-HyfXArE6M2QwYVOavR3i8z3xP31dNBbtdfPgGTbjmC2c8RT.jpg?r=e06",
+            "overview": "Nancy e Jonathan trocam teorias conspiratórias com um novo aliado, e Onze procura alguém do seu passado. “Bob Sabichão” lida com um problema complicado.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/cc0d9865e5284b52347fc0417b99b0c8/master.m3u8?s=1&id=28103&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "O espião",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUXCf-mPD6lTXRR3UkM5ZrrZw17k_TEjG2WVWhIbny751xP_0VKI3Nt1uv__yKKV5untfGn4VPfBn4SLumc7RLRDt8PuQ357DTGB4q56KyVYSW6T0R1ZkQh6.jpg?r=333",
+            "overview": "A ligação entre Will e uma sinistra força do mal fica mais forte, mas ninguém sabe ao certo como detê-la. Dustin e Steve criam um vínculo improvável.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/8702581b10fc44c8ee9021a967744624/master.m3u8?s=1&id=28104&cache=1"
+          },
+          {
+            "episode": 7,
+            "title": "A irmã perdida",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUW25OKYgrXgoUq1wpW3cJn2Y1WYJ0BTT2H_Cf8OLhjU99baWsy95Wq026srq3ZpfjS680bKkw3kqAu9lbmr4f45f2yJNliM0JiQq_ViIHq2MhSgugQzmCXB.jpg?r=db8",
+            "overview": "Visitantes psíquicos arrastam Onze na direção de um grupo de marginalizados violentos e de uma garota irritada com um passado sombrio.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/4231962b766e3f90f64fa07e4fc2d5cf/master.m3u8?s=1&id=28105&cache=1"
+          },
+          {
+            "episode": 8,
+            "title": "O Devorador de Mentes",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABVvO4Ix1T9R17J9vUTFnk3-RreHSWJ1ECAHFelCzhRSreKjWsH7eBF4NmiBeGW3k6jWdSaxNIqxu9AD_Inn-Gl2ngleIWBsr5YL5QaDD76i8xUtBDiPL9GoQ.jpg?r=e0e",
+            "overview": "Um herói improvável surge quando um incidente mortal provoca o fechamento do Laboratório de Hawkins, deixando Will e vários outros presos lá dentro.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/c50d28e81a9e22a95e30a0d1164902c2/master.m3u8?s=1&id=28106&cache=1"
+          },
+          {
+            "episode": 9,
+            "title": "O portal",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABaEA8ov0mg5EKt2eMHiIzqXuc2MDh84-gwNN-Eky8UOLH8gxS8_hQ8p0o4RYUsrqDKbTDg-kvVHoDmZFUumqr2MHvUEm0VQDUUY8L9zNcV-AjpwSz8Mo4bap.jpg?r=770",
+            "overview": "Onze planeja terminar o que começou. Os sobreviventes aumentam a pressão contra a força monstruosa que mantém Will refém.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/f3971ac4ef3eb040dadaeed846ac6b4e/master.m3u8?s=1&id=28107&cache=1"
+          }
+        ]
+      }
+    ]
   }
 ]
