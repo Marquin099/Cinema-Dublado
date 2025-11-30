@@ -45,6 +45,24 @@
     "stream": "https://watch.brplayer.cc/m3u8/12/f34fad478256597ee97020039fd5a7a0/master.m3u8?s=1&id=34942&cache=1"
   },
   {
+    "id": "tt30997109",
+    "name": "A Relíquia (Dublado Não Oficial)",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kYFmYzyL1zfsj6hoqSFm45J4kXI.jpg",
+    "description": "Lila McCord, uma mãe enlutada, acredita que seu filho está tentando se comunicar com ela do além. Ela realiza uma sessão espírita para tentar falar com ele e, sem querer, liberta o mal em sua casa.",
+    "year": 2025,
+    "categoria": "Terror",
+    "stream": "https://watch.brplayer.cc/m3u8/12/32d08e8dcd9a87d9d786d9540ff76a50/master.m3u8?s=1&id=34926&cache=1"
+  },
+  {
+    "id": "tt30997109",
+    "name": "A Relíquia (Dublado Não Oficial)",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kYFmYzyL1zfsj6hoqSFm45J4kXI.jpg",
+    "description": "Lila McCord, uma mãe enlutada, acredita que seu filho está tentando se comunicar com ela do além. Ela realiza uma sessão espírita para tentar falar com ele e, sem querer, liberta o mal em sua casa.",
+    "year": 2025,
+    "categoria": "Dublado Não Oficial",
+    "stream": "https://watch.brplayer.cc/m3u8/12/32d08e8dcd9a87d9d786d9540ff76a50/master.m3u8?s=1&id=34926&cache=1"
+  },
+  {
     "id": "tt26920256",
     "name": "Antes da Lua Cheia",
     "poster": "https://cinegratis.tv/uploads/posts/2025-11/e233b435-0792-4d2f-b93b-b739382cddf4.webp",
@@ -1847,5 +1865,14 @@
     "year": 2025,
     "categoria": "Dublado Não Oficial",
     "stream": "https://watch.brplayer.cc/m3u8/12/42760427489c18cdbe23a8c950babcab/master.m3u8?s=1&id=34933&cache=1"
+  },
+  {
+    "id": "tt32277918",
+    "name": "O Protetor (Dublado Não Oficial)",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/9tXKquUdUqGgrUMPkWw3OWU6mPf.jpg",
+    "description": "Uma prisioneira deve proteger uma criança especial que poderia salvar a última fonte de água doce, escondida sob a terra indígena, enquanto forças sinistras buscam controlá-la.",
+    "year": 2025,
+    "categoria": "Dublado Não Oficial",
+    "stream": "https://watch.brplayer.cc/m3u8/12/e45b0df3fca2c040d4c919beda429007/master.m3u8?s=1&id=34924&cache=1"
   }
 ]
