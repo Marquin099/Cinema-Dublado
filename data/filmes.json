@@ -1748,5 +1748,14 @@
     "year": 2025,
     "categoria": "Hbo Max",
     "stream": "https://watch.brplayer.cc/m3u8/26/c2f34ed953fbaf32dc52ccca8afc4389/master.m3u8?s=1&id=32232&cache=1"
+  },
+  {
+    "id": "tt34794183",
+    "name": "Dossiê 137 (Dublado Não Oficial)",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/frEovFFQ6CcGnAPmtLRAKRLoPa1.jpg",
+    "description": "O caso 137 parece rotineiro para Stéphanie, uma pesquisadora de assuntos internos, até que um elemento inesperado o transforma em algo mais.",
+    "year": 2025,
+    "categoria": "Dublado Não Oficial",
+    "stream": "https://watch.brplayer.cc/m3u8/12/53f51ff216e36eb3f93d24c4d0cc2793/master.m3u8?s=1&id=35045&cache=1"
   }
 ]
