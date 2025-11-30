@@ -143,6 +143,15 @@
     "stream": "https://watch.brplayer.cc/m3u8/26/c6c209418814b5cee2107e6e744bb737/master.m3u8?s=1&id=34437&cache=1"
   },
   {
+    "id": "tt34730462",
+    "name": "Bem-vindo(a) ao 190 Lorimer (Dublado Não Oficial)",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/418jOwxgwuGTifjKMRFpq7DwQEG.jpg",
+    "description": "Sete vizinhos diferentes em um apartamento de paredes finas no Brooklyn enfrentam amor, encontros desconfortáveis e crises domésticas, entrelaçando uma visão cômica da vida urbana.",
+    "year": 2025,
+    "categoria": "Comédia",
+    "stream": "https://watch.brplayer.cc/m3u8/12/81eb580fa587a1c8eef8291c0075182e/master.m3u8?s=1&id=34940&cache=1"
+  },
+  {
     "id": "tt33292655",
     "name": "Oi, Sumido!",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/lhirviQCJOitZSBiB5Ffrkd7DvT.jpg",
@@ -1802,5 +1811,14 @@
     "year": 2025,
     "categoria": "Suspense",
     "stream": "https://watch.brplayer.cc/m3u8/10/36179605b136215afcba7b1344c136a8/master.m3u8?s=1&id=35062&cache=1"
+  },
+  {
+    "id": "tt34730462",
+    "name": "Bem-vindo(a) ao 190 Lorimer (Dublado Não Oficial)",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/418jOwxgwuGTifjKMRFpq7DwQEG.jpg",
+    "description": "Sete vizinhos diferentes em um apartamento de paredes finas no Brooklyn enfrentam amor, encontros desconfortáveis e crises domésticas, entrelaçando uma visão cômica da vida urbana.",
+    "year": 2025,
+    "categoria": "Dublado Não Oficial",
+    "stream": "https://watch.brplayer.cc/m3u8/12/81eb580fa587a1c8eef8291c0075182e/master.m3u8?s=1&id=34940&cache=1"
   }
 ]
