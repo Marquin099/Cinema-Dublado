@@ -1152,5 +1152,117 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "landman-2025",
+    "tmdb": 157741,
+    "type": "series",
+    "name": "Landman",
+    "runtime": "56 min",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-11/db5b94b3-5727-4479-972e-b162ed31d793.webp",
+    "background": "https://m.media-amazon.com/images/S/pv-target-images/3a47be836bd8a77cb5774df70f10f4637f0f06da44dc6365bbd957e2eea0cf71.jpg",
+    "logo": "https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w500-q80/pplcrn/2025/11/07/5e80073f-3bf2-4b8b-af20-76cde52e79f1.png?format=webp",
+    "description": "Segue os bilionários que estão impulsionando um boom tão grande que está mudando nosso clima, nossa economia e nossa geopolítica.",
+    "year": 2025,
+    "categoria": "Paramount+",
+    "genres": ["Drama", "Faroeste Contemporâneo"],
+
+    "cast": [
+      { "name": "Billy Bob Thornton" },
+      { "name": "Ali LarterMichelle Randolph" },
+      { "name": "Michelle Randolph" },
+      { "name": "Jacob Lofland" },
+      { "name": "Demi Moore" },
+    ],
+
+    "directors": [
+      { "name": "Stephen Kay", "role": "Creator" }
+      { "name": "Michael Friedman", "role": "Creator" }
+      { "name": "Taylor Sheridan", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "8.2",
+      "imdb_id": "tt14186672"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Landman",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//qc8w4HacpHfaEWlqXUEg3Yi9VRx.jpg",
+            "overview": "Operários e bilionários buscam fortuna no mundo do petróleo nas cidades em expansão do Texas",
+            "stream": "https://watch.brplayer.cc/m3u8/27/b801445d202a77bcc2cc688e2c07c3d1/master.m3u8?s=1&id=34617&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Sonhadores e Perdedores",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//wpUBXa1BXxJBEhZb5PVivaZjdcB.jpg",
+            "overview": "Tommy lida com as consequências de uma tragédia no campo de petróleo. As dinâmicas são perturbadas quando Ainsley se muda para a casa do petróleo.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/b2c6dec66eada0847015737371ffa928/master.m3u8?s=1&id=34618&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "O Inferno Tem um Quintal",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//pQwZ7X5RO4KUJRkq6OTbXnk03SU.jpg",
+            "overview": "Cooper causa um impacto no campo de petróleo. As coisas se complicam para Tommy quando sua ex-esposa, Angela, chega à cidade.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/cb1a4be230da30b1a88d3d0904815fb0/master.m3u8?s=1&id=34619&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "A Dor das Segundas Chances",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//1pYRB0KByeTVGLtCEmYoXDIHmzg.jpg",
+            "overview": "Depois de uma má primeira impressão, Rebecca sai em defesa de Tommy. Cooper recebe uma ligação inesperada.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/994252186323cee9c2a1f1b607ec4a91/master.m3u8?s=1&id=34620&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "Onde é o Lar",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//ffO8Wgjb34vQMUdLt5gSjOXUDW3.jpg",
+            "overview": "Tommy e sua equipe recebem uma visita indesejada no campo. Angela organiza um jantar de família na casa do petróleo.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/7cc273e8acc02886b2c4c65da1a74663/master.m3u8?s=1&id=34621&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "Cuidado Com a Segunda Surra",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//erWJ12DOjPEOCMEWBN20ITcxOUz.jpg",
+            "overview": "Angela é pega de surpresa ao visitar Victor. A família Norris se une em torno de Cooper em seu momento de maior necessidade.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/b3d5aea8ffe9bbb580d7bc4da4503075/master.m3u8?s=1&id=34622&cache=1"
+          },
+          {
+            "episode": 7,
+            "title": "Todos os Caminhos Levam a um Buraco",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//pwiyqyrdeorso3pyygV8S85bKuz.jpg",
+            "overview": "O problema de Tommy com o cartel continua a escalar. Enquanto isso, Angela e Ainsley se integram à comunidade.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/c76daa000da32fc0e450bc0527a165b1/master.m3u8?s=1&id=34623&cache=1"
+          },
+          {
+            "episode": 8,
+            "title": "Vida Desajeitada",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//qPMvbqTdaXSGlWuDAku4FES0ZK6.jpg",
+            "overview": "Tommy se conecta à Guarda Nacional. Rebecca fica cada vez mais desconfiada de Cooper.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/e5b2fe1f992aebf6cb97738a163d9b21/master.m3u8?s=1&id=34624&cache=1"
+          },
+          {
+            "episode": 9,
+            "title": "Campo do Lobo",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//e49HHIF6l89zJKaA7ce3VOtrYG2.jpg",
+            "overview": "Após um susto com a saúde, Monty coloca Tommy em uma situação difícil. Cooper elabora um plano.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/f965ce468b3afc578525cd9758975cc2/master.m3u8?s=1&id=34625&cache=1"
+          },
+          {
+            "episode": 10,
+            "title": "As Migalhas da Esperança",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//z8fQOBRAPGw930PwgpN6zdMFMnf.jpg",
+            "overview": "Tommy e Cami discutem se devem arriscar ou jogar com segurança. O cartel faz uma jogada.",
+            "stream": "https://watch.brplayer.cc/m3u8/10/597e056a5873db884c0fe266918c9f07/master.m3u8?s=1&id=23695&cache=1"
+          }
+        ]
+      }
+    ]
   }
 ]
