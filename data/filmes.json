@@ -36,8 +36,17 @@
     "stream": "https://watch.brplayer.cc/m3u8/26/cdb36ea731ecf2d69881eaff7220b10e/master.m3u8?s=1&id=34960&cache=1"
   },
   {
+    "id": "tt21622756",
+    "name": "Sem um Nome (Dublado Não Oficial)",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gJYiBCyBUI2RuOPaX8oVj45jsZx.jpg",
+    "description": "O adolescente Calvin se vê envolvido em um culto que venera jovens, mas ameaça adultos. Seu pai luta para resgatá-lo, mas Calvin talvez não queira ser salvo.",
+    "year": 2025,
+    "categoria": "Dublado Não Oficial",
+    "stream": "https://watch.brplayer.cc/m3u8/12/f34fad478256597ee97020039fd5a7a0/master.m3u8?s=1&id=34942&cache=1"
+  },
+  {
     "id": "tt26920256",
-    "name": "Antes da Lua Chei",
+    "name": "Antes da Lua Cheia",
     "poster": "https://cinegratis.tv/uploads/posts/2025-11/e233b435-0792-4d2f-b93b-b739382cddf4.webp",
     "description": "Uma jovem garçonete é sequestrada por um culto religioso, que está determinado a curá-la da maldição do lobisomem - um vírus sexualmente transmissível - ou matá-la. Para sobreviver, ela precisa escapar antes da primeira lua cheia.",
     "year": 2025,
@@ -70,6 +79,15 @@
     "year": 2025,
     "categoria": "Dublado Não Oficial",
     "stream": "https://watch.brplayer.cc/m3u8/12/146c17f5cc1fc1826576caa0d4fcb5c0/master.m3u8?s=1&id=32817&cache=1"
+  },
+  {
+    "id": "tt21349688",
+    "name": "A Leste de Wall",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1As2vLgmSvNEfjenRoRJgPKOLTm.jpg",
+    "description": "Após a morte de seu esposo, Tabatha, uma jovem treinadora de cavalos, luta contra a insegurança financeira e uma dor sem solução enquanto brinda refugia um adolescente abandonado em seu rancho nas Tierras Baldías.",
+    "year": 2025,
+    "categoria": "Dramna",
+    "stream": "https://watch.brplayer.cc/m3u8/10/397b233c06ba97b635731d222783217e/master.m3u8?s=1&id=35063&cache=1"
   },
   {
     "id": "tt20990442",
@@ -396,6 +414,15 @@
     "year": 2025,
     "categoria": "Terror",
     "stream": "https://watch.brplayer.cc/m3u8/26/fb52538ee970026501864b2272852dc4/master.m3u8?s=1&id=34903&cache=1"
+  },
+  {
+    "id": "tt21818162",
+    "name": "Antes do Fim do Mundo",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/g7T2OZVC4G70tmYmUnVzzsbbIYO.jpg",
+    "description": "Quando um meteoro ameaça destruir toda a vida na Terra, Rose e Michael embarcam em uma viagem pelo país para visitar a avó de Rose uma última vez.",
+    "year": 2025,
+    "categoria": "Romance",
+    "stream": "https://watch.brplayer.cc/m3u8/10/62f437b94fd208abe564e604ecd218fc/master.m3u8?s=1&id=35061&cache=1"
   },
   {
     "id": "tt36499994",
@@ -853,6 +880,15 @@
     "year": 2025,
     "categoria": "Drama",
     "stream": "https://watch.brplayer.cc/m3u8/27/4f6e1bfb01ad1e44d8c958c58cd22051/master.m3u8?s=1&id=33714&cache=1"
+  },
+  {
+    "id": "tt21349688",
+    "name": "A Leste de Wall",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1As2vLgmSvNEfjenRoRJgPKOLTm.jpg",
+    "description": "Após a morte de seu esposo, Tabatha, uma jovem treinadora de cavalos, luta contra a insegurança financeira e uma dor sem solução enquanto brinda refugia um adolescente abandonado em seu rancho nas Tierras Baldías.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "stream": "https://watch.brplayer.cc/m3u8/10/397b233c06ba97b635731d222783217e/master.m3u8?s=1&id=35063&cache=1"
   },
   {
     "id": "tt34381317",
@@ -1757,5 +1793,14 @@
     "year": 2025,
     "categoria": "Dublado Não Oficial",
     "stream": "https://watch.brplayer.cc/m3u8/12/53f51ff216e36eb3f93d24c4d0cc2793/master.m3u8?s=1&id=35045&cache=1"
+  },
+  {
+    "id": "tt27829165",
+    "name": "A Névoa da Guerra",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/cvKfxdKaV20YikapsiYA23ETXG.jpg",
+    "description": "Um piloto americano ferido, Gene, e sua noiva, agente de OSS, se retiram para uma fazenda remota em Massachusetts para visitar sua família extensa. Os OSS recrutaram Gene para espionar a família e a comunidade ao redor.",
+    "year": 2025,
+    "categoria": "Suspense",
+    "stream": "https://watch.brplayer.cc/m3u8/10/36179605b136215afcba7b1344c136a8/master.m3u8?s=1&id=35062&cache=1"
   }
 ]
