@@ -1173,12 +1173,12 @@
       { "name": "Ali LarterMichelle Randolph" },
       { "name": "Michelle Randolph" },
       { "name": "Jacob Lofland" },
-      { "name": "Demi Moore" },
+      { "name": "Demi Moore" }
     ],
 
     "directors": [
-      { "name": "Stephen Kay", "role": "Creator" }
-      { "name": "Michael Friedman", "role": "Creator" }
+      { "name": "Stephen Kay", "role": "Creator" },
+      { "name": "Michael Friedman", "role": "Creator" },
       { "name": "Taylor Sheridan", "role": "Creator" }
     ],
 
