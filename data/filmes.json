@@ -276,14 +276,6 @@
     "stream": "https://watch.brplayer.cc/stream/bTN1OC8yNy82MzAxMDQxYjRhNmYxY2MwZDIyMmJiNmMwMmZjYmU1NS83MjBwLzcyMHAubTN1OD9pZD0zNDc2MA=="
   },
   {
-    "id": "tt36240772",
-    "name": "K.O",
-    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/o0brhd2qdfFL3o7VxFDsUfUSaML.jpg",
-    "description": "Filme dublado PT-BR",
-    "year": 2025,
-    "stream": "https://vod3.cf.dmcdn.net/sec2(taUNZwO52dr2pUUCEDfn6EtmnuH8yFAKOKxJUQ5YPCeS6tVh9hW_1GnKbWRV9DzOIpxUhXjrBsid8hsPGrxnxs5bmI10DT4GXHoDKjup03OuZ3SuN8gANmkd6cYNudOES3sVa8cJ8xcBfQSYcDSUJiThJXzsXAhDy2sasqx5g0V6mqyo2AoA_P7OvX4FexHR)/video/090/340/580043090_mp4_h264_aac_hd_3.m3u8#cell=cf3"
-  },
-  {
     "id": "tt32159989",
     "name": "Depois da Caçada",
     "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/jicP8HznlZNM1yoStgxIGgJieeo.jpg",
@@ -1802,6 +1794,15 @@
     "year": 2025,
     "categoria": "Netflix",
     "stream": "https://watch.brplayer.cc/m3u8/26/b1211abafb24dcd0eea6ef6e8f4790a6/master.m3u8?s=1&id=32234&cache=1"
+  },
+  {
+    "id": "tt36240772",
+    "name": "K.O",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/o0brhd2qdfFL3o7VxFDsUfUSaML.jpg",
+    "description": "Filme dublado PT-BR",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://vod3.cf.dmcdn.net/sec2(taUNZwO52dr2pUUCEDfn6EtmnuH8yFAKOKxJUQ5YPCeS6tVh9hW_1GnKbWRV9DzOIpxUhXjrBsid8hsPGrxnxs5bmI10DT4GXHoDKjup03OuZ3SuN8gANmkd6cYNudOES3sVa8cJ8xcBfQSYcDSUJiThJXzsXAhDy2sasqx5g0V6mqyo2AoA_P7OvX4FexHR)/video/090/340/580043090_mp4_h264_aac_hd_3.m3u8#cell=cf3"
   },
   {
     "id": "tt21103218",
