@@ -1894,5 +1894,128 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "leviata-2025",
+    "tmdb": 256323,
+    "type": "series",
+    "name": "Leviatã",
+    "runtime": "24 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/eXOxjF7RB620tUqx5ddZ9Ar8xdb.jpg",
+    "background": "https://image.tmdb.org/t/p/w780/kobz3t4TKPXRUGUpcV3Ic7sgLtW.jpg",
+    "logo": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABQYlMcMICQWO60O_huplGAcQ8ObomPfeoGBobv8XRhZAJeT75Yk5VwpavJaAELnJ9lhD3-YQ6WwoiORlw-yTOEW8Tl_7nsw9pw.png?r=620",
+    "description": "Em 1914, às vésperas da guerra, um príncipe fugitivo e uma garota disfarçada se encontram a bordo de um dirigível de bioengenharia, o HMS Leviathan, e mudam o curso da história.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "genres": ["Steampunk", "Anime"],
+
+    "cast": [
+      { "name": "Broghanne Jessamine" },
+      { "name": "Dor Gvirtsman" },
+      { "name": "Ayumu Murase" },
+      { "name": "Naoto Kobayashi" }
+    ],
+
+    "directors": [
+      { "name": "Christophe Ferreira", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "6.7",
+      "imdb_id": "tt32581507"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Na tempestade",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWgZLMi02egP1Qc3kH3o0kt8P0tPPgAFIbX_3updXabjQV7ruOZrODxXMqXSz2XitQyvEhtuFKD3O33HewxpqB59PDux9jv3wFt0AxKvoRNfG0DADKO5bLIb.jpg?r=0b5",
+            "overview": "1914. O príncipe Alek da Áustria-Hungria tem uma aula prática incomum em um Stormwalker. Em Edimburgo, Sharp está feliz por voar em um Huxley.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/561eaa108c9074d4c16da3186f2b9be0/master.txt?s=1&id=32874&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Prelúdio da guerra",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABaj9NEwXgT7IvxKU1ogLnbBhYSq3ohwhdm6h1L3uaN85eoMbe7QeExJQx8JPen4gkPlCn8mj8oBzuswlUFEFc5U3--DQOfavLBJazd1GENE5mFzedaq92TQE.jpg?r=e15",
+            "overview": "Com a Europa à beira de uma guerra, Alek tenta se adaptar à nova vida como fugitivo. Sharp conhece o Leviatã e sua tripulação.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/17063277217449d39e2328a007ffb4fa/master.txt?s=1&id=32875&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Makinistas e darwinistas",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYp_5uY6foyhVFunirsn4xT_yITOg5Oz9TCoEAXObIDvBbHO3Ul9-EurUF75PQKNca7VPBGTFFKOJDg-WaSrJlS8Nj85_EHLoTRWPaex3g5HhPceaAF-Fvo4.jpg?r=c26",
+            "overview": "Alek descobre por que está sendo caçado. Apesar do conselho de Volger, ele foge para ajudar a tripulação do Leviatã e salva Sharp, que não acredita na história dele.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/71afb186ca8924414be94770dba45137/master.txt?s=1&id=32876&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "O peso do passado",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQasaYNbaQLk-kg30ESf8f5Gl-pulnR60eT6QiPYn206enV2Dzu9g_YXilsIG5J9-tc52SqdLGgLzjbVMxmlWdru2Z1Tb4WqENt5YFkA8s10MI4rjdcwrMJ-.jpg?r=f02",
+            "overview": "Com as forças Makinistas em seu encalço, o Leviatã ferido precisa de um milagre para sair do chão. Alek faz uma oferta irrecusável aos Darwinistas.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/ee50567c32d7c2e693df4a6206c71b00/master.txt?s=1&id=32877&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "Para o leste",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABd6ysoKs6htl2eJoYoPipod4zQ3oYrSzUs7M4jufyJNOTZAXJZMKlSykImpJtzVyKHcpiGMdl0olLZqfvku59XrxcNiBdYJmrWcTBor-iEkV3JjUMi6QAlXy.jpg?r=31e",
+            "overview": "O Leviatã encontra uma arma mortal Makinista em sua jornada rumo a Istambul. Ao chegar à cidade, Alek e os companheiros fazem planos para escapar.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/891565c4dbecf15e2cd7f7f737931518/master.txt?s=1&id=32878&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "Sombras de Istambul",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABSx2-J8C1Z7Wt6GGE1e4Y6C6oUMyMggEe4FWUWMwZ2sGnMmNuhfDcwWN46plBfXbdDC_S_LobU3_xfHhxySLRxw9X8KbBVP_gF77HsgnyHj57K4LZ5Dy2t_D.jpg?r=70d",
+            "overview": "Sharp e a Dra. Barlow finalmente encontram o Sultão e oferecem um presente raro. Uma garota misteriosa salva Alek de uma patrulha alemã.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/cb57ba36db3faf9723fcfeade897b7fb/master.txt?s=1&id=32879&cache=1"
+          },
+          {
+            "episode": 7,
+            "title": "Mares tempestuosos",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABTVh4G-NJI7qNiL0_JayA9rXJbfnPUGp3-_q_W1pMzodlRX0CDZuuWQd-s12ggNSAbIm8LRK2iDgmcKIk72QxWzeNR917JrXwsZqEwf06GgFpAjl1zusnmNq.jpg?r=646",
+            "overview": "Uma patrulha compromete a operação secreta britânica, obrigando Sharp a fugir pelas ruas de Istambul. Alek se envolve com a causa do exército revolucionário.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/73b98aaf0b3dc56931f522711bcb457b/master.txt?s=1&id=32880&cache=1"
+          },
+          {
+            "episode": 8,
+            "title": "Beemote",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfBVf5wuN1wo2GsrKaP_oCb4FZpfth16PikW9-b1YJ_u6hcQe-yWw-VSUycoYlV8jox_gCdRfPab6rGQX4pTgw0fNKShY_jCgMMNOOsIfoI3cd36m08xSQea.jpg?r=a07",
+            "overview": "Preocupado com a segurança de Klopp no dia do golpe, Alek pede para ele fugir. Notícias inesperadas forçam os revolucionários a agir antes da chegada do Beemote",
+            "stream": "https://watch.brplayer.cc/m3u8/27/326a8605975106f1672c912bd16b4e7b/master.txt?s=1&id=32881&cache=1"
+          },
+          {
+            "episode": 9,
+            "title": "Tunguska",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABcSZ9_vB70a3ycKzBUlm48CVxWVXtULVJ32dX_penBnwDHqw6VVK3peWZ8AHXbWW-0p3Pkv67mjezRNWTs4RVqR5ob-9VvL8ocSrTDJZ6txJgzLY_FOnRhtQ.jpg?r=002",
+            "overview": "O Leviatã e sua tripulação chegam à Sibéria para encontrar o tio de Barlow. Lá, ele revela a origem por trás de diversos fenômenos misteriosos acontecendo no mundo todo",
+            "stream": "https://watch.brplayer.cc/m3u8/27/90918c5b8c17f80e32d5b155a7bf6197/master.txt?s=1&id=32882&cache=1"
+          },
+          {
+            "episode": 10,
+            "title": "Verdades e mentiras",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUiU6rgv7yKykNq1QljRbr6FPfgRaUXma2bhzXp7aS7knhmq6DGlpaT2vIkavaNcbiM0AsNOnUEAbdaZYibctAKTGUHRQfuItaeylQ1umpMBiC7Prq0VLJ8A.jpg?r=230",
+            "overview": "Alek descobre a verdade sobre Sharp, e as tensões aumentam entre os dois. Sharp se envolve em uma situação perigosa.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/d996e31032e7c288d7e20e7b82221c20/master.txt?s=1&id=32883&cache=1"
+          },
+          {
+            "episode": 11,
+            "title": "Golias",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqRoF9ECicl8QEU0UtkujpRjxUSrOk6ZQneQ&s",
+            "overview": "Determinados a descobrir a verdade sobre Tunguska, Alek e Sharp confrontam Tesla e descobrem a invenção responsável pela destruição, o Golias.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/c7e07c312fd6bafc9f5192b3dfdf3d3f/master.txt?s=1&id=32884&cache=1"
+          },
+          {
+            "episode": 12,
+            "title": "Episódio 12",
+            "thumbnail": "https://dmtalkies.com/wp-content/uploads/2025/07/Netflixs-Leviathan-Recap-Alek-Deryn-and-others.jpg",
+            "overview": "o príncipe Alek se adaptando à vida em fuga e descobrindo a razão de ser perseguido. Enquanto isso, Sharp se familiariza com a tripulação do Leviathan e, contra o aviso de Volger, Alek parte para ajudar e resgata Sharp, que ainda duvida de suas reivindicações reais. ",
+            "stream": "https://watch.brplayer.cc/m3u8/27/9ffe7d903de2691357188406c25cadf8/master.txt?s=1&id=32885&cache=1"
+          }
+        ]
+      }
+    ]
   }
 ]
