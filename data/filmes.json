@@ -2118,5 +2118,32 @@
     "year": 2025,
     "categoria": "Netflix",
     "stream": "https://watch.brplayer.cc/m3u8/26/6dfbdd2796f306866bd7fa91b79f2339/master.m3u8?s=1&id=31335&cache=1"
+  },
+  {
+    "id": "tt9866072",
+    "name": "Amor Com Data Marcada",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/vsuhSOLAaEoZGR4paPFgxE29jIn.jpg",
+    "description": "Cansados ​​de ficarem solteiros nas férias, dois estranhos decidem sair o ano todo, mas logo começam a sentir algo pelo outro.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/26/92ca971e9ff727c8e9b0f882cafe003d/master.m3u8?s=1&id=31251&cache=1"
+  },
+  {
+    "id": "tt32598081",
+    "name": "Deslizando pela Vida 2",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/kYhfg9OkOqnJl0RFJYRY7djvngq.jpg",
+    "description": "Lisa planeja percorrer o Vätternrundan de 315 km com seu irmão Daniel. Enquanto hesita em se casar com Anders, a esposa de Daniel pede o divórcio. Lisa se reencontra com um antigo amor e os dois casais enfrentam desafios.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/26/d9466601bb1cec0a0df354707b5a1c08/master.m3u8?s=1&id=30911&cache=1"
+  },
+  {
+    "id": "tt35669032",
+    "name": "O Mesmo Dia com Você",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/u2APPpDvsEDVJJKOANWupjL65kD.jpg",
+    "description": "Uma curadora de museu presa em um ciclo temporal deve encontrar uma maneira de escapar de seu dia de pesadelo que se repete sem parar.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/27/c1eb1949c87d3bb139951cb0ae9ddeee/master.m3u8?s=1&id=31047&cache=1"
   }
 ]
