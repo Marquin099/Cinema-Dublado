@@ -1509,74 +1509,60 @@
         "episodes": [
           {
             "episode": 1,
-            "title": "",
-            "thumbnail": "",
-            "overview": ".",
-            "stream": ""
+            "title": "Está me ouvindo, Suzie?",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQm_tf5d6O9LPck1z0qHTriu5tOqUNj3RUpKHkmEVS4ciSzTxYEl6EFtR6MZz2EvangzmE22WPlUQiJ57gCUxVZTUCVWwG8Dg-BhNQZAS0b-jrAxNmo5s0bj.jpg?r=8c4",
+            "overview": "O verão é época de trabalhos temporários e novos namoros. Mas o clima muda quando Will percebe algo de errado na transmissão em russo captada pelo rádio de Dustin.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/ac000c263d73c325e7ba5b3e3d2830d7/master.m3u8?s=1&id=28108&cache=1"
           },
           {
             "episode": 2,
-            "title": "",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "O caso dos ratos",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABTH_W9jcVb7rcUoZ_Fg3c-SvuE6DnH-xT8QVtN0wApq8oYMSUyVTE8lnshjrBJ1QXMInjktp198t2OlMOsCB11OtbULvH6DVAi_G0vuLUcOfrD_Id25PQ-cD.jpg?r=573",
+            "overview": "Nancy e Jonathan seguem uma pista. Steve e Robin participam de uma missão secreta, e Max e Onze vão às compras. Billy tem visões perturbadoras.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/9dfcbc9897ad8f393da9c34d4883524f/master.m3u8?s=1&id=28109&cache=1"
           },
           {
             "episode": 3,
-            "title": "",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "A salva-vidas desaparecida",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfN4p-ySvJPWWRFfiYw0w0EM9Ohx7YhWnmXiZEfO33pjTpy7ed98HM58Gsq2inynuqrg6bYZqPSSiehQQ7H81ow9CBC7FF0UbbUa_6jKEGSKIEJ-e9XJWpl_.jpg?r=205",
+            "overview": "Onze e Max estão à procura de Billy. Will planeja um dia sem as garotas. Steve e Dustin ficam de tocaia, e Joyce e Hopper retornam ao Laboratório Nacional de Hawkins.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/43102e91c7b170ead9cc2f6f0a37f1af/master.m3u8?s=1&id=28110&cache=1"
           },
           {
             "episode": 4,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "A prova da saunaE",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABcm7Q06M6ZzmcjT4XYIcJV89wyIp9sKWJr0eEIRzxEkmYjb-jgSZtMBh06jY4Uq_y9DXCbILT55Z4ke50QC-YfgBsfR00sqwf3bYWZhROEf8tRTEqDhHwQ4X.jpg?r=e10",
+            "overview": "A turma se reúne para enfrentar um mal terrivelmente familiar. Karen pede que Nancy continue a investigação. Robin consegue uma planta do shopping muito útil.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/eff273b8ff65204546e793d51f41ab68/master.m3u8?s=1&id=28111&cache=1"
           },
           {
             "episode": 5,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "Os devorados",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRm0MpDgkitlnu6PsIlUJvmWqgPg_n18s9vKvs1322KiMRWa92oe0pL2sDqSzAmHFRmtfOPpVLX24j8b2kLpQXNn6zhBJATDLVkXdRhoAjwU_oalOu5uvOQh.jpg?r=3b7",
+            "overview": "Surpresas estranhas se escondem em uma antiga fazenda e nas profundezas do Starcourt Mall. O Devorador de Mentes fica mais forte.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/a311dd84030f32ea6e0550b09f5869eb/master.m3u8?s=1&id=28112&cache=1"
           },
           {
             "episode": 6,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "E pluribus unum",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABb81YAE-auCaboWp0y0zTT1vVhPuI1zXgsvjmULRW7MNNa5bU9QfNVGeZf-EhRnd0LuLkcHTR2oAcdrRAlJ7nVBaCrId1OC7jb5Yskwk4iMqQ0aw48Tf1pAp.jpg?r=bd7",
+            "overview": "Dr. Alexey revela o que os russos estão construindo, e Onze vê onde Billy esteve. Dustin e Erica planejam um resgate ousado.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/854b68b3c6c3e69b52672108c5a99010/master.m3u8?s=1&id=28113&cache=1"
           },
           {
             "episode": 7,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "A mordida",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRe8hx9-_QWIpQlH9qM125_2mEOyfYPAym8X3e75amNVCHkAl1Li38JUevB5Bv01SaatruPwT1ROgwIa_O-3npOT68qoNxkMHO4.jpg?r=ab6",
+            "overview": "Com o tempo se esgotando e um assassino cada vez mais perto, a equipe de Hopper corre de volta a Hawkins. Lá, Onze e o resto da turma se preparam para a guerra.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/2791cbf7a6b8b8c08804168ddcf1c172/master.m3u8?s=1&id=28114&cache=1"
           },
           {
             "episode": 8,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "A batalha de StarcourtE",
+            "thumbnail": "O Devorador de Mentes causa terror na praça de alimentação. Lá embaixo, na escuridão, o futuro da humanidade está em jogo.",
+            "overview": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABegj--uIYQjB8_eq7qKEVaumLlggs_7yBPDTGX9Uqc6mzn6j3gvW_CWwn5esLhNMEHBx65KTYnUUXL3sA4X33LZ4cJgZNkHLxeUgQwIjdCB5ONexhVojet8k.jpg?r=cf4",
+            "stream": "https://watch.brplayer.cc/m3u8/26/637023cd299a933815015df640de25ad/master.m3u8?s=1&id=28115&cache=1"
           },
-          {
-            "episode": 9,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
-          },
-          {
-            "episode": 10,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
-          }
         ]
       }, 
       
@@ -1585,73 +1571,66 @@
         "episodes": [
           {
             "episode": 1,
-            "title": "",
-            "thumbnail": "",
-            "overview": ".",
-            "stream": ""
+            "title": "O Clube Hellfire",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABTb6PIuB_iYdlKUKHcsG1qa7SAo8n1urvV8yDQxHlcXzVPaN8w8AbvhqGDfwiFV4VREdhSZcaaoZ03k2ljmDjd6qvbwXqKWceRfPU2nQ7ZP96eDIAptAMGJj.jpg?r=fa2",
+            "overview": "Osn sofre bullying. Joyce recebe uma caixa misteriosa. Uma nova figura cheia de atitude agita a noite de D&D. Atenção: contém violência explícita envolvendo crianças.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/b05d931354c9f442ace4af9fe8c9a754/master.m3u8?s=1&id=28116&cache=1"
           },
           {
             "episode": 2,
-            "title": "",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "A maldição de Vecna",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABTVKrrf6--HWo4y3qEsGRK3RLcPVYYfi9Pg58fzTpr3CAukmESzR-W6FCm3e7BNYyb3IK9kC767wrKvbJMvHdVg31OlZVbEzFSdF7vg7-pkZBgxhhjyukaPl.jpg?r=74f",
+            "overview": "Mike embarca em um avião rumo à Califórnia. Um corpo abala Hawkins. Nancy sai à procura de pistas. Abalado, Eddie conta aos amigos o que viu.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/6ca3f7acb8ab6c8ff6123d54c83ab844/master.m3u8?s=1&id=28117&cache=1"
           },
           {
             "episode": 3,
-            "title": "",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "O monstro e a super-heroína",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdvN_53V97VN3yqARlZEB0E4ZWOHVcdHiwG-PWAejNOWqYzRqSDSTVJTsUCTLHvgVDU6Ee4QSpzPAS8zF71cEAHHovNH7M_FcLe6OlssN8XAMBICSLd5rApX.jpg?r=c5c",
+            "overview": "Murray e Joyce viajam para o Alasca e On enfrenta duras consequências. Robin e Nancy fazem uma descoberta sobre os monstros de Hawkins. Dr. Owens traz más notícias.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/afa01e654050008794c59ec41cfd297b/master.m3u8?s=1&id=28118&cache=1"
           },
           {
             "episode": 4,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "Querido Billy",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdlTT2-wHN44wYIN0v9LWb_VFB_eWEiTo1ZeJjsC8gQghOtttTUfG6gIL8v7KbEqQljSRV-weHBg63vd0Yk9FWUk9K_MrvHBtTo59A-smSiRKrezIJhrIPWF.jpg?r=ea8",
+            "overview": "Max corre um perigo enorme... e o tempo está acabando. Um paciente do manicômio Pennhurst recebe visitas. Na Rússia, Hopper encara um trabalho árduo pela frente.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/e2e092985007a1e33dd712a6df38af98/master.m3u8?s=1&id=28119&cache=1"
           },
           {
             "episode": 5,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "Projeto Nina",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABcTRvRuD1JMV1WNfGIQyjVEz9GzkU8K2UeuGbo1B2HPkXY_aSTiPbmbzdTVZ1wJrFxxAhawRCoF-M4FX2z9nHgCmPjCSvuzSVuzQd9a30D0lGVJPWE0K5C3y.jpg?r=585",
+            "overview": "Owens leva On para Nevada, onde ela é obrigada a encarar o passado. Em Hawkins, a turma vasculha uma casa em ruínas atrás de pistas. Vecna faz mais uma vítima.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/9951eeb199b196abb1e7f91ba1a690bc/master.m3u8?s=1&id=28120&cache=1"
           },
           {
             "episode": 6,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "Mergulho",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZzQUEUuo1ZD8O8H_Va6fOfFtMKEwxDtkiungPJhDQkPKuMFWx5Lc8rVG4Zs8hE3PZ4AfedCrWQ-9Iq3EUiTVIvFuZIo2Fn-WyP3uHcpfD-xEzlj4SnymKBj.jpg?r=9c9",
+            "overview": "Uma missão de resgate arriscada toma forma. Na Califórnia, os garotos pedem ajuda a uma hacker. Steve se sacrifica pelo grupo.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/cad2dd4ac4d8d86663098a2843654559/master.m3u8?s=1&id=28121&cache=1"
           },
           {
             "episode": 7,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "O massacre no laboratório de Hawkins",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYFClLrz_Rw8xMKbuNd8XK9qipFibL2iTQcE0as4kGB-V-1hjeC44I7dZIeOCNm8W1DqY0cAdhQLFU7nlsrHvfe3Nun1I0Aqo8iG1_B_EN-tatFh6gduuZzx.jpg?r=759",
+            "overview": "Hopper se prepara para uma batalha épica. Dustin investiga as motivações secretas de Vecna e decodifica uma mensagem do além. On encontra forças numa lembrança distante.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/3948730d3bfbcc822e6cebe4361364ba/master.m3u8?s=1&id=28122&cache=1"
           },
           {
             "episode": 8,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "Papai",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQoJXnRD19oU1rYzDXROx8iifL2Fm5a2lhRzuUn6-SefxTGODvrIgNm46-1XFY2R0uSn9uY69TywMlaZSySXK-YwIcA3WROCx30VX7fu1G4PTNx-7ttx1D6x.jpg?r=94c",
+            "overview": "Nancy tem visões preocupantes. Onze consegue dar um passo importante. Em Hawkins, a turma se prepara para a batalha.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/94f2997c96b61f9f3cd816418d376ff9/master.m3u8?s=1&id=28123&cache=1"
           },
           {
             "episode": 9,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
-          },
-          {
-            "episode": 10,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "E o plano de Onze",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABb5Uf78MmD49Njxx5HmXP7dz0PmlvCL6r89vbLLzRGjqMB14BrGuob96DX1UqB00Vip8WQ1CelkIFxajqRCAbXJUm9H-R3hbTdzsflv9gUazE26N7Rkb9sxi.jpg?r=7f8",
+            "overview": "Com muito amor no coração e um toque de metal, os heróis lutam para salvar Hawkins e o mundo.",
+            "stream": "https://watch.brplayer.cc/m3u8/26/a3160ad6806f87b6e31e834e8c94ca32/master.m3u8?s=1&id=28124&cache=1"
           }
         ]
       }, 
@@ -1661,70 +1640,56 @@
         "episodes": [
           {
             "episode": 1,
-            "title": "",
+            "title": "Missão de resgate",
             "thumbnail": "",
-            "overview": ".",
-            "stream": ""
+            "overview": "",
+            "stream": "https://watch.brplayer.cc/m3u8/10/502c4afdfeedb869dd6c8c1496e7da0f/master.m3u8?s=1&id=34964&cache=1"
           },
           {
             "episode": 2,
-            "title": "",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "O desaparecimento de...",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//dI8N4IQpZNKloK4Dw6MugpSrwMS.jpg",
+            "overview": "Após o terrível ataque à casa da família Wheeler, Mike e Nancy pagam o preço do segredo. Onze e Hopper saem em uma missão de resgate.",
+            "stream": "https://watch.brplayer.cc/m3u8/10/88290d3a6d7bb6c82dae2dc05bec283a/master.m3u8?s=1&id=34965&cache=1"
           },
           {
             "episode": 3,
-            "title": "",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "A armadilha",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//vBLzxoyZTbT0ImHXKWG2fe7j2om.jpg",
+            "overview": "Will descobre o próximo passo de Vecna, e o grupo tem a chance de armar uma emboscada. Holly explora seu novo território.",
+            "stream": "https://watch.brplayer.cc/m3u8/10/4d3b24ccbb166a2fda032e5ff518bb2b/master.m3u8?s=1&id=34966&cache=1"
           },
           {
             "episode": 4,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "Quatro: Feiticeiro",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//mp6nFiganZCbieJ0wSjIHz7bS8r.jpg",
+            "overview": "Os militares apertam o cerco na cidade. Mike, Lucas e Robin orquestram uma fuga ousada, enquanto El fica cara a cara com quem está por trás da ameaça.",
+            "stream": "https://watch.brplayer.cc/m3u8/10/5fc91308f724d6c005e827b9b9b5ced1/master.m3u8?s=1&id=34967&cache=1"
           },
           {
             "episode": 5,
-            "title": "EM BREVE",
+            "title": "Tratamento de Choque",
             "thumbnail": "",
             "overview": "",
             "stream": ""
           },
           {
             "episode": 6,
-            "title": "EM BREVE",
+            "title": " Fuga de Camazotz",
             "thumbnail": "",
             "overview": "",
             "stream": ""
           },
           {
             "episode": 7,
-            "title": "EM BREVE",
+            "title": "A Ponte",
             "thumbnail": "",
             "overview": "",
             "stream": ""
           },
           {
             "episode": 8,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
-          },
-          {
-            "episode": 9,
-            "title": "EM BREVE",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
-          },
-          {
-            "episode": 10,
-            "title": "EM BREVE",
+            "title": "O Mundo Direito",
             "thumbnail": "",
             "overview": "",
             "stream": ""
