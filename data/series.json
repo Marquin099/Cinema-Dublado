@@ -1792,5 +1792,107 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "os-caras-malvados-no-pedaço-2025",
+    "tmdb": 302540,
+    "type": "series",
+    "name": "Os Caras Malvados No Pedaço",
+    "runtime": "25 min",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/2MwexoT6ErCY8CBe80dBEV866oF.jpg",
+    "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY782uSb2bChE57OSv83ZFQWitSsGDLo1NEg&s",
+    "logo": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABS8lnUe2CiTzRbqtEM3yLbNd5gyffa9X4vXcLkHhF3HCNgre2_agGyWRmWCg0iY423LCB71rqO6wO1oUDqxt8MJ1R4eojmoSTQ.png?r=fe0",
+    "description": "Antes de serem os bandidos, eles eram criminosos em busca de fama. A gangue Wolf tenta assaltos grandiosos para aparecer na lista de vilões da TV, mas ser perversos não é a praia deles.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "genres": ["Animação", "Aventura", "Comédia"],
+
+    "cast": [
+      { "name": "Michael Godere" },
+      { "name": "Ezekiel Ajeigbe" },
+      { "name": "Raul Ceballos" },
+      { "name": "Mallory Low" }
+    ],
+
+    "directors": [
+      { "name": "Christo Stamboliev", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "6.4",
+      "imdb_id": "tt31392119"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Maus começos",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABe1Bs4FBE7hxzusduifnPVHM3DywFB0bCuA51mJyxDJO6RPNuedjO_k0k6dwvyem7bh0zCAtKH9mFmqM_DgYC3gyikBS1xuX6VGQXG9_B2H4Jn53CroYtnyb.jpg?r=b2f",
+            "overview": "Para ganhar fama, Sr. Lobo e seu fiel grupo de ladrões resolvem roubar um quadro muito conhecido do museu da cidade.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/73e353a345caabdf1e9c46ec7b7edcfe/master.m3u8?s=1&id=34150&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "O doce, doce roubo",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABSORtOMOOD-iJvZbKgZx99mhAPlpq6B7wDNwATqkZ99exsWVM-3kJeVzIzm3P31_9lp4KMrzUpaGSwyptj0z_D7jdEgVMuaWiu29CfhcwjmMxtu68fpKgh6i.jpg?r=267",
+            "overview": "Em busca de reconhecimento por seus crimes, os Caras Malvados tentam roubar a receita secreta de uma fabricante de doces fofa até demais.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/aab3d247f52005e103738e2539f97316/master.m3u8?s=1&id=34151&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Sem notícias, más notícias",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYclOLmuW2qlTNufPn0tEADBhTSppzP7aIklvZgURwoxItPiLBGf6tYtX8XhlQpnQp76jj6H4_ajtygwQTr_TQZO8I-6N4RQxDA.jpg?r=ddf",
+            "overview": "Lobo consegue descolar uma entrevista para a turma no noticiário. Mas será que os Caras Malvados estão prontos para a fama?",
+            "stream": "https://watch.brplayer.cc/m3u8/27/4b1e14f32e85dc7b48a2ef9bb1cac0a4/master.m3u8?s=1&id=34152&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Cobra enrolado",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbbPGsYK5qZkbe2TBLvkZsjEyH6vWYKtQz_yS7hxyOW4PK7p6woq2qYT3vTB-8ajzgC73yaGzqoGcjVfLEs8ilOO9iOMKmO6X_M.jpg?r=fd3",
+            "overview": "Piranha não aguenta mais viver no esconderijo todo bagunçado e decide criar uma roda de tarefas. (Foi mal, Lobo, mas o próximo assalto vai ter que esperar.)",
+            "stream": "https://watch.brplayer.cc/m3u8/27/bd439194e7f892d3052e0a47eb0ffbf7/master.m3u8?s=1&id=34153&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "A Redinha, o Wigglesworth e o armário",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABX72q5LO2uoiVON1AZEet_h_5JAly1KDj-g1nynFe9BFW5_ZS5zwbqT1FVeB-EyitVwCvhUqY6-yTyrbuFZQmJO9e1Bg_US5I3fINNRAU969iQvIcbfgX7zP.jpg?r=a10",
+            "overview": "Redinha dá mole em um assalto e fica com medo de ser descartada. Então, ela decide que está na hora de aprender a arte da fuga.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/f895d035468d1b217daf9f10fc81c66c/master.m3u8?s=1&id=34154&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "Vida difícil de roubos",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABb78KM5LxyqiYJFMORDoxpjePTUtsGFoLyJ-73m29L8NvDLrV37fFMaX92fLRZ60SoV8NIvL54cKAZ7U8sHTKcAvh34GEy8yvS9bV8e1b5dlgpRX_xz9Llvu.jpg?r=b88",
+            "overview": "Cobra acaba se transformando em um filhotinho fofo, então os Caras Malvados decidem usar toda essa fofura para dar um golpe.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/e85d66c6a4f01b134218e39c3bda435f/master.m3u8?s=1&id=34155&cache=1"
+          },
+          {
+            "episode": 7,
+            "title": "Ladrão que rouba ladrão",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABeCMplWat-albQdbz934Mye7v1UPH9e1O_JFfPO-Mh3KGycUau1mMtmZGM3-4II0uSEClC5pPimxyIypVKApmbSps1HIQvk2PrpXzzqtj-PIXEnj7P8PmSIe.jpg?r=55c",
+            "overview": "Os Caras Malvados decidem passar a perna nas Corujas da Noite, só que começam a cantar vantagem antes da hora.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/97afb71cb325db3c37b67045ef0dcc68/master.m3u8?s=1&id=34156&cache=1"
+          },
+          {
+            "episode": 8,
+            "title": "Lar é onde o assalto está",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZ9wvTh5sp9LiFYO_1O60F6fL9bqPBAGHtpFWxPecUtGoJotAvahRl_6h_k678p3u1huQIfBiSdvEBt9-Sk4RVZBd0YqBbg1UnY.jpg?r=d5f",
+            "overview": "Os Caras Malvados acham que Cobra está escondendo alguma coisa, então ficam na cola dele e acabam fazendo uma descoberta inacreditável.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/311c3fb9c939d92981994c62490b36f3/master.m3u8?s=1&id=34157&cache=1"
+          },
+          {
+            "episode": 9,
+            "title": "Crime após crime",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZ7nwf5J5tPvmcdMXt9WdLio-zov6N6hfuHxHM1VK6bZya90UGa4M1VL0e5eYyxNHn73zz9KQIg9uS4c5TXKWacdVzXyKV--GR8.jpg?r=abe",
+            "overview": "Os Caras Malvados descobrem que o mentor do Lobo deixou uma herança para ele. Para colocar as mãos na grana, eles precisam concluir cinco roubos em uma noite.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/069904b9b439262363b2d44406e1276c/master.m3u8?s=1&id=34158&cache=1"
+          }
+        ]
+      }
+    ]
   }
 ]
