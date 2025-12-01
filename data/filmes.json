@@ -2082,5 +2082,32 @@
     "year": 2025,
     "categoria": "Netflix",
     "stream": "https://watch.brplayer.cc/m3u8/26/e2692f5522a9bf6fe212e70758d0701b/master.m3u8?s=1&id=27636&cache=1"
+  },
+  {
+    "id": "tt34619564",
+    "name": "Umjolo: Mais que Amizade",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/PeuRWeJ6P7kQ02Tcyr8kQ7GyHH.jpg",
+    "description": "Amigas de infância, Zanele e Andile enfrentam uma encruzilhada em seu relacionamento. Com Andile casada e criando filhos, Zanele lida com a possibilidade de que seu vínculo talvez nunca evolua além da amizade.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/26/5394571ecee05ab8323586a2f8971b65/master.m3u8?s=1&id=34575&cache=1"
+  },
+  {
+    "id": "tt34619564",
+    "name": "Umjolo: Mais que Amizade",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/PeuRWeJ6P7kQ02Tcyr8kQ7GyHH.jpg",
+    "description": "Amigas de infância, Zanele e Andile enfrentam uma encruzilhada em seu relacionamento. Com Andile casada e criando filhos, Zanele lida com a possibilidade de que seu vínculo talvez nunca evolua além da amizade.",
+    "year": 2025,
+    "categoria": "Romance",
+    "stream": "https://watch.brplayer.cc/m3u8/26/5394571ecee05ab8323586a2f8971b65/master.m3u8?s=1&id=34575&cache=1"
+  },
+  {
+    "id": "tt8337264",
+    "name": "A Fuga das Galinhas",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/8O7qM2ue5VHPsu1FFbZSRMpCqwY.jpg",
+    "description": "Após conseguir escapar da fazenda de Tweedy, Ginger encontrou um santuário pacífico para todo o seu bando em uma ilha. Mas, no continente, todas as galinhas enfrentam uma nova ameaça, e Ginger e sua turma decidem intervir.",
+    "year": 2025,
+    "categoria": "Netflix-kids",
+    "stream": "https://watch.brplayer.cc/m3u8/26/1297bcaf6f829c2afe9cae03f1975683/master.m3u8?s=1&id=31239&cache=1"
   }
 ]
