@@ -1694,8 +1694,103 @@
                     "overview": "",
                     "stream": ""
                }
-            ]
-         }
-      ]
-   }
-]  
+           ]
+        }
+     ]
+  },
+
+  {
+    "id": "it-bem-vindos-a-derry-2025",
+    "tmdb": 200875,
+    "type": "series",
+    "name": "IT: Bem-vindos a Derry",
+    "runtime": "53 min",
+    "poster": "https://m.media-amazon.com/images/M/MV5BN2ZlN2JlNDItM2RhYy00MTNiLTk0YWEtNmFhOThiYzgyNTlhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "background": "https://img.odcdn.com.br/wp-content/uploads/2025/09/derry_trailer_4-1920x962.png",
+    "logo": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/6c39354a-c52d-46d7-982c-b5d196988189/34dbe920-b12c-11f0-98f0-0affe3375c7d?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=4320",
+    "description": "Durante as férias de 1958, em uma pacata cidadezinha chamada Derry, um grupo de sete amigos começa a ver coisas bizarras. Um conta que viu um palhaço, outro que viu uma múmia. Finalmente, acabam descobrindo que estavam todos vendo a mesma coisa: um ser sobrenatural e maligno que pode assumir várias formas. Ele mesmo. O Pennywise.",
+    "year": 2025,
+    "categoria": "hbo-max",
+    "genres": ["Terror", "Drama"],
+
+    "cast": [
+      { "name": "Taylour Paige" },
+      { "name": "Jovan Adepo" },
+      { "name": "Matilda Lawler" },
+      { "name": "Amanda Christine" }
+    ],
+
+    "directors": [
+      { "name": "Andrew Bernstein", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.7",
+      "imdb_id": "tt19244304"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "O Piloto",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//uwKrKvprzNW9ACtSB27MlzOpIHL.jpg",
+            "overview": "Enquanto quatro meninos desajustados buscam um colega desaparecido, o major Leroy Hanlon chega à base aérea de Derry.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/e17d00b154831f31866ad96f6b352596/master.m3u8?s=1&id=33623&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "A Coisa na Escuridão",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//eYjrjLWIwD6qE148NKHKYcdHKjv.jpg",
+            "overview": "Enquanto Charlotte e Will se adaptam à nova vida em Derry, Ronnie se preocupa com o destino de seu pai.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/4c53d00c81ea2b9258bee0e3695b6ca1/master.m3u8?s=1&id=33788&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Agora Você O Vê",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//n4BGtiqwoFYd5ZX3UmdupeENcq.jpg",
+            "overview": "Enquanto Leroy, Pauly e Dick buscam um novo local de escavação, os meninos buscam provas visuais dos fenômenos que vêm enfrentando.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/995e869dac6a1eb7a46c430768a04db3/master.m3u8?s=1&id=34361&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "O Grande Aparato Giratório do Funcionamento do Nosso Planeta",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//hBKG3nQJ8NzE9U0U5uKQfQD88XY.jpg",
+            "overview": "Os meninos enfrentam experiências cada vez mais assustadoras, Charlotte tenta ajudar Hank, e o general Shaw intensifica seus esforços.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/ec8989a0f0984e9fae61e7937ffada8c/master.m3u8?s=1&id=34645&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "Rua Neibolt, 29",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//wDTjvS7dTnIko5JukSzgYSa3QQW.jpg",
+            "overview": "Enquanto os militares chegam à rua Neibolt, os meninos descem aos esgotos com uma missão própria.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/4e22b8fce8e33dc8d007891eff17d343/master.m3u8?s=1&id=34838&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "Em Nome do Pai",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//6phQvyEMeX84oeRznxnJWAM91dz.jpg",
+            "overview": "Assombrado por visões, Dick vive uma surpresa no Black Spot. As crianças enfrentam desafios.",
+            "stream": "https://watch.brplayer.cc/m3u8/10/2a3228854c6f47213f364faafb149166/master.m3u8?s=1&id=35085&cache=1"
+          },
+          {
+            "episode": 7,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 8,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          }
+        ]
+      }
+    ]
+  }
+]
