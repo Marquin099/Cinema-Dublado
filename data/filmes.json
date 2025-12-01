@@ -661,7 +661,7 @@
     "id": "tt33293169",
     "name": "Manga",
     "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/8aTla8ofmtJdfhInKyLTyZifA3k.jpg",
-    "description": "Filme dublado PT-BR",
+    "description": "Uma gerente de hotel viaja para a Espanha para construir um hotel na fazenda de manga de Alex, interrompendo sua vida solitária. Juntos, eles enfrentam escolhas que impactam suas carreiras, famílias e corações.",
     "year": 2025,
     "categoria": "Netflix",
     "stream": "https://watch.brplayer.cc/m3u8/26/73907fed82d21d4b3700c31aefb6b3c0/master.m3u8?s=1&id=34242&cache=1"
@@ -679,7 +679,7 @@
     "id": "tt35713227",
     "name": "Um Noivo e Duas Noivas",
     "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/pofgUZkETInWRlyzFz82Kf6jOEZ.jpg",
-    "description": "Filme dublado PT-BR",
+    "description": "Em meio a confusões românticas, Adam se vê dividido entre o casamento com a filha do chefe e sentimentos por um antigo amor, descobrindo verdades sobre relacionamentos de forma divertida.",
     "year": 2025,
     "categoria": "Netflix",
     "stream": "https://watch.brplayer.cc/m3u8/26/90f2041eeb835d118c1b6d02904b6e3a/master.m3u8?s=1&id=34223&cache=1"
@@ -688,7 +688,7 @@
     "id": "tt35713227",
     "name": "Um Noivo e Duas Noivas",
     "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/pofgUZkETInWRlyzFz82Kf6jOEZ.jpg",
-    "description": "Filme dublado PT-BR",
+    "description": "Em meio a confusões românticas, Adam se vê dividido entre o casamento com a filha do chefe e sentimentos por um antigo amor, descobrindo verdades sobre relacionamentos de forma divertida.",
     "year": 2025,
     "categoria": "Comédia",
     "stream": "https://watch.brplayer.cc/m3u8/26/90f2041eeb835d118c1b6d02904b6e3a/master.m3u8?s=1&id=34223&cache=1"
@@ -2109,5 +2109,14 @@
     "year": 2025,
     "categoria": "Netflix-Animação",
     "stream": "https://watch.brplayer.cc/m3u8/26/1297bcaf6f829c2afe9cae03f1975683/master.m3u8?s=1&id=31239&cache=1"
+  },
+  {
+    "id": "tt11116912",
+    "name": "O Troll da Montanha",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/n9qC2hL61IcVYEGyRonx6qakJWw.jpg",
+    "description": "Nas profundezas da montanha Dovre, algo gigantesco acorda depois de mil anos em cativeiro. A criatura destrói tudo em seu caminho e rapidamente se aproxima de Oslo.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/26/6dfbdd2796f306866bd7fa91b79f2339/master.m3u8?s=1&id=31335&cache=1"
   }
 ]
