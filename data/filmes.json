@@ -1,5 +1,23 @@
 [
   {
+    "id": "tt29232158",
+    "name": "O Troll da Montanha 2",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/4WOmwPpQ2NeACRm2FMDnVhevb7G.jpg",
+    "description": "Nora, Andreas e o Capitão Kris voltam à ação quando um novo troll perigoso acorda - e desta vez eles precisarão de mais ajuda para derrubá-lo.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/10/ae0aaad8021d829295f1da3514c712c0/master.m3u8?s=1&id=35092&cache=1"
+  },
+  {
+    "id": "tt29232158",
+    "name": "O Troll da Montanha 2",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/4WOmwPpQ2NeACRm2FMDnVhevb7G.jpg",
+    "description": "Nora, Andreas e o Capitão Kris voltam à ação quando um novo troll perigoso acorda - e desta vez eles precisarão de mais ajuda para derrubá-lo.",
+    "year": 2025,
+    "categoria": "Ação",
+    "stream": "https://watch.brplayer.cc/m3u8/10/ae0aaad8021d829295f1da3514c712c0/master.m3u8?s=1&id=35092&cache=1"
+  },
+  {
     "id": "tt31727397",
     "name": "Assassinato em Revanche",
     "poster": "https://cinegratis.tv/uploads/posts/2025-11/1d67c052-88d5-48ce-aa9c-2616481c7522.webp",
@@ -1874,5 +1892,14 @@
     "year": 2025,
     "categoria": "Dublado Não Oficial",
     "stream": "https://watch.brplayer.cc/m3u8/12/e45b0df3fca2c040d4c919beda429007/master.m3u8?s=1&id=34924&cache=1"
+  },
+  {
+    "id": "tt37798645",
+    "name": "Quartos Vazios",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/6m5URjYfXEv43tEqXoDXX49RygT.jpg",
+    "description": "O jornalista Steve Hartman e o fotógrafo Lou Bopp embarcam numa viagem pelos Estados Unidos para documentar os quartos de crianças vítimas de tiroteios em escolas, ressaltando a necessidade urgente de ações contra a crescente epidemia de violência armada.",
+    "year": 2025,
+    "categoria": "Documentário",
+    "stream": ""
   }
 ]
