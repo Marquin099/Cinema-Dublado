@@ -570,6 +570,87 @@
   },
 
   {
+    "id": "ate-o-ultimo-samurai-2025",
+    "tmdb": 252193,
+    "type": "series",
+    "name": "Até o Último Samurai",
+    "runtime": "58 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/dnNIAVAUnjSIImRjTYXkDvWBnzd.jpg",
+    "background": "https://image.tmdb.org/t/p/w1920_and_h800_multi_faces/vcU8hIHXuADItJSzEmt2F8IMq5l.jpg",
+    "logo": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABQouvG2Xi6D8VvfPhOwxmDRY7N6rBiKmutrt1Dio3oKVm3Mzj09WVXfwQeBewCcg1QYz3gJHhpcXXdadOWWLdLEWBgUml36-Qw.png?r=de1",
+    "description": "No Japão de 1878, após o fim da era samurai, 292 samurais que caíram em desgraça são atraídos para um jogo de sobrevivência, em que o último participante vivo ganha 100 bilhões de ienes.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "genres": ["Samurai", "Drama", "Ação"],
+
+    "cast": [
+      { "name": "Taichi Saotome" },
+      { "name": "Gaku Hamada" },
+      { "name": "Arata Iura" },
+      { "name": "Nobi Nakanishi" }
+    ],
+
+    "directors": [
+      { "name": "Michihito Fujii", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.6",
+      "imdb_id": "tt32237534"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Kodoku",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbngR2vzK0ASuHf27ANR7m5ulSUkXTbsF1ryQOm-OtU8v8zFBhizGLDx0lJsEje2VKQnvL1Q87vnep5kzYpIjqg-Cx6G3svFTyE.jpg?r=b76",
+            "overview": "Incapaz de ajudar a família doente como samurai no período Meiji, Shujiro entra em uma perigosa competição valendo um enorme prêmio em dinheiro.",
+            "stream": ""
+          },
+          {
+            "episode": 2,
+            "title": "Despertar",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUlzTsNA3S25FEngTa0ofDtdjOfHGB0Ij8FS1beGM4djlLFiYpryX50brShWfWFe9v5fjem8iT3CQxO8H01IJ0vbSwRJc53X54g.jpg?r=779",
+            "overview": "O ex-ninja Kyojin propõe uma aliança com Shujiro e Futaba. Um importante funcionário do governo teme uma revolta de samurais.",
+            "stream": ""
+          },
+          {
+            "episode": 3,
+            "title": "Destino",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABc50ypbFrQ5sXTOqx7Ktm5huss95w0_rAFklxfA6dvNYuxBA-L9Nwt1sO1rrdykH_8NhQpcxmwJLmIkHU-FVlqMrGVwejCK-dkE.jpg?r=bd7",
+            "overview": "Os organizadores fazem suas apostas no participante que chegará primeiro. Shujiro conta sobre seu passado para Futaba e reencontra a irmã.",
+            "stream": ""
+          },
+          {
+            "episode": 4,
+            "title": "Cérebro",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABVsV1veQ5EjsaYjVOFjHqTK6tPO-rNoVA3rO8drx4fPCyOnm56seRGZSYKgnpsTXlIJiYB8CGb1KRa9TprBg8GeczM725U1sq94.jpg?r=cb9",
+            "overview": "O grupo rastreia o descarte dos corpos para tentar descobrir o organizador de Kodoku. Lá, Shujiro confronta Sakura, um ex-camarada de Satsuma.",
+            "stream": ""
+          },
+          {
+            "episode": 5,
+            "title": "Espectros",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbXY_JUZIYdVcFXIoGtzJCbR-hKXnQcI6_9bHcy3aQoqqSdqQMU6i8IcAOVQ0ENyLoKSYtdRobQHXtOYnz3AHxUs-RuKdfQqh1o.jpg?r=490",
+            "overview": "Após a revelação do verdadeiro propósito do Kodoku, Shujiro envia um telegrama para avisar Okubo sobre a conspiração e garante a segurança de Futaba.",
+            "stream": ""
+          },
+          {
+            "episode": 6,
+            "title": "Duelo mortal",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABelEuN1Wl1rX99bYGjb9ck-X8alGZWElF1MdrAgpWGIWnXZ5cTPaJXkkxa3R3_jY_Hn4nRspQkab6BTiw6XVajmIAjfXiL95Fm4.jpg?r=ea8",
+            "overview": "O impiedoso Gentosai encurrala Iroha. Shujiro enfrenta Bukotsu em um violento confronto final. Okubo está cada vez mais perto da mente por trás do jogo.",
+            "stream": ""
+          }
+        ]
+      }
+    ]
+  },
+  
+  {
     "id": "berco-de-ouro-2025",
     "tmdb": 278009,
     "type": "series",
