@@ -2024,5 +2024,79 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "talamasca-de-anne-rice-a-ordem-secreta-2025",
+    "tmdb": 256624,
+    "type": "series",
+    "name": "Talamasca de Anne Rice: A Ordem Secreta",
+    "runtime": "52 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/iswvUF4gLbW1xrcL2VjBiuwGiox.jpg",
+    "background": "https://image.tmdb.org/t/p/w500/99DBYZAZkg96B4yvxltq3BWpvKu.jpg",
+    "logo": "https://occ-0-4874-185.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABTwZecP-FW07_ojtCJAetYi74A1wTbZamV7-lYUdJ90qRtQj1qrMslyE690saCDiCLMNGXhlOeMXJTEsjVC9OdqvjN2i2tqBAQ.webp?r=4dd",
+    "description": "Guy Anatole é um cara comum. Até ser recrutado pela agência de espionagem do mundo imortal para integrar suas forças clandestinas. Acompanhamos Guy enquanto ele se adapta a esse novo mundo e descobre conexões inesperadas com o passado de sua família.",
+    "year": 2025,
+    "categoria": "AMC",
+    "genres": ["Ficção científica", "Fanstasia"],
+
+    "cast": [
+      { "name": "Nicholas Denton" },
+      { "name": "Celine Buckens" },
+      { "name": "Maisie Richardson-Sellers" },
+      { "name": "William Fichtner" }
+    ],
+
+    "directors": [
+      { "name": "John Lee Hancock", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "6.5",
+      "imdb_id": "tt32596156"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "And We Are Always There.",
+            "thumbnail": "https://occ-0-4874-185.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABX35VZS1SyVpQDdrnQYPXuCLfwGi3JvtHMgdx5vPpJctTysJJEbmU9KhoIy_TdDaG75nK4H-A4bH2nDj1usMY2Hji6IF2RYM1Du39Al76vTQVXQZrtcozkuC.webp?r=ba4",
+            "overview": "Guy, a struggling law graduate, accepts a bribe to meet the leader of a secretive occult organization, only to discover they know of his unique ability.",
+            "stream": "https://embedplayer1.xyz/cdn/hls/879d7bed9bd37a863d6e1e2bcd56c6d1/master.txt"
+          },
+          {
+            "episode": 2,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 3,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 4,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 5,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          }
+        ]
+      }
+    ]
   }
 ]
