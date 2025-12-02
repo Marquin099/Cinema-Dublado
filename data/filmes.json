@@ -2208,5 +2208,59 @@
     "year": 2025,
     "categoria": "Netflix",
     "stream": "https://watch.brplayer.cc/m3u8/26/e5f1d4219be6d4dafe14bc929d5c2808/master.m3u8?s=1&id=29306&cache=1"
+  },
+  {
+    "id": "tt35657531",
+    "name": "Sucesso único",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kdHEtyOoB8cyFDwqFMMGK1q0RlM.jpg",
+    "description": "Dois sonhadores, Entoy e Lorina, buscam o estrelato na música pop filipina dos anos 90. Eles podem realizar seus grandes sonhos pela segunda vez?",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/10/4e8c7f89b99cbb620f7c995397500c80/master.m3u8?s=1&id=29194&cache=1"
+  },
+  {
+    "id": "tt15083184",
+    "name": "Passei por Aqui (2020)",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-09/f8e4ab66-cda4-4894-9397-ee574e7b8a3d.webp",
+    "description": "Segue um jovem grafiteiro que descobre um segredo chocante que colocaria ele e os mais próximos em perigo.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/26/b3ca9f305782d831cfe65fdf7b980b51/master.m3u8?s=1&id=29523&cache=1"
+  },
+  {
+    "id": "tt37543886",
+    "name": "Diamantes Roubados: O Golpe do Século",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-08/8cdcf8ff-82f1-43f8-bdc4-85e29d702bf9.webp",
+    "description": "Em 2003, a banda School of Turin roubou uma câmera de segurança no bairro de diamantes de Antuérpia, roubando milhões em joias nunca recuperadas.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/26/604b5d386ba726e7e2233a1619364eef/master.m3u8?s=1&id=28859&cache=1"
+  },
+  {
+    "id": "tt1016150",
+    "name": "Nada de Novo no Fron (2022)",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-08/2508c7d3-39c6-4ed5-803e-14e1691766e3.webp",
+    "description": "As terríveis experiências e angústias de um jovem soldado alemão na frente ocidental durante a Primeira Guerra Mundial.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/26/e4825224ef50eac17bcdf3576f66784e/master.m3u8?s=1&id=28847&cache=1"
+  },
+  {
+    "id": "tt1016150",
+    "name": "Nada de Novo no Fron (2022)",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-08/2508c7d3-39c6-4ed5-803e-14e1691766e3.webp",
+    "description": "As terríveis experiências e angústias de um jovem soldado alemão na frente ocidental durante a Primeira Guerra Mundial.",
+    "year": 2025,
+    "categoria": "Guerra",
+    "stream": "https://watch.brplayer.cc/m3u8/26/e4825224ef50eac17bcdf3576f66784e/master.m3u8?s=1&id=28847&cache=1"
+  },
+  {
+    "id": "",
+    "name": "",
+    "poster": "",
+    "description": "",
+    "year": 2025,
+    "categoria": "",
+    "stream": ""
   }
 ]
