@@ -488,6 +488,88 @@
   },
 
   {
+    "id": "o-cuco-de-cristal-2025",
+    "tmdb": 274979,
+    "type": "series",
+    "name": "O Cuco de Cristal",
+    "runtime": "45 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/cQ1Mt2LUhF3cudWR38ciHGWzjRH.jpg",
+    "background": "https://cdn.observatoriodocinema.com.br/2025/11/O-Cuco-de-Cristal-2-1024x576.jpg",
+    "logo": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABU5-OqwCl3yaWJExyZmCAskA5m1auS6Je60seueHzXA2TUvjOFC1iDTKbFUdnEUO_fV4ROj8zg9dN9nnFTemP2ANQweEJ2zX6g.png?r=073",
+    "description": "Após um transplante cardíaco,uma médica visita a cidade do doador e encontra uma pequena comunidade. Lá, ela se depara com uma família misteriosa e investiga o sumiço de um bebê, revelando segredos do passado.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "genres": ["Crime", "Drama", "Suspense"],
+
+    "cast": [
+      { "name": "Catalina Sopelana" },
+      { "name": "Alejandro Garcia" },
+      { "name": "Itziar Ituño" },
+      { "name": "Ivan Massagué" }
+    ],
+
+    "directors": [
+      { "name": "Laura Alvea", "role": "Creator" },
+      { "name": "Juan Miguel del Castillo", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "6.5",
+      "imdb_id": "tt34231642"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Episódio 1",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABcXMWe7HUhKAccPcmQQEBshN13kxvvl57WD-oEB5PbPPgln-aW0TINPh44JTkhKuHMr6bH6WOm53HF_J9sWJgSBhulcJ7o3w_QBZDXHlEziFZIM5nXYI1MP3.jpg?r=fb6",
+            "overview": "Um incêndio trágico desperta a suspeita de um policial. Décadas depois, o coração do filho dele salva uma médica, que chega à cidade querendo saber mais sobre o doador.",
+            "stream": "https://cdn.cnvsplus.com/m/O%20Cuco%20de%20Cristal_S01E01_Epis%C3%B3dio%201.mp4"
+          },
+          {
+            "episode": 2,
+            "title": "Episódio 2",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRCXNujvS7WVkGskSv3OWSizxzu8GNg3b5Pbks2KJriydydWZiPothqGDSJ1jQuMuw-xMzKZ8iM9Zr7GrBIfKZb7Bzn_78QQgLSUNZfG07lzxWIcc42hD4yk.jpg?r=9d3",
+            "overview": "Clara ajuda nas buscas depois do desaparecimento mais recente. No passado, Miguel procura respostas sobre o incêndio, mas o caso é encerrado.",
+            "stream": "https://cdn.cnvsplus.com/m/O%20Cuco%20de%20Cristal_S01E02_Epis%C3%B3dio%202.mp4"
+          },
+          {
+            "episode": 3,
+            "title": "Episódio 3",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQyAtMK4bl3EVdCOsjVRod7dyMIWtheTZVUDof1nXkTb_Nj--uSFYdsirBuGGo3GgUor5256_NkUpN9SWoer6LC4-nt4W6lAt_cKifkLlcmZNuzVdCN5Kt7e.jpg?r=e3d",
+            "overview": "Preocupado com o que descobriu, Miguel investiga o desaparecimento da irmã. No festival de Tamborada, Clara descobre mais sobre Carlos e a cidade.",
+            "stream": "https://cdn.cnvsplus.com/m/O%20Cuco%20de%20Cristal_S01E03_Epis%C3%B3dio%203.mp4"
+          },
+          {
+            "episode": 4,
+            "title": "Episódio 4",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABR69IxtFT9a6v_v5Q2WbA9Zm1FgIOP9H_h54-XzZsCVrAOC6fpfvOngJrGlUgkBZalPlKiElIFzJlSGGCBv_YaHRb2m2b_Ad8nuf8kkCItEsFbkyB6B6iY93.jpg?r=e1a",
+            "overview": "A obsessão de Miguel com a investigação causa problemas em casa. Clara tenta entender as descobertas de Carlos. Juan conta uma verdade chocante a Marta",
+            "stream": "https://cdn.cnvsplus.com/m/O%20Cuco%20de%20Cristal_S01E04_Epis%C3%B3dio%204.mp4"
+          },
+          {
+            "episode": 5,
+            "title": "Episódio 5",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABcLjUzgUnCItrGb5AXp-SPGwA09vKF6OOYqNruRh856VDWRKe1XUVL217jkNZQiKwpxHdu6yIlszF33TboCPbzBxUqpNars6XGErKCrprttfu-2Jzq6btKqH.jpg?r=925",
+            "overview": "Em 1979, um jovem morador de Yesques recebe um sério aviso de sua mãe. Anos depois, as dúvidas cada vez maiores de Miguel acabam ocasionando uma tragédia inesperada.",
+            "stream": "https://cdn.cnvsplus.com/m/O%20Cuco%20de%20Cristal_S01E05_Epis%C3%B3dio%205.mp4"
+          },
+          {
+            "episode": 6,
+            "title": "Episódio 6",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUr0uvbxeW3JkTrQ85igYlbbCU2LIamK-1ScMvEpopZsl9z2l1IK1OI1KRcyrufdO2L9rvwfRYnliOQ1hjRjTAzPI0c8anNL18dJ1S871gVwHtm6d9OKAHY8.jpg?r=ae4",
+            "overview": "Depois de outro incidente chocante em Yesques, as autoridades se esforçam para evitar uma tragédia. De mãos atadas, Marta teme o pior.",
+            "stream": "https://cdn.cnvsplus.com/m/O%20Cuco%20de%20Cristal_S01E06_Epis%C3%B3dio%206.mp4"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
     "id": "berco-de-ouro-2025",
     "tmdb": 278009,
     "type": "series",
