@@ -2370,5 +2370,14 @@
     "year": 2025,
     "categoria": "Prime Video",
     "stream": "https://watch.brplayer.cc/m3u8/10/46433ef1f34731171c310acd7957a45c/master.txt?s=1&id=33075&cache=1"
+  },
+  {
+    "id": "tt27139309",
+    "name": "O Cinema Mal-Assombrado",
+    "poster": "https://image.tmdb.org/t/p/w300/w95CUULjwNxsErXQz4wRzThAHBS.jpg",
+    "description": "Um grupo de cineastas amadores decide ir até uma sala de cinema para investigar um filme supostamente amaldiçoado e gravar tudo para seu canal no YouTube, mas eles acabam desaparecendo misteriosamente.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "stream": "https://embedplay.upns.ink/hls/cg4YBljQrBVBQ4E73r6IkQ/hl1/nc31j61b/3yyefz/tt/master.m3u8?v=1763544385"
   }
 ]
