@@ -516,6 +516,15 @@
     "stream": "https://watch.brplayer.cc/m3u8/26/e2a25d092213dd181de2501aa0d8b987/master.m3u8?s=1&id=34898&cache=1"
   },
   {
+    "id": "tt38689148",
+    "name": "Tormento (EM BREVE)",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/A1IIe6aVv7ohcB94q7EwjzdpLpc.jpg",
+    "description": "Um guarda de segurança exausto é transferido para um necrotério e, em sua primeira noite, descobre que as sombras e os silêncios escondem um tormento do qual talvez não haja retorno.",
+    "year": 2025,
+    "categoria": "Cinema",
+    "stream": "https://watch.brplayer.cc/m3u8/12/56e6644b96420954e4c775ba641f434f/master.m3u8?s=1&id=34807&cache=1"
+  },
+  {
     "id": "tt26443597",
     "name": "Zootopia 2 (EM BREVE)",
     "poster": "https://image.tmdb.org/t/p/w300_and_h450_bestv2/fOCTW3D6RywUzoxpvxF7G6YM5bT.jpg",
@@ -624,6 +633,15 @@
     "stream": "https://watch.brplayer.cc/m3u8/12/9c378d1a05807d8cb9a0d28cd81e566d/master.m3u8?s=1&id=33643&cache=1"
   },
   {
+    "id": "tt1527793",
+    "name": "Sem Outra Escolha",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/31WC4HwYhQTh2Im4MRn8nzJlseI.jpg",
+    "description": "Depois de ficar desempregado por vários anos, um homem elabora um plano único para conseguir um novo emprego: eliminar sua concorrência.",
+    "year": 2025,
+    "categoria": "Cinema",
+    "stream": "https://watch.brplayer.cc/m3u8/12/8296396f4a364c8058e13bb79a2d7c46/master.m3u8?s=1&id=34770&cache=1"
+  },
+  {
     "id": "tt36016168",
     "name": "O Combinado Não Sai Caro",
     "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/gS9dfGfdg2iBSdYBQIjsy5kwOn1.jpg",
@@ -649,6 +667,15 @@
     "year": 2025,
     "categoria": "Ação",
     "stream": "https://watch.brplayer.cc/m3u8/26/31a67bdbe13f907c857a7a27a3111509/master.m3u8?s=1&id=34364&cache=1"
+  },
+  {
+    "id": "tt21289612",
+    "name": "Exílio",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/5CyiUhJFqb6QIUF2ieJ0wXcblMD.jpg",
+    "description": "Em 2016, após uma tentativa de golpe de Estado na Turquia, um professor universitário, um policial e uma artista curda são acusados de serem terroristas. Eles são obrigados a deixarem suas casas e famílias para fugirem do país.",
+    "year": 2025,
+    "categoria": "Drama",
+    "stream": "https://watch.brplayer.cc/m3u8/10/9e334886ffd1815f6e50841119fb3065/master.m3u8?s=1&id=34829&cache=1"
   },
   {
     "id": "tt4627382",
@@ -2280,5 +2307,14 @@
     "year": 2025,
     "categoria": "Prime Video",
     "stream": "https://watch.brplayer.cc/m3u8/26/da84b5e0e99f3999917feb3a31afec8d/master.m3u8?s=1&id=33252&cache=1"
+  },
+  {
+    "id": "tt35669717",
+    "name": "High Ground: Cerco Fechado",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/cqF7xuZWbBYXWHsp1I1H5PwujPs.jpg",
+    "description": "Quando um misterioso prisioneiro chega à sua prisão, um xerife de uma cidade fronteiriça enfrenta a ira de um cartel brutal neste thriller repleto de ação.",
+    "year": 2025,
+    "categoria": "Paramount+",
+    "stream": "https://watch.brplayer.cc/m3u8/10/32ff692bedd4cd4764741dd4b347d5b4/master.txt?s=1&id=34826&cache=1"
   }
 ]
