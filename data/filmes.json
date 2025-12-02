@@ -126,6 +126,15 @@
     "stream": "https://watch.brplayer.cc/m3u8/12/146c17f5cc1fc1826576caa0d4fcb5c0/master.m3u8?s=1&id=32817&cache=1"
   },
   {
+    "id": "tt29768334",
+    "name": "Sonhos de Trem",
+    "poster": "https://www.papodecinema.com.br/wp-content/uploads/2025/11/20251121-sonhos-de-trem-papo-de-cinema-cartaz.webp",
+    "description": "Baseado na aclamada novela de Denis Johnson, Train Dreams é o comovente retrato de Robert Grainier, um lenhador e ferroviário que leva uma vida de inesperada profundidade e beleza na América em rápida transformação do início do século XX.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/10/0a2fbc3a7639168c9e918f557d1802ac/master.m3u8?s=1&id=34758&cache=1"
+  },
+  {
     "id": "tt21349688",
     "name": "A Leste de Wall",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1As2vLgmSvNEfjenRoRJgPKOLTm.jpg",
@@ -249,6 +258,24 @@
     "year": 2025,
     "categoria": "Dublado Não Oficial",
     "stream": "https://watch.brplayer.cc/m3u8/12/6a27685d602a50fe587c4ab6cfb07d90/master.m3u8?s=1&id=32816&cache=1"
+  },
+  {
+    "id": "tt38774646",
+    "name": "31 Minutos: Natal Escaldante",
+    "poster": "https://br.web.img2.acsta.net/img/35/76/3576c100b8028cfebdf8af73f1893f5f.jpg",
+    "description": "A missão de coleta de presentes de um repórter ao Pólo Norte é prejudicada por seu hábito de jogar, enquanto no estúdio seu colega luta com um caótico show de Natal.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "stream": "https://watch.brplayer.cc/m3u8/10/404d3f0612eb04b0949751d0102417a9/master.m3u8?s=1&id=34763&cache=1"
+  },
+  {
+    "id": "tt38774646",
+    "name": "31 Minutos: Natal Escaldante",
+    "poster": "https://br.web.img2.acsta.net/img/35/76/3576c100b8028cfebdf8af73f1893f5f.jpg",
+    "description": "A missão de coleta de presentes de um repórter ao Pólo Norte é prejudicada por seu hábito de jogar, enquanto no estúdio seu colega luta com um caótico show de Natal.",
+    "year": 2025,
+    "categoria": "Aventura",
+    "stream": "https://watch.brplayer.cc/m3u8/10/404d3f0612eb04b0949751d0102417a9/master.m3u8?s=1&id=34763&cache=1"
   },
   {
     "id": "tt10676052",
@@ -2316,5 +2343,23 @@
     "year": 2025,
     "categoria": "Paramount+",
     "stream": "https://watch.brplayer.cc/m3u8/10/32ff692bedd4cd4764741dd4b347d5b4/master.txt?s=1&id=34826&cache=1"
+  },
+  {
+    "id": "tt30400277",
+    "name": "O Beijo da Mulher Aranha (Cinema)",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/c8zDeDq0Uatjly6Fh4ycmWuoLYy.jpg",
+    "description": "Adaptação do musical de palco baseado no romance sobre um homem gay e um prisioneiro político que dividem uma cela na prisão argentina nos anos 80. O homem gay narra as histórias de dois filmes falsos e de sua própria vida.",
+    "year": 2025,
+    "categoria": "Música",
+    "stream": "https://watch.brplayer.cc/m3u8/12/1c6ae2e3522e87b5f0eba1e226dc5029/master.m3u8?s=1&id=34493&cache=1"
+  },
+  {
+    "id": "tt18382850",
+    "name": "Se Eu Tivesse Pernas, Te Chutaria",
+    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0XNp4kaE4kttO4J8UIWwDN5rxUHQGKnIgXg&s",
+    "description": "Com sua vida desmoronando ao seu redor, Linda tenta lidar com a doença misteriosa de seu filho, seu marido ausente, uma pessoa desaparecida e um relacionamento cada vez mais hostil com seu terapeuta.",
+    "year": 2025,
+    "categoria": "Comédia",
+    "stream": ""
   }
 ]
