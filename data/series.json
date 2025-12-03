@@ -2268,5 +2268,97 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "a-lista-terminal-lobo-negro-2025",
+    "tmdb": 219760,
+    "type": "series",
+    "name": "A Lista Terminal: Lobo Negro",
+    "runtime": "120 min",
+    "poster": "https://br.web.img3.acsta.net/img/c1/18/c11849d886036dc95ff2879779117937.jpg",
+    "background": "https://i0.wp.com/cadernopop.com.br/wp-content/uploads/2025/09/a-lista-terminal-lobo-negro-1024x576.webp?resize=1024%2C576&ssl=1",
+    "logo": "https://m.media-amazon.com/images/S/pv-target-images/7cc4e6c427b00335d6e1ecb3aacdd085d3c970e65a762d23d112777c1b2928c9._BR-6_AC_SX500_FMwebp_.png",
+    "description": "Série prequel de The Terminal List (2022), seguindo a jornada de Ben Edwards de SEAL da Marinha a agente da CIA.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "genres": ["Ação", "Drama", "Suspense"],
+
+    "cast": [
+      { "name": "Taylor Kitsch" },
+      { "name": "Tom Hopper" },
+      { "name": "Robert Wisdom" },
+      { "name": "Dar Salim" },
+      { "name": "Shiraz Tzarfati" },
+      { "name": "Luke Hemsworth" },
+      { "name": "Chris Pratt" },
+      { "name": "Rona-Lee Shimon" }
+    ],
+
+    "directors": [
+      { "name": "Paul Cameron", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.6",
+      "imdb_id": "tt26576161"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Determinação Inerente",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/eca76a93e922a0d700637fb1086a4dd2114087e1446d6fbe084b48d9f1886c77._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Em 2015, o Chefe Ben Edwards (Taylor Kitsch), dos SEALs da Marinha, e o Pelotão Charlie encerram sua missão em Mosul e entregam as operações ao Pelotão Alpha de James Reece (Chris Pratt). Antes de voltar para casa, Ben e sua equipe procuram um líder do EIIS que se aproveitou de seu intérprete da ISF - mas acaba descobrindo que o terrorista tem conexões poderosas e inesperadas.",
+            "stream": "https://download937.mediafire.com/jv241hrepicg7pgpvFsVNyzerbo2O1RxfEVbk-TNCMNaKTg5Y8jJPGOF2yCfHZ_eT_xRM9gjd4ompMx8EvuMfI_NOehd9-GtrBkIMs5m9nDP_N9WDZk2dUbofydxyMnrxM0OQxRXPhRSiTviKVURm4dAtQz1uQBCpeEtySY5MA/6zg3de1t353esl9/1-1%2832%29.mp4"
+          },
+          {
+            "episode": 2,
+            "title": "A Audição",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/f5aeeaeb50b75fe42fb06e355ddaa85ef88a8ef5650e6c8fc1ca076d24d890d3._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Os aliados de Al-Jabouri se vingam de Ben Edwards e Raife Hastings por sua incursão não autorizada, mas um serviço oferecido por um antigo espião chega em boa hora e pode resolver todos os problemas de Ben.",
+            "stream": "https://download1500.mediafire.com/47tm4nhnsgjgl8St5zd7XcUxGtzAYn1i-IOItlJmrHbeg0EYdWTdDoN6XjvLclRWoeiGHlRPoSiEj9ggmomqGIkas0s_38p4ZDGpxdDE6QigsJZ4kuRsZ8FfaNbfC5If1mpZIA_KGRB2Md5TOWBWEA23CjmOUDEd7QnGiN9CfQ/w8xu16km28ug4x6/1-2%284%29.mp4"
+          },
+          {
+            "episode": 3,
+            "title": "O Passado É Prólogo",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/e115163ccd7902006a164c62a62621bd020273cc0b5fa1b58389778213fc2421._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Depois que Haverford manda capturar e matar Danawi, uma nova pista é revelada: com quem ele se encontrava e por quê? Ao rastrear o dinheiro, Ben e Raife encontram aliados inesperados e formam uma equipe que logo enfrentará uma ameaça muito maior do que o esperado.",
+            "stream": "https://download1078.mediafire.com/tnhb0c9r5mhgRsxgC5UL4JMDn66pPcYlYoZDpGAp5L8takGVsGk-0-qRksSrg_xw7Fc_DlSYGyoU3Hd7hdV0ofIMSAbZVgLx6gbUzXwYpARxb4-C1J485dCzaCJ4u0bs6PtN2tQglqCfZ1B8Ss9xogkc5fpWxU_t3cjuoSvtvg/7dg11vfvzn6irdh/1-3%289%29.mp4"
+          },
+          {
+            "episode": 4,
+            "title": "O Som Das Armas",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/213a6f9153e6159dd25c7207576dc39caceadf00b283b2d12d89e29e9c8b9cb8._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "A pressão aumenta para impedir que a Rede Khalid entregue os rolamentos do Molnár, e a equipe de Ben começa a ruir. Em Genebra, o informante iraniano de Haverford luta para conciliar família, dever para com seu país e uma vida dupla trabalhando com a Inteligência dos EUA.",
+            "stream": "https://download947.mediafire.com/b7dd4x7g0cfg5GrQlVHa-oqCHYT6btWw08020DU4QyRv0TF31KDTiwWYRChOt_nDGoK0S7muUAUPCOf_PAISSCzL1XYF1GEZT627rm1TEMh6hnM4WC9-ZRHwIAV0_OoyZJkgfHVi8-chUbGcgBuli9ClBHrpc0-vR9s4hPLVcy8/ztftzvwgypa8qve/1-4%2823%29.mp4"
+          },
+          {
+            "episode": 5,
+            "title": "Fuga e Evasão",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/80d62c9bdbb52cc829e3b37367fc63a6a90e285641621edb399475000491737d._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Sozinho e sendo caçado, Ben persegue seu traidor. Raife interroga um prisioneiro da Rede Khalid, despertando seu próprio lobo negro em busca de respostas. Enquanto isso, Tal age sozinha para agilizar a verdadeira missão do Mossad.",
+            "stream": "https://download1503.mediafire.com/uzjatnaghrug2uFamWD8DFZuRP0j1Sc-Z9Z4BjR61SxApp0s4tqulQ8AuYq7BWiqt94B2ZPed9uj9tN9cwkKxac831nwzrmaKMQO_eef0gX6mazeiEZq9iI7-QHHwt4iH48udwyxr9pgOGjCHyj17mpd5Cfst03XpH2unoQ848846zw/eu74osvnzrpsffs/1-5%2810%29.mp4"
+          },
+          {
+            "episode": 6,
+            "title": "Peões e Reis",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/fd11f8a2ddb417ce535a89bbb39dd279d06226b72de554666047edd0019eef06._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Ben volta a se reunir com a equipe e encontra respostas que ultrapassam a compreensão. No obscuro mundo das operações secretas, transparência é algo raro, e Raife se recusa a aceitar isso, aumentando a rixa entre o tenente e o Chefe. Ben precisa abraçar o "nebuloso" para impedir uma guerra.",
+            "stream": "https://download1338.mediafire.com/269fx9v1c1tgrRNN0rQZ3FvztI59rWWfCtJXLkH226uvs96igHRw0RO36pbEBre0cjC-X9UA7H-A3zBsHEBihO8WmLXLefQevq4-mgNm_MzyfTyGBjXvf1DybBEDubDQgY0nvK5r8laT66oKtmpSF9Qa5zO4I6YGDEkL2K4E5kE/4rct8hi1e2kybjm/1-6%289%29.mp4"
+          },
+          {
+            "episode": 7,
+            "title": "O Lobo Que Você Alimenta",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/d6e369b7849fa3bcad7fd1e7dcb98571d930b8f76c36b2a74cd829aed43a2caa._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Três meses depois da troca no aeródromo, Ben vive isolado na Floresta Negra, na Alemanha. Ele está pronto para cortar os laços com sua antiga vida e vingar aqueles que morreram no jogo de espionagem de Haverford.",
+            "stream": "https://download1478.mediafire.com/782v3d1bfy2gTJRu_cUEf5jp2tANLoMnwkZNwhLX1Gt-1k8rdbxBgNYFjNa25DuO7BfRTM_ycF-kOloGtRwX2srvaYFqZ0SlyFJ5TQklf3OY1sWnEHRFcZE4Ykq4ws0ztxnR8zou9vxvBMbRCG8uxMXimBQNcWwdjeGR7roffeN6wA/lj3hokbyh88bxxq/1-7%284%29.mp4"
+          }
+        ]
+      }
+    ]
   }
 ]
