@@ -2625,5 +2625,93 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "sra-laymen-2025",
+    "tmdb": 301001,
+    "type": "series",
+    "name": "Sra. Playmen",
+    "runtime": "50 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/l4X7czLGqPAjiqtvZoV6vkUszJx.jpg",
+    "background": "https://lazersemfronteiras.com.br/wp-content/uploads/2025/11/mrs-playmen-netflix.jpg",
+    "logo": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABYIf-dUKutCLcqKIpwlX18pLYeh-ZsxjJkcXNtTLQkwVPMZgNhmMY5eJd9Q9hIlMRfcGC4Adattlq4Jw1e2coiRJXYMH7x8_wg.png?r=ed7",
+    "description": "Uma mulher traída assume o comando da revista erótica do marido, construindo um símbolo de empoderamento na Roma da década de 1970. Inspirada em uma história real.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "genres": ["Italiano", "Docudrama", "Drama", "Bioagrafia", "História"],
+
+    "cast": [
+      { "name": "Daniela Glasgow" },
+      { "name": "Filippo Nigro" },
+      { "name": "Mark Lewis" },
+      { "name": "Francesco La Mantia" }
+    ],
+
+    "directors": [
+      { "name": "Riccardo Donna", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "6.4",
+      "imdb_id": "tt31078757"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Episódio 1",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABcr1rhX7uRLfxzMY-F9cUSbspSgiGjFOFRAR4HYyZ_u-jgnSuKTNVu8btGI1jaxi8Y_EexpRyChWeg2oSg4JGgeT07RFvLp8pS70C_Hfq73cu6_B881qfg5y.jpg?r=a61",
+            "overview": "Endividada e traída pelo marido, Adelina Tattilo teve que cuidar da revista erótica dele e acabou entrando em conflito com a lei.",
+            "stream": "https://llanfairpwllgwyngyll.com/cdn/hls/479916d8846dc9989144a514d400a69e/master.txt"
+          },
+          {
+            "episode": 2,
+            "title": "Episódio 2",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABT26MRuLXrbwp_eDFgxvnkw4gRpxiK_VB4ixN5YAKhlTavZ_sQ1nbwNOwGfKA6JtPWzf_W1UjiusejJvZy0L4cp211y9ClJCD12irYLtI42dTTz5fnKkziMw.jpg?r=835",
+            "overview": "Obrigada a assumir seu novo papel, Adelina enfrenta problemas financeiros e precisa decidir se tenta explorar uma tragédia para manter a revista em funcionamento.",
+            "stream": ""
+          },
+          {
+            "episode": 3,
+            "title": "Episódio 3",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABY5kS-WtLkzc7L-ERjYLPJFiq1jJ1GmDVuInkWxBkD0pf6eWq4H43WXEhDpt_5Wz8v28DcvWXgpju30jH24OyqQGeb1tXITc-DEIYTzTazL4GWaccT2oJuRN.jpg?r=349",
+            "overview": "Com a revista enfrentando forte concorrência, Adelina mira em uma apresentadora de TV recatada para ser a capa da vez. Chartroux faz uma reunião pelas costas da editora.",
+            "stream": ""
+          },
+          {
+            "episode": 4,
+            "title": "Episódio 4",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfQPB6rsm2rS3he0fDRaNwiUUAlW3yICDDY-Ppdc3flzx5Ld9K2D1hfi-tgi00YLA92_G2c1P-c6aiJQT1gbcHWpWIwsZ1KPUyAhCbgK173p9udQRxGAceYV.jpg?r=f0d",
+            "overview": "Um novo tipo de modelo chama a atenção de Adelina. Elsa tenta promover um produto que pode levar a Playmen a ter novos problemas com a lei.",
+            "stream": ""
+          },
+          {
+            "episode": 5,
+            "title": "Episódio 5",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABVqxgg72bSiNH8SuxPji960F0FFwn-q0LYPK2Uo2xKsP4Db8LRe7fZdSNrqfw2TQpRLMdCF8nZfkvO0HHW7WeeQX8GrB1euA0WERKXT8cOXPHMHwzS22MJ_J.jpg?r=f8f",
+            "overview": "Um jornalista oferece fotos de Jackie Kennedy Onassis que podem destruir a reputação dela, mas garantir o futuro da Playmen. Adelina e Elsa curtem um pouquinho de amor.",
+            "stream": ""
+          },
+          {
+            "episode": 6,
+            "title": "Episódio 6",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABftKtvDaNg8mpgOzBLATMoOU-8N94glN7S-2k0sy2lUvRYe2bq7a0j0rkHHys-HSMLnssIZliloLxNK2dSbUHtqgDQEL4pPHSLsknOsDLqLqorAbyMgxk6q7.jpg?r=9b4",
+            "overview": "Com os papéis do divórcio em mãos, Adelina viaja a Nice para pedir ajuda de Saro. No jantar, ela encontra um rosto famoso que apareceu em sua revista.",
+            "stream": ""
+          },
+          {
+            "episode": 7,
+            "title": "Episódio 7",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABciL2okLmDh3wKumzuWKkrLbP0akfk78gsJccYwEaIGTzCDQTON2bC5ftCE8aCh8KuMhDzGLs65RukA_IC0smFeIBCDHBE_W8uMLoipZM8FASX2_e5XXvBg7.jpg?r=1e2",
+            "overview": "O futuro da Playmen está em jogo. Elsa procura desesperadamente um novo ângulo para usar no julgamento. Adelina precisa lidar com uma emergência familiar.",
+            "stream": ""
+          }
+        ]
+      }
+    ]
   }
 ]
