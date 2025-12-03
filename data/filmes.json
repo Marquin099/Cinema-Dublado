@@ -153,6 +153,15 @@
     "stream": "https://watch.brplayer.cc/m3u8/10/0a2fbc3a7639168c9e918f557d1802ac/master.m3u8?s=1&id=34758&cache=1"
   },
   {
+    "id": "tt28628125",
+    "name": "Motherland",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/fgoFNWTEVkzWEzxBqwUgfTopp3l.jpg",
+    "description": "Na sociedade alternativa de hoje, onde o Estado liberta os pais do fardo de criar seus filhos, uma policial descobre uma verdade chocante que desencadeia sua rebelião.",
+    "year": 2025,
+    "categoria": "Drama",
+    "stream": "https://cdnst94.tokyvideo.com/videos/821/821830/mp4/6819d1d12baf015ea63476627146eb3ad3d15362194010a79a6774a498e2c0bd.mp4?secure=KEiDgphUfBVNPwCfw0i6Rg%3D%3D%2C1764867651"
+  },
+  {
     "id": "tt21349688",
     "name": "A Leste de Wall",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1As2vLgmSvNEfjenRoRJgPKOLTm.jpg",
@@ -2199,6 +2208,15 @@
     "year": 2025,
     "categoria": "Netflix-Animação",
     "stream": "https://watch.brplayer.cc/m3u8/26/1297bcaf6f829c2afe9cae03f1975683/master.m3u8?s=1&id=31239&cache=1"
+  },
+  {
+    "id": "tt37677952",
+    "name": "Os Sneetches",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/w9I5XZ0izVJ0CHqInfv5X9sl2o0.jpg",
+    "description": "Segue criaturas com barriga de estrela e barriga de lua. Eles são amigos e percebem que suas diferenças devem ser celebradas, não uma fonte de conflito.",
+    "year": 2025,
+    "categoria": "Netflix-Animação",
+    "stream": "https://cdnst95.tokyvideo.com/videos/838/838479/mp4/a6b0d4ba39700c0064687fb3e0fcad892749ba2e9b7f80713b922791aeac59ad.mp4?secure=8i82WBuX2EZQ-Fmxk-gyew%3D%3D%2C1764867465"
   },
   {
     "id": "tt11116912",
