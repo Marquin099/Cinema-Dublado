@@ -2820,5 +2820,23 @@
     "year": 2025,
     "categoria": "Musica",
     "stream": "https://cdn.cnvsplus.com/m/One.Hit.Wonder.2025.1080p.WEB-DL.DUAL.5.1.mp4"
+  },
+  {
+    "id": "tt32543884",
+    "name": "Quero Você",
+    "poster": "https://image.tmdb.org/t/p/original/y5MqC5sFLwA4FH73zpjqo0q8Ry7.jpg",
+    "description": "Lilli suspeita do noivo da irmã. Mas, quando um homem misterioso e charmoso aparece, o desejo faz com que ela perca o foco.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://cdn.cnvsplus.com/m/Quero.Voc%C3%AA.2025.1080p.WEB-DL.DUAL.5.1.mp4"
+  },
+  {
+    "id": "tt36711248",
+    "name": "Ladrões de Ouro",
+    "poster": "https://image.tmdb.org/t/p/original/waEg4gatXCc1xvFRvkWLLZbxv5L.jpg",
+    "description": "No fim da Segunda Guerra Mundial, um líder rebelde e seu grupo decidem enfrentar o exército japonês para roubar um trem carregado de ouro.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://cdn.cnvsplus.com/m/Ladr%C3%B5es.de.Ouro.2025.1080p.WEB-DL.DUAL.5.1.mp4"
   }
 ]
