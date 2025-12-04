@@ -717,10 +717,10 @@
     "id": "tt19847976",
     "name": "Wicked: Parte II",
     "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/dtEQlBNKMlT2vIoRFkPSErZBKQg.jpg",
-    "description": "Filme dublado PT-BR",
+    "description": "Elphaba, uma jovem incompreendida por causa da pele verde, e Glinda, uma jovem popular, se tornam amigas na Universidade de Shiz, na Terra de Oz. Após um encontro com o Maravilhoso Mágico de Oz, a amizade delas chega a uma encruzilhada.",
     "year": 2025,
-    "categoria": "Cinema",
-    "stream": "https://watch.brplayer.cc/m3u8/12/bbd792695f31428707ac8c744d04d05d/master.m3u8?s=1&id=34741&cache=1"
+    "categoria": "Prime Video",
+    "stream": "https://download2390.mediafire.com/tkjjm67quixg7eTH7aevjVxd4PVhbS7omkHchW7c8hqPwuhrgGGqpMZRa9hhnoI16kRz1kiX1JcIs_rQk1h1mKQ9BYjrRE197YEOPYphPb_APLHNb50t-GVT7B2COWs_Dnf1vRXHjBlHX3kn9FY0cgEyZO9FPdK0D6Lwmvi_BI0/jt45cic8bm3yxaz/Wick3d.24-HD.mp4"
   },
   {
     "id": "tt31227572",
@@ -2541,5 +2541,59 @@
     "year": 2025,
     "categoria": "Prime Video",
     "stream": "https://watch.brplayer.cc/m3u8/26/ed087a7d6c3ecbd9ee310830ee8de037/master.txt?s=1&id=35159&cache=1"
+  },
+  {
+    "id": "tt9603208",
+    "name": "Missão: Impossível - O Acerto Final",
+    "poster": "https://br.web.img3.acsta.net/img/a7/33/a73359e56bda3b66f78e6f6bff08caaf.png",
+    "description": "Ethan e sua equipe estão em uma missão para encontrar e destruir uma IA conhecida como The Entity. A viagem ao redor do mundo dá origem a cenas de ação incríveis e mais de uma reviravolta inesperada.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "stream": "https://download2274.mediafire.com/1o22tv0z6yagUrUk7CBPjN4EEBewX_3LaCPrO81j_gRBl63WCDK-vZ0h2Zgtqeug5KscfbJrVyqsNEb-p5wK-XGPL3v_6mbdDqojRTg4CrYwJb3ySq1ZoJde0K1osZbXad_om2ISBCpYJPBKHJtFhsXKwzV73R7lU-WFQAU-NLc/l65hty4yuj4y13r/Mission.Impossible.25-HD.mp4"
+  },
+  {
+    "id": "tt31036941",
+    "name": "Jurassic World: Recomeço",
+    "poster": "https://www.papodecinema.com.br/wp-content/uploads/2025/06/20250630-jurassic-world-recomeco-papo-de-cinema-cartaz.webp",
+    "description": "Cinco anos após Jurassic World: Domínio (2022), uma expedição desbrava regiões equatoriais isoladas para extrair DNA de três enormes criaturas pré-históricas para um avanço médico inovador.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "stream": "https://download2268.mediafire.com/u3kjnvurs0pgwyyX67499clCqCtBYO8cI6sSOoujTBCZqjc0ttqrbbXu1zNN8DSw8uroNTuOMj_FzGW1KuG5sRd1w1tVQfMyJSB3HdYrAEKZU_MjnZBC2ZODYzlDeYOKYGbF1vIw3u6C28ecYmBOpdubQDaWsFUw0fmpjQ1Rk8nP2w/qlqwgjdy2p9e53s/Jurassic.World.Rebirth.2025-HD.mp4"
+  },
+  {
+    "id": "tt5950044",
+    "name": "Superman",
+    "poster": "https://br.web.img3.acsta.net/c_310_420/img/86/64/8664d1b110b95eb32313683f1a655f5f.jpg",
+    "description": "Segue o super-herói titular enquanto ele reconcilia sua herança com sua educação humana. Ele é a personificação da verdade, da justiça e de um futuro melhor em um mundo que vê a bondade como algo antiquado.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "stream": "https://download2265.mediafire.com/720ltkmj5srgz-7emybAxl27pKtq8Oma4r9MQBpD9ZzezyZJBXMRpWaea_dCfhhQoC_pavmIiY0CKV-fXT3ghlzwXaw5GwHOiXls2e_CNwNOm21O4LT3LPWuVfvEJXEjKoYoCADgGbig0UZmCAWqzpFw6lqi4mQ2Uosc4BUE1s8/232x3yecl2pye8f/Superman.2025-HD.mp4"
+  },
+  {
+    "id": "tt26743210",
+    "name": "Como Treinar o Seu Dragão",
+    "poster": "https://br.web.img3.acsta.net/img/2c/59/2c5907be8f52c06b3cba679cd43d2ed7.jpg",
+    "description": "Quando uma ameaça coloca em perigo tanto vikings quanto dragões na ilha de Berk, a amizade entre Soluço, um viking inventivo, e Banguela, um dragão Fúria da Noite, se torna a chave para ambas as espécies construírem um novo futuro juntas.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "stream": "https://download1648.mediafire.com/ti6qxs2bfmmgoAJ8g1uVgpgGwPtD8LnIx0i9Sr6hKi_q9a428u63gLBT2T0T0dmmYkIgIfPy1ZcUiu2N6DyEpvZyYbK-LkT4PYQrtT-7tDb-Vo0lCI4-MvPKMWwi4G2TMefBO_FEBnHEox-u50h5M_wBRG1zdnx2JaeoqGAJyxj6/986zjk2qf5rlup9/Cm.Tr.Drg.25-HD.mp4"
+  },
+  {
+    "id": "tt11655566",
+    "name": "Lilo & Stitch",
+    "poster": "https://br.web.img3.acsta.net/img/43/79/4379582804d2a0f50f73342f8cd8bbaf.jpg",
+    "description": "Uma menina havaiana solitária faz amizade com um alienígena fugitivo, ajudando a remendar sua família fragmentada.",
+    "year": 2025,
+    "categoria": "Disney+",
+    "stream": "https://download1324.mediafire.com/bbbfo1jzoorgOlWp3xJpWWXr0DVxerbr4PUMIIZ9x_eAauUqZP_9Tp8doj4FqQKy_Qme-ZyxE_XvNG65mhxViEXh4LOqp0wijncdLLQ6_eEYmi5V6lkW4m-VtXqTzbpaLYnxLMBafg1mwq1UyH3t5kXW5aXj3eppUJVI-5N_5E3JEi0/uvzvgc3ft776t8r/Lilo.And.Stitch.2025-HD.mp4"
+  },
+  {
+    "id": "tt3402138",
+    "name": "Corra Que a Polícia Vem Aí!",
+    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX68Rk-tO768l3ss8gEjCxhkerxbmKH4taDg&s",
+    "description": "Apenas um homem tem as habilidades necessárias para liderar o Esquadrão Policial e salvar o mundo.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "stream": "https://download2270.mediafire.com/ddox46kgk9pgYfcVN2a9qrvLlmBrC6p3eDu4kmsZ7-QsAmf-PKwRAmS5XDalblRPl5xzIOejSYyCBFIbpej4lvbuU1YDcPUjAccUYBjximT1h9Ae0It5AOvEdqnFyfk_iVt5G0uxBYGTvMLTDQ7Dx1VEBAE2JVBOw5y74m7VEkOtBfQ/v589moo6d0teymf/The.Naked.Gun.2025-HD.mp4"
   }
 ]
