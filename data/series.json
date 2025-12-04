@@ -495,6 +495,87 @@
   },
 
   {
+    "id": "quer-brincar-de-gracie-darling-2025",
+    "tmdb": 271823,
+    "type": "series",
+    "name": "Quer Brincar de Gracie Darling?",
+    "runtime": "44 min",
+    "poster": "https://image.tmdb.org/t/p/original/xUcOkjlogJDtojiq2y1TuSsGKVf.jpg",
+    "background": "https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABd_mSFjwL1pyGJzVRSCMWAIX40cBG6olbtOfMCJNqzGfNXRn-sTOmeIiaBD3CWR2iDLT6ZPx0pwBSE2ltaqo8WxreplPBHUr6BAJ.jpg?r=d99",
+    "logo": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABZzsSI4W_TX4m30XUPMvOzc5YN3CA-WNd1AQUKxwSKnTnX_jfzNoLZc2F-J7SOwbPtJeDtt_CKwpwPF_xo4PnZmwzLwDm1qVYQ.png?r=131",
+    "description": "Décadas depois de perder a melhor amiga em uma sessão espírita que deu errado, uma psicóloga precisa encarar os fantasmas do passado quando outra garota desaparece.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "genres": ["Drama", "Mistério", "Suspense"],
+
+    "cast": [
+      { "name": "Morgana O'Reilly" },
+      { "name": "Kristina Bogic" },
+      { "name": "Rudi Dharmalingam" },
+      { "name": "Chloe Brink" }
+    ],
+
+    "directors": [
+      { "name": "Jonathan Brough", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "6.2",
+      "imdb_id": "tt33384059"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Menina Darling",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABT9_7Ndo-WT0Ovq7PsaBaBbZtrke9UrovXM343Ty3C3pcxvYWAyPmzLdYQuU8ghUDAAjjO4yDWPYRmM0eLcQOfJlPmZ65UP9GOH79AqQldCgYs7HRgKLQhZj.jpg?r=ae8",
+            "overview": "Décadas depois de uma sessão espírita ter destruído as vidas de seus amigos, a psicóloga infantil Joni Grey vai até sua cidade natal em busca da verdade.",
+            "stream": "https://embedplayer1.xyz/cdn/hls/ad880255b4e40ea5c2e0316d5051a766/master.txt"
+          },
+          {
+            "episode": 2,
+            "title": "Estorninho cinzento",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUJ3HuKZdSiXHS6o6NSoydQM6i3tEkyUWtunhpUPc0kFjKn1yq94MoCZyUSowx59S3cC5lygr7wavcLwxOOV1k5aUegKQYXlqWXqfVZJN8jRKSIfHH5B3Ni9.jpg?r=4b3",
+            "overview": "Uma descoberta sinistra na floresta desperta memórias terríveis para Joni. Um ritual adolescente deixa os médicos confusos e os moradores apavorados.",
+            "stream": ""
+          },
+          {
+            "episode": 3,
+            "title": "Murmurações",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABVcw6ncMA9WXysGFwmAPL85dSMFEELcxihpgvKNmuY4mlErK9usDWYsJ8ep7O4FHWJtPRRvyU8gE4PtrOSvcEGHHx_GTtEhV02cNisKHJ8C6HHiFyHgzIjtI.jpg?r=056",
+            "overview": "Entre sussurros e suspeitas, Joni busca a verdade. Mina descobre algo assustador sobre o passado da mãe. Uma presença sombria atormenta os sonhos de Lulu",
+            "stream": ""
+          },
+          {
+            "episode": 4,
+            "title": "Deixa eu sair",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUYG4DsVfueHmbCVT_x4VtIT7Ay_nOnu5tH0VJYBXyXNv5UOWpu_1TR_EpXxgrZh_hxOSEjG483OD-YFKdi3Lbni6rbm49aqRya6Twwja6xAKLZkBu9LWYjU.jpg?r=f76",
+            "overview": "Pais e mães apavorados exigem respostas quando seus filhos adolescentes vão parar no hospital. Novas evidências e uma confissão mudam o foco da investigação.",
+            "stream": ""
+          },
+          {
+            "episode": 5,
+            "title": "Nove de Espadas",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABY9_LJWOQ8MBx7saVPQQD3ADzo6-Y3jeiyAQHnRQIOQN5vHBvhlvVNrXtQfPb2faHyl2lq4A8Re6a0c9X73AmFipsEBgCHsAGB2fRFs20ZCPyKwz_IRAjqMC.jpg?r=3db",
+            "overview": "Joni é atormentada por visões aterrorizantes. Os detetives fecham o cerco contra um suspeito. Uma nova sessão espírita é a chance de descobrir a identidade de Levi.",
+            "stream": ""
+          },
+          {
+            "episode": 6,
+            "title": "Dies irae",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABb_2Iq-Oa2-wGEDXptg0_wk7bx6jdUp9gCSE5XB0-RhzesmSHvF_hPi-cpj-pnivo2-YKZ5rgjz8Ji2sxzJrgU1AwObDjtqleeY6nKS9f_9iKd3CP6PUdgUm.jpg?r=7db",
+            "overview": "Mina corre perigo com suas investigações. Joni tenta recuperar memórias perdidas. Uma revelação terrível confunde os limites entre o passado e o presente.",
+            "stream": ""
+          }
+        ]
+      }
+    ]
+  },
+  
+  {
     "id": "o-cuco-de-cristal-2025",
     "tmdb": 274979,
     "type": "series",
@@ -2713,5 +2794,5 @@
         ]
       }
     ]
-  }
+  }  
 ]
