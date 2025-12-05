@@ -2801,5 +2801,100 @@
         ]
       }
     ]
-  }  
+  },
+
+  {
+    "id": "o-monstro-em-mim-2025",
+    "tmdb": 250504,
+    "type": "series",
+    "name": "O Monstro em Mim",
+    "runtime": "53 min",
+    "poster": "https://br.web.img3.acsta.net/r_1280_720/img/21/c6/21c600e683fc657e24177f15ffc877b2.jpg",
+    "background": "https://otempo.scene7.com/is/image/sempreeditora/opiniao-critica-o-monstro-em-mim-e-tensa-envolvente-e-facilmente-esquecivel-1763056800?qlt=90&ts=1763057262463&dpr=off",
+    "logo": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABTuEEFxlUW8pmvSZPgj3pRjs5KWizqKQILKIwXC0NtJeRH2GY5Vai7mkkdmst4MumrKIcIXqXpUVRiocEOigad3Len1ev2Vw-A.png?r=e51",
+    "description": "Uma autora famosa vê-se enredada num retorcido jogo psicológico com o seu novo vizinho rico e poderoso, que pode ser um assassino.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "genres": ["Drama", "Mistério", "Suspense"],
+
+    "cast": [
+      { "name": "Claire Danes" },
+      { "name": "Matthew Rhys" },
+      { "name": "Brittany Snow" },
+      { "name": "Natalie Morales" }
+    ],
+
+    "directors": [
+      { "name": "Antonio Campos", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.5",
+      "imdb_id": "tt31974367"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Cão com raiva",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRDi1Fa6rKBEGF1wTgC9f9z7jPAFDYTkNerOKrgRXr6qbFmNG4Wu0od3xVUhEuju3qiph_Z3eQv9Zb8Y-xYpnog4IPswTbuLKU8.jpg?r=5ff",
+            "overview": "A vida da escritora Aggie Wiggs vira de cabeça para baixo com a chegada do novo vizinho, o rico e arrogante Nile Jarvis, que provavelmente matou a primeira esposa.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/b6013b4301821e299d6a556284a10362/master.txt"
+          },
+          {
+            "episode": 2,
+            "title": "Eu não quero ficar sozinho",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWAmdlT9nMYQ3zvt3czkoV-rxVEyaWdADzehdjnnWK_ThYCEwjVNXtsBwqXolKXAlQn73-Rd-e4Ov0VWPNdTFEH_XywqmJMdkiA.jpg?r=e4a",
+            "overview": "Ainda chocada com a notícia que recebeu, Aggie fala de sua desconfiança com Brian e faz uma proposta intrigante a Nile.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/9c7c3400d3c75aa9849ffbe196eeb4d5/master.txt"
+          },
+          {
+            "episode": 3,
+            "title": "O elefante na sala",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABSa7mYt14Y5OmrspMU-SNOvzjA-C5UBnQqFUvpnIXebaWI9CBZTe8QCqwPXe9fhjDvBu5CORyBbjTA5W5m4G3qEyANnAHmJXDxs.jpg?r=cd4",
+            "overview": "Aggie mergulha no passado de Nile e insiste para que Brian use as informações que ela está conseguindo. Nina se interessa pelo trabalho de Shelley.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/8995f4f1c60fc3c0adc628cadbbb617e/master.txt"
+          },
+          {
+            "episode": 4,
+            "title": "Thanatos",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfsHIpvYkJbR2f2nPiSVSUKb0dXhH44llg3OlyL6Tu2-Ra_pCqMoFmkPasV975ji3ITALfwSNRjC-5TOMbbJBjCbetb8H4-fsNY.jpg?r=6e6",
+            "overview": "Aggie entrevista os pais de Madison sobre o desaparecimento da filha. Nile e Martin procuram os podres da câmara municipal. Brian pede ajuda para acessar o disco rígido.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/3ffc647eb4e56100a38474f9e7c7a49e/master.txt"
+          },
+          {
+            "episode": 5,
+            "title": "Bacanal",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbQLMDhn8ugKO6cQzMUu-NMU5n6vWNglXkHCuLAHPmnHZJuIHgGWyeLDhfVmZ1NCtxja5E0WqydJu9u--qAs1f5o0nEim8tEVAY.jpg?r=f0e",
+            "overview": "Nile e Aggie passam dos limites após uma conversa regada a álcool, o que aumenta a desconfiança de Nina. Martin e Rick conspiram para sabotar o evento de Olivia.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/6285f7507459206732a7cfd23dc42b41/master.txt"
+          },
+          {
+            "episode": 6,
+            "title": "O Monstro e Eu",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWoTm9o1f1dI9DvItKBjOu8XfBrWJPAmrNVCvh6jKve7A9ck1MrYw2TzaZ2gcG184DTx0IrYOwnAIOMKGhKx_UcKTQ9TSOi5fbA.jpg?r=98c",
+            "overview": "Ansiosa para contar suas descobertas a Brian, Aggie acaba descobrindo uma verdade ainda mais sombria. Nina recebe uma notícia surpreendente.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/b99989ab27ef835505eb44a01aa19979/master.txt"
+          },
+          {
+            "episode": 7,
+            "title": "Fantasmas",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUEV7SrAUi1n7cgdY7v15eAx2i2jDL_wDgzs9mU7MxfxKcyjSUaLaV2o7tCTxicSAAR6_l8aCsWg1O5vp0CAlWWwftAbRvafvrMICq6HjvuYmPXTfa8cOvzM.jpg?r=801",
+            "overview": "Em 2019, uma rede complexa de desconfiança e traição se forma entre a família Jarvis, Nina e Brian. A verdade sobre o desaparecimento de Madison é revelada.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/94dc7d455af894ede1349c5439f6676f/master.txt"
+          },
+          {
+            "episode": 8,
+            "title": "A última palavra",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABTjH9-eTV6EsJ4ifVMg9A5J_x9g3FMIP52yOsw9iZMAHKAOK2OLURlEjTrozO-QduIAiUCAmp8mJpU-2rAtID_lOxi0EkhOl7yA.jpg?r=f81",
+            "overview": "Acuada, Aggie tem que usar toda a sua inteligência para evitar que o pior aconteça e precisa confiar em uma aliança improvável.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/a23eca5e0334a82a7159d6569810b7b5/master.txt"
+          }
+        ]
+      }
+    ]
+  }
 ]
