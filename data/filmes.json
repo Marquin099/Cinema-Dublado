@@ -18,6 +18,51 @@
     "stream": "https://watch.brplayer.cc/m3u8/26/a202f338b2ddc55a30bde5c736d7250d/master.m3u8?s=1&id=35099&cache=1"
   },
   {
+    "id": "tt38681567",
+    "name": "Stephen",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/zht2iAMV2hh99ZpXl2T9offt0tt.jpg",
+    "description": "Uma psiquiatra investiga um assassino em série confesso depois que nove garotas desaparecem, mas começa a questionar se ele é culpado ou vítima em um jogo sombrio.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/10/b203eb4807ca029d93185930bb520735/master.m3u8?s=1&id=35183&cache=1"
+  },
+  {
+    "id": "tt30446847",
+    "name": "Jay Kelly",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/jasFpJCOG3FoXKv9IErzWCnZJor.jpg",
+    "description": "O astro do cinema Jay Kelly confronta seu passado e seu presente em uma jornada caótica pela Europa com seu dedicado agente. Ao longo do caminho, os dois precisam confrontar os relacionamentos com pessoas queridas e o legado que vão deixar.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/10/1e492efd68b177927702d6ade06c849e/master.m3u8?s=1&id=35179&cache=1"
+  },
+  {
+    "id": "tt38907962",
+    "name": "Amor e Vinho",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/aRJrEffxIoplzUwzVsWvFDTQgvK.jpg",
+    "description": "Um homem rico que trabalha para a empresa de seu pai se apaixona por uma estudante de medicina e finge ser pobre como ela. Sua mentira se transforma em uma confusão de comédia e momentos emocionantes.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/10/458f2f30b29105c76eb18b693f70ba68/master.m3u8?s=1&id=35181&cache=1"
+  },
+  {
+    "id": "tt38895441",
+    "name": "Quem vai salvar o natal? 2",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/72rWDqGgOkEcKxf4iQqHwzF7JDE.jpg",
+    "description": "Em um Natal caótico, Papai Noel () desaparece e um ator peculiar tenta substituí-lo. Um pai, seu filho e amigos especiais devem salvá-lo.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/10/0a17a8c84fd8debe87250d1a0e44c7e9/master.m3u8?s=1&id=35182&cache=1"
+  },
+  {
+    "id": "tt31727267",
+    "name": "Óleo de Sarah (Dublado Não Oficial)",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/eZh6ShWg7392xgYOp1qek7nBsuW.jpg",
+    "description": "A história verídica de Sarah Rector, de onze anos, uma garota afro-americana nascida no Território Indígena de Oklahoma no início dos anos 1900, que acredita que há petróleo sob a terra árida que ela recebeu e cuja fé está provada correta.",
+    "year": 2025,
+    "categoria": "Dublado Não Oficial",
+    "stream": "https://watch.brplayer.cc/m3u8/12/f98ed89220998643e9ae4fd4d9ebc981/master.m3u8?s=1&id=35131&cache=1"
+  },
+  {
     "id": "tt35219851",
     "name": "O Segredo do Papai Noel",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/faL9uHM7ZTVNgxtbL9yskNnUB3b.jpg",
@@ -207,6 +252,42 @@
     "stream": "https://watch.brplayer.cc/m3u8/10/0a2fbc3a7639168c9e918f557d1802ac/master.m3u8?s=1&id=34758&cache=1"
   },
   {
+    "id": "tt26681570",
+    "name": "Tese Sobre uma Domesticação",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/cKPf1ttw7M63xNZ30wP1yIqlL9a.jpg",
+    "description": "Uma atriz transexual de sucesso e seu marido advogado decidem adotar uma criança, desafiando a comunidade conservadora da Argentina. Mas sua intenção de felicidade doméstica fica frustrada quando visitam o povoado natal da atriz.",
+    "year": 2025,
+    "categoria": "Hbo Max",
+    "stream": "https://watch.brplayer.cc/m3u8/10/f78ff70e70cdf2e13ce970fada856eba/master.m3u8?s=1&id=35177&cache=1"
+  },
+  {
+    "id": "tt4433630",
+    "name": "A Palavra",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/52uJXraL5yHdsawRYPQWHL4YtgW.jpg",
+    "description": "Repórter ambiciosa viaja ao sertão nordestino para investigar Elias, homem que dizem fazer milagres e curar a seca na região. Determinada a desmascará-lo como charlatão, ela se depara com uma jornada que pode mudar sua própria vida.",
+    "year": 2025,
+    "categoria": "Drama",
+    "stream": "https://watch.brplayer.cc/m3u8/10/0f72d46111630adf38fa71936f80e5ec/master.m3u8?s=1&id=35151&cache=1"
+  },
+  {
+    "id": "tt35495052",
+    "name": "A Família McMullen",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/foNIl77csO9GmsvCvTZ6ixt0fZf.jpg",
+    "description": "Uma família unida enfrenta os altos e baixos da vida ao lidar com desafios pessoais e mudanças nos relacionamentos. Seus laços são postos à prova, revelando a natureza complexa do amor e da lealdade familiar.",
+    "year": 2025,
+    "categoria": "Drama",
+    "stream": "https://watch.brplayer.cc/m3u8/10/40557c6d9ed006bfb403afa50473a40c/master.m3u8?s=1&id=35180&cache=1"
+  },
+  {
+    "id": "",
+    "name": "Se Você Tivesse Falado",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/24zL67XJR1AbWx3q9rqIhVw0sLC.jpg",
+    "description": "Após descobrir um antigo segredo de família, um jovem missionário vai das Filipinas à Espanha em busca do amor proibido de seu falecido pai.",
+    "year": 2025,
+    "categoria": "Drama",
+    "stream": "https://cdn.cnvsplus.com/m/Se.Voc%C3%AA.Tivesse.Falado.2025.1080p.WEB-DL.DUAL.5.1.mp4"
+  },
+  {
     "id": "tt26229612",
     "name": "O Diplomata",
     "poster": "https://images.justwatch.com/poster/331492991/s166/the-diplomat",
@@ -384,6 +465,15 @@
     "year": 2025,
     "categoria": "Aventura",
     "stream": "https://watch.brplayer.cc/m3u8/26/369eb968269fa49b22b4596a2ce9fbbe/master.m3u8?s=1&id=33897&cache=1"
+  },
+  {
+    "id": "tt37751253",
+    "name": "Diário de um Banana: A Gota D'Água",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/uN0JESJgHnTZol84MMG19Vxf1Li.jpg",
+    "description": "Quando o tranquilo Greg se vê em conflito com as expectativas exageradas do pai, a pressão aumenta para que ele mude de atitude. Após uma série de situações hilárias que quase deram errado, o pai de Greg lhe apresenta um ultimato que pode acabar de vez com a timidez do rapaz.",
+    "year": 2025,
+    "categoria": "Disney+",
+    "stream": "https://watch.brplayer.cc/m3u8/10/4ef88f93ef292fac0b477e6fac64236f/master.m3u8?s=1&id=35178&cache=1"
   },
   {
     "id": "tt37850663",
@@ -1973,7 +2063,7 @@
     "description": "O ex-jogador de beisebol Hank Thompson se envolve em uma perigosa luta pela sobrevivência em meio ao submundo do crime da Nova York dos anos 90, forçado a navegar em um submundo traiçoeiro que ele nunca imaginou.",
     "year": 2025,
     "categoria": "Suspense",
-    "stream": "https://watch.brplayer.cc/m3u8/10/1f710d07916bb3151c453c764cfaf1ca/master.txt?s=1&id=32090&cache=1"
+    "stream": "https://watch.brplayer.cc/m3u8/10/1f710d07916bb3151c453c764cfaf1ca/master.m3u8?s=1&id=32090&cache=1"
   },
   {
     "id": "tt32194932",
@@ -2531,7 +2621,7 @@
     "description": "Quando um misterioso prisioneiro chega à sua prisão, um xerife de uma cidade fronteiriça enfrenta a ira de um cartel brutal neste thriller repleto de ação.",
     "year": 2025,
     "categoria": "Paramount+",
-    "stream": "https://watch.brplayer.cc/m3u8/10/32ff692bedd4cd4764741dd4b347d5b4/master.txt?s=1&id=34826&cache=1"
+    "stream": "https://watch.brplayer.cc/m3u8/10/32ff692bedd4cd4764741dd4b347d5b4/master.m3u8?s=1&id=34826&cache=1"
   },
   {
     "id": "tt30400277",
@@ -2558,7 +2648,7 @@
     "description": "A família Crawley e seus serviços remontam à década de 1930, adaptando-se à medida que guiam Downton Abbey. Eles abraçam a mudança e dão as boas-vindas a uma nova era.",
     "year": 2025,
     "categoria": "Prime Video",
-    "stream": "https://watch.brplayer.cc/m3u8/10/46433ef1f34731171c310acd7957a45c/master.txt?s=1&id=33075&cache=1"
+    "stream": "https://watch.brplayer.cc/m3u8/10/46433ef1f34731171c310acd7957a45c/master.m3u8?s=1&id=33075&cache=1"
   },
   {
     "id": "tt27139309",
@@ -2576,7 +2666,7 @@
     "description": "Três irmãs retornam à sua casa para o terceiro casamento de sua mãe, duas vezes viúva. Mas a mãe e as filhas são forçadas a revisitar o passado e confrontar o futuro, com a ajuda de um grupo colorido de convidados inesperados.",
     "year": 2025,
     "categoria": "Prime Video",
-    "stream": "https://watch.brplayer.cc/m3u8/26/ed087a7d6c3ecbd9ee310830ee8de037/master.txt?s=1&id=35159&cache=1"
+    "stream": "https://watch.brplayer.cc/m3u8/26/ed087a7d6c3ecbd9ee310830ee8de037/master.m3u8?s=1&id=35159&cache=1"
   },
   {
     "id": "tt9603208",
@@ -2865,14 +2955,5 @@
     "year": 2025,
     "categoria": "Netflix",
     "stream": "https://cdn.cnvsplus.com/m/Ladr%C3%B5es.de.Ouro.2025.1080p.WEB-DL.DUAL.5.1.mp4"
-  },
-  {
-    "id": "1325678",
-    "name": "Sarah's Oil",
-    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/eZh6ShWg7392xgYOp1qek7nBsuW.jpg",
-    "description": "A história verídica de Sarah Rector, de onze anos, uma garota afro-americana nascida no Território Indígena de Oklahoma no início dos anos 1900, que acredita que há petróleo sob a terra árida que ela recebeu e cuja fé está provada correta..",
-    "year": 2025,
-    "categoria": "Drama",
-    "stream": "https://playerflixapi.com/filme/tt31727267"
   }
 ]
