@@ -502,6 +502,129 @@
   },
 
   {
+    "id": "o-preco-da-confissao-2025",
+    "tmdb": 209110,
+    "type": "series",
+    "name": "O Preço da Confissão",
+    "runtime": "120 min",
+    "poster": "https://i.mydramalist.com/nOlOjE_4c.jpg?v=1",
+    "background": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQ-9NT95Fq6DXMKQRhOUrn6W3SVzGPthmvwI0ccVte8T9yWA69fqeTjBxFNy4QjCDiAf-yC1gaI39a1dM4U6bu2HSsW2SbvQNC8D.jpg?r=5cb",
+    "logo": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABaiSARzsgH4RWJa_zdlS5xj9Sx74tEIT7jZBVES2Sro8snQkybtXujhm0IAH_S9jAdRt6ESG_OtXeaOHP-MKCQgi06-Iz09-wg.png?r=028",
+    "description": "Acusada de assassinar o marido, uma mulher recebe uma proposta inesperada: uma desconhecida promete confessar em seu lugar. Mas, em troca, ela pede um crime.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "genres": ["Crime", "Drama", "Suspense"],
+
+    "cast": [
+      { "name": "Jeon Do-yeon" },
+      { "name": "Kim Go-eun" },
+      { "name": "Park Hae-soo" },
+      { "name": "Jin Seon-kyu" }
+    ],
+
+    "directors": [
+      { "name": "Lee Jung-hyo", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.2",
+      "imdb_id": "tt37218592"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Episódio 1",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRvUnnVTtOUtYR1JTA0LRDlPYZG_A3dKS1Thuqbh_s4gom8nT30WxvIaxN-GkOrOofSucyRE_zboPW4DlkAjmtn1TScGxOu43Wu9W-lRikjsrSJRr1AFCBVF.jpg?r=6ef",
+            "overview": "O artista Lee Ki-dae é assassinado em seu estúdio. Sua esposa, An Yun-su, é detida para depor em meio à comoção da mídia e uma investigação policial implacável.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/1f07955e860932e456dcc4b4146be783/master.txt"
+          },
+          {
+            "episode": 2,
+            "title": "Episódio 2",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYW9yKkpfWeh-zHXPNqlsszyxEOUAPvAp_qVZq8rkbdK99Bji9FVkBzgkyuV9YOP6u7PJ9isQk344tz8zJ8ilEw3rKKOZyHIrRO8xctrvyXRVq5YshvKyPqm.jpg?r=0e4",
+            "overview": "O promotor Baek pressiona Yun-su quando ela é levada à cena do crime. Enquanto ela alega inocência, outra mulher assume a culpa.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/8e030ae5d89e92df5ca621a8db42cf7b/master.txt"
+          },
+          {
+            "episode": 3,
+            "title": "Episódio 3",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUW5ZrRfl2gpe92g9bKeqFUb_-mlk-w0O50zo5n74qyvMtN79WiowrJYwrA0LoOco2zW_GU6hM4GcMwcJGD3dOtwQvf451nTHya5wXX9qTCarJ0aBgks5Z5q.jpg?r=9f4",
+            "overview": "Mo Eun e Yun-su ficam frente a frente. Depois da repercussão pública sobre a investigação, Baek obtém um mandato de prisão e pede um teste de polígrafo.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/0ac57b1afcc19db5c950040c149dbcc3/master.txt"
+          },
+          {
+            "episode": 4,
+            "title": "Episódio 4",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZqUmZscPqf6IHBZietjqLAABoqDefmFkkNhOMP7HOyhgBUVtgiHU8VgT0Karl4ntjj7ziaWHL0bvEDb2khDlLCRhS9Wz8dDnIwvaA41rWtKEQrMgjM3U7N2.jpg?r=0c5",
+            "overview": "Yun-su recebe uma tornozeleira eletrônica e cumpre toque de recolher. Um advogado se voluntaria para defender Mo Eun, e ela envia uma carta ameaçadora à nova aliada.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/76a8fdc21316c091364825d87f924571/master.txt"
+          },
+          {
+            "episode": 5,
+            "title": "Episódio 5",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABW3bgCgdAHn4l1Qgf2GjYPLVx46ffWxWd0SeFewtcitSS5EbIij1wEDQwkWtXTMVDod_l6sYTt1YMB1tjX8DlPxg_qqy5xjeX6ZdcTmRqlH9QF67Zc2vhpw1.jpg?r=0f7",
+            "overview": "Yun-su persegue uma figura encapuzada bem quando Mo Eun é dada como desaparecida da prisão. Baek começa a suspeitar de que as duas mulheres estão um passo à frente dele.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/1e86a17c2dde00b2030a9dd5d4236b8f/master.txt"
+          },
+          {
+            "episode": 6,
+            "title": "Episódio 6",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUK-tUE3KrHG4f2j8rgQo1Q3bAD_NRfe1WnJimjvcMKfrKpWg1gPlG1kCQ_XSCG65WNGnIoSmW6h9_4fFwfX09hzFizEGZ4gRkUzUX7z1xQd5fVBXXyII6eu.jpg?r=bd9",
+            "overview": "Yun-su investiga o passado sinistro de seu alvo e encontra uma pista no estúdio. Uma briga violenta acontece enquanto Mo Eun fica sem supervisão.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/fc0c49a702ae2da59f74428f940e6271/master.txt"
+          },
+          {
+            "episode": 7,
+            "title": "Episódio 7",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYbAwLutCm-MkD8bHH42XnNMSGqSZ2WC4CKCtESE8dnkLP2OqzjF3YF8baUwj50Cjfrfxcm2gaGOuAhs-5u-2G4Znxw3cenCfbM4gy-MCxhCIkMqzemTRWy5.jpg?r=9df",
+            "overview": "As duas mulheres tentam apagar evidências que podem mudar o rumo da investigação. Enquanto isso, Ko Se-hun é dado como desaparecido por seu avô.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/e9ec95460154e9a5a030c3f1bfed4f73/master.txt"
+          },
+          {
+            "episode": 8,
+            "title": "Episódio 8",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABd7fu8LE36Eh93NjJJXbPBb1XSDB1XoVoOaWpxbibNc6cWF70WHuBBxHnBQnjdfGdaOUFh0EPO46ffqTIIwukuMIQCKRvqIyOkRrPGRl1U9AOXTwIw0vFFPE.jpg?r=489",
+            "overview": "Mo Eun apresenta provas que complicam o caso de Yun-su. Baek descobre o crime fatal de Ko Se-hun, e uma nova detenta traz à tona segredos antigos.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/4c9be91dd59aa82d7cef2145f073c6d8/master.txt"
+          },
+          {
+            "episode": 9,
+            "title": "Episódio 9",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABTAEkPbZ1APdenHGQMfUx-3pV3G6tXLllHQh1zGrpreHzIlMKnGl1aEF8cpQlG9VoDSzXXebmWMKMM51f40ZJANDaPAVSOb-lv2HNju1FzqxrGVkYdEytbTC.jpg?r=676",
+            "overview": "Mo Eun levanta suspeitas após uma emergência médica. O advogado Jang Jeong-gu recebe uma ligação decisiva, e uma tentativa de fuga coloca uma detenta em risco.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/2887b1158d363cf5861fb4e1c0c3909e/master.txt"
+          },
+          {
+            "episode": 10,
+            "title": "Episódio 10",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABct64hOeDtarG2kMojVg4BqcpG52tXFWAkXS2kNKxqJTjnRAx7OLlFKAbxud4n_TqDB2Coza2-ug1H9udIpzMag_HbBWrn4_aC-tpkt_xKUg_TVVMWlBijpH.jpg?r=130",
+            "overview": "Um confronto tenso entre Jeong-gu, Baek e Mo Eun revela informações cruciais sobre o caso. Uma confissão de assassinato chocante domina as manchetes.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/dfaf5675d4cb0a84935b0efbacd86e55/master.txt"
+          },
+          {
+            "episode": 11,
+            "title": "Episódio 11",
+            "thumbnail": "https://image.tmdb.org/t/p/w320_and_h180_bestv2/4o54LEH3tZQFBesu5Kf4V7qsvqN.jpg",
+            "overview": "Um motivo oculto e uma digital no caso de assassinato de Lee Ki-dae...",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/971440366d98383c1a1145408e9ef604/master.txtt"
+          },
+          {
+            "episode": 12,
+            "title": "Episódio 12",
+            "thumbnail": "https://image.tmdb.org/t/p/w320_and_h180_bestv2/55EJRkLmQILkoZ2AJILHLv7IIW4.jpg",
+            "overview": "As peças começam a se encaixar. Baek e Jeong-gu recebem um vídeo...",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/e07bc4be846d78b5f166ae2642742ea3/master.txt"
+          }
+        ]
+      }
+    ]
+  },
+  
+  {
     "id": "quer-brincar-de-gracie-darling-2025",
     "tmdb": 271823,
     "type": "series",
