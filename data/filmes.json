@@ -2865,5 +2865,14 @@
     "year": 2025,
     "categoria": "Netflix",
     "stream": "https://cdn.cnvsplus.com/m/Ladr%C3%B5es.de.Ouro.2025.1080p.WEB-DL.DUAL.5.1.mp4"
+  },
+  {
+    "id": "1325678",
+    "name": "Sarah's Oil",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/eZh6ShWg7392xgYOp1qek7nBsuW.jpg",
+    "description": "A história verídica de Sarah Rector, de onze anos, uma garota afro-americana nascida no Território Indígena de Oklahoma no início dos anos 1900, que acredita que há petróleo sob a terra árida que ela recebeu e cuja fé está provada correta..",
+    "year": 2025,
+    "categoria": "Drama",
+    "stream": "https://playerflixapi.com/filme/tt31727267"
   }
 ]
