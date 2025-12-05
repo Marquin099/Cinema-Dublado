@@ -6,7 +6,6 @@ const path = require("path");
 function safeReadJSON(file) {
     try {
         const filePath = path.join(__dirname, file);
-        // Garante que o arquivo existe e o JSON é parseado corretamente
         if (!fs.existsSync(filePath)) {
             console.warn(`Aviso: Arquivo JSON não encontrado: ${file}`);
             return [];
@@ -14,7 +13,6 @@ function safeReadJSON(file) {
         return JSON.parse(fs.readFileSync(filePath, "utf8"));
     } catch (err) {
         console.error("ERRO FATAL ao ler JSON:", file, err.message);
-        // Retorna um array vazio para não quebrar o addon
         return [];
     }
 }
@@ -84,7 +82,6 @@ builder.defineCatalogHandler(async args => {
 
         return {
             metas: filteredItems.map(item => ({
-                // Prioriza IDs do TMDB para integração do Stremio
                 id: item.tmdb ? `tmdb:${item.tmdb}` : item.id,
                 type: itemType,
                 name: item.name,
@@ -92,7 +89,7 @@ builder.defineCatalogHandler(async args => {
                 description: item.description,
                 releaseInfo: item.year?.toString()
             })),
-            cacheMaxAge: 3600 // Cache de 1 hora para catálogos (ideal para um addon de catálogo estático)
+            cacheMaxAge: 3600
         };
     }
 
@@ -105,18 +102,17 @@ builder.defineMetaHandler(async args => {
     const isMovie = args.type === 'movie';
     const data = isMovie ? filmes : series;
     
-    // Extrai o ID TMDB ou IMDb
     const requestedId = args.id.startsWith('tmdb:') ? args.id.substring(5) : args.id;
 
     const item = data.find(i =>
-        i.id === requestedId || // Se o ID for o seu ID personalizado
-        (i.tmdb && i.tmdb.toString() === requestedId) || // Se o ID for TMDB
-        (i.rating && i.rating.imdb_id === requestedId) // Se o ID for IMDb
+        i.id === requestedId || 
+        (i.tmdb && i.tmdb.toString() === requestedId) || 
+        (i.rating && i.rating.imdb_id === requestedId)
     );
 
     if (item) {
         let meta = {
-            id: isMovie ? item.id : args.id, // Para filmes usa o seu ID, para séries usa o ID completo do Stremio
+            id: isMovie ? item.id : args.id, 
             type: args.type,
             name: item.name,
             poster: item.poster,
@@ -127,23 +123,19 @@ builder.defineMetaHandler(async args => {
             genres: item.genres || [],
             cast: (item.cast || []).map(c => ({ name: c.name || c })),
             imdbRating: item.rating?.imdb ? parseFloat(item.rating.imdb) : undefined,
-            // Outras propriedades...
         };
 
         if (isMovie) {
-             // Para filmes, o vídeo é o próprio filme
              meta.videos = [{
                 id: item.id,
                 title: "Filme Completo",
                 released: item.year ? new Date(item.year, 0, 1) : undefined
             }];
         } else {
-            // Para séries, constrói a lista de episódios (videos)
             const videos = [];
             item.seasons.forEach(temp => {
                 temp.episodes.forEach(ep => {
                     videos.push({
-                        // ID no formato tmdb:ID:Temporada:Episódio
                         id: `tmdb:${item.tmdb}:${temp.season}:${ep.episode}`, 
                         title: ep.title,
                         thumbnail: ep.thumbnail,
@@ -159,7 +151,7 @@ builder.defineMetaHandler(async args => {
 
         return {
             meta: meta,
-            cacheMaxAge: 3600 // Cache de 1 hora
+            cacheMaxAge: 3600
         };
     }
 
@@ -172,8 +164,7 @@ builder.defineStreamHandler(async args => {
     // Função que aplica o prefixo 'external:' se não for um link de arquivo de mídia direto.
     const prefixEmbed = (url) => {
         if (!url) return url;
-        // Verifica se a URL não termina em uma extensão de streaming comum (m3u8, mp4, etc.)
-        // Também verifica se não contém o prefixo 'external:' para evitar duplicidade.
+        // Verifica se a URL não termina em uma extensão de streaming comum e se não contém o prefixo 'external:'
         if (!url.match(/\.(m3u8|mp4|avi|webm|mkv|vtt|srt|txt)$/i) && !url.startsWith('external:')) {
             return `external:${url}`;
         }
@@ -189,8 +180,7 @@ builder.defineStreamHandler(async args => {
         return {
             streams: [{
                 title: "Filme Dublado",
-                url: prefixEmbed(filme.stream), // << APLICA A CORREÇÃO DE EMBED
-                is:\['dubbed', 'full-hd'] // Exemplo de tags
+                url: prefixEmbed(filme.stream), // << CORREÇÃO EMBED AQUI
             }]
         };
     }
@@ -221,7 +211,6 @@ builder.defineStreamHandler(async args => {
 
     // Se achou a série, busca o episódio
     if (serieEncontrada) {
-        // Usa "==" para garantir que string "1" seja igual a número 1
         const temp = serieEncontrada.seasons.find(t => t.season == seasonReq);
         if (temp) {
             const ep = temp.episodes.find(e => e.episode == episodeReq);
@@ -229,8 +218,7 @@ builder.defineStreamHandler(async args => {
                 return {
                     streams: [{
                         title: `S${seasonReq}E${episodeReq} - Dublado`,
-                        url: prefixEmbed(ep.stream), // << APLICA A CORREÇÃO DE EMBED
-                        is:\['dubbed', 'full-hd'] // Exemplo de tags
+                        url: prefixEmbed(ep.stream), // << CORREÇÃO EMBED AQUI
                     }]
                 };
             }
