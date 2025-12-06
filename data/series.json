@@ -326,6 +326,129 @@
       }
     ]
   },
+
+  {
+    "id": "a-alibi-2025",
+    "tmdb": 294188,
+    "type": "series",
+    "name": "A Alibi",
+    "runtime": "52 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/xT0H4FuhlCi0hilNf9WpXhDXyCR.jpg",
+    "background": "https://m.media-amazon.com/images/S/pv-target-images/e7274e9ccde4b7e2b3328923824f73e5687043508c615374b18ec7aa8b0a3749._SX1080_FMpng_.png",
+    "logo": "",
+    "description": "Um herdeiro de império midiático contrata uma acompanhante como álibi em caso de assassinato. O acordo profissional se transforma em algo mais profundo quando descobrem dores e objetivos em comum.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "genres": ["Crime", "Drama", "Romance"],
+
+    "cast": [
+      { "name": "Paulo Avelino" },
+      { "name": "Kim Chiu" },
+      { "name": "John Arcilla" },
+      { "name": "Rafael Rosell" }
+    ],
+
+    "directors": [
+      { "name": "Onat Diaz", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.1",
+      "imdb_id": "tt37394767"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Verdade e Mentiras",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/89e3ec08f657beb19b5a976535ac51f1585472494d5fb3bced5c097d045bddfa._BR-6_AC_SX480_FMwebp_.png",
+            "overview": "Vincent, filho adotivo de um magnata dos negócios, insiste em salvar a Cabrera News, o empreendimento da família que está em dificuldades. Após perder o cargo de CEO para Walter, ele entra em um confronto acalorado com o rival. Mas quando este é encontrado morto, Vincent tenta obter a ajuda de Stella, uma dançarina misteriosa que conheceu naquela noite fatídica.",
+            "stream": ""
+          },
+          {
+            "episode": 2,
+            "title": "O Preço da Inocência",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/ab1da3cc20754617bac62ddfc66198fab7c7dad37e5143caea382cd0fe1ef3cf._BR-6_AC_SX480_FMwebp_.png",
+            "overview": "À medida que a investigação se intensifica, Vincent perde a confiança do pai, Arthur. Para piorar a situação, as suspeitas sobre ele aumentam quando a polícia descobre o caso da sua esposa, Claudia, com Walter. Numa tentativa desesperada de salvar o irmão doente, Stella aceita a proposta de Vincent, sem saber que isso a arrastará para os problemas da família Cabrera.",
+            "stream": ""
+          },
+          {
+            "episode": 3,
+            "title": "O Álibi Problemático",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/4c7fb479d7bf0f1b5fe56e3397538f8c3c2e8e08f389329577a4857ea47b5b96._BR-6_AC_SX480_FMwebp_.png",
+            "overview": "Perseguida pelos pais de Vincent, Stella tenta desistir do acordo até que a polícia começa a envolver sua irmã. Um vídeo deepfake de Vincent confessando o crime o leva a invadir a casa de Walter, onde descobre o segredo arrepiante de Claudia. Conforme Vincent sente forças invisíveis se aproximando, fica claro que ele e Stella estão se escondendo da mesma verdade — uma verdade que pode destruí-los.",
+            "stream": ""
+          },
+          {
+            "episode": 4,
+            "title": "Uma Noite de Acerto de Contas",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/28d21a20a0eaede617719aa38846683f0d87b00bb89c1504985747ac9d6815d5._BR-6_AC_SX480_FMwebp_.png",
+            "overview": "Assim que o passado de Stella com Walter vem à tona, a polícia descobre que uma mulher não identificada esteve com o CEO pouco antes de sua morte prematura. Vincent tem uma última chance de salvar a Cabrera News, sem saber que seu irmão, Matthew, convidou Stella para o evento crucial da família. Mas quando a acompanhante aparece, os problemas começam — para grande desgosto de Arthur.",
+            "stream": ""
+          },
+          {
+            "episode": 5,
+            "title": "A Queda e a Chama",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/7010dbd06b8e77ef4614e785f8de0c093b7cc9c62185b7741f72fdfa94eba077._BR-6_AC_SX480_FMwebp_.png",
+            "overview": "Após Stella, humilhada, romper definitivamente os laços com Vincent, ela e Katherine, irmã de Stella, fazem um pacto com Edward, irmão de Vincent. Um novo investigador assume o caso de Walter, descobrindo que Stella pode não ser tão inocente quanto acreditavam. Vincent descobre a traição de Matthew, mas seu astuto irmão vira o jogo contra ele.",
+            "stream": ""
+          },
+          {
+            "episode": 6,
+            "title": "Sombras da Verdade",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/494c2ad8aa07a86c750ee6871c8e740cee4e82f5522501928e9c05b9ed861036._BR-6_AC_SX480_FMwebp_.png",
+            "overview": "Em meio à tentativa de Vincent de limpar seu nome e descobrir a verdade, o frágil mundo que ele construiu com Stella começa a ruir quando novas evidências ligam a acompanhante à noite da morte de Walter. Chantageada por causa de antigos segredos, Stella se recusa a ser silenciada, mas isso tem um preço perigoso. Com a verdade se aproximando, Vincent a confronta com o que ele não pode mais ignorar.",
+            "stream": ""
+          },
+          {
+            "episode": 7,
+            "title": "Confissões",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/c30526c4c3c5cae559d7a608d4bac6a24acfce39cbb24a498355b04d51834495._BR-6_AC_SX480_FMwebp_.png",
+            "overview": "Stella se abre com Vincent sobre seu passado com Walter, forçando ambos a encarar a possibilidade de que sua busca por justiça possa ter um preço devastador. Determinado a proteger Stella, Vincent segue o rastro do dinheiro que pode revelar a verdade por trás da morte de Walter, fazendo com que Matthew perca completamente o favor de Arthur. Enquanto isso, Jacqueline descobre a crescente amizade de Edward com Katherine.",
+            "stream": ""
+          },
+          {
+            "episode": 8,
+            "title": "A Mão Que Se Move",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/4cff5bb026bae156f0459ffc44f230e18d8fa0a31fa4c9d3c9f4dfff594b1cec._BR-6_AC_SX480_FMwebp_.png",
+            "overview": "Embora desconheçam que Matthew ainda trabalha com Arthur, Vincent e Stella decidem investigar mais a fundo o passado conturbado de Walter. Mas quando ele percebe que alguém está manipulando a investigação, Vincent forma uma aliança com um aliado improvável. Infelizmente para eles, seu poderoso inimigo não medirá esforços para impedir que a verdade venha à tona.",
+            "stream": ""
+          },
+          {
+            "episode": 9,
+            "title": "Verdade Envenenada",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/fa289a62041ef99fe5c7a89548ca8c447189841891685a1698a5a4204e0d5988._BR-6_AC_SX480_FMwebp_.png",
+            "overview": "Quando Vincent e Stella acreditam que finalmente estão progredindo em sua longa busca pela verdade, um ataque repentino e implacável de seu inimigo mergulha tudo no caos. Mas, apesar do perigo e da incerteza que enfrentam, Vincent confronta as emoções que não pode mais negar. Conforme Arthur os leva cada vez mais perto do limite, a verdade começa a se revelar.",
+            "stream": ""
+          },
+          {
+            "episode": 10,
+            "title": "O Segredo de Sangue",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/4c28eade0a704d1efaa752df67e4436589240898e2082f59cb295c3ea837b7e1._BR-6_AC_SX480_FMwebp_.png",
+            "overview": "Em meio à constante interferência dos pais, Edward decide dar um grande passo. Enquanto isso, Claudia entra em pânico e recorre a Arthur depois que Vincent a confronta sobre a morte de Walter. À medida que a tensão aumenta, segredos obscuros do passado de Jacqueline começam a vir à tona.",
+            "stream": ""
+          },
+          {
+            "episode": 11,
+            "title": "Corações Sob Fogo",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 12,
+            "title": "Cinzas e Pecados",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          }
+        ]
+      }
+    ]
+  },
   
   {
     "id": "tremembe-a-prisao-dos-famosos-2025",
