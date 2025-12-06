@@ -3540,5 +3540,93 @@
         ]
       }
     ]
+  },
+
+  {
+    "id": "império-de-amsterda-2025",
+    "tmdb": 249586,
+    "type": "series",
+    "name": "Império de Amsterdã",
+    "runtime": "42 min",
+    "poster": "https://br.web.img3.acsta.net/img/1c/9f/1c9f4c387a476fabce2ff290193b8e47.jpg",
+    "background": "https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQwpwje7l86klSwTaNLjPKqEm6uX1tRaqrJyawD3OLYfmP2Pz8AIoP8lLs8Jqg84ljUAlfd1x3yNpFfiEZM2Xl_pq1EnmiaOLwqA.jpg?r=338",
+    "logo": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABV5xXrbzO9PkZcUBygx2fcXgTIqyqTPxk2hbyc21YG-JSF74Xmp075r8R0AqkWjqeDv4PNw0_TG3KQICQandD7t1uiyS53dwsg.png?r=ef3",
+    "description": "Amsterdam Empire é um drama policial extravagante, cheio de glamour e sujeira, no coração da cena da maconha de Amsterdã.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "genres": ["Drama", "Crime", "Hôlandes"],
+
+    "cast": [
+      { "name": "Famke Janssen" },
+      { "name": "Jacob Derwig" },
+      { "name": "Elise Schaap" },
+      { "name": "Jade Olieberg" }
+    ],
+
+    "directors": [
+      { "name": "Jonas Govaerts", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "6.7",
+      "imdb_id": "tt31835154"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Muito amor",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWF7vD4ZRze1ZDaIUWdPtDve1MHIneu9L77pyCk6Idl11-KN3cGtBdK6hncYaYFO677E8GN669ELQAlG2nufEmFO9ZQRzVNifxnl4OmnlUSpVi0XBsiNhsf3.jpg?r=429",
+            "overview": "Ansioso para ficar com a nova namorada, Jack quer se divorciar da esposa Betty. Mas ela exige algo de que ele não é capaz de abrir mão: The Jackal.",
+            "stream": "https://cdn.cnvsplus.com/m/Imp%C3%A9rio%20de%20Amsterd%C3%A3_S01E01_Muito%20amor.mp4"
+          },
+          {
+            "episode": 2,
+            "title": "Carpe Vitam",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdFSANNvcJA4d00JKAq0CyseBuda7RDkhqTYLIIhGIjdgMWy1QaD-w-yHibBh0fqkIHD3jjx2NSdEvn8F3vdeVKif2jHhPqHOcExti00z-tPYlyYDOvaXmDZ.jpg?r=390",
+            "overview": "Jack procura um novo fornecedor de maconha, e Marjolein decide levá-lo a um evento. Mas Betty espera os dois com uma surpresinha.",
+            "stream": "https://cdn.cnvsplus.com/m/Imp%C3%A9rio%20de%20Amsterd%C3%A3_S01E02_Carpe%20Vitam.mp4"
+          },
+          {
+            "episode": 3,
+            "title": "Para sempre, pour toujours",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRqkGa29qFHvye4mTQJJ4ishPZ42XWjml_kP0nUXMxzpfdxLDVB1D9GuC-Eyalwws5h_GFiQNB6J1JwAJB94N-2Ox14Nc3k-nESMFFzPqkrpzYQNamkwr9G0.jpg?r=cf7",
+            "overview": "De volta aos holofotes depois da briga com Marjolein, Betty decide revelar os piores segredos de Jack em um programa de entrevistas.",
+            "stream": "https://cdn.cnvsplus.com/m/Imp%C3%A9rio%20de%20Amsterd%C3%A3_S01E03_Para%20sempre%2C%20pour%20toujours.mp4"
+          },
+          {
+            "episode": 4,
+            "title": "Animamos você na boate pornô",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfYHlCVulsW7hRnsV36vVL6uxm-NpyRgXFnmaat8Snq4AOZihfKK4VclLWsZqAFupYMa6JtNcyuRf0E8Wm39bBZx3HfAFMLx3nJmvUoA4ifxFUyiMAenV55J.jpg?r=987",
+            "overview": "Jack e Betty precisam conquistar Bolle, um dos acionistas do The Jackal. Mas ele coloca um contra o outro em um desafio fora do comum.",
+            "stream": "https://cdn.cnvsplus.com/m/Imp%C3%A9rio%20de%20Amsterd%C3%A3_S01E04_Animamos%20voc%C3%AA%20na%20boate%20porn%C3%B4.mp4"
+          },
+          {
+            "episode": 5,
+            "title": "Até que a morte nos separe",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYhgy3wW-LDaiqk8zCJFcxYV6wzddiUZoDWQn2EQHoGcAXGXVd2P4RWGv8hYtL4hIAEhyw2GazHfuQiO4YqJu5gjL5rm6TSgNsizNMwz7NaBQB6F-vdzLAbr.jpg?r=a3b",
+            "overview": "A briga pelo The Jackal chega aos tribunais, aumentando a tensão e abalando lealdades. O acordo desesperado de Betty com a família Tichelaar coloca Jack em perigo.",
+            "stream": "https://cdn.cnvsplus.com/m/Imp%C3%A9rio%20de%20Amsterd%C3%A3_S01E05_At%C3%A9%20que%20a%20morte%20nos%20separe.mp4"
+          },
+          {
+            "episode": 6,
+            "title": "Problemas com o Pai",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXkOuqTcrDC2Lfb5qkWvosugjJ6q6NMCdvD2-wAZ_U6rxLbSC8aiZqMtMhaTYChMa_6Cc3r2nmtbd9P3Dlk_SQmdflgFMf2gR7LE5b3Zi1aRn7N6kX1N_d2j.jpg?r=c37",
+            "overview": "Jack sai de cena, e Betty precisa encarar a família Tichelaar sozinha. Katya confronta o pai e seus próprios desejos para o futuro.",
+            "stream": "https://cdn.cnvsplus.com/m/Imp%C3%A9rio%20de%20Amsterd%C3%A3_S01E06_Problemas%20com%20o%20Pai.mp4"
+          },
+          {
+            "episode": 7,
+            "title": "Fogo",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXCLSlzroDbF0yicCGp-Of6r-QkIwhKklHDplmylZRjWlcUOa4l7ZK_Sj1fM1RfkUyP-ny9Ar25Eiv4QAZ7Rad8eXfSDHgsOeL36VjzGoliE_HhzsXgSwQjA.jpg?r=4ef",
+            "overview": "Com os inimigos se aproximando e prestes a perder o The Jackal, Betty termina onde começou. Mas ela ainda tem uma carta na manga. Será que é suficiente?",
+            "stream": "https://cdn.cnvsplus.com/m/Imp%C3%A9rio%20de%20Amsterd%C3%A3_S01E07_Fogo.mp4"
+          }
+        ]
+      }
+    ]
   }
 ]
