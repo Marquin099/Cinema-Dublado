@@ -247,6 +247,87 @@
   },
 
   {
+    "id": "maldade-2025",
+    "tmdb": 244416,
+    "type": "series",
+    "name": "Maldade",
+    "runtime": "52 min",
+    "poster": "https://image.tmdb.org/t/p/original/2eugT1l0kgPyRgDyAJFq4457T3Z.jpg",
+    "background": "https://flixlandia.com.br/wp-content/uploads/2025/11/Maldade-resenha-critica-da-serie-Prime-Video-2025-Flixlandia-1.webp",
+    "logo": "https://m.media-amazon.com/images/S/pv-target-images/a9c61963dca5c3525a933885e5428b2cf372f49a918d3f945a9d58d4d5f4cbc6._BR-6_AC_SX500_FMwebp_.png",
+    "description": "Acompanha um jovem que tenta se infiltrar no mundo de uma família rica para revelar seus segredos.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "genres": ["Suspense"],
+
+    "cast": [
+      { "name": "Jack Whitehall" },
+      { "name": "Carice van Houten" },
+      { "name": "Phoenix Laroche" },
+      { "name": "Teddie Allen" }
+    ],
+
+    "directors": [
+      { "name": "Mike Barker", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "5.8",
+      "imdb_id": "tt31036715"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Episódio 1",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/87de9e7736fdfbd4e75252f43f7174834b0722b741003bff06aeee178090b707._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "É só mais um verão luxuoso na Grécia para a família Tanner, até que um charmoso tutor entra na vida deles.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/60bbb7570c742b691eae867e4de67d5f/master.txt"
+          },
+          {
+            "episode": 2,
+            "title": "Episódio 2",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/1595d6a9d1178e251cbb28a2401b09970bd4072c11cc47bba40baed780b674d1._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Adam é tudo que a família Tanner precisa. Quando a babá deles fica doente de repente, ele vê uma oportunidade.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/e2dab5d4a3df98e9929ff550d90f4bce/master.txt"
+          },
+          {
+            "episode": 3,
+            "title": "Episódio 3",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/c10180ad809b16a207e566f3b8cd2e8a26044ed35ec59ff2afab45bc8099c81c._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Adam se muda para a casa dos Tanner em Londres e começa a plantar ciúmes e paranoia entre Jamie e Nat. Mas Damien e Jules desconfiam de algo.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/f1477e0cddc1273534418b50c5a9371e/master.txt"
+          },
+          {
+            "episode": 4,
+            "title": "Episódio 4",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/cfcfa83e7e9550c2f09c65b8d1c2c8d4e87f4aa2d730b59f4b350e4a2c9cafa6._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Damien descobre que Adam é uma fraude. Será que Adam conseguirá detê-lo antes que revele seus segredos?",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/8d227906765fa3f76b8df23a6c70bfbc/master.txt"
+          },
+          {
+            "episode": 5,
+            "title": "Episódio 5",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/b8db1fab0896989ba3a474498d26cdbd4cef71ce1859ac27abc6c3d518e2f20e._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Jamie Tanner precisa lutar para salvar sua reputação enquanto Adam acelera seus planos de vingança.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/e015f2a238f80d59620bedd36a96face/master.txt"
+          },
+          {
+            "episode": 6,
+            "title": "Episódio 6",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/c1f4731f6ac40ab8b4caa8a5a7a216ca14cff02de731d253ce37da96ddbe6c8b._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Jamie corre contra o tempo para salvar sua família dos planos letais de Adam",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/fc6ad352d530d00ee6bc62fe5e6805ac/master.txt"
+          }
+        ]
+      }
+    ]
+  },
+  
+  {
     "id": "tremembe-a-prisao-dos-famosos-2025",
     "tmdb": 279013,
     "type": "series",
