@@ -176,6 +176,199 @@
   },
 
   {
+    "id": "a-bastarda-2025",
+    "tmdb": 304790,
+    "type": "series",
+    "name": "A Bastarda",
+    "runtime": "41 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/yz6cBFTyHfMk9sakkDJgLfaT2HD.jpg",
+    "background": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/a7ff0153-8ad5-4a60-82c0-7282750663f3/compose?aspectRatio=1.78&format=webp&width=1200",
+    "logo": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/2f936e55-6a58-433b-b051-8e38f30df270/compose?format=webp",
+    "description": "Uma mulher retorna à sua cidade com uma nova identidade para se vingar daqueles que tentaram matá-la.",
+    "year": 2025,
+    "categoria": "Disney+",
+    "genres": ["Drama", "Suspense"],
+
+    "cast": [
+      { "name": "China Suárez" },
+      { "name": "Diego Cremonesi" },
+      { "name": "Joaquín Ferreira" },
+      { "name": "Eleonora Wexler" }
+    ],
+
+    "directors": [
+      { "name": "Alejandro Ibáñez", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "3.8",
+      "imdb_id": "tt32126001"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Episódio 1",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "Lara retorna para vingar a morte de sua mãe, mas um reencontro com um antigo amor interfere em seus planos.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/1b74969fe27a93cf3eca5dc4f9b01c47/master.txt"
+          },
+          {
+            "episode": 2,
+            "title": "Episódio 2",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "A chegada de Clara à cidade como Letizia desencadeia escândalos, tensões e grandes enigmas.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/37d692cdb68eb5e8851eca06abf9dd3f/master.txt"
+          },
+          {
+            "episode": 3,
+            "title": "Episódio 3",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "Enquanto Sosa investiga a morte de Díaz, Clara reivindica sua segunda vítima.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/f3f140e8a596810002d76a9b080c9114/master.txt"
+          },
+          {
+            "episode": 4,
+            "title": "Episódio 4",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "Clara seduz Fernando e avisa Sosa que destruirá tudo o que ele ama.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/8b61434c053ee655aa25a44493477604/master.txt"
+          },
+          {
+            "episode": 5,
+            "title": "Episódio 5",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "Após o acidente de Juan, Clara entra em colapso e coloca seus planos em risco.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/6283f6e0a29750acc8a7cf81a2ffe7c8/master.txt"
+          },
+          {
+            "episode": 6,
+            "title": "Episódio 6",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "Enquanto Clara busca vingança pelo encobrimento do assassinato de sua mãe, Juan não consegue parar de pensar nela.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/e1effaacfaf88651c2b1c25776c3eb41/master.txt"
+          },
+          {
+            "episode": 7,
+            "title": "Episódio 7",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "À medida que se aproxima de Juan, Clara seduz novas vítimas e Fausto teme perdê-la.", 
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/d5b4306c4ffabf0f58e3d9a0f7d0d994/master.txt"
+          },
+          {
+            "episode": 8,
+            "title": "Episódio 8",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "Tudo fica em risco quando David se desvia dos planos e um antigo conhecido reconhece Clara.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/babdabca3e0760ad2431c62779b5471f/master.txt"
+          },
+          {
+            "episode": 9,
+            "title": "Episódio 9",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "Clara sequestra o casal Pedraza e organiza a transferência das propriedades ilegais de Fausto e Sosa.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/fe863bc83d6735c296f5c667508cd4ad/master.txt"
+          },
+          {
+            "episode": 10,
+            "title": "Episódio 10",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "Clara e Juan se beijam, mas fogem ao verem Walter. Nehuén se rende após ser encurralado por Sosa.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/5970a5f77e2fb01f190e8f38a13b54a5/master.txt"
+          },
+          {
+            "episode": 11,
+            "title": "Episódio 11",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "Clara liberta Nehuén, foge com Juan e, após revelações e perigos, eles se entregam ao amor.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/73b09a3467650330741ebef0ab73aa34/master.txt"
+          },
+          {
+            "episode": 12,
+            "title": "Episódio 12",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "Enquanto Clara continua seu romance com Juan, Fausto perde a paciência e o plano fica em risco.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/ff9005005de20689b9625cc82fd67d9c/master.txt"
+          },
+          {
+            "episode": 13,
+            "title": "Episódio 13",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 14,
+            "title": "Episódio 14",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 15,
+            "title": "Episódio 15",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 16,
+            "title": "Episódio 16",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 17,
+            "title": "Episódio 17",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 18,
+            "title": "Episódio 18",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 19,
+            "title": "Episódio 19",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 20,
+            "title": "Episódio 20",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 21,
+            "title": "Episódio 21",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 22,
+            "title": "Episódio 22",
+            "thumbnail": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/e145af56-a6fc-4223-8fca-11d829145b05/compose?aspectRatio=1.78&format=webp&width=440",
+            "overview": "",
+            "stream": ""
+          }
+        ]
+      }
+    ]
+  },
+  
+  {
     "id": "tudo-e-justo-2025",
     "tmdb": 258742,
     "type": "series",
