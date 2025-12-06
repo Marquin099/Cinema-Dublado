@@ -18,6 +18,15 @@
     "stream": "https://watch.brplayer.cc/m3u8/26/a202f338b2ddc55a30bde5c736d7250d/master.m3u8?s=1&id=35099&cache=1"
   },
   {
+    "id": "tt29538620",
+    "name": "Alvo da Máfia",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzZiMThhZGUtYmM1Mi00ZDE1LWIyZDYtNThhYTY2N2E4OTZmXkEyXkFqcGc@._V1_.jpg",
+    "description": "Depois de sobreviver a uma tentativa de assassinato, um profissional implacável questiona a vida que leva. Só que não vai ser fácil deixar para trás a vida do crime.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/26/e950fc9a52cb6aeb451086da1c1cb8a8/master.m3u8?s=1&id=35200&cache=1"
+  },
+  {
     "id": "tt38681567",
     "name": "Stephen",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/zht2iAMV2hh99ZpXl2T9offt0tt.jpg",
@@ -106,6 +115,15 @@
     "year": 2025,
     "categoria": "Netflix",
     "stream": "https://watch.brplayer.cc/m3u8/10/ae0aaad8021d829295f1da3514c712c0/master.m3u8?s=1&id=35092&cache=1"
+  },
+  {
+    "id": "tt29538620",
+    "name": "Alvo da Máfia",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzZiMThhZGUtYmM1Mi00ZDE1LWIyZDYtNThhYTY2N2E4OTZmXkEyXkFqcGc@._V1_.jpg",
+    "description": "Depois de sobreviver a uma tentativa de assassinato, um profissional implacável questiona a vida que leva. Só que não vai ser fácil deixar para trás a vida do crime.",
+    "year": 2025,
+    "categoria": "Ação",
+    "stream": "https://watch.brplayer.cc/m3u8/26/e950fc9a52cb6aeb451086da1c1cb8a8/master.m3u8?s=1&id=35200&cache=1"
   },
   {
     "id": "tt29232158",
