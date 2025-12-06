@@ -848,6 +848,94 @@
       }
     ]
   },
+
+  {
+    "id": "os-abandonados-2025",
+    "tmdb": 223300,
+    "type": "series",
+    "name": "Os Abandonados",
+    "runtime": "51 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/uObo75pctOV4BjDRRMOBPD05SwL.jpg",
+    "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFoqTMZv2xwTGX6NPjiT3ADemEWEUbjjZ9PQ&s",
+    "logo": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABdNiX5Md2ck0hJlPmv8GsYHsq0Y6g2zvFiDO099PrkXEG8n6AQZnFVx4rWBdjsiblZcQoiYOKeYfPp5hMhauvFXr8L8VvxeQEg.png?r=bf0",
+    "description": "Quando uma força corrupta de riqueza e poder cobiça as terras de um grupo de famílias diversas e atípicas e tenta expulsá-las, elas precisam buscar seu Destino Manifesto.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "genres": ["Drama", "Ocidente"],
+
+    "cast": [
+      { "name": "Lena Headey" },
+      { "name": "Gillian Anderson" },
+      { "name": "Nick Robinson" },
+      { "name": "Diana Silvers" }
+    ],
+
+    "directors": [
+      { "name": "Otto Bathurst", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "6.0",
+      "imdb_id": "tt16280546"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Orfandade",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABV5hko9rg4q26SVig4AFQ2KpeZySRgncLWq3E6yM3doyJzwY7UTOwFs5ZI5H5f7-wL5-HhW6iyweHInhIJCDMt0Sxv8Lq2fApKGLQ_AuRJs2SEfA_A_WMdlv.jpg?r=795",
+            "overview": "A fazendeira Fiona Nolan e sua família de órfãos precisam unir os vizinhos contra a impiedosa família Van Ness após uma invasão de suas terras.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/afc6cd553503a24b118bb8e4af5cbb79/master.txt"
+          },
+          {
+            "episode": 2,
+            "title": "Caça",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYCudtu4iG8Sxi-z2MSh1kxR1Gk1Aqk6uhMw9mwuoSkYqK5aD97pVG27Foh3ZJsVl52mlbfQ_fUIhn1NCOj1JV6c5Y-TkSU_7GPYEDVyBdivAa2x6dS0GbmP.jpg?r=09e",
+            "overview": "Os dois clãs são obrigados a deixar a rivalidade de lado para acabar com uma ameaça à cidade. Fiona e Dahlia recebem a visita de um velho amigo.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/df877d1606613e683cb09a067853853a/master.txt"
+          },
+          {
+            "episode": 3,
+            "title": "Triagem",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfKVdoYCLJhJsn77GeG6ky2wMi3YEYepd-Z9moyq3kGPakDoYDlgGZpAZOOUDsp_lidFay51YPkVZ-CveE55JJx1CaNgY4ODa2E.jpg?r=907",
+            "overview": "Constance tenta fazer um acordo de consequências perigosas. A atração entre Elias e Trisha fica mais forte. Fiona cuida de um homem ferido.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/69981182089fdddc70b5857578668c34/master.txt"
+          },
+          {
+            "episode": 4,
+            "title": "Papel de mãe",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABT4b63WJIY_qrbrDlzRV7_0KZz0ay9MTVLbq3qXGSENnzY3BPSNYu8k60XcNq5dxK7XA97pHaA0JHwBob2dmw0aM1ynrIHnz-yY.jpg?r=e63",
+            "overview": "Constance dá uma oportunidade a Albert, e Fiona desconfia dos motivos da rival. Lilla tenta encontrar um equilíbrio entre identidade e família.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/4110f0e73d66414770ce80957db47658/master.txt"
+          },
+          {
+            "episode": 5,
+            "title": "Os Joaquins",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZ8PKp_CK9O-cnZpYaHf8ryWaj5IMgjbmRitxWK_JULrf7Euff9vUE7kkQ9gyXOPWq7MdW3h63YF1OYbEE_ykjmrGmXfUoG9bRQ.jpg?r=ad1",
+            "overview": "ntrusos semeiam o caos em uma ocasião solene para a família Van Ness. Fiona pensa em uma proposta que poderia definir o futuro da Cordilheira dos Anjos.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/b93a1507129de4d2277ed81e9cbec13f/master.txt"
+          },
+          {
+            "episode": 6,
+            "title": "Piedade e raiva",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWkHe9uL5_qTBWzlJknpuJ7kAOg3drDw4aRlZcjysyOUSMRiBA4tyJldUgQEUJ58yPs02HFVGj1P5qqcPmloz6d5g4FBY1c5AC4.jpg?r=069",
+            "overview": "Após passarem dos limites, Constance e Fiona enfrentam revoltas internas. Garret é obrigado a sujar as mãos.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/f219dc9bcc9f33afa65083f5567c7dd6/master.txt"
+          },
+          {
+            "episode": 7,
+            "title": "Eu deveria ter paz aqui",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZ3zj4yOX1DGk50yNdWibAWS6ZEd3CCeOWjCYRCMeIaKpJ1OkttS75abHANVWGtdsSeZn3e3vIazFRLMU0zGoOMd_Wg4ShU-6qtoswZdHQq94MoS-eu8Lm8c.jpg?r=5c9",
+            "overview": "O clã Van Ness e a Orfandade se preparam para uma batalha épica. Agora, os membros das duas famílias precisam decidir quem apoiar.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/5e78f06a37c6857e4363211294577a17/master.txt"
+          }
+        ]
+      }
+    ]
+  },
   
   {
     "id": "quer-brincar-de-gracie-darling-2025",
