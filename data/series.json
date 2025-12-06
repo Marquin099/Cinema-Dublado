@@ -3317,7 +3317,7 @@
     "id": "meu-ayrton-por-adriane-galisteu-2025",
     "tmdb": 304309,
     "type": "series",
-    "name": "Meu Ayrton, por Adriane Galisteu",
+    "name": "Meu Ayrton por Adriane Galisteu",
     "runtime": "57 min",
     "poster": "https://image.tmdb.org/t/p/original/g3F58RRJrhCX0Jgc7bctH05mAff.jpg",
     "background": "https://m.media-amazon.com/images/S/pv-target-images/a0cdd8783dd8cb6be880cb8527a7ed7d3ed13210b1b8f0d25e23cb847329dc91._SX1080_FMjpg_.jpg",
@@ -3360,6 +3360,73 @@
             "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/cc1d8b87f2e5a51c0a3c4153467e1a5704ffb4357bd49d14222acc96e8fe8686._BR-6_AC_SX480_FMwebp_.jpg",
             "overview": "Após a tragédia em Ímola, Adriane supera rejeição e críticas, recebe apoio de amigos e encontra seu próprio caminho para brilhar.",
             "stream": "https://cdn.cnvsplus.com/m/Meu.Ayrton.por.Adriane.Galisteu.S01E02.1080p.WEB-DL.NACIONAL.5.1.mkv"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "como-um-relampago-2025",
+    "tmdb": 245219,
+    "type": "series",
+    "name": "Como um Relâmpago",
+    "runtime": "52 min",
+    "poster": "https://image.tmdb.org/t/p/original/n91xX0iLrcEThxJqs9Zyg92gJLg.jpg",
+    "background": "https://www.cinemadebuteco.com.br/wp-content/uploads/2025/11/president-james-a-garfield-gives-a-speech-in-death-by-lightning-750x400.jpg",
+    "logo": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABVezlB7j4NDpladmcr1v3Z5IW7O8WN6GXeWiFB5dUjsV9-Pzyfp4f2VJf8L1gNn31L20K8lrwKhO4l0YLoviy3o8Sz2ZzDqg9Q.png?r=0a3",
+    "description": "Dramatiza a história real, mais estranha do que a ficção, do 20º presidente dos EUA, James Garfield, e do admirador Charles Guiteau, que o assassinou.",
+    "year": 2025,
+    "categoria": "Disney+",
+    "genres": ["Biografia", "História", "Drama"],
+
+    "cast": [
+      { "name": "Matthew Macfadyen" },
+      { "name": "Michael Shannon" },
+      { "name": "Betty Gilpin" },
+      { "name": "Shea Whigham" }
+    ],
+
+    "directors": [
+      { "name": "Matt Ross", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.7",
+      "imdb_id": "tt31121364"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "O homem de Ohio",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfLhfWVpAvXf7ieLhuTHq2qprbXvy2fa0mvEyEJY22JKK7fdglsgUPusT_bBDL0um3tzGB6u2xgmlTt1JSMUh8T3JAVYKGiFSHtNJwPSp-KsCMRTp_crr53m.jpg?r=53b",
+            "overview": "A Convenção Nacional do Partido Republicano de 1880 muda para sempre as vidas do congressista James Garfield e de Charles Guiteau, que acabou de sair da prisão.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/b1a33bf5dd67c1e02c71a98454ab1eda/master.txt"
+          },
+          {
+            "episode": 2,
+            "title": "Fiel ao partido",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABReanjmSjJHhCSj29ReadhVsrYZjwEFM4dasEEzpCd1EHmjjFm-YNZPLwCUoG2efNYxadhYj8VB81GVmVtgCvC1XpiZBh219io6NO_btv2K3hYxaNLxwf3DY.jpg?r=803",
+            "overview": "Antes das eleições, Garfield recebe o país em sua varanda. Guiteau não consegue se entrosar com a liderança do partido.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/fb046c1a56dac1cff57a31a5c00f9768/master.txt"
+          },
+          {
+            "episode": 3,
+            "title": "Casus belli",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRCX6w2WU9n_zEn2xyEjdKiXms9V6YvrW5gUOqQBAqQo3YwP_1-PlVO9BEZ-NR3bDgGb1zh-AZWkH6ZeAF2pEkRNMHIrvdiSl7A.jpg?r=804",
+            "overview": "Uma traição na Casa Branca complica as tentativas de Garfield de formar um gabinete. Guiteau tenta de tudo para conseguir uma reunião com o presidente.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/83c1103e5101922b90894938006bd27b/master.txt"
+          },
+          {
+            "episode": 4,
+            "title": "Destino da República",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWQFoIbiT7DRlKKfhycANAht6bkk0UJbeZJhicVx1gsICZymSuaZRZRRcZYS4ut9XKlF4S7St4wbs6Kx9K_gWGpxuS7qHqF7npJ-JMpmINaPu_i5_c-_ZObE.jpg?r=d9c",
+            "overview": "Garfield desafia o esquema político de Nova York e Conkling parte para o ataque. Isolado e desesperado, Guiteau toma uma decisão que vai entrar para a história.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/87faf7e0ddbfb2c1b87d18a49445ac44/master.txt"
           }
         ]
       }
