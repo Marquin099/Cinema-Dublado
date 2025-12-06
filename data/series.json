@@ -331,7 +331,7 @@
     "id": "a-alibi-2025",
     "tmdb": 294188,
     "type": "series",
-    "name": "A Alibi",
+    "name": "the Alibi",
     "runtime": "52 min",
     "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/xT0H4FuhlCi0hilNf9WpXhDXyCR.jpg",
     "background": "https://m.media-amazon.com/images/S/pv-target-images/e7274e9ccde4b7e2b3328923824f73e5687043508c615374b18ec7aa8b0a3749._SX1080_FMpng_.png",
@@ -1161,6 +1161,94 @@
             "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABelEuN1Wl1rX99bYGjb9ck-X8alGZWElF1MdrAgpWGIWnXZ5cTPaJXkkxa3R3_jY_Hn4nRspQkab6BTiw6XVajmIAjfXiL95Fm4.jpg?r=ea8",
             "overview": "O impiedoso Gentosai encurrala Iroha. Shujiro enfrenta Bukotsu em um violento confronto final. Okubo está cada vez mais perto da mente por trás do jogo.",
             "stream": "https://download1590.mediafire.com/ds1y80u3rbsgA4o2G64rccxL0iBaX81jdLUCkHiRaTDcFvSYKMxNV_GGCc5g4mHbabxp06dNO7IntSiM0F1rmjMvZ7gU_hEmA58kV9QHtJYwNhjnyUr0Tpxs5nh-dQseJEVz7PjO04EKELuEiPkMNi0EfphpKNWPhchf21LfQ0nscTA/45t3jlwp05pcb05/1-6%2817%29.mp4"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "bad-influencer-2025",
+    "tmdb": 302854,
+    "type": "series",
+    "name": "Má Influencer",
+    "runtime": "51 min",
+    "poster": "https://br.web.img3.acsta.net/c_310_420/img/60/2e/602ef04b1e68a5fd391ec55b96b221ae.jpg",
+    "background": "https://cdn.mixdeseries.com.br/wp-content/uploads/2025/11/Ma-Influencer.webp",
+    "logo": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABct2hMDuY8vTdzg8lDpQwmWFKSWAh-7ziMPoYDeqS_HY3nGN9xoiYNkbzgr1LBAJhcNi-LM3nV6FFC5lZ-Vo80KRCzUQ_zoH6A.png?r=400",
+    "description": "Em Bad Influencer, uma mãe solteira enfrenta dificuldades financeiras e busca soluções para seus problemas. Ela se une a uma influenciadora digital para vender bolsas de grife falsificadas e quitar suas dívidas. No entanto, a dupla rapidamente se torna alvo de criminosos e policiais, o que as coloca em situações perigosas.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "genres": ["Crime", "Drama"],
+
+    "cast": [
+      { "name": "Cindy Mahlangu" },
+      { "name": "Jo-anne Reyneke" },
+      { "name": "Julia Anastasopoulos" },
+      { "name": "Emmanuel Castis" }
+    ],
+
+    "directors": [
+      { "name": "Ari Kruger", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "6.1",
+      "imdb_id": "tt38624867"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Bem-vinda à Joanesburgo de verdade",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYHVLeAL0Eaxd-FUIXTisdwy9Wy7iIyvj7wUkyXTEJI2KLge2Y1qs6z-1HMa0n0otck3vtFzSqXc9strybxLCQBwVZkmDZRbXr--Pnyzr2IZ7K75oWendK6h.jpg?r=e9b",
+            "overview": "BK está com os agiotas no pescoço, mas recebe uma nova chance quando conhece a influenciadora Pinky e seus seguidores cada vez mais numerosos.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/27936d0bc933e7a44fbe03e71ce68aa6/master.txt"
+          },
+          {
+            "episode": 2,
+            "title": "Bolsas falsas! Bolsas falsas!",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWLAuA03CjVegi3dCWRS87qfUbArRXoQ8oAzOH9CfyYylyHt8RIq2MKieM7-KjXLgW7aNGtUnh0KNt7WUeXOugPb134giBTMbqt6J5bzEJz4OueWBkRrIXrZ.jpg?r=ea4",
+            "overview": "Pinky fica desesperada quando sua fonte de dinheiro seca. Sem ajuda dos amigos influenciadores, ela fecha um acordo com BK.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/8dd08d639db0af31d5ba87ed6157182f/master.txt"
+          },
+          {
+            "episode": 3,
+            "title": "Tape esse buraco",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABVSwAGDizEDCaiPPnMRnUvSewZc2f4p4_jSzj-8WrRZRen1LgDnNiGYyYQ6s8XN48RgjGYP_C08prAvLKYN6Y7-oLD3wNah2HnTRSEMaU6H48c6bA3fbskzT.jpg?r=41c",
+            "overview": "Com o apoio de Bra Alex, a operação da dupla deslancha e o dinheiro começa a entrar. Depois de um evento da marca, Pinky viraliza, só que pelos motivos errados",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/ae29b0e7383e89b1adc634d20f4180ab/master.txt"
+          },
+          {
+            "episode": 4,
+            "title": "Moghel Slay",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQ1cx84UwBTycafwldqg7A_H_oRVGssIvxARIUhYQh_1U4rOLCyPGYM-ue0xg_8Jfb26JNh6oFNy19CFf1_vxNzHqVs3QDyDYFbhaw-CjFiJgMoMaav3hHQ5.jpg?r=31d",
+            "overview": "Naomi questiona a legitimidade da marca de Pinky. Será que as garotas conseguem preservar a reputação dos produtos?",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/ed5a03c2e2d5a25da08903d568e174a3/master.txt"
+          },
+          {
+            "episode": 5,
+            "title": "Senhorita Medo Fokkol",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWUrXd-T7yf5oAais6oXpaFP_laQyISGa7z_mBochyrmWVwm1d_ngndhY71qoUgdt1YyGcicUNaSmvkQDLafNuY2nauk5dEUjISUHXx4Otow3JieksicwHlf.jpg?r=2a7",
+            "overview": "Pinky sente uma pontada de inveja quando vê que Moghel Slay tem cada vez mais seguidores e começa a duvidar se BK realmente a vê como uma parceira de igual para igual.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/a8f750d9c61fb849740f11c2e894f72a/master.txt"
+          },
+          {
+            "episode": 6,
+            "title": " Chama gêmea",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbvc3P7aLw4IUjymNA4wDmWP8IgpbmnCFu4tUWePqEVmDPlo0q6d2BcFqYjy9FcR0XVkBKMVhLi2ZlQ6q1KepkYwFpoyu2wuNPz1-_DbHD1H4sD8f79V6EQZ.jpg?r=db9",
+            "overview": "Um fogo cruzado desfaz a falsa sensação de segurança de BK, colocando em risco as pessoas que ela mais ama. Agora, ela precisará escolher muito bem os próprios aliados.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/62305d765c9cfdb95178bf768b5a6a88/master.txt"
+          },
+          {
+            "episode": 7,
+            "title": "Dinheiro na bag",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWwpd7Dgx6sLc32JmV_N8pyz-fn8obo2TczWzByv5jWXUNPEty46O0y0dT0XYVPgxiBm05aVDdX1WBNfXUAbD2_RdoDbTZ7xHYATWxzCPVVHNLWQj410_Olg.jpg?r=b7e",
+            "overview": "Os tabloides ficam em polvorosa quando a Montcler organiza um evento de luxo em parceria com Moghel Slay. Mas será que a estrela do momento realmente vai aparecer?",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/346422e357eb686ba4e7d8fbc6a07fc1/master.txt"
           }
         ]
       }
