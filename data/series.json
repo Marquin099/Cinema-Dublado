@@ -920,6 +920,80 @@
   },
 
   {
+    "id": "heweliusz-2025",
+    "tmdb": 217528,
+    "type": "series",
+    "name": "O Naufrágio do Heweliusz",
+    "runtime": "49 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/iEQZPb8NW7jAZzxjZH5RMHBBIwv.jpg",
+    "background": "https://www.bnewssaopaulo.com.br/media/uploads/2025/11/o-naufragio-de-heweliusz-netflix.jpg",
+    "logo": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABa5FvNRlPlFRzHHNy5HIFgJKTAm2jfS7kSWgEPK-bDO-sglHQkgiCTzfOas6xf-J-TYNaOcrnE4XljfzvgIb8gCtri61mgQFKw.png?r=137",
+    "description": "Em meio a uma tempestade terrível, a tripulação e os passageiros do Heweliusz lutam pela sobrevivência. Em terra, suas famílias buscam a verdade e a justiça.",
+    "year": 2025,
+    "categoria": "Netflix+",
+    "genres": ["Docudrama", "Drama", "História"],
+
+    "cast": [
+      { "name": "Mia Goti" },
+      { "name": "Tomasz Schuchardt" },
+      { "name": "Bartlomiej Kotschedoff" },
+      { "name": "Miroslaw Zbrojewicz" }
+    ],
+
+    "directors": [
+      { "name": "Jan Holoubek", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.8",
+      "imdb_id": "tt32253092"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Episódio 1",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABTELMr6-PzMl5HLuonRjqF37AivKuMeOnPn_bwnJNTw8eAse7dd9SPpwLRxSeb_SN-JcNFpYNXHf09ozFCghFg--vfnMACuTWpJd_6JoqkqMWOCj78Z3ucII.jpg?r=810",
+            "overview": "Uma embarcação emborca e naufraga em meio a uma tempestade. Durante o resgate, o capitão que estava de folga é pressionado para dar respostas.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/4b3b7c6f5c1e72131dc97732cd42d553/master.txt"
+          },
+          {
+            "episode": 2,
+            "title": "Episódio 2",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbS9ITx9LKTO2ZwJzeyW2gVO5eakQDuB3MN5Di2DIJ5jG7SXQXlTHsU6Ej1jamBpgWFp-8X-5wGBW-15F5uAWkubvb5et6wnd_hUaKcGPEN2-NPKZJXS7hnq.jpg?r=4a7",
+            "overview": "Para não ser responsabilizados, os funcionários da empresa colocam a culpa no capitão Ułasiewicz. Atormentado pela culpa, Witold tenta entender o que aconteceu.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/3c9f67dd9cd26d0227e161e3cb7795b3/master.txt"
+          },
+          {
+            "episode": 3,
+            "title": "Episódio 3",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXhKz7BW1_yfJ3dYuYLCG841ofl34kYVJPKhLAQVrs6k2g9VnJnMZtSN0IPFsnjiQ1wifuxz4yzN1qH3ywsZFmass-z25ZmDK-HkLpqyRNJ6ireZsjtFIn_M.jpg?r=5fc",
+            "overview": "Procurado por funcionários da empresa e do estado, Skirmuntt é pressionado para apoiar a versão deles. Jolanta não consegue encontrar um advogado para representá-la.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/cdfebe10e301e947f641e5808026b984/master.txt"
+          },
+          {
+            "episode": 4,
+            "title": "Episódio 4",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZjkCumXku5CdfCM_GKGlOYFW89wOHOmKE1SazmA8jA-oW42OUwgjuPEA6TwM4Qmfx4LTBPu3MpGwsqMkB1-wzs0OwKHUIwQhGM5-Pid5QhdmUo9UIKIoXNl.jpg?r=18c",
+            "overview": "O julgamento começa, e Piotr percebe o verdadeiro alcance dos acobertamentos. A Sra. Kaczkowska recebe uma proposta tentadora, mas com um preço alto.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/05c58ecb310d5ef98f64fabf5ba025bd/master.txt"
+          },
+          {
+            "episode": 5,
+            "title": "Episódio 5",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdLgcJ3fmkOiKp6EBWzaap4UXllkqPzg_aR3GiH_sCDV7O7vxjCRcTP0t4BkMpIZXnnZIAr9OLfmJ6Ki16N5MmIuJIkkvRLoWGavGpMQLctWOiYnw-VbHT-k.jpg?r=868",
+            "overview": "Com evidências que poderiam encerrar o caso contra o capitão Ułasiewicz, Piotr corre contra o tempo para apresentá-las no julgamento.",
+            "stream": "https://llanfairpwllgwyngy.com/cdn/hls/914fc3d51ca1021f7b05fb3f95c1df01/master.txt"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
     "id": "o-preco-da-confissao-2025",
     "tmdb": 209110,
     "type": "series",
