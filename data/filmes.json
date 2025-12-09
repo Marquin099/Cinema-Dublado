@@ -3081,5 +3081,59 @@
     "year": 2025,
     "categoria": "Netflix",
     "stream": "https://watch.brplayer.cc/m3u8/10/b628a477ffe52c257f35814beca57353/master.m3u8?s=1&id=29238&cache=1"
+  },
+  {
+    "id": "tt36856306",
+    "name": "Desastre Total: Prefeito do Caos",
+    "poster": "https://image.tmdb.org/t/p/original/v3mZueJ2w1YBir3JSwbitWRdT8n.jpg",
+    "description": "O amado e arrogante Rob Ford escandalizou a política canadense em seu mandato como prefeito de Toronto. Até que um vídeo dele fumando crack mudou tudo.",
+    "year": 2025,
+    "categoria": "Documentário",
+    "stream": "https://streamcnvs.com/m/Desastre%20Total_%20Prefeito%20do%20Caos.mp4"
+ },
+  {
+    "id": "tt36856278",
+    "name": "Desastre Total: Festival Astroworld",
+    "poster": "https://image.tmdb.org/t/p/original/xYFS0g8NGA0GYOb7o9YJcbowalC.jpg",
+    "description": "Com entrevistas de sobreviventes, paramédicos e a equipe do festival, este documentário examina a tragédia no Festival Astroworld, que aconteceu em 2021.",
+    "year": 2025,
+    "categoria": "Documentário",
+    "stream": ""
+  },
+  {
+    "id": "tt32550101",
+    "name": "Até a Última Gota",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/dTi0r9EDEDzhSG8qIHY7BSk6esj.jpg",
+    "description": "Até onde ela vai aguentar? Após um dia devastador, uma mãe solo dedicada chega ao seu limite e comete um ato de desespero que ninguém poderia prever.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://vods1.watchingvs.com/m/At%C3%A9%20a%20%C3%9Altima%20Gota_2025_tt32550101.mp4"
+  },
+  {
+    "id": "tt28664733",
+    "name": "Separados pelas Estrelas",
+    "poster": "https://image.tmdb.org/t/p/original/pZ9KqPSN4uv8ByEuFKP1vLyWYU4.jpg",
+    "description": "Quando uma astronauta vai para Marte, a imensidão do espaço separa um grande amor neste romance de animação que atravessa o cosmos.",
+    "year": 2025,
+    "categoria": "Netflix-Animação",
+    "stream": "https://watch.brplayer.cc/m3u8/10/9486af7e0d767abe3859480dd307e1b7/master.m3u8?s=1&id=26522&cache=1"
+  },
+  {
+    "id": "tt33244550",
+    "name": "Coração Delator",
+    "poster": "https://image.tmdb.org/t/p/original/xmEbRCuikEux2tjSNrroXvNcLGG.jpg",
+    "description": "Após receber um transplante de coração, Manuel vive uma mudança de personalidade e investiga a vida do doador, levando ao encontro com a viúva Vale e sua comunidade.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/10/6c0aa5ae1b6aadd1cfe5f1151b1a6c60/master.m3u8?s=1&id=26520&cache=1"
+  },
+  {
+    "id": "tt33474172",
+    "name": " O Jogo da Viúva",
+    "poster": "https://image.tmdb.org/t/p/original/txiHphuGlemWdD9Lv4FfkJU4uS9.jpg",
+    "description": "Um homem é encontrado morto, e a investigação acaba com a fachada de perfeição da viúva, expondo uma vida dupla neste suspense baseado em uma história real.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/10/17d23e54aab31807fc9060d0d191161b/master.m3u8?s=1&id=26521&cache=1"
   }
 ]
