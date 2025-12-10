@@ -374,6 +374,87 @@
       }
     ]
   },
+
+  {
+    "id": "star-wars-historias-do-submundo-2025",
+    "tmdb": 288055,
+    "type": "series",
+    "name": "Star Wars: Histórias do Submundo",
+    "runtime": "14 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/phktSbh2mnaBw8qUgzTO8yK3jih.jpg",
+    "background": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/65ec2a34-3b14-475b-90aa-4ee67b75a456/scale?format=webp&width=600",
+    "logo": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/3a91c9a8-3b69-42e5-9db5-94db3be8cc59/compose?format=webp",
+    "description": "É sobre o submundo do crime da galáxia. Asajj Ventress, uma ex-assassina, foge com um novo aliado, enquanto Cad Bane confronta seu passado ao encontrar um velho amigo que se tornou marechal.",
+    "year": 2025,
+    "categoria": "Disney+",
+    "genres": ["Ficção científica", "Aventura", "Animação"],
+
+    "cast": [
+      { "name": "Nika Futterman" },
+      { "name": "David W. Collins" },
+      { "name": "Lane Factor" },
+      { "name": "Corey Burton" }
+    ],
+
+    "directors": [
+      { "name": "Steward Lee", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.1",
+      "imdb_id": "tt36414431"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Um caminho a seguir",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BOWIyMTIxYWUtYjYxMS00ZTNmLWJhYzItZTYwMTU2NWIwODc1XkEyXkFqcGc@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+            "overview": "Asajj Ventress relutantemente se une a uma nova aliada inesperada.",
+            "stream": "https://cdn3.cnvsplus.com/Star%20Wars%20Historias%20do%20Submundo%20S01%20E01_288055.mp4"
+          },
+          {
+            "episode": 2,
+            "title": "Amigos",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BYjE4YTA2NzEtNjA2Yi00MWE2LTkyYmYtZGJjODdiM2ZmMmQzXkEyXkFqcGc@._V1_QL75_UX500_CR0,36,500,281_.jpg",
+            "overview": "Uma oportunidade arriscada coloca Ventress na mira do Império.",
+            "stream": "https://cdn3.cnvsplus.com/Star%20Wars%20Historias%20do%20Submundo%20S01%20E02_288055.mp4"
+          },
+          {
+            "episode": 3,
+            "title": "De um guerreiro para outro",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BZjU1MTFmNjAtYzE1OC00ZGUyLTk3ODEtNTljYzdlZmYxNzkwXkEyXkFqcGc@._V1_.jpg",
+            "overview": "Ventress se vê no meio de uma disputa local em um planeta remoto.",
+            "stream": "https://cdn3.cnvsplus.com/Star%20Wars%20Historias%20do%20Submundo%20S01%20E03_288055.mp4"
+          },
+          {
+            "episode": 4,
+            "title": "A Boa Vida",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BZDY5MDRkMzItMjMxOC00NmVjLWFjMzUtYjJiMDZmOTkxYWVkXkEyXkFqcGc@._V1_QL75_UY281_CR82,0,500,281_.jpg",
+            "overview": "Dois jovens amigos acabam envolvidos no esquema de um gângster.",
+            "stream": "https://cdn3.cnvsplus.com/Star%20Wars%20Historias%20do%20Submundo%20S01%20E04_288055.mp4"
+          },
+          {
+            "episode": 5,
+            "title": "Um Bom Gesto",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BYzViMjVkOWQtZTZhMS00NjM0LThmZDUtYzgwZjRhYzJiMDg0XkEyXkFqcGc@._V1_QL75_UY281_CR17,0,500,281_.jpg",
+            "overview": "Bane reencontra um velho amigo que está do lado oposto da lei.",
+            "stream": "https://cdn3.cnvsplus.com/Star%20Wars%20Historias%20do%20Submundo%20S01%20E05_288055.mp4"
+          },
+          {
+            "episode": 6,
+            "title": "Uma Boa Ação",
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BNDVlOGYyNjAtYjNlOS00Zjk3LWJjOWMtY2IyN2RhZDA2YzljXkEyXkFqcGc@._V1_.jpg",
+            "overview": "Cad Bane e sua gangue retornam para casa para acertar contas.",
+            "stream": "https://cdn3.cnvsplus.com/Star%20Wars%20Historias%20do%20Submundo%20S01%20E06_288055.mp4"
+          }
+        ]
+      }
+    ]
+  },
   
   {
     "id": "tudo-e-justo-2025",
