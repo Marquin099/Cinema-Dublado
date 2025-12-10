@@ -482,6 +482,115 @@
   },
 
   {
+    "id": "spartacus-house-of-ashur-2025",
+    "tmdb": 240459,
+    "type": "series",
+    "name": "Spartacus: A Casa de Ashur",
+    "runtime": "57 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/yJQGiHcHWofZEL5mDvSgbVMUMUK.jpg",
+    "background": "https://rollingstone.com.br/wp-content/uploads/2025/12/Onde-assistir-a-serie-Spartacus-House-of-Ashur.jpg",
+    "logo": "https://image.tmdb.org/t/p/original/a4qO0hKijvEJj968ATJbkJaAf9C.png",
+    "description": "A história se baseia na suposição de que Ashur não morreu no Vesúvio, no desfecho da segunda temporada da ficção original.",
+    "year": 2025,
+    "categoria": "Starz",
+    "genres": ["Ação", "Drama"],
+
+    "cast": [
+      { "name": "Joel Abadal" },
+      { "name": "Simon Arblaster" },
+      { "name": "Evander Brown" },
+      { "name": "Cameron Rhodes" }
+    ],
+
+    "directors": [
+      { "name": "Rick Jacobson", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "5.4",
+      "imdb_id": "tt29921437"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Episódio 1",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//zkCYG2kxQNAKjf6KIZK8NWJ6dlQ.jpg",
+            "overview": "Sem memória de sua derrocada em Spartacus: Vengeance, Ashur acorda e descobre que é dono da antiga Casa de Batiatus, agora conhecida como Casa de Ashur.",
+            "stream": "https://watch.brplayer.cc/m3u8/10/f5995c90359dcd1defe22a90d936fc78/master.m3u8?s=1&id=35218&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Renegados",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//AfDSL7xjNiS83cN10fBLafA6Vke.jpg",
+            "overview": "Ashur navega pelas águas traiçoeiras da elite romana enquanto Achillia tenta se adaptar à vida brutal de um gladiador em treinamento.",
+            "stream": "https://watch.brplayer.cc/m3u8/10/fc841e513da905da7664e80c91f54339/master.m3u8?s=1&id=35219&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "12/12/2025",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 4,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 5,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 6,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 7,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 8,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 9,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 10,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          }
+        ]
+      }
+    ]
+  },
+  
+  {
     "id": "maldade-2025",
     "tmdb": 244416,
     "type": "series",
