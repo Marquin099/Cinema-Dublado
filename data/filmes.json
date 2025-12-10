@@ -3219,11 +3219,29 @@
   },
   {
     "id": "tt33474172",
-    "name": " O Jogo da Viúva",
+    "name": "O Jogo da Viúva",
     "poster": "https://image.tmdb.org/t/p/original/txiHphuGlemWdD9Lv4FfkJU4uS9.jpg",
     "description": "Um homem é encontrado morto, e a investigação acaba com a fachada de perfeição da viúva, expondo uma vida dupla neste suspense baseado em uma história real.",
     "year": 2025,
     "categoria": "Netflix",
     "stream": "https://watch.brplayer.cc/m3u8/10/17d23e54aab31807fc9060d0d191161b/master.m3u8?s=1&id=26521&cache=1"
+  },
+  {
+    "id": "tt33984333",
+    "name": "Un ours dans le Jura",
+    "poster": "https://fr.web.img6.acsta.net/img/17/5f/175fbcee8f625ac212b06378b2d34435.jpg",
+    "description": "Depois de um acidente de carro fatal, Michel foge do local. Seu passageiro comete suicídio. Michel e sua esposa Cathy encontram EUR2M em uma sacola enquanto encobrem o incidente, levando a uma série de eventos caóticos.",
+    "year": 2025,
+    "categoria": "Comédia",
+    "stream": "https://vods1.watchingvs.com/m/Un%20ours%20dans%20le%20Jura_2025_tt33984333.mp4"
+   },
+  {
+    "id": "tt33984333",
+    "name": "Un ours dans le Jura",
+    "poster": "https://fr.web.img6.acsta.net/img/17/5f/175fbcee8f625ac212b06378b2d34435.jpg",
+    "description": "Depois de um acidente de carro fatal, Michel foge do local. Seu passageiro comete suicídio. Michel e sua esposa Cathy encontram EUR2M em uma sacola enquanto encobrem o incidente, levando a uma série de eventos caóticos.",
+    "year": 2025,
+    "categoria": "Suspense",
+    "stream": "https://vods1.watchingvs.com/m/Un%20ours%20dans%20le%20Jura_2025_tt33984333.mp4"
   }
 ]
