@@ -1,5 +1,14 @@
 [
   {
+    "id": "tt30472557",
+    "name": "Chainsaw Man - O Filme: Arco da Reze",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/tj1XhCQ2Rw2sT2o7lIdqPIYvjsx.jpg",
+    "description": "Denji finalmente vive como o temido Homem-Motosserra, um jovem com coração de demônio que integra a Divisão Especial 4 de Caçadores de Demônios. Depois de um encontro marcante com Makima, a mulher de seus sonhos, ele busca refúgio da chuva e acaba conhecendo Reze, a misteriosa atendente de um café.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "stream": "https://watch.brplayer.cc/m3u8/10/4ac686be58f2df517e217d10c200b5fb/master.m3u8?s=1&id=35239&cache=1"
+  },
+  {
     "id": "tt22697898",
     "name": "Enigma Sombrio",
     "poster": "https://m.media-amazon.com/images/M/MV5BODJkOTBlYjMtNDYxZC00ZmU1LTk4NGEtNTY3ZTkwNGVlOGY3XkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
@@ -232,6 +241,15 @@
     "year": 2025,
     "categoria": "Dublado Não Oficial",
     "stream": "https://watch.brplayer.cc/m3u8/12/f34fad478256597ee97020039fd5a7a0/master.m3u8?s=1&id=34942&cache=1"
+  },
+  {
+    "id": "tt35521922",
+    "name": "Bom Menino",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/uVOyPFePAAuG7yqSOJ1WPJDb9In.jpg",
+    "description": "Um cão fiel se muda com Todd, seu tutor, para uma casa de campo. Lá, ele descobre forças sobrenaturais escondidas nas sombras. Quando as entidades sombrias ameaçam seu dono, o corajoso cão deve lutar para protegê-lo.",
+    "year": 2025,
+    "categoria": "Terror",
+    "stream": "https://watch.brplayer.cc/m3u8/10/028e7cccc08d94601ba3e9407c743c7f/master.m3u8?s=1&id=35262&cache=1"
   },
   {
     "id": "tt32643830",
@@ -501,6 +519,24 @@
     "year": 2025,
     "categoria": "Prime Video",
     "stream": "https://watch.brplayer.cc/m3u8/10/404d3f0612eb04b0949751d0102417a9/master.m3u8?s=1&id=34763&cache=1"
+  },
+  {
+    "id": "tt36424914",
+    "name": "Missão Pet",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/pcCaQunkc7J91xTMYAYWeqfmRfN.jpg",
+    "description": "Quando um trem parte inesperadamente, levando consigo apenas animais de estimação, os animais descobrem que Hans, um texugo rancoroso, está por trás de tudo. Embora o acidente pareça inevitável, os animais podem contar com Falcon, um guaxinim travesso que fará de tudo para salvá-los.",
+    "year": 2025,
+    "categoria": "Animação",
+    "stream": "https://watch.brplayer.cc/m3u8/10/c8caec337df345589c23aa47ea6bb43b/master.m3u8?s=1&id=35260&cache=1"
+  },
+  {
+    "id": "tt39012071",
+    "name": "Miraculous World: Tóquio - Força Estelar",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/A1SPRIOteeOxvZfO171dbycpXQD.jpg",
+    "description": "Marinette e Kyoko vão a Tóquio para se unirem aos heróis da Força Estelar contra um novo supervilão, mas Ladybug logo percebe que a amiga esconde outro motivo para a viagem.",
+    "year": 2025,
+    "categoria": "Animação",
+    "stream": "https://watch.brplayer.cc/m3u8/10/289dd10bbb01640edf7d654f414f8624/master.m3u8?s=1&id=35240&cache=1"
   },
   {
     "id": "tt38774646",
