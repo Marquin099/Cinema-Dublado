@@ -171,6 +171,15 @@
     "stream": "https://watch.brplayer.cc/m3u8/26/e950fc9a52cb6aeb451086da1c1cb8a8/master.m3u8?s=1&id=35200&cache=1"
   },
   {
+    "id": "tt14107334",
+    "name": "O Sobrevivente",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/8nBuPCAXLFSuUBjO1WvJ2blEVmK.jpg",
+    "description": "Em um futuro próximo, “O Sobrevivente” é o show de maior audiência na televisão – uma competição mortal onde os participantes precisam sobreviver 30 dias enquanto são caçados por assassinos profissionais. Cada passo é transmitido a um público sedento por sangue e cada dia sobrevivido aumenta o prêmio em dinheiro para o vencedor. (The Running Man)",
+    "year": 2025,
+    "categoria": "Ação",
+    "stream": "https://watch.brplayer.cc/m3u8/10/60ec22244723fb49b391a8f256249a29/master.m3u8?s=1&id=35313&cache=1"
+  },
+  {
     "id": "tt29232158",
     "name": "O Troll da Montanha 2",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/4WOmwPpQ2NeACRm2FMDnVhevb7G.jpg",
@@ -946,15 +955,6 @@
     "year": 2025,
     "categoria": "Cinema",
     "stream": "https://watch.brplayer.cc/m3u8/12/437aadef672e77658e88fa71c9bd224c/master.m3u8?s=1&id=34862&cache=1"
-  },
-  {
-    "id": "tt14107334",
-    "name": "O Sobrevivente",
-    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/8nBuPCAXLFSuUBjO1WvJ2blEVmK.jpg",
-    "description": "Filme dublado PT-BR",
-    "year": 2025,
-    "categoria": "Cinema",
-    "stream": "https://watch.brplayer.cc/m3u8/12/c0da153a42f724454914583e91772bc7/master.m3u8?s=1&id=34746&cache=1"
   },
   {
     "id": "tt19847976",
