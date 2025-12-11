@@ -1138,6 +1138,73 @@
   },
 
   {
+    "id": "homem-x-Bebe-2025",
+    "tmdb": 279601,
+    "type": "series",
+    "name": "Homem X Bebê",
+    "runtime": "27 min",
+    "poster": "https://br.web.img3.acsta.net/c_310_420/img/3b/53/3b535e94713aa5858de43bfd7c3843b1.jpg",
+    "background": "https://m.media-amazon.com/images/M/MV5BYTc2ZjNhZGUtZjJhZS00YjcwLWJkMDMtMjBkY2U1NDhlMjg5XkEyXkFqcGc@._V1_.jpg",
+    "logo": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABXYVkbvkNL7M5eoCXJQA2XZ473QY2Q6JCvq8n1GDNcmOeeN3UepU_WRnDMlhOF1bib0o2cigEW-kEB8ch1giEsip7VJl_LmbKg.png?r=6df",
+    "description": "Trevor Bingley volta a cuidar de uma casa de luxo, agora uma cobertura em Londres. Mas o que deveria ser um trabalho tranquilo se complica quando ele se vê, mais uma vez, dividindo espaço com um visitante inesperado.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "genres": ["Pastelão", "Comédia", "Família"],
+
+    "cast": [
+      { "name": "Rowan Atkinson" },
+      { "name": "Sunetra Sarker" },
+      { "name": "Susannah Fielding" },
+      { "name": "Alanah Bloor" }
+    ],
+
+    "directors": [
+      { "name": "Rowan Atkinson", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.0",
+      "imdb_id": "tt35047134"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Capítulo 1",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWzrtyJz_M7wOlRCNJUY532PbUm8UEpPSJtiIbK-lbzKSJATqDe5bMvw-CKdlcRgq2nQJVzpxcCV5j9u4jpvUXsU81WYFibGXT6m0mhfit8EFYOdzbN7kvt6.jpg?r=c16",
+            "overview": "As preparações de Trevor para o Natal tomaram um rumo inesperado: ele recebeu uma ótima proposta de trabalho, mas de quebra também vai ter que cuidar de um bebê perdido.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/db68c24a33cac9d591bcf63e60c4cc8f/master.txt?s=1&id=35300&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Capítulo 2",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABaPpkxSUpIuCuWDOOZz5HaxJEUY3s_ec3vwUrPZjKHyN9KpHo4Iw0-n_l97s6cnLssJQfJD9WKvU7ss7DpKvdBhDDVibAvdfXCkiGGz6c5Zmib2ngmn3Ho1o.jpg?r=fc0",
+            "overview": "Depois de passar na entrevista de caseiro e manter o bebê travesso escondido, Trevor encara o próximo desafio: trocar fraldas.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/4ad5bd1af94a1c75f785d7262e7964f1/master.txt?s=1&id=35301&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Capítulo 3",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYRKxm07ydSQXKcJKMKwQiaiUHQXduENHPCzMF7EmMsbKhPyh7GIuFbMT8Zgpq9K1MgEY5CzoSW27j4OgoeIFTk2uFJgs5isfH8I0hZsElRmRQUweE7C3Q-M.jpg?r=78d",
+            "overview": "Como se não bastasse ficar trancado para fora da cobertura e lidar com invasores, uma confusão inesperada deixa Trevor com o bebê errado.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/697ccc51fe209d656184c9bb24e6a455/master.txt?s=1&id=35302&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Capítulo 4",
+            "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABav6ZaaMZDYSGfgiHt-izB9GfhMfluqVL79EueG4HzOcEqqlz95rqukNEwLsVPkdtbj0c3UU12XD6Y8T5ss8u56Qk9aMhpAn3lTGAlT88LPYA193lM1PgT2l.jpg?r=e95",
+            "overview": "Depois de receber uma notícia inesperada dos donos da cobertura, Trevor encara uma correria daquelas para salvar o Natal e o bebê.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/5f0f52c0bdb94435e26c6b504e7513ea/master.txt?s=1&id=35303&cache=1"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
     "id": "heweliusz-2025",
     "tmdb": 217528,
     "type": "series",
