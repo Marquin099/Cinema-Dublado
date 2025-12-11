@@ -62,6 +62,24 @@
     "categoria": "Prime Video",
     "stream": "https://watch.brplayer.cc/m3u8/26/a202f338b2ddc55a30bde5c736d7250d/master.m3u8?s=1&id=35099&cache=1"
   },
+   {
+    "id": "tt35668447",
+    "name": "Deslumbrado",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/tz69WwWMYTbR3BNJY3coj9dtgrN.jpg",
+    "description": "Bem quando consegue um papel importante, um famoso ator perde misteriosamente a capacidade de atuar. É o início de uma jornada de autoconhecimento.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/10/1cdae395239224d198f9d07266615439/master.m3u8?s=1&id=35312&cache=1"
+  },
+  {
+    "id": "tt38938597",
+    "name": "Sequestro Fake",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/h3wKqZT6OWltbT9pufSlbWKSZHg.jpg",
+    "description": "Acostumado a enfrentar dificuldades na vida, um homem falido (Mohammed AlDokhei) organiza um sequestro inusitado com a ajuda dos amigos sem noção.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/10/27dbd63fba03e0e661eb93d556bc920f/master.m3u8?s=1&id=35311&cache=1"
+  },
   {
     "id": "tt29538620",
     "name": "Alvo da Máfia",
