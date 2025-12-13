@@ -71,6 +71,15 @@
     "categoria": "Prime Video",
     "stream": "https://watch.brplayer.cc/m3u8/26/a202f338b2ddc55a30bde5c736d7250d/master.m3u8?s=1&id=35099&cache=1"
   },
+  {
+    "id": "tt14364480",
+    "name": "Vivo ou Morto: Um Mistério Knives Out",
+    "poster": "https://cinepop.com.br/wp-content/uploads/vivo-ou-morto.jpg",
+    "description": "Benoit Blanc retorna para resolver seu caso mais perigoso até agora.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "https://watch.brplayer.cc/m3u8/26/553ed65b08798c8e41e5bb4b8486d49a/master.m3u8?s=1&id=35362&cache=1"
+  },
    {
     "id": "tt35668447",
     "name": "Deslumbrado",
@@ -241,6 +250,15 @@
     "year": 2025,
     "categoria": "Ação",
     "stream": "https://watch.brplayer.cc/m3u8/27/7974dc9314dabaab55462b7ab1b3d3c9/master.m3u8?s=1&id=35025&cache=1"
+  },
+  {
+    "id": "tt16539454",
+    "name": "Pushpa 2: The Rule పుష్పా 2",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/1/11/Pushpa_2-_The_Rule.jpg",
+    "description": "Um poderoso contrabandista confronta um inimigo sedento de vingança enquanto administra a política e fecha negócios importantes. Um pedido público de desculpas desencadeia um confronto decisivo.",
+    "year": 2025,
+    "categoria": "Ação",
+    "stream": "https://watch.brplayer.cc/m3u8/27/691f453dee852ba0ea7222427a888edc/master.m3u8?s=1&id=35366&cache=1"
   },
   {
     "id": "tt27425164",
@@ -528,6 +546,15 @@
     "year": 2025,
     "categoria": "Prime Video",
     "stream": "https://watch.brplayer.cc/m3u8/10/ddb46b927408f07029c45f219c79b710/master.m3u8?s=1&id=35127&cache=1"
+  },
+  {
+    "id": "tt31835497",
+    "name": "A Sogra Perfeita 2",
+    "poster": "https://br.web.img2.acsta.net/img/24/95/2495a0f7eb2e236c49010ac25903c0e4.jpg",
+    "description": "Neide conquistou sua casa própria e recusa pedido de casamento do namorado português. Quando a sogra chega para o casamento, ela luta para manter sua independência, briga com a melhor amiga e ainda precisa competir num concurso.",
+    "year": 2025,
+    "categoria": "Comédia",
+    "stream": "https://watch.brplayer.cc/m3u8/26/6bc266130585aafbe6e5fff58ec2e761/master.m3u8?s=1&id=35358&cache=1"
   },
   {
     "id": "tt33350259",
