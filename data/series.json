@@ -555,7 +555,7 @@
             "title": "Bastidores da Lei",
             "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/mpBRexIQAhpGtXFVHtzLfg/1200x675.jpg",
             "overview": "Carr faz uma lista de tarefas. Liberty descobre que o casamento pode ser mais complicado que o divórcio.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/69b86f4ce0394ef6d54f3033081bd3e1/master.txt?s=1&id=35256&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/69b86f4ce0394ef6d54f3033081bd3e1/master.m3u8?s=1&id=35256&cache=1"
           }
         ]
       }
@@ -670,7 +670,123 @@
       }
     ]
   },
-  
+
+  {
+    "id": "sanda-2025",
+    "tmdb": 258901,
+    "type": "series",
+    "name": "Sanda",
+    "runtime": "24 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/5qS5IUaShgj1BCDf1Egu3BdmII1.jpg",
+    "background": "https://a.storyblok.com/f/178900/1920x1080/a364ad46d6/sanda-main-trailer-screen.jpg",
+    "logo": "https://m.media-amazon.com/images/S/pv-target-images/d783f6a4e15335e743a4e2e0e8903ae7f6057d625143e52312edbcf8252ab8e9._BR-6_AC_SX500_FMwebp_.png",
+    "description": "No Japão do futuro, com poucos nascimentos onde as crianças dominam, o Papai Noel é selado por uma maldição. Sanda Kazushige descobre seu vínculo com o mítico Papai Noel.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "genres": ["Aventura", "Drama", "Anime"],
+
+    "cast": [
+      { "name": "Hiroki Tôchi" },
+      { "name": "Ayumu Murase" },
+      { "name": "Yuuki Shin" },
+      { "name": "Toshihiko Seki" }
+    ],
+
+    "directors": [
+      { "name": "Tomohisa Shimoyama", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.1",
+      "imdb_id": "tt35127440"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Que Claridade, Envelheci?",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/78baaa5fde77a62cbf7ada0eefad3b517003e42c1de87c5d6263b3b4de796685._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Em um 25 de dezembro sem Natal, Sanda é atacado por Shiori, sua colega de sala. Achando que fosse amor, ele espera uma declaração e ouve outra coisa.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/d6c93ba90d7a0b63fc8143ff18cab6f1/master.m3u8?s=1&id=32238&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Doces e Lâminas",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/0a9163c1085329fc8e1d1ead5c1af625df67d3d63604434dafef124812f8af49._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Amaya descobre que Sanda é o Papai Noel e o força a beijar Fuyumura. Noel se recusa, fugindo com o novo poder do trenó. O diretor Oshibu aparece.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/455c8959885c1b38871319571e9ab72c/master.m3u8?s=1&id=32677&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Fruta Queimada É Mais Doce",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/8472835cfca9c521c2227491435709a0dabdbd95206862c30d097bec8e50cf16._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Sanda adquire o poder de detectar mentiras. Fuyumura quer usá-lo para achar Ono, mas Sanda está sobrecarregado. Então Fuyumura mente para se ferir.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/cc73ed6fa658dab4deb142aa5266cff7/master.m3u8?s=1&id=33187&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Zeus, Destruidor de Livros Didáticos",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/37ebcfd213f5a6e917c4af87d3d02e7ccb77da2879d94d0a72b1a6528b889a7a._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Em um funeral, Noel luta contra Yagiuda, mas teme o próprio poder. Sua determinação retorna, quebrando o teto e o deixando totalmente exposto.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/960b0b807b8d3bab15ebec50b4cefa7e/master.m3u8?s=1&id=33590&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "Tufão na Neve",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/93bcc6df46c4eb451bcab0244fabb231657e26901d1a5cbf228e75dd30cd38c6._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Sanda jura nunca se apaixonar. Em um tufão, ele se desentende com a noiva Niko e, contrariado, acaba gostando dela. Yagiuda ressurge como professor.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/b50c6c685af227009d5e3b4d5a57ee05/master.m3u8?s=1&id=33825&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "Ciborgue vs Papai Noel",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/255e37170c5920999a12e55ba41036f4067c1bea0397f0291ed9369d30e44593._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Noel impede que o diretor Oshibu castigue Ono já adulta, mas o ciborgue de 92 anos é mais forte. Para lutar, Noel pede que as crianças acreditem nele.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/24871a24babba7a37fcd8eab5a1e8e11/master.m3u8?s=1&id=34260&cache=1"
+          },
+          {
+            "episode": 7,
+            "title": "Planta Carnívora Falsa",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/f0ef2d86103f00db20f1d5aab6b1738a2ae7e15d1ba6d11e33686f041e90ef58._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Amaya termina sua amizade com Sanda para protegê-lo. Yagiuda cura as cicatrizes de Oshibu, que recorre à Turma 10 para uma missão especial.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/1416e98269cd6eb339872f1de8681b39/master.m3u8?s=1&id=34564&cache=1"
+          },
+          {
+            "episode": 8,
+            "title": "Amor, a Coisa Mais Egoísta",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/c662a9134adcad4dd0c973cc81412b789cf63e358d4c3dea3b826b87d4223e70._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Fuyumura salva o Papai Noel, que decide fortalecer seu coração. Mas, quando Niko lhe pede um beijo, Sanda surta e quase se transforma na frente dela.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/1739ce2df38ca14a27b2d878267439c1/master.m3u8?s=1&id=34771&cache=1"
+          },
+          {
+            "episode": 9,
+            "title": "Flor Falsa Apodrece",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/8eb656b95e79750790e9255581f1cd01b34e4131dcca7752d230c1886f534bae._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Tetsudome acha o Noel fraco. Com sua ajuda, Sanda vira o Noel Sombrio, mas teme seu poder. Ao rever Namatame, ele promete não lutar contra crianças.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/71b1f7deb752aa14e2168e080eccc306/master.m3u8?s=1&id=35377&cache=1"
+          },
+          {
+            "episode": 10,
+            "title": "Você, Sempre",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/b861621d12b61c1ba373b2ac0ced740f82827c672aa652ed8a581ce4999211d0._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Na Festa do Auge da Juventude, Niko rouba o primeiro beijo de Sanda. Enquanto isso, Yagiuda enfrenta Namatame sozinho para proteger o Noel.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/256e4ba50694f4872a80555032c947b4/master.m3u8?s=1&id=35376&cache=1"
+          },
+          {
+            "episode": 11,
+            "title": "Lembranças Persistentes",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/4f64caa57fb0d7feca38e10324247befadfce1b781d120807d1e50354d31071e._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Namatame acaba com a festa. Comendo yakisoba, ela vê Sanda em forma de criança. O corpo dele, assim como o de Ono, sofre com as rápidas mudanças.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/521bdfc40f2f763bd9ccc267fde55653/master.m3u8?s=1&id=35378&cache=1"
+          }
+        ]
+      }
+    ]
+  },
+
   {
     "id": "maldade-2025",
     "tmdb": 244416,
@@ -1176,28 +1292,28 @@
             "title": "Capítulo 1",
             "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWzrtyJz_M7wOlRCNJUY532PbUm8UEpPSJtiIbK-lbzKSJATqDe5bMvw-CKdlcRgq2nQJVzpxcCV5j9u4jpvUXsU81WYFibGXT6m0mhfit8EFYOdzbN7kvt6.jpg?r=c16",
             "overview": "As preparações de Trevor para o Natal tomaram um rumo inesperado: ele recebeu uma ótima proposta de trabalho, mas de quebra também vai ter que cuidar de um bebê perdido.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/db68c24a33cac9d591bcf63e60c4cc8f/master.txt?s=1&id=35300&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/db68c24a33cac9d591bcf63e60c4cc8f/master.m3u8?s=1&id=35300&cache=1"
           },
           {
             "episode": 2,
             "title": "Capítulo 2",
             "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABaPpkxSUpIuCuWDOOZz5HaxJEUY3s_ec3vwUrPZjKHyN9KpHo4Iw0-n_l97s6cnLssJQfJD9WKvU7ss7DpKvdBhDDVibAvdfXCkiGGz6c5Zmib2ngmn3Ho1o.jpg?r=fc0",
             "overview": "Depois de passar na entrevista de caseiro e manter o bebê travesso escondido, Trevor encara o próximo desafio: trocar fraldas.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/4ad5bd1af94a1c75f785d7262e7964f1/master.txt?s=1&id=35301&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/4ad5bd1af94a1c75f785d7262e7964f1/master.m3u8?s=1&id=35301&cache=1"
           },
           {
             "episode": 3,
             "title": "Capítulo 3",
             "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYRKxm07ydSQXKcJKMKwQiaiUHQXduENHPCzMF7EmMsbKhPyh7GIuFbMT8Zgpq9K1MgEY5CzoSW27j4OgoeIFTk2uFJgs5isfH8I0hZsElRmRQUweE7C3Q-M.jpg?r=78d",
             "overview": "Como se não bastasse ficar trancado para fora da cobertura e lidar com invasores, uma confusão inesperada deixa Trevor com o bebê errado.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/697ccc51fe209d656184c9bb24e6a455/master.txt?s=1&id=35302&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/697ccc51fe209d656184c9bb24e6a455/master.m3u8?s=1&id=35302&cache=1"
           },
           {
             "episode": 4,
             "title": "Capítulo 4",
             "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABav6ZaaMZDYSGfgiHt-izB9GfhMfluqVL79EueG4HzOcEqqlz95rqukNEwLsVPkdtbj0c3UU12XD6Y8T5ss8u56Qk9aMhpAn3lTGAlT88LPYA193lM1PgT2l.jpg?r=e95",
             "overview": "Depois de receber uma notícia inesperada dos donos da cobertura, Trevor encara uma correria daquelas para salvar o Natal e o bebê.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/5f0f52c0bdb94435e26c6b504e7513ea/master.txt?s=1&id=35303&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/5f0f52c0bdb94435e26c6b504e7513ea/master.m3u8?s=1&id=35303&cache=1"
           }
         ]
       }
@@ -3371,84 +3487,84 @@
             "title": "Na tempestade",
             "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWgZLMi02egP1Qc3kH3o0kt8P0tPPgAFIbX_3updXabjQV7ruOZrODxXMqXSz2XitQyvEhtuFKD3O33HewxpqB59PDux9jv3wFt0AxKvoRNfG0DADKO5bLIb.jpg?r=0b5",
             "overview": "1914. O príncipe Alek da Áustria-Hungria tem uma aula prática incomum em um Stormwalker. Em Edimburgo, Sharp está feliz por voar em um Huxley.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/561eaa108c9074d4c16da3186f2b9be0/master.txt?s=1&id=32874&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/561eaa108c9074d4c16da3186f2b9be0/master.m3u8?s=1&id=32874&cache=1"
           },
           {
             "episode": 2,
             "title": "Prelúdio da guerra",
             "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABaj9NEwXgT7IvxKU1ogLnbBhYSq3ohwhdm6h1L3uaN85eoMbe7QeExJQx8JPen4gkPlCn8mj8oBzuswlUFEFc5U3--DQOfavLBJazd1GENE5mFzedaq92TQE.jpg?r=e15",
             "overview": "Com a Europa à beira de uma guerra, Alek tenta se adaptar à nova vida como fugitivo. Sharp conhece o Leviatã e sua tripulação.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/17063277217449d39e2328a007ffb4fa/master.txt?s=1&id=32875&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/17063277217449d39e2328a007ffb4fa/master.m3u8?s=1&id=32875&cache=1"
           },
           {
             "episode": 3,
             "title": "Makinistas e darwinistas",
             "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYp_5uY6foyhVFunirsn4xT_yITOg5Oz9TCoEAXObIDvBbHO3Ul9-EurUF75PQKNca7VPBGTFFKOJDg-WaSrJlS8Nj85_EHLoTRWPaex3g5HhPceaAF-Fvo4.jpg?r=c26",
             "overview": "Alek descobre por que está sendo caçado. Apesar do conselho de Volger, ele foge para ajudar a tripulação do Leviatã e salva Sharp, que não acredita na história dele.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/71afb186ca8924414be94770dba45137/master.txt?s=1&id=32876&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/71afb186ca8924414be94770dba45137/master.m3u8?s=1&id=32876&cache=1"
           },
           {
             "episode": 4,
             "title": "O peso do passado",
             "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQasaYNbaQLk-kg30ESf8f5Gl-pulnR60eT6QiPYn206enV2Dzu9g_YXilsIG5J9-tc52SqdLGgLzjbVMxmlWdru2Z1Tb4WqENt5YFkA8s10MI4rjdcwrMJ-.jpg?r=f02",
             "overview": "Com as forças Makinistas em seu encalço, o Leviatã ferido precisa de um milagre para sair do chão. Alek faz uma oferta irrecusável aos Darwinistas.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/ee50567c32d7c2e693df4a6206c71b00/master.txt?s=1&id=32877&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/ee50567c32d7c2e693df4a6206c71b00/master.m3u8?s=1&id=32877&cache=1"
           },
           {
             "episode": 5,
             "title": "Para o leste",
             "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABd6ysoKs6htl2eJoYoPipod4zQ3oYrSzUs7M4jufyJNOTZAXJZMKlSykImpJtzVyKHcpiGMdl0olLZqfvku59XrxcNiBdYJmrWcTBor-iEkV3JjUMi6QAlXy.jpg?r=31e",
             "overview": "O Leviatã encontra uma arma mortal Makinista em sua jornada rumo a Istambul. Ao chegar à cidade, Alek e os companheiros fazem planos para escapar.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/891565c4dbecf15e2cd7f7f737931518/master.txt?s=1&id=32878&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/891565c4dbecf15e2cd7f7f737931518/master.m3u8?s=1&id=32878&cache=1"
           },
           {
             "episode": 6,
             "title": "Sombras de Istambul",
             "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABSx2-J8C1Z7Wt6GGE1e4Y6C6oUMyMggEe4FWUWMwZ2sGnMmNuhfDcwWN46plBfXbdDC_S_LobU3_xfHhxySLRxw9X8KbBVP_gF77HsgnyHj57K4LZ5Dy2t_D.jpg?r=70d",
             "overview": "Sharp e a Dra. Barlow finalmente encontram o Sultão e oferecem um presente raro. Uma garota misteriosa salva Alek de uma patrulha alemã.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/cb57ba36db3faf9723fcfeade897b7fb/master.txt?s=1&id=32879&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/cb57ba36db3faf9723fcfeade897b7fb/master.m3u8?s=1&id=32879&cache=1"
           },
           {
             "episode": 7,
             "title": "Mares tempestuosos",
             "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABTVh4G-NJI7qNiL0_JayA9rXJbfnPUGp3-_q_W1pMzodlRX0CDZuuWQd-s12ggNSAbIm8LRK2iDgmcKIk72QxWzeNR917JrXwsZqEwf06GgFpAjl1zusnmNq.jpg?r=646",
             "overview": "Uma patrulha compromete a operação secreta britânica, obrigando Sharp a fugir pelas ruas de Istambul. Alek se envolve com a causa do exército revolucionário.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/73b98aaf0b3dc56931f522711bcb457b/master.txt?s=1&id=32880&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/73b98aaf0b3dc56931f522711bcb457b/master.m3u8?s=1&id=32880&cache=1"
           },
           {
             "episode": 8,
             "title": "Beemote",
             "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfBVf5wuN1wo2GsrKaP_oCb4FZpfth16PikW9-b1YJ_u6hcQe-yWw-VSUycoYlV8jox_gCdRfPab6rGQX4pTgw0fNKShY_jCgMMNOOsIfoI3cd36m08xSQea.jpg?r=a07",
             "overview": "Preocupado com a segurança de Klopp no dia do golpe, Alek pede para ele fugir. Notícias inesperadas forçam os revolucionários a agir antes da chegada do Beemote",
-            "stream": "https://watch.brplayer.cc/m3u8/27/326a8605975106f1672c912bd16b4e7b/master.txt?s=1&id=32881&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/326a8605975106f1672c912bd16b4e7b/master.m3u8?s=1&id=32881&cache=1"
           },
           {
             "episode": 9,
             "title": "Tunguska",
             "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABcSZ9_vB70a3ycKzBUlm48CVxWVXtULVJ32dX_penBnwDHqw6VVK3peWZ8AHXbWW-0p3Pkv67mjezRNWTs4RVqR5ob-9VvL8ocSrTDJZ6txJgzLY_FOnRhtQ.jpg?r=002",
             "overview": "O Leviatã e sua tripulação chegam à Sibéria para encontrar o tio de Barlow. Lá, ele revela a origem por trás de diversos fenômenos misteriosos acontecendo no mundo todo",
-            "stream": "https://watch.brplayer.cc/m3u8/27/90918c5b8c17f80e32d5b155a7bf6197/master.txt?s=1&id=32882&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/90918c5b8c17f80e32d5b155a7bf6197/master.m3u8?s=1&id=32882&cache=1"
           },
           {
             "episode": 10,
             "title": "Verdades e mentiras",
             "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUiU6rgv7yKykNq1QljRbr6FPfgRaUXma2bhzXp7aS7knhmq6DGlpaT2vIkavaNcbiM0AsNOnUEAbdaZYibctAKTGUHRQfuItaeylQ1umpMBiC7Prq0VLJ8A.jpg?r=230",
             "overview": "Alek descobre a verdade sobre Sharp, e as tensões aumentam entre os dois. Sharp se envolve em uma situação perigosa.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/d996e31032e7c288d7e20e7b82221c20/master.txt?s=1&id=32883&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/d996e31032e7c288d7e20e7b82221c20/master.m3u8?s=1&id=32883&cache=1"
           },
           {
             "episode": 11,
             "title": "Golias",
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqRoF9ECicl8QEU0UtkujpRjxUSrOk6ZQneQ&s",
             "overview": "Determinados a descobrir a verdade sobre Tunguska, Alek e Sharp confrontam Tesla e descobrem a invenção responsável pela destruição, o Golias.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/c7e07c312fd6bafc9f5192b3dfdf3d3f/master.txt?s=1&id=32884&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/c7e07c312fd6bafc9f5192b3dfdf3d3f/master.m3u8?s=1&id=32884&cache=1"
           },
           {
             "episode": 12,
             "title": "Episódio 12",
             "thumbnail": "https://dmtalkies.com/wp-content/uploads/2025/07/Netflixs-Leviathan-Recap-Alek-Deryn-and-others.jpg",
             "overview": "o príncipe Alek se adaptando à vida em fuga e descobrindo a razão de ser perseguido. Enquanto isso, Sharp se familiariza com a tripulação do Leviathan e, contra o aviso de Volger, Alek parte para ajudar e resgata Sharp, que ainda duvida de suas reivindicações reais. ",
-            "stream": "https://watch.brplayer.cc/m3u8/27/9ffe7d903de2691357188406c25cadf8/master.txt?s=1&id=32885&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/9ffe7d903de2691357188406c25cadf8/master.m3u8?s=1&id=32885&cache=1"
           }
         ]
       }
