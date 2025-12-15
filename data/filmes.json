@@ -333,6 +333,15 @@
     "stream": "https://watch.brplayer.cc/m3u8/12/f34fad478256597ee97020039fd5a7a0/master.m3u8?s=1&id=34942&cache=1"
   },
   {
+    "id": "tt28498159",
+    "name": "Infância Sombria",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/tgjsMTXN6zczRS4ocEkYikLlQSa.jpg",
+    "description": "Incapaz de gerar filhos, um casal resolve adotar uma criança órfã, sobrevivente de uma infância trágica. Mas o ato de amor se transforma em horror à medida que eventos assustadores se desenrolam e o comportamento da garota se torna perturbador.",
+    "year": 2025,
+    "categoria": "Terror",
+    "stream": ""
+  },
+  {
     "id": "tt28554021",
     "name": "Xamã: O Exorcista Pagão",
     "poster": "https://br.web.img3.acsta.net/c_310_420/img/04/a1/04a1aa5171686ecc81c5d53639aa8e50.jpg",
@@ -430,6 +439,15 @@
     "year": 2025,
     "categoria": "Hbo Max",
     "stream": "https://watch.brplayer.cc/m3u8/10/f78ff70e70cdf2e13ce970fada856eba/master.m3u8?s=1&id=35177&cache=1"
+  },
+  {
+    "id": "",
+    "name": "Entre Chegadas e Despedidas",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/nUHX8dLriLUlafp8rZlMPBkFj4a.jpg",
+    "description": "Stephen Seary, um carismático e bem-sucedido cenógrafo, retorna à sua cidade natal na Austrália para se despedir da mãe doente. O que seria uma breve visita se transforma em caos, drama e momentos hilários enquanto ele lida com responsabilidades familiares, uma relação difícil com o pai, velhos amigos e amores, tentando retornar à Europa para um grande contrato de ópera.",
+    "year": 2025,
+    "categoria": "Drama",
+    "stream": "https://watch.brplayer.cc/m3u8/10/1e22c83cb2934dd73c22c293f4befe83/master.m3u8?s=1&id=35400&cache=1"
   },
   {
     "id": "tt32944883",
