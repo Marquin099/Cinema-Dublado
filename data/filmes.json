@@ -81,6 +81,33 @@
     "stream": "https://watch.brplayer.cc/m3u8/26/a202f338b2ddc55a30bde5c736d7250d/master.m3u8?s=1&id=35099&cache=1"
   },
   {
+    "id": "tt29927663",
+    "name": "O Grande Dilúvio",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-12/8e91cd6b-4b59-43db-b38a-fde8527fe7f0.webp",
+    "description": "Uma grande inundação desastrosa varre o planeta. No que pode ser o último dia na Terra, começa uma luta desesperada para salvar uma criança de um apartamento inundado..",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "http://aztv.cx:80/movie/vodsgg/omiius432/1736441358.mp4"
+  },
+  {
+    "id": "tt37961727",
+    "name": "A Hora dos Valentes",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/dcPvl201QhtbXm7nhYHTHzdsjev.jpg",
+    "description": "Um psicanalista prestando serviço comunitário ajuda um agente a superar uma infidelidade. Juntos, eles enfrentam uma série de perigos e descobrem que existem segundas chances.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "http://aztv.cx:80/movie/vodsgg/omiius432/1736441356.mp4"
+  },
+  {
+    "id": "tt32832410",
+    "name": "Rainha do Carvão",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-12/162dae16-c3ba-480e-b78a-8eb6f01f60d7.webp",
+    "description": "Uma mulher trans realiza seu sonho de trabalhar em uma mina de carvão, mas depois de uma cirurgia ela enfrenta uma superstição que proíbe mulheres de entrar em galerias.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "http://aztv.cx:80/movie/vodsgg/omiius432/1736441342.mp4"
+  },
+  {
     "id": "tt14364480",
     "name": "Vivo ou Morto: Um Mistério Knives Out",
     "poster": "https://cinepop.com.br/wp-content/uploads/vivo-ou-morto.jpg",
@@ -1270,6 +1297,15 @@
     "stream": "https://watch.brplayer.cc/m3u8/27/01f11b1dc7251b4dad589e664e28aaf6/master.m3u8?s=1&id=34222&cache=1"
   },
   {
+    "id": "tt9362736",
+    "name": "Morra, Amor",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzg2YTYzMDktYzYxZS00ODBiLTlkNTQtZDIzYTgyYmNmNjFmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "description": "Em uma área rural remota e esquecida, uma mãe luta para manter sua sanidade enquanto luta contra a psicose.",
+    "year": 2025,
+    "categoria": "Suspense",
+    "stream": "http://aztv.cx:80/movie/vodsgg/omiius432/1736441346.mp4"
+  },
+  {
     "id": "tt32387554",
     "name": "American Sweatshop",
     "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/zUXz9LHeU82S3n2pJhiEifOOei5.jpg",
@@ -1357,7 +1393,7 @@
     "description": "A obra A Própria Carne se desenrola em 1870, no contexto da Guerra do Paraguai, e narra a história de três soldados desertores. Buscando abrigo, eles encontram uma casa isolada na fronteira, onde conhecem um fazendeiro enigmático e uma jovem extremamente acolhedora.",
     "year": 2025,
     "categoria": "Cinema",
-    "stream": "https://watch.brplayer.cc/m3u8/12/2f60d946251d2dfd719925f3fa1fed01/master.m3u8?s=1&id=33835&cache=1"
+    "stream": "https://watch.brplayer.cc/m3u8/27/8db46ae484cc3e07dc4cc1a5b2e7fb52/master.m3u8?s=1&id=35536&cache=1"
   },
   {
     "id": "tt14999684",
@@ -2921,6 +2957,15 @@
     "stream": "https://watch.brplayer.cc/m3u8/10/32ff692bedd4cd4764741dd4b347d5b4/master.m3u8?s=1&id=34826&cache=1"
   },
   {
+    "id": "",
+    "name": "Disputa Final",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/7ElOux95K8mfK1kuxK6K4A8MulM.jpg",
+    "description": "No submundo de um torneio mortal, assassinos se enfrentam até a morte. Uma equipe rebelde tem uma missão ainda mais perigosa: sobreviver, enganar os matadores e eliminar o verdadeiro mentor por trás de tudo.",
+    "year": 2025,
+    "categoria": "Paramount+",
+    "stream": "http://aztv.cx:80/movie/vodsgg/omiius432/1736441348.mp4"
+  },
+  {
     "id": "tt30400277",
     "name": "O Beijo da Mulher Aranha (Cinema)",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/c8zDeDq0Uatjly6Fh4ycmWuoLYy.jpg",
@@ -3387,5 +3432,14 @@
     "year": 2025,
     "categoria": "Suspense",
     "stream": "https://vods1.watchingvs.com/m/Un%20ours%20dans%20le%20Jura_2025_tt33984333.mp4"
+  },
+  {
+    "id": "",
+    "name": "Na Solidão da Noite: Assassinato Na Mansão Bansal",
+    "poster": "https://br.web.img3.acsta.net/img/4f/32/4f326b5bcbbcb473cc266d6df62481f8.png",
+    "description": "Após a família Bansal ser encontrada assassinada, o inspetor Jatil Yadav descobre uma teia de ganância, traição e segredos que leva a uma conspiração letal.",
+    "year": 2025,
+    "categoria": "Crime",
+    "stream": "http://aztv.cx:80/movie/vodsgg/omiius432/1736441353.mp4"
   }
 ]
