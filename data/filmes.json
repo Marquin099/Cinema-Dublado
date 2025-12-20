@@ -108,6 +108,15 @@
     "stream": "http://aztv.cx:80/movie/vodsgg/omiius432/1736441342.mp4"
   },
   {
+    "id": "tt34762360",
+    "name": "10Dance",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/pjlAK39f1iLMxXeANE03fStqufT.jpg",
+    "description": "Duas dançarinas experientes, Shinya Sugiki e Shinya Suzuki, pretendem dominar os estilos uma da outra para uma competição de prestígio, mas antigas rivalidades e possíveis romances complicam a parceria.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "http://aztv.cx:80/movie/vodsgg/omiius432/1736441301.mp4"
+  },
+  {
     "id": "tt14364480",
     "name": "Vivo ou Morto: Um Mistério Knives Out",
     "poster": "https://cinepop.com.br/wp-content/uploads/vivo-ou-morto.jpg",
@@ -1520,6 +1529,15 @@
     "year": 2025,
     "categoria": "Documentário",
     "stream": "https://watch.brplayer.cc/m3u8/26/bab82e00570d17a1fe3dcad7dabff3eb/master.m3u8?s=1&id=33739&cache=1"
+  },
+  {
+    "id": "",
+    "name": "A Cidade Que Ainda Sonha",
+    "poster": "https://image.tmdb.org/t/p/w500/jV56uStfbLJTZHtXXWATlFVd9dC.jpg",
+    "description": "O documentário retrata o distrito de Miguel Burnier, em Ouro Preto, outrora um importante polo industrial e cultural. Hoje quase abandonada, a comunidade resiste entre ruínas e memórias, onde a ferrovia, a mineração e os moradores mantêm viva a história de um território em transformação.",
+    "year": 2025,
+    "categoria": "Documentário",
+    "stream": "http://aztv.cx:80/movie/vodsgg/omiius432/1736441303.mp4"
   },
   {
     "id": "tt38457052",
