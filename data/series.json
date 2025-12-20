@@ -183,6 +183,13 @@
             "thumbnail": "https://image.tmdb.org/t/p/w1280//d3uHwrDjnyfXv6Vradm88Xw2nV1.jpg",
             "overview": "Carol tenta uma abordagem diferente com Os Outros e descobre mais do que esperava. Manousos acorda em um lugar desconhecido.",
             "stream": "https://watch.brplayer.cc/m3u8/27/107aca10b9fd0bb976953ad54c934f05/master.m3u8?s=1&id=35508&cache=1"
+          },
+          {
+            "episode": 9,
+            "title": "La Chica o El Mundo",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//khQCJQUVzHQko4xk3rIRvq3zEoy.jpg",
+            "overview": "Manousos chega em Albuquerque e surgem complicações. Carol visita o último melhor lugar da Terra.",
+            "stream": ""
           }
         ]
       }
