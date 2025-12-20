@@ -99,6 +99,15 @@
     "stream": "http://aztv.cx:80/movie/vodsgg/omiius432/1736441356.mp4"
   },
   {
+    "id": "tt38984577",
+    "name": "Assassinato em Mônaco",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hyDL02uwMkJDUVcggnvQi6ND85n.jpg",
+    "description": "Mônaco, 1999. Um dos homens mais ricos do mundo morre em sua casa. Este documentário examina o misterioso assassinato do bilionário Edmond Safra.",
+    "year": 2025,
+    "categoria": "Netflix",
+    "stream": "http://aztv.cx:80/movie/vodsgg/omiius432/1736441186.mp4"
+  },
+  {
     "id": "tt32832410",
     "name": "Rainha do Carvão",
     "poster": "https://cinegratis.tv/uploads/posts/2025-12/162dae16-c3ba-480e-b78a-8eb6f01f60d7.webp",
@@ -629,6 +638,15 @@
     "stream": "https://watch.brplayer.cc/m3u8/26/9580d8d23af7f51eda1073b791a8c9cf/master.m3u8?s=1&id=35382&cache=1"
   },
   {
+    "id": "tt31176520",
+    "name": "Eddington",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/8wO4CmjKp2JQeq8nA52K1VcMl1z.jpg",
+    "description": "Em maio de 2020, um impasse entre o xerife e o prefeito de uma pequena cidade gera um conflito entre vizinhos em Eddington, Novo México.",
+    "year": 2025,
+    "categoria": "Comédia",
+    "stream": "http://aztv.cx:80/movie/vodsgg/omiius432/1736441142.mp4"
+  },
+  {
     "id": "tt31835497",
     "name": "A Sogra Perfeita 2",
     "poster": "https://br.web.img2.acsta.net/img/24/95/2495a0f7eb2e236c49010ac25903c0e4.jpg",
@@ -1057,12 +1075,12 @@
   },
   {
     "id": "tt31844586",
-    "name": "Sisu: Road To Revenge (EM BREVE)",
+    "name": "Sisu: Estrada Da Vingaça",
     "poster": "https://br.web.img3.acsta.net/c_310_420/img/f7/ba/f7baef83c48c296e1a52ff296d8b985b.png",
     "description": "Um ex-soldado encontra ouro no deserto da Lapônia. Enquanto tenta transportar o tesouro para a cidade, ele confronta um implacável oficial da SS e soldados alemães.",
     "year": 2025,
-    "categoria": "Cinema",
-    "stream": "https://watch.brplayer.cc/m3u8/12/5aae68270b448da2adfa823502b512a8/master.m3u8?s=1&id=35051&cache=1"
+    "categoria": "Ação",
+    "stream": "http://aztv.cx:80/movie/vodsgg/omiius432/1736441052.mp4"
   },
   {
     "id": "tt14905854",
