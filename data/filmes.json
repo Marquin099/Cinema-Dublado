@@ -270,7 +270,7 @@
     "stream": "https://watch.brplayer.cc/m3u8/10/ae0aaad8021d829295f1da3514c712c0/master.m3u8?s=1&id=35092&cache=1"
   },
   {
-    "id": "",
+    "id": "tt32395062",
     "name": "Farejando Vingança 2: Cidade Dos Lobos",
     "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj65B8sC9eQznlOfVl2cLKdvp2g9C5NvgwLA&s",
     "description": "Depois de sobreviver a uma tentativa de assassinato, um profissional implacável questiona a vida que leva. Só que não vai ser fácil deixar para trás a vida do crime.",
@@ -627,6 +627,15 @@
     "year": 2025,
     "categoria": "Ação",
     "stream": "https://watch.brplayer.cc/m3u8/26/c6c209418814b5cee2107e6e744bb737/master.m3u8?s=1&id=34437&cache=1"
+  },
+  {
+    "id": "tt32395062",
+    "name": "Farejando Vingança 2: Cidade Dos Lobos",
+    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj65B8sC9eQznlOfVl2cLKdvp2g9C5NvgwLA&s",
+    "description": "Depois de sobreviver a uma tentativa de assassinato, um profissional implacável questiona a vida que leva. Só que não vai ser fácil deixar para trás a vida do crime.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "stream": "https://watch.brplayer.cc/m3u8/10/b06ee722e5efe10c6852d6dc07b84616/master.m3u8?s=1&id=35571&cache=1"
   },
   {
     "id": "tt31998881",
