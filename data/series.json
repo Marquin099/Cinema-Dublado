@@ -1,5 +1,100 @@
 [
   {
+    "id": "longo-e-claro-2025",
+    "tmdb": 244628,
+    "type": "series",
+    "name": "Longo e Claro Rio",
+    "runtime": "52 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/hl2fXccJkIAKMJzOZcQdsHKwL6U.jpg",
+    "background": "https://m.media-amazon.com/images/S/pv-target-images/1e8fa470cbd257d8549377822fee39761ec65e21458f6938570bf9ada40bf42a.jpg",
+    "logo": "",
+    "description": "Uma policial da Filadélfia procura por sua irmã, uma viciada que desapareceu.",
+    "year": 2025,
+    "categoria": "Hbo Max",
+    "genres": ["Crime", "Drama", "Suspense"],
+
+    "cast": [
+      { "name": "Amanda Seyfried" },
+      { "name": "Nicholas Pinnock" },
+      { "name": "Ashleigh Cummings" },
+      { "name": "Callum Vinson" }
+    ],
+
+    "directors": [
+      { "name": "", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "tt8332798",
+      "imdb_id": "6.8"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Essas Meninas",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//cUVaD97cWXSGVnvGECOfnkxEisa.jpg",
+            "overview": "Mickey Fitzpatrick, policial da Filadélfia, investiga uma série de overdoses entre profissionais do sexo que podem ser homicídios.",
+            "stream": "https://watch.brplayer.cc/m3u8/10/3f332c6d5115412c25d90fb4b5028a18/master.txt?s=1&id=25866&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Deixe-Me Entrar",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//oIcYxYu0BCyNgMfI1KZb514YnHW.jpg",
+            "overview": "À medida que as dúvidas sobre os assassinatos aumentam, Mickey lida com o desaparecimento de sua irmã e toma medidas para proteger seu filho.",
+            "stream": "https://watch.brplayer.cc/m3u8/10/2fffa6dd1b50ced2b3d67b862bf2f61d/master.txt?s=1&id=25867&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Mãe Loba",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//7weBE7v4goXbXBkqgbEpFRHmnX9.jpg",
+            "overview": "Mickey arrisca tudo para seguir uma pista sobre o cafetão Dock. Então, novas evidências a levam a questionar tudo o que ela pensava.",
+            "stream": "https://watch.brplayer.cc/m3u8/10/bfd1269f6ca371debca250799daabb02/master.txt?s=1&id=25868&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Ponto Cego",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//e8W5ruJ1HIbAJlbQ9Sc8KcIE16V.jpg",
+            "overview": "A festa de aniversário de Thomas desperta lembranças dolorosas da infância de Mickey. Mais tarde, Mickey e Truman seguem uma nova pista.",
+            "stream": "https://watch.brplayer.cc/m3u8/10/799d3f5de8680c081517920476881764/master.txt?s=1&id=25869&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "Aonde Você Vai?",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//qeV4rV9LjxK21Ow4tGEy2WKHAf4.jpg",
+            "overview": "Enquanto Mickey e Truman se aproximam, uma nova vítima complica o caso das mulheres assassinadas e a busca por Kacey.",
+            "stream": "https://watch.brplayer.cc/m3u8/10/c1b8c48c660ae44b22e250b32acae44f/master.txt?s=1&id=25870&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "Hereditário",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//367kJF64ikHmZhoyKF303pfN2ac.jpg",
+            "overview": "Uma emboscada inesperada desequilibra Mickey e ela deixa de procurar Kacey, mas uma revelação de Natal a aproxima da verdade.",
+            "stream": "https://watch.brplayer.cc/m3u8/10/8002c5f27890e62ed13bb7ace69db2e6/master.txt?s=1&id=25871&cache=1"
+          },
+          {
+            "episode": 7,
+            "title": "Acordo Errado com o Diabo Errado",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//p89jVrmKQ95zQ38HNBAy3dbjFJL.jpg",
+            "overview": "Mickey enfrenta as consequências de acusar sua colega. Um novo desaparecimento leva a investigação a lugares surpreendentes.",
+            "stream": "https://watch.brplayer.cc/m3u8/10/721bc4c80edbce69921f70cb2d1920f1/master.txt?s=1&id=25872&cache=1"
+          },
+          {
+            "episode": 8,
+            "title": "Reconciliação",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//pNAENeJGpLPCL7vMczcrADsLMLH.jpg",
+            "overview": "Mickey comete um grave erro ao ir atrás do assassino. A verdade finalmente vem à tona, mas não sem sacrifício.",
+            "stream": "https://watch.brplayer.cc/m3u8/10/37192c741d62253cac9e59c6d7f90472/master.txt?s=1&id=25873&cache=1"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
     "id": "i-love-la-2025",
     "tmdb": 271053,
     "type": "series",
