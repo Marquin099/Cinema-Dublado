@@ -38,56 +38,56 @@
             "title": "Essas Meninas",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//cUVaD97cWXSGVnvGECOfnkxEisa.jpg",
             "overview": "Mickey Fitzpatrick, policial da Filadélfia, investiga uma série de overdoses entre profissionais do sexo que podem ser homicídios.",
-            "stream": "https://watch.brplayer.cc/m3u8/10/3f332c6d5115412c25d90fb4b5028a18/master.txt?s=1&id=25866&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/10/3f332c6d5115412c25d90fb4b5028a18/master.m3u8?s=1&id=25866&cache=1"
           },
           {
             "episode": 2,
             "title": "Deixe-Me Entrar",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//oIcYxYu0BCyNgMfI1KZb514YnHW.jpg",
             "overview": "À medida que as dúvidas sobre os assassinatos aumentam, Mickey lida com o desaparecimento de sua irmã e toma medidas para proteger seu filho.",
-            "stream": "https://watch.brplayer.cc/m3u8/10/2fffa6dd1b50ced2b3d67b862bf2f61d/master.txt?s=1&id=25867&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/10/2fffa6dd1b50ced2b3d67b862bf2f61d/master.m3u8?s=1&id=25867&cache=1"
           },
           {
             "episode": 3,
             "title": "Mãe Loba",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//7weBE7v4goXbXBkqgbEpFRHmnX9.jpg",
             "overview": "Mickey arrisca tudo para seguir uma pista sobre o cafetão Dock. Então, novas evidências a levam a questionar tudo o que ela pensava.",
-            "stream": "https://watch.brplayer.cc/m3u8/10/bfd1269f6ca371debca250799daabb02/master.txt?s=1&id=25868&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/10/bfd1269f6ca371debca250799daabb02/master.m3u8?s=1&id=25868&cache=1"
           },
           {
             "episode": 4,
             "title": "Ponto Cego",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//e8W5ruJ1HIbAJlbQ9Sc8KcIE16V.jpg",
             "overview": "A festa de aniversário de Thomas desperta lembranças dolorosas da infância de Mickey. Mais tarde, Mickey e Truman seguem uma nova pista.",
-            "stream": "https://watch.brplayer.cc/m3u8/10/799d3f5de8680c081517920476881764/master.txt?s=1&id=25869&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/10/799d3f5de8680c081517920476881764/master.m3u8?s=1&id=25869&cache=1"
           },
           {
             "episode": 5,
             "title": "Aonde Você Vai?",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//qeV4rV9LjxK21Ow4tGEy2WKHAf4.jpg",
             "overview": "Enquanto Mickey e Truman se aproximam, uma nova vítima complica o caso das mulheres assassinadas e a busca por Kacey.",
-            "stream": "https://watch.brplayer.cc/m3u8/10/c1b8c48c660ae44b22e250b32acae44f/master.txt?s=1&id=25870&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/10/c1b8c48c660ae44b22e250b32acae44f/master.m3u8?s=1&id=25870&cache=1"
           },
           {
             "episode": 6,
             "title": "Hereditário",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//367kJF64ikHmZhoyKF303pfN2ac.jpg",
             "overview": "Uma emboscada inesperada desequilibra Mickey e ela deixa de procurar Kacey, mas uma revelação de Natal a aproxima da verdade.",
-            "stream": "https://watch.brplayer.cc/m3u8/10/8002c5f27890e62ed13bb7ace69db2e6/master.txt?s=1&id=25871&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/10/8002c5f27890e62ed13bb7ace69db2e6/master.m3u8?s=1&id=25871&cache=1"
           },
           {
             "episode": 7,
             "title": "Acordo Errado com o Diabo Errado",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//p89jVrmKQ95zQ38HNBAy3dbjFJL.jpg",
             "overview": "Mickey enfrenta as consequências de acusar sua colega. Um novo desaparecimento leva a investigação a lugares surpreendentes.",
-            "stream": "https://watch.brplayer.cc/m3u8/10/721bc4c80edbce69921f70cb2d1920f1/master.txt?s=1&id=25872&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/10/721bc4c80edbce69921f70cb2d1920f1/master.m3u8?s=1&id=25872&cache=1"
           },
           {
             "episode": 8,
             "title": "Reconciliação",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//pNAENeJGpLPCL7vMczcrADsLMLH.jpg",
             "overview": "Mickey comete um grave erro ao ir atrás do assassino. A verdade finalmente vem à tona, mas não sem sacrifício.",
-            "stream": "https://watch.brplayer.cc/m3u8/10/37192c741d62253cac9e59c6d7f90472/master.txt?s=1&id=25873&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/10/37192c741d62253cac9e59c6d7f90472/master.m3u8?s=1&id=25873&cache=1"
           }
         ]
       }
@@ -172,17 +172,17 @@
           },
           {
             "episode": 7,
-            "title": "",
-            "thumbnail": "",
-            "overview": "",
-            "stream": "1"
+            "title": "Divas Down",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/2QNTKXd9c5GRdMHCvd45qw/1200x675.jpg",
+            "overview": "Enquanto Tallulah se concentra inteiramente em seu novo romance, Maia trabalha para levá-la a um jantar de moda exclusivo. Alani vai para casa com Charlie após a cirurgia.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/df0d020fc9a3e0bafef47e229b498ba5/master.m3u8?s=1&id=35564&cache=1"
           },
           {
             "episode": 8,
-            "title": "",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "I Love NY",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/VHzhlvmrRsvnq8DePuGJhg/1200x675.jpg",
+            "overview": "As garotas retornam a Nova York para um evento de moda exclusivo, e Maia tenta se divertir enquanto Tallulah enfrenta algumas decisões de estilo questionáveis. Alani planeja uma surpresa para o aniversário de seus pais.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/65951d951d3b5df75fc887290a473774/master.m3u8?s=1&id=35563&cache=1"
           }
         ]
       }
@@ -724,7 +724,7 @@
             "title": "Indigno",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//rPGl6N99DwHkNbWk9OSuzftvwjE.jpg",
             "overview": "A tensão dentro do ludus aumenta. Korris (um dos novos gladiadores ou aliados) enfrenta a ira de Ashur e é forçado a provar seu valor de forma violenta para não ser descartado. Ashur começa a perceber que manter o poder pode ser mais difícil do que conquistá-lo.",
-            "stream": "https://watch.brplayer.cc/m3u8/10/85dfc59b3f4142a06382e99bb7ff8a44/master.txt?s=1&id=35396&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/10/85dfc59b3f4142a06382e99bb7ff8a44/master.m3u8?s=1&id=35396&cache=1"
           },
           {
             "episode": 4,
@@ -3351,9 +3351,9 @@
                 {
                     "episode": 8,
                     "title": "O Mundo Direito",
-                    "thumbnail": "",
-                    "overview": "",
-                    "stream": ""
+                    "thumbnail": "https://image.tmdb.org/t/p/w1280//kP23RWbUWM6vGhT9PxFyP5VT3y4.jpg",
+                    "overview": "Com Vecna prestes a destruir o mundo, o grupo precisa arriscar tudo para derrotá-lo de uma vez por todas.",
+                    "stream": "https://watch.brplayer.cc/m3u8/10/0569715221d9e6147085bca7324be293/master.m3u8?s=1&id=35678&cache=1"
                }
            ]
         }
@@ -3448,7 +3448,7 @@
             "title": "Fogo de inverno",
             "thumbnail": "https://butwhytho.net/wp-content/uploads/2025/12/Welcome-to-Derry-Episode-8-But-Why-Tho-4.jpg",
             "overview": "Enquanto uma densa neblina envolve a cidade e o General Shaw segue em frente com sua missão, os Hanlons, Rose, Dick e as crianças precisam trabalhar juntos para salvar Derry.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/ae618c0a3cb67308d7299886a7add4b6/master.txt?s=1&id=35417&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/ae618c0a3cb67308d7299886a7add4b6/master.m3u8?s=1&id=35417&cache=1"
           }
         ]
       }
@@ -4407,21 +4407,21 @@
             "title": "Preço da Rebelião",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//xCREtKphzOgfXwmle78sG8jlym0.jpg",
             "overview": "Rob arrisca tudo para libertar seu tio Gamewell. Em Westminster, a missão de Marian se torna mais arriscada.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/94302fbe2968597131a0ae606df3f5e4/master.txt?s=1&id=35401&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/94302fbe2968597131a0ae606df3f5e4/master.m3u8?s=1&id=35401&cache=1"
           },
           {
             "episode": 9,
-            "title": "",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "Eu Escolho Você",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//phMMOJd0DtZWjlX3bcEnUJO9BVK.jpg",
+            "overview": "O disfarce de Marian é descoberto, e Guy de Gisborne, uma ameaça ainda mais mortal, chega em Nottingham.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/be745ec132d6b2f4db43aa8f94324ebf/master.m3u8?s=1&id=35556&cache=1"
           },
           {
             "episode": 10,
-            "title": "",
-            "thumbnail": "",
-            "overview": "",
-            "stream": ""
+            "title": "Um Inimigo Cai, Outro se Levanta",
+            "thumbnail": "https://image.tmdb.org/t/p/w1280//5CxVoMf9Za7nEqbTMzVc62wfHF2.jpg",
+            "overview": "A presença de Guy de Gisborne coloca todos em perigo. O xerife arma seus esquemas, e Rob ataca os normandos de surpresa - uma aposta final pela vitória dos saxões.",
+            "stream": "https://watch.brplayer.cc/m3u8/10/8f6240dce8bc1548c3f66bc5ed17369f/master.m3u8?s=1&id=35646&cache=1"
           }
         ]
       }
@@ -4510,6 +4510,101 @@
             "thumbnail": "https://occ-0-4874-1740.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXCLSlzroDbF0yicCGp-Of6r-QkIwhKklHDplmylZRjWlcUOa4l7ZK_Sj1fM1RfkUyP-ny9Ar25Eiv4QAZ7Rad8eXfSDHgsOeL36VjzGoliE_HhzsXgSwQjA.jpg?r=4ef",
             "overview": "Com os inimigos se aproximando e prestes a perder o The Jackal, Betty termina onde começou. Mas ela ainda tem uma carta na manga. Será que é suficiente?",
             "stream": "https://cdn.cnvsplus.com/m/Imp%C3%A9rio%20de%20Amsterd%C3%A3_S01E07_Fogo.mp4"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "o-nata-dos-silvas-2025",
+    "tmdb": 306673,
+    "type": "series",
+    "name": "O Natal Dos Silva",
+    "runtime": " min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/hSZ0e8fwfG8EAdDFPx27JUm9jss.jpg",
+    "background": "https://onpoplife.com.br/wp-content/uploads/2025/11/NATAL-DOS-SILVA-CAPA.jpg",
+    "logo": "",
+    "description": "Em seu primeiro Natal sem Dona Zelina, a família Silva enfrenta conflitos quando Bel tenta manter as tradições vivas. Entre brigas e fofocas, Luciano esconde um segredo que pode agitar ainda mais a ceia.",
+    "year": 2025,
+    "categoria": "GloboPlay",
+    "genres": ["Portugues", "Comédia", "Drama"],
+
+    "cast": [
+      { "name": "Carlos Francisco" },
+      { "name": "Rejane Faria" },
+      { "name": "Aisha Brunno" },
+      { "name": "Ana Hilário" }
+    ],
+
+    "directors": [
+      { "name": "", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "tt36669595",
+      "imdb_id": "7.8"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 2,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 3,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 4,
+            "title": "Observação",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 5,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 6,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 7,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 8,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
           }
         ]
       }
