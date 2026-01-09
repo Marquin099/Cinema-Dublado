@@ -9,6 +9,33 @@
     "stream": "https://watch.brplayer.cc/m3u8/26/64126291a78b0949415681f9c9e8446d/master.m3u8?s=1&id=35431&cache=1"
   },
   {
+    "id": "tt20519180",
+    "name": "Uma Viagem para Recordar ",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-12/d75b7ecd-7b13-4d23-a6d6-8f4c33b858e0.webp",
+    "description": "Jaap é um homem amargurado que, contra a sua vontade, viaja com sua esposa até a Espanha para visitar um amigo que está gravemente doente. Mas durante a viagem, ele redescobrirá o verdadeiro significado do amor.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "stream": "https://watch.brplayer.cc/m3u8/26/c625dc1fd57f8d818b6718ee5ce9d27e/master.m3u8?s=1&id=35559&cache=1"
+  },
+   {
+    "id": "tt31710990",
+    "name": "Sonhos",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-12/0065ae41-4c3f-4bf7-9d73-4f7a19bc6d24.webp",
+    "description": "O romance floresce entre uma pessoa administrada pela alta sociedade e uma dançarina de balé mexicana, entrelaçando suas vidas e culturas contrastantes.",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "stream": "https://watch.brplayer.cc/m3u8/26/c45ff238efdaeb27177502d90e93f60b/master.m3u8?s=1&id=35485&cache=1"
+  },
+   {
+    "id": "tt14107334",
+    "name": "O Sobrevivente",
+    "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/8nBuPCAXLFSuUBjO1WvJ2blEVmK.jpg",
+    "description": "Em um futuro próximo, “O Sobrevivente” é o show de maior audiência na televisão – uma competição mortal onde os participantes precisam sobreviver 30 dias enquanto são caçados por assassinos profissionais. Cada passo é transmitido a um público sedento por sangue e cada dia sobrevivido aumenta o prêmio em dinheiro para o vencedor. (The Running Man)",
+    "year": 2025,
+    "categoria": "Prime Video",
+    "stream": "https://watch.brplayer.cc/m3u8/27/d162afc49f55985d7a550edc9f2864aa/master.m3u8?s=1&id=35308&cache=1"
+  },
+  {
     "id": "tt28637027",
     "name": "Presas do Abismo",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/v8mu9g8yEt0o1Z211scCK1VBte2.jpg",
@@ -46,7 +73,7 @@
   },
   {
     "id": "tt34956443",
-    "name": "Ne Zha 2 - O Renascer da Alma",
+    "name": "Ne Zha 2: O Renascer da Alma",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/rZvTm1Yg1HUfpC1Z20E0211kXqI.jpg",
     "description": "Após uma grande catástrofe, as almas de Ne Zha e Ao Bing são salvas, mas seus corpos enfrentam a ruína. Para lhes dar uma nova vida, Taiyi Zhenren recorre à mística lótus de sete cores em uma ousada tentativa de reconstruí-los e mudar seus destinos.",
     "year": 2025,
@@ -438,7 +465,7 @@
     "description": "Incapaz de gerar filhos, um casal resolve adotar uma criança órfã, sobrevivente de uma infância trágica. Mas o ato de amor se transforma em horror à medida que eventos assustadores se desenrolam e o comportamento da garota se torna perturbador.",
     "year": 2025,
     "categoria": "Terror",
-    "stream": ""
+    "stream": "https://watch.brplayer.cc/m3u8/26/533cfabd03d46e4e4e22349f6fdbb46e/master.txt?s=1&id=35435&cache=1"
   },
   {
     "id": "tt28554021",
@@ -698,7 +725,16 @@
     "description": "Alex e Tess decidem por um divórcio amigável após anos juntos num casamento que lentamente se desfez. Agora, começa uma fase estranha de descobrir como é a vida separados enquanto tentam cuidar e educar dois meninos e manter suas amizades cultivadas como um casal ao longo desses anos. Alex inevitavelmente enfrenta uma crise de meia idade, buscando um novo propósito na cena de comédia stand up em Nova York. Enquanto isso, Tess confronta os sacrifícios …",
     "year": 2025,
     "categoria": "Dublado Não Oficial",
-    "stream": "https://watch.brplayer.cc/m3u8/12/a617a439d2705ff5bec9814c3b887f45/master.txt?s=1&id=35587&cache=1"
+    "stream": "https://watch.brplayer.cc/m3u8/12/a617a439d2705ff5bec9814c3b887f45/master.m3u8?s=1&id=35587&cache=1"
+  },
+  {
+    "id": "tt35668447",
+    "name": "Lupa Daratan",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-12/cab40803-4f6c-4d7d-b0b8-9ac24cbe4039.webp",
+    "description": "O mundo de um artista narcisista desmorona quando ele perde misteriosamente seu talento logo antes da maior oportunidade de sua carreira.",
+    "year": 2025,
+    "categoria": "Comédia",
+    "stream": "https://watch.brplayer.cc/m3u8/27/6b72b336f3b704bf09040e76c23c8fb3/master.m3u8?s=1&id=35309&cache=1"
   },
   {
     "id": "tt30645201",
@@ -798,6 +834,15 @@
     "year": 2025,
     "categoria": "Prime Video",
     "stream": "https://watch.brplayer.cc/m3u8/10/404d3f0612eb04b0949751d0102417a9/master.m3u8?s=1&id=34763&cache=1"
+  },
+  {
+    "id": "tt23572848",
+    "name": "Bob Esponja: Em Busca da Calça Quadrada",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-12/fe76462f-ca40-4106-a291-d750984e7f21.webp",
+    "description": "Acompanha Bob Esponja em sua viagem às profundezas do oceano para enfrentar o fantasma do Holandês Voador.",
+    "year": 2025,
+    "categoria": "Animação",
+    "stream": "https://watch.brplayer.cc/m3u8/12/d7e6ed305a6d0c5a33d44a7fd17797ac/master.txt?s=1&id=35596&cache=1"
   },
   {
     "id": "tt36424914",
@@ -1491,7 +1536,7 @@
     "poster": "https://d1muf25xaso8hp.cloudfront.net/https://image.tmdb.org/t/p/w500/sZbsbX1y4N89zEOkb4P3FD1YUB9.jpg",
     "description": "A obra A Própria Carne se desenrola em 1870, no contexto da Guerra do Paraguai, e narra a história de três soldados desertores. Buscando abrigo, eles encontram uma casa isolada na fronteira, onde conhecem um fazendeiro enigmático e uma jovem extremamente acolhedora.",
     "year": 2025,
-    "categoria": "Cinema",
+    "categoria": "Terror",
     "stream": "https://watch.brplayer.cc/m3u8/27/8db46ae484cc3e07dc4cc1a5b2e7fb52/master.m3u8?s=1&id=35536&cache=1"
   },
   {
@@ -1565,6 +1610,15 @@
     "year": 2025,
     "categoria": "Documentário",
     "stream": "https://watch.brplayer.cc/m3u8/26/92ca5b52d16fb8dc75da8d84deacf408/master.m3u8?s=1&id=35383&cache=1"
+  },
+  {
+    "id": "tt35628886",
+    "name": "Caos: Os Crimes de Manson Chaos: The Manson Murders",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-09/220db964-8186-410b-9ece-b6ece69c1556.webp",
+    "description": "Um mergulho nas teorias alternativas em torno dos assassinatos de Manson revela conexões inesperadas com agências governamentais, experimentos de controle mental e figuras-chave da época, desafiando a narrativa aceita.",
+    "year": 2025,
+    "categoria": "Documentário",
+    "stream": "https://watch.brplayer.cc/m3u8/27/ef7412faef2bb19790400382abdd532d/master.m3u8?s=1&id=31067&cache=1"
   },
   {
     "id": "tt34963732",
@@ -3047,6 +3101,15 @@
     "stream": "https://watch.brplayer.cc/m3u8/26/e4825224ef50eac17bcdf3576f66784e/master.m3u8?s=1&id=28847&cache=1"
   },
   {
+    "id": "tt26505281",
+    "name": "Guerreiras do Ar (2024)",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-12/0fdd86ae-652b-4e06-bfae-f81fde67b889.webp",
+    "description": "Em um mundo dominado por homens, jovens russas são recrutadas para pilotar aviões de caça e ajudar a conter o avanço alemão durante a Segunda Guerra Mundial. Elas amadurecem, se apaixonam e passam a enxergar o céu como uma segunda casa.",
+    "year": 2024,
+    "categoria": "Guerra",
+    "stream": "https://watch.brplayer.cc/m3u8/26/14c0c5f6f142833b2669dd20e70f03f5/master.m3u8?s=1&id=35192&cache=1"
+  },
+  {
     "id": "tt16311594",
     "name": "F1 - O Filme",
     "poster": "https://cinegratis.tv/uploads/posts/2025-07/3fd5994e-58dc-4475-8306-3f47894899b7.webp",
@@ -3054,6 +3117,15 @@
     "year": 2025,
     "categoria": "Prime Video",
     "stream": "https://watch.brplayer.cc/m3u8/26/da84b5e0e99f3999917feb3a31afec8d/master.m3u8?s=1&id=33252&cache=1"
+  },
+  {
+    "id": "tt32147653",
+    "name": "O Estranho em Minha Casa",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-12/e00c3558-5686-4d19-bf19-cb79dfdbe65b.webp",
+    "description": "A alegação de um belo estranho de que a filha de 15 anos de um casal foi mudada ao nascer desestabiliza sua família perfeita e revela segredos chocantes.",
+    "year": 2025,
+    "categoria": "Paramount+",
+    "stream": "https://watch.brplayer.cc/m3u8/26/ff5a32529137a0ce614e6a37307423c5/master.m3u8?s=1&id=35594&cache=1"
   },
   {
     "id": "tt37268550",
@@ -3272,6 +3344,15 @@
     "stream": "https://download1588.mediafire.com/zj2ln2gp9d7gPTXu8H3ZagXJW7kenpQsFcD7JEHnFLMfO4E3YgNf1MS65VdSCZBKkind4322lycT69wYEjYSLFlVBFrhhrJ2xdS9Wy8J4oF8Q3xXW2rsPWUHUP1YW-WWUy61kirhzwgbI54rxDBmlGWl-4NM5iLxuSB-OaH_kII/16dwoa9wkdbjfzd/Predator.Killer.of.Killers.2025-HD.mp4"
   },
   {
+    "id": "tt4520988",
+    "name": "Frozen 2 (2019)",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-09/f1097ada-dda8-40c2-be2c-8f28c5eb3e46.webp",
+    "description": "Anna, Elsa, Kristoff e Olaf vão longe na floresta para aprender a verdade sobre um antigo mistério do reino deles.",
+    "year": 2019,
+    "categoria": "Disney+",
+    "stream": "https://watch.brplayer.cc/m3u8/26/7f272b86ea4f734837b281ad960be2f7/master.m3u8?s=1&id=30917&cache=1"
+  },
+  {
     "id": "tt9619824",
     "name": "Premonição 6: Laços de Sangue",
     "poster": "https://ingresso-a.akamaihd.net/prd/img/movie/premonicao-6-lacos-de-sangue/61244475-f2e0-4e54-9ed7-f15319124f4c.webp",
@@ -3441,6 +3522,15 @@
     "year": 2025,
     "categoria": "Prime Video",
     "stream": "https://vods1.watchingvs.com/m/Miss%C3%A3o%20porto%20seguro_2025_tt35330349.mp4"
+  },
+   {
+    "id": "tt27773349",
+    "name": "Os Pecados do Padre",
+    "poster": "https://cinegratis.tv/uploads/posts/2025-12/29efe979-ce5f-486a-8aaa-299170c3dedf.webp",
+    "description": "Após a recuperação inexplicável de sua esposa doente, o padre Theodor torna-se uma sensação religiosa. Mas quando um cético começa a investigar seus supostos milagres, segredos sombrios vêm à tona.",
+    "year": 2024,
+    "categoria": "Prime Video",
+    "stream": "https://watch.brplayer.cc/m3u8/26/40b28f4fc90cff423e2a75266497539f/master.m3u8?s=1&id=35276&cache=1"
   },
   {
     "id": "tt14961624",
