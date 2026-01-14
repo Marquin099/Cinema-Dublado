@@ -1,4 +1,167 @@
 [
+  {
+    "id": "sequestro-2025",
+    "tmdb": 198102,
+    "type": "series",
+    "name": "Sequestro",
+    "runtime": " min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/ve9nizFrjgIcuoceapsVbPYt5jM.jpg",
+    "background": "https://m.media-amazon.com/images/S/pv-target-images/a5a67dc1f5bd4010ed4853676f8ac4614334ced21560c59708f5cbf10c220430.jpg",
+    "logo": "https://vectorseek.com/wp-content/uploads/2023/08/Hijack-Series-Logo-Vector.svg-.png",
+    "description": "Um mestre negociador enfrenta uma série de situações de vida ou morte onde suas habilidades de persuasão são seu único meio de sobrevivência.",
+    "year": 2025,
+    "categoria": "Disney+",
+    "genres": ["Drama", "Suspense"],
+
+    "cast": [
+      { "name": "Idris Elba" },
+      { "name": "Christiane Paul" },
+      { "name": "Neil Maskell" },
+      { "name": "Gabrielle Scharnitzky" }
+    ],
+
+    "directors": [
+      { "name": "Jim Field Smith", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.4",
+      "imdb_id": "tt19854762"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "A última chamada",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/zNz7ot1Dg7t-1l-C7P91Yw/1200x675.jpg",
+            "overview": "Sam Nelson entra em um avião indo pra Londres esperando conquistar sua ex-esposa de volta, mas alguma coisa a bordo parece errada—e as suspeitas de Sa…",
+            "stream": "https://cdn3.playmycnvs.com/Sequestro%20no%20Ar%20S01%20E01_198102.mp4"
+          },
+          {
+            "episode": 2,
+            "title": "Três graus",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/zHbosTIpo2p8iXsHYPq8fQ/1200x675.jpg",
+            "overview": "Vendo uma oportunidade, Sam executa um plano para enviar uma mensagem secreta às autoridades em solo.",
+            "stream": "https://cdn3.playmycnvs.com/Sequestro%20no%20Ar%20S01%20E02_198102.mp4"
+          },
+          {
+            "episode": 3,
+            "title": "Bala de festim",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/ZomXLHPLgpo8s9cLdg2apg/1200x675.jpg",
+            "overview": "Ao mesmo tempo em que as unidades de contraterrorismo inglesas ficam sabendo do voo KA29, Sam se involve num plano para enfrentar os sequestradores.",
+            "stream": "https://cdn3.playmycnvs.com/Sequestro%20no%20Ar%20S01%20E03_198102.mp4"
+          },
+          {
+            "episode": 4,
+            "title": "Não está respondendo",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/UebfXrfhMRgZYg_mL9XBNA/1200x675.jpg",
+            "overview": "Uma equipe de incidentes em Westminster dá duro para interceptar caças. Sam tenta contactar as pessoas em solo mais uma vez quando um sequestrador é f…",
+            "stream": "https://cdn3.playmycnvs.com/Sequestro%20no%20Ar%20S01%20E04_198102.mp4"
+          },
+          {
+            "episode": 5,
+            "title": "Menos de uma hora",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/V8ylfYhAe2BqbVc2_aDAoA/1200x675.jpg",
+            "overview": "Sam tenta convencer os sequestradores a pousar o avião. Uma lista de exigências revela quem está por trás do sequestro.",
+            "stream": "https://cdn3.playmycnvs.com/Sequestro%20no%20Ar%20S01%20E05_198102.mp4"
+          },
+          {
+            "episode": 6,
+            "title": "Conceder aos poucos",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/_ps-4kZeHULtRy1c6V3_uQ/1200x675.jpg",
+            "overview": "Encarando uma decisão impossível, os passageiros se preparam para lutar.",
+            "stream": "https://cdn3.playmycnvs.com/Sequestro%20no%20Ar%20S01%20E06_198102.mp4"
+          },
+          {
+            "episode": 7,
+            "title": "Preparar, preparar, preparar",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/HgFrud_Nt9pSL0IKxaMFRw/1200x675.jpg",
+            "overview": "Final da temporada: uma nova ameaça surge a bordo enquanto Sam se esforça para controlar o desdobramento do caos ao redor de si",
+            "stream": "https://cdn3.playmycnvs.com/Sequestro%20no%20Ar%20S01%20E07_198102.mp4"
+          }
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Sinal",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/9nsiUB8VldcuSx3SKXMFIg/1200x675.jpg",
+            "overview": "Dois anos após o sequestro do voo KA29, Sam Nelson é lançado em outra provação com risco de vida, mas desta vez é pessoal.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/f88d1feb40c2231c27c62c38957ae0fc/master.m3u8?s=1&id=35937&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Controle",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/68gDvWRPodfaqT9jitR1gQ/1200x675.jpg",
+            "overview": "Sam pede que Otto tenha calma enquanto os passageiros começam a suspeitar que há algo errado. A chefe de polícia Winter corre para montar uma reação.",
+            "stream": ""
+          },
+          {
+            "episode": 3,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 4,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 5,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 6,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 7,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 8,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 9,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 10,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          }
+        ]
+      }
+    ]
+  },
+   
    {
     "id": "all-her-fault-2025",
     "tmdb": 246386,
