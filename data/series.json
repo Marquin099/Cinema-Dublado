@@ -1369,6 +1369,54 @@
   },
 
   {
+    "id": "coracao-acelerado-2025",
+    "tmdb": 301174,
+    "type": "series",
+    "name": "Coração Acelerado",
+    "runtime": "46 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/mZ3wH5xUhiKEJEH6xX8cKzFsBV2.jpg",
+    "background": "https://s2-gshow.glbimg.com/2AV35OoJEe6vy93rSjCSV7i-zBQ=/0x0:2362x1575/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2025/J/K/1ftB6XRhu2I2jQuebOgQ/coracao-acelerado-veja-fotos-exclusivas-das-primeiras-gravacoes-da-nova-novela-das-7.jpg",
+    "logo": "",
+    "description": "Apaixonada por música desde criança, Agrado entra em uma competição musical que a leva a encontrar o cantor João Raul, uma herdeira invejosa e Eduarda, com quem forma uma dupla sertaneja e enfrenta preconceitos no meio musical.",
+    "year": 2026,
+    "categoria": "Globoplay",
+    "genres": ["Novela", "Drama", "Musical"],
+
+    "cast": [
+      { "name": "Isadora Cruz" },
+      { "name": "Filipe Bragança" },
+      { "name": "Isabelle Drummond" },
+      { "name": "Leticia Spiller" },
+      { "name": "Gabz" },
+      { "name": "Leandra Leal" }
+    ],
+
+    "directors": [
+      { "name": "Maria Helena Nascimento", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "5.0",
+      "imdb_id": "tt39169218"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Episodio 1",
+            "thumbnail": "https://s01.video.glbimg.com/x216/14245320.jpg",
+            "overview": "Zuzu convence Janete a levar Agrado a um concurso de música. Jean Carlos envia uma carta para Janete falando sobre a filha deles. Agrado e Raul trocam medalhas da sorte. Jean Carlos conhece Agrado.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/59b2aface30c16993c3a1d5ac9591da7/master.txt?s=1&id=35921&cache=1"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
     "id": "cacador-de-marajas-2025",
     "tmdb": 303191,
     "type": "series",
@@ -4622,7 +4670,7 @@
     "logo": "",
     "description": "Em seu primeiro Natal sem Dona Zelina, a família Silva enfrenta conflitos quando Bel tenta manter as tradições vivas. Entre brigas e fofocas, Luciano esconde um segredo que pode agitar ainda mais a ceia.",
     "year": 2025,
-    "categoria": "GloboPlay",
+    "categoria": "Globoplay",
     "genres": ["Portugues", "Comédia", "Drama"],
 
     "cast": [
