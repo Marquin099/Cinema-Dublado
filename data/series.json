@@ -1173,28 +1173,28 @@
             "title": "Sangue e Osso",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//u564Xsif1Lb2Fw7T04MBlNjVOD2.jpg",
             "overview": "Ashur faz de tudo para garantir uma vaga nos próximos Jogos Apolinários antes da iminente chegada de Marco Crasso.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/6a1daa960984b0d1b4f1b644e9e6917e/master.txt?s=1&id=35531&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/6a1daa960984b0d1b4f1b644e9e6917e/master.m3u8?s=1&id=35531&cache=1"
           },
           {
             "episode": 5,
             "title": "Deusa da Morte",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//uONJ4aagsSeP7fgEIWA4SwdOg0o.jpg",
             "overview": "Ashur apresenta Achillia ao público, e ela enfrenta sua primeira batalha na arena.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/86d02f03357f848264de0b23a958398c/master.txt?s=1&id=35728&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/86d02f03357f848264de0b23a958398c/master.m3u8?s=1&id=35728&cache=1"
           },
           {
             "episode": 6,
             "title": "Coisas Vazias",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//ohRkVbIImAOv2JTa11xYcGuLw6O.jpg",
             "overview": "A popularidade de Ashur cresce em Cápua a um preço devastador.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/f94696d87cb5bb799bc01d610f88af44/master.txt?s=1&id=35758&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/f94696d87cb5bb799bc01d610f88af44/master.m3u8?s=1&id=35758&cache=1"
           },
           {
             "episode": 7,
             "title": "Ferida Profunda",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//3tAHMbTNq1UBIkCHx6A5c6cj16y.jpg",
             "overview": "Korris exige sangue. Ashur tenta persuadir um inimigo para a sua causa.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/374d37146f8e631a2adb03fd6818b497/master.txt?s=1&id=35890&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/374d37146f8e631a2adb03fd6818b497/master.m3u8?s=1&id=35890&cache=1"
           },
           {
             "episode": 8,
@@ -1853,6 +1853,162 @@
             "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/rxlRkySBoTT3esVDA2duIQ/1200x675.webp",
             "overview": "Os desdobramentos das denúncias de Pedro Collor e os escândalos desencavados pela imprensa fazem com que a classe política e o povo abandonem o presidente, que, cada vez mais isolado, enfrenta um processo de impeachment.",
             "stream": "https://watch.brplayer.cc/m3u8/27/0401ed6796f1f9b637d18a4ba337e1d6/master.m3u8?s=1&id=33561&cache=1"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "dele-e-dela-2025",
+    "tmdb": 259731,
+    "type": "series",
+    "name": "Dele & Dela",
+    "runtime": "46 min",
+    "poster": "https://br.web.img2.acsta.net/c_310_420/img/c8/73/c8736e63e9016cdae5af96e8e891797e.jpg",
+    "background": "https://s2-techtudo.glbimg.com/ni5Qoqca32TuWcHvxEWKBNEwOGY=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2026/i/h/twaIp0Q4O0zytwqlX4zw/dele-dela-serie-netflix-destaque.jpg",
+    "logo": "https://occ-0-8407-2218.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABdvHz4tZmOg25KIl5fwV8fxVAW1ySAc9_0IkNyB4_8bgY3jijPQ2yPsidi5xDuULlS8v1JlV1tgZRDW9JqpEj5qVThSmUeildA.png?r=efd",
+    "description": "Uma jornalista investiga um assassinato em sua cidade natal e entra em conflito com um detetive suspeito. Toda história tem dois lados - alguém está mentindo.",
+    "year": 2026,
+    "categoria": "Netflix",
+    "genres": ["Crime", "Drama", "Suspense"],
+
+    "cast": [
+      { "name": "Isabelle Kusman" },
+      { "name": "Tessa Thompson" },
+      { "name": "Jon Bernthal" },
+      { "name": "Pablo Schreiber" }
+    ],
+
+    "directors": [
+      { "name": "Anja Marquardt", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "7.3",
+      "imdb_id": "tt33035373"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Episódio 1",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYs-yVWwav2I67M4vQAlUFg-OsLeKWKeTLNLQVPttyYrpfu9A0G8gK4AbwSZGyBVtBXTdlKLJOE8KL8Ol0LBwwcRgmJAC7AqCSI.jpg?r=b2a",
+            "overview": "A jornalista Anna volta à sua pequena cidade natal na Geórgia para cobrir um caso de assassinato cuja investigação é liderada por seu ex-marido, Jack.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/0ac24513513fdd5235836d33cc4fdadd/master.m3u8?s=1&id=35849&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Episódio 2",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRCLgZ3ajmmBdYebFQahDSglGtz8hlGxODlVXrziHPE9EYpoNwwneqXpv1CHKg20wpINcDn8ZbNR6eK95pO4vLf7McYQ1wkPKrazW9LtzH5HThMjDeZrVbGZ.jpg?r=8d4",
+            "overview": "Jack e Priya tentam derrubar o álibi do principal suspeito. Anna volta à sua antiga escola para uma entrevista controversa com uma ex-colega de classe.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/b972b2f5cd0822d92737a3e0f9b99dc6/master.m3u8?s=1&id=35850&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Episódio 3",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXYRekSfo9ICMGpj6d5LBZgqICIHxHNH8ihtwpwLYGh9b_RIy0z41tvefDFa6j68RsClUs31_gCKDjyWmqlHd1ulDBH3-wjH452ssmoh6L8ZN4ZJMhNLPrJr.jpg?r=13d",
+            "overview": "Anna agarra uma chance de voltar à posição de âncora. Zoe confronta Jack sobre fatos não revelados. A piora de Alice força conversas delicadas.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/24de892b9f884a42780062ce000dcb5d/master.m3u8?s=1&id=35851&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Episódio 4",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABftt4gQb7kb6Ir3272uybt3RX85rVzaAtWwJfICw3uwv42iHa9FU787J_LCHXpeSdWsxBdtOiBUepaMi7vzGTeAhbzZlTKNeDlj1ITcp9FGqieehw6LOt00a.jpg?r=57f",
+            "overview": "Jack tem dificuldade de tranquilizar os moradores. As suspeitas de Priya chegam a um ponto crítico. Anna é atormentada por memórias dolorosas.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/c2a905eb852f356108eaa8082531b993/master.m3u8?s=1&id=35852&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "Episódio 5",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABe7s0HJg2HJtfOun8W1jGdMFsRe9TdQqwl_Fm7-_eGhIxMgpFuEqjuLVDsQyw_ZmolUTZWpzmkYtwusT5qTIY17G_zjP96agm5L8cKJNb-WZ-FEam3I9x4bv.jpg?r=59f",
+            "overview": "Encurralado, Jack age de forma cada vez mais instável. Anna fica do outro lado da entrevista. O passado de Richard é revelado.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/e58a6112b6124519bd5144ffd354e6f3/master.m3u8?s=1&id=35853&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "Episódio 6",
+            "thumbnail": "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUwyNbRVLzfU4B8--W7p1-rVIXfHhd93li_pWaEwDLwufZXpt49twti85LJ0r6ySRzVbfGKRAAEPbuXlp9gVuiSyY69Lxm_WQk_ptOMYVqtA06CGF_hM8IvM.jpg?r=e6b",
+            "overview": "Com o encerramento do caso, Jack e Anna precisam enfrentar pecados do passado e as consequências brutais no presente",
+            "stream": "https://watch.brplayer.cc/m3u8/27/b832515337ecdcca313bccdc1b6f29b3/master.m3u8?s=1&id=35854&cache=1"
+          }
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 2,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 3,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 4,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 5,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 6,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 7,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 8,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 9,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 10,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
           }
         ]
       }
@@ -3062,7 +3218,163 @@
       }
     ]
   },
+  
+  {
+    "id": "garota-sequestrada-2025",
+    "tmdb": 296523,
+    "type": "series",
+    "name": "Garota Sequestrada",
+    "runtime": "50 min",
+    "poster": "https://cinegratis.tv/uploads/posts/2026-01/557174f5-43ba-4394-930d-911cbfd1f764.webp",
+    "background": "https://www.boletimnerd.com.br/wp-content/uploads/2026/01/garota-sequestrada-serie-estreia-paramount-plus.jpg",
+    "logo": "https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w500-q80/pplcrn/2025/12/15/c435750e-3ccb-4c8b-8877-f735484e0bc6.png?format=webp",
+    "description": "Um professor sequestra Lily, uma garota gêmea. Depois de anos cautiva, escapa e enfrenta novos desafios em um mundo transformado. Sua família busca cura enquanto o sequestrador continua solto.",
+    "year": 2026,
+    "categoria": "Paramount+",
+    "genres": ["Suspense,"],
 
+    "cast": [
+      { "name": "Alfie Allen" },
+      { "name": "Jill Halfpenny" },
+      { "name": "Tallulah Evans" },
+      { "name": "Delphi Evans" }
+    ],
+
+    "directors": [
+      { "name": "Laura Way", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "6.2",
+      "imdb_id": "tt39133077"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Sequestrada",
+            "thumbnail": "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2025/12/18/2477192259987/PPCBS_BABYDOLL_101_UHD_V1_3557040_1920x1080.jpg",
+            "overview": "Lily aceita uma carona para casa, sem desconfiar das intenções de Rick.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/417d83fb3c862e79c67e1e20fa6fe9d3/master.m3u8?s=1&id=35855&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Encurralada",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/00np0Tbg281takRLKCdPRA/1200x675.jpg",
+            "overview": "Quase um ano depois de seu desaparecimento, Lily segue presa e grávida.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/6a539b31d65a801da9851d71f286d69a/master.m3u8?s=1&id=35856&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Fuga",
+            "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/12/19/2477207619888/PPCBS_BABYDOLL_103_UHD_V1_3557145_1920x1080.jpg",
+            "overview": "Cinco anos após o sequestro, Lily escapa — mas Rick nega tudo",
+            "stream": "https://watch.brplayer.cc/m3u8/27/e74186a9024394af6d13cb98b343f11a/master.m3u8?s=1&id=35857&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Confronto",
+            "thumbnail": "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2025/12/19/2477198915804/PPCBS_BABYDOLL_104_UHD_V1_3557118_1920x1080.jpg",
+            "overview": "Rick, na prisão, vai falar sob uma condição: tem que ser com a Lily.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/3dff232f506693720caae97d135faa54/master.m3u8?s=1&id=35858&cache=1"
+          },
+          {
+            "episode": 5,
+            "title": "Crise",
+            "thumbnail": "https://thumbnails.cbsig.net/_x/w1200/CBS_Production_Entertainment_VMS/2025/12/19/2477220419775/PPCBS_BABYDOLL_105_UHD_V1_3557194_1920x1080.jpg",
+            "overview": "Lily se nega a comparecer ao julgamento de Rick. Abby descobre algo.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/7ea5d3c15c91293b398bc81c9c1d42c4/master.m3u8?s=1&id=35859&cache=1"
+          },
+          {
+            "episode": 6,
+            "title": "Caçada Humana",
+            "thumbnail": "https://is1-ssl.mzstatic.com/image/thumb/97RXa4VoAAaTre9AvUSSLg/1200x675.jpg",
+            "overview": "Com Rick em fuga, Lily fica apavorada e teme por sua vida",
+            "stream": "https://watch.brplayer.cc/m3u8/27/14071519e74e68b69e943af82e7eae7e/master.m3u8?s=1&id=35860&cache=1"
+          }
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 2,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 3,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 4,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 5,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 6,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 7,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 8,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 9,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 10,
+            "title": "EM BREVE",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          }
+        ]
+      }
+    ]
+  },
+          
   {
     "id": "ncis-tony-&-ziva-2025",
     "tmdb": 247732,
@@ -3465,28 +3777,28 @@
             "title": "Noite Escura da Alma",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//3HleGsZXM5GGYQGXB2jeyAtik9q.jpg",
             "overview": "Tommy negocia uma perfuração arriscada em alto-mar enquanto as tensões aumentam com Cami. Cooper pede a bênção da família de Ariana.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/42ccbf86423e1d40f81fb35015fd2c7e/master.txt?s=1&id=35557&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/42ccbf86423e1d40f81fb35015fd2c7e/master.m3u8?s=1&id=35557&cache=1"
           },
           {
             "episode": 7,
             "title": "Para sempre é um instante",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//oAk7P00JZ871M37QAmuyW5DR7Ex.jpg",
             "overview": "A viagem de Tommy e Angela se torna um caos. Rebecca passa a noite com Charlie. O plano de perfuração em alto-mar de Cami enfrenta um exame minucioso.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/1227f1221621bd026563d53b9cc7d864/master.txt?s=1&id=35730&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/1227f1221621bd026563d53b9cc7d864/master.m3u8?s=1&id=35730&cache=1"
           },
           {
             "episode": 8,
             "title": "O Bonito Me Tocou",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//l1v5mtS4E8ZXDTDiBDKJEd7G7eK.jpg",
             "overview": "Tommy contrata ajuda para seu pai doente. Rebecca e Charlie brigam. Cami faz um movimento arriscado que vai contra os conselhos de Tommy.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/214bf5f943f8aa073d06965c1dd2fa86/master.txt?s=1&id=35729&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/214bf5f943f8aa073d06965c1dd2fa86/master.m3u8?s=1&id=35729&cache=1"
           },
           {
             "episode": 9,
             "title": "Planos, Lágrimas e Sirenes",
             "thumbnail": "https://image.tmdb.org/t/p/w1280//rSd7Vq8yAv614jaIjd3k834sB3V.jpg",
             "overview": "Angela salva Ainsley de uma situação difícil. Cooper reafirma sua liderança num poço de perfuração.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/648ca16436a0cd9ae1e2e53ad9879f6d/master.txt?s=1&id=35891&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/648ca16436a0cd9ae1e2e53ad9879f6d/master.m3u8?s=1&id=35891&cache=1"
           },
           {
             "episode": 10,
