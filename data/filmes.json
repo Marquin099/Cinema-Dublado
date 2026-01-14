@@ -576,6 +576,15 @@
     "stream": "http://strixcdn.online:80/movie/0123456789/9876543210/4601090.mp4"
   },
   {
+    "id": "tt33193568",
+    "name": "Malês",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1QaJvchSOC2KLPLBOu13OYksqRA.jpg",
+    "description": "Um casal prestes a se casar é sequestrado de sua terra natal na África e trazido para o Brasil como escravos. Separados pelo destino, ambos lutam para sobreviver aos horrores da escravidão.",
+    "year": 2025,
+    "categoria": "Drama",
+    "stream": "https://watch.brplayer.cc/m3u8/26/5f31aac2b5c1e3234a9eb40029ea0f11/master.txt?s=1&id=35925&cache=1"
+  },
+  {
     "id": "tt21631810",
     "name": "Long Shadows",
     "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/4nUowgm89E98RUSRe6BqMm0TIFx.jpg",
