@@ -1,4 +1,189 @@
 [
+  [
+  {
+    "id": "best-games-forte-esperto-2025",
+    "tmdb": 249522,
+    "type": "series",
+    "name": "Beast Games Forte Esperto",
+    "runtime": "39 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/cS9OE5qZDpZkUhrOBX6hnGZp1z1.jpg",
+    "background": "https://deadline.com/wp-content/uploads/2025/05/beast-games-amazon-prime-video.jpg?w=1024",
+    "logo": "https://m.media-amazon.com/images/S/pv-target-images/ddfbf98642722328926378c1ade4dec3305b128f21a816b11452dd07842502fd.png",
+    "description": "Da mente inovadora de MrBeast, vem aí uma nova série de competição cheia de recordes chamada Beast Games. Incríveis 1.000 participantes competirão em desafios físicos e mentais eletrizantes pela chance de ganhar o grande prêmio de 5 milhões de dólares. Semana a semana, os competidores usarão sua força e inteligência para continuar no jogo, na esperança de se tornarem o vencedor multimilionário!",
+    "year": 2025,
+    "categoria": "Prime Vídeo",
+    "genres": ["Comédia", "Docudrama", "Game Show"],
+
+    "cast": [
+      { "name": "MrBeast" },
+      { "name": "Nolan Hansen" },
+      { "name": "Karl Jacobs" },
+      { "name": "Chandler Hallow" }
+    ],
+
+    "directors": [
+      { "name": "Tyler Conklin", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "5.8",
+      "imdb_id": "tt31812476"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Mil pessoas lutam por US$ 5.000.000",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/6497f5de374e87f8bf5dc05b207758782ece617d8b3a29fe9d1f1fa5dce11a16._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Reuni mil pessoas para competirem por US$ 5 milhões, o MAIOR prêmio em dinheiro da história da televisão! Não sei por que você ainda está lendo isto, vá logo assistir! Sem mais spoilers.",
+            "stream": "https://cdn3.playmycnvs.com/Beast%20Games%20S01%20E01_249522.mp4"
+          },
+          {
+            "episode": 2,
+            "title": "500 pessoas presas na minha cidade",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/70b6ba42ae9609ae1590b6c46a4827005c2f3569a982fdb894305009a00ec420._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Os 500 competidores restantes devem lutar para ficar nessa cidade GIGANTE que eu construí do zero (sem brincadeira). O final deste episódio deve ser a coisa mais doida que já aconteceu na história da televisão. Assista agora mesmo!",
+            "stream": "https://cdn3.playmycnvs.com/Beast%20Games%20S01%20E02_249522.mp4"
+          },
+          {
+            "episode": 3,
+            "title": "O experimento da solitária",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/1935fc14774dce68ccf918eaec21f17045a43721dfed475162a148f7082746d4._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "O que aconteceria se três melhores amigos ficassem presos em uma sala e somente dois pudessem escapar? Assista agora mesmo e descubra!",
+            "stream": "https://cdn3.playmycnvs.com/Beast%20Games%20S01%20E03_249522.mp4"
+          },
+          {
+            "episode": 4,
+            "title": "O bilhete dourado",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/d326f4c144665b1de452c33b7544210e4f0ff0ce6127530860a31a796c390f2d._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "As regras são simples: lutem por um lugar nos helicopteros, ou percam US$ 5 milhões. Minha ilha particular espera por vocês.",
+            "stream": "https://cdn3.playmycnvs.com/Beast%20Games%20S01%20E04_249522.mp4"
+          },
+          {
+            "episode": 5,
+            "title": "Lute para ganhar uma ilha particular",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/bcf7361829132184e36f4dafb4683e4248f82d2ec3bf2090ffcd774c80f90061._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Você está prestes a ver alguém ganhar uma ilha particular E continuar na competição por US$ 5 milhões. Eu acabei de mandar Navy SEALs para caçarem os jogadores. Pare de ler e assista ao episódio.",
+            "stream": "https://cdn3.playmycnvs.com/Beast%20Games%20S01%20E05_249522.mp4"
+          },
+          {
+            "episode": 6,
+            "title": "Físico, mental, sorte... A escolha é sua",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/4c50c015db4398981edac7b607ed42dc80b77c55a34e846638d98945de158779._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Eu dei aos competidores restantes uma escolha. Jogar um jogo físico, um jogo mental ou um jogo decidido completamente pela sorte. Sem desculpas!",
+            "stream": "https://cdn3.playmycnvs.com/Beast%20Games%20S01%20E06_249522.mp4"
+          },
+          {
+            "episode": 7,
+            "title": "O trem da eliminação",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/7458456614b8e99300d38f361d89321a7e336f63542991471f3b5c10d70deb21._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Quanto de dinheiro você aceitaria para eliminar seu melhor amigo? Assista a esse episódio e veja os jogadores tomando as decisões mais difíceis de suas vidas. Esse é brutal.",
+            "stream": "https://cdn3.playmycnvs.com/Beast%20Games%20S01%20E07_249522.mp4"
+          },
+          {
+            "episode": 8,
+            "title": "Traia seu amigo por US$ 1 milhão",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/fef1e8d4cb5b5430c0e0554288218dc9050783da80f145afdc7a155ad704735e._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Os 10 jogadores restantes pegam suas partes de US$ 1 milhão DE NOVO. Será que vão dividir igualmente ou um deles vai pegar tudo?",
+            "stream": "https://cdn3.playmycnvs.com/Beast%20Games%20S01%20E08_249522.mp4"
+          },
+          {
+            "episode": 9,
+            "title": "Suborne o que for preciso para chega à final",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/87b1967f5ccbb81bc594c567e0fc2f57b0c97b81417c9d5ab046aa2fea173622._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Os dez finalistas usam todo o dinheiro que ganharam para subornarem até chegar à final. Mentiras e trapaças estão em alta, o que dificulta até mesmo confiar nos aliados mais próximos.",
+            "stream": "https://cdn3.playmycnvs.com/Beast%20Games%20S01%20E09_249522.mp4"
+          },
+          {
+            "episode": 10,
+            "title": "Um Cara ou Coroa de US$ 10 Milhões",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/d30c132d59f6981b77d592f0e16241446fc8521406d0472bbf902febe29e8c94._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Um competidor joga uma moeda para tentar dobrar o grande prêmio para US$ 10 milhões ou ser eliminado. O Beast Games coroa o vencedor da 1ª Temporada",
+            "stream": "https://cdn3.playmycnvs.com/Beast%20Games%20S01%20E10_249522.mp4"
+          },
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Fortes contra Inteligentes competindo por US$ 5 milhões",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/a26a3889a21c2fea962e96277e2e98f0001cac0f3ea3c52dad57feb7fd218234._BR-6_AC_SX480_FMwebp_.png",
+            "overview": "Duzentos dos competidores mais fortes e das mentes mais brilhantes em uma batalha por 100 vagas na Beast City para continuarem lutando pelo prêmio de US$ 5 milhões. Apenas o melhor de cada time vai avançar no jogo de perseverança dos Fortes, enquanto os Inteligentes batalham em um jogo de foco - quem vai avançar e quem vai para casa?",
+            "stream": "https://watch.brplayer.cc/m3u8/27/a7c1aed2ae6b6ced5c3e83fb7c74d65d/master.m3u8?s=1&id=35771&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Escolha seu destino",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/72203edaa97006c557193516fd3c78016f63657932fcaced50082b34ad9c83e8._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Após uma reviravolta, os 50 Inteligentes e 50 Fortes enfrentam sua maior decisão até agora. Um suborno de US$ 1 milhão que pode mudar o curso da temporada inteira: será que os competidores aceitarão a grande oferta do MrBeast ou arriscarão tudo e apostarão todas as fichas em um desafio de sua escolha? Enquanto as apostas aumentam, os competidores lutam por um lugar no Top 50.",
+            "stream": ""
+          },
+          {
+            "episode": 3,
+            "title": "O percurso de obstáculos",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/b655e736d64a4822d98e89c971e41e9b083be2928c2d5f4ee99533dbe88ecfa0._BR-6_AC_SX480_FMwebp_.png",
+            "overview": "O top 50 encara mais um desafio brutal, um percurso de obstáculos que demanda o equilíbrio perfeito entre força e inteligência. Enquanto novas alianças são formadas e velhas amizades desmoronam, cada vitória conta porque só metade dos competidores vai avançar. Um desafio preferido dos fãs está de volta, testando a lealdade e quebrando promessas. Todos têm um preço, mas quem vai ceder primeiro?",
+            "stream": ""
+          },
+          {
+            "episode": 4,
+            "title": "Invasão Survivor",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/f6dcf119a7d783438b1c131901ca02098c99a11318251f5725b2aa7e1ccf0dc3._BR-6_AC_SX480_FMwebp_.png",
+            "overview": "Survivor e Beast Games no maior crossover competitivo de todos os tempos! O lendário apresentador Jeff Probst se junta ao MrBeast enquanto os competidores chegam à famosa ilha do Survivor. Jogadores encaram uma série de desafios inspirados no Survivor com uma ilha privada de US$ 1,8 milhão em jogo. Tudo vai ser decidido no último conselho tribal. Quem vai ser o mais novo milionário do Beast Games?",
+            "stream": ""
+          },
+          {
+            "episode": 5,
+            "title": "Peça o que quiser",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 6,
+            "title": "Corações serão esmagados",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 7,
+            "title": "Enterre-me vivo",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 8,
+            "title": "Você roubaria US$ 1 milhão?",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 9,
+            "title": "Não acredite em ninguém",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 10,
+            "title": "Uma decisão de US$ 5 milhões",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          }
+        ]
+      }
+    ]
+  },
+    
   {
     "id": "sequestro-2025",
     "tmdb": 198102,
@@ -1572,7 +1757,14 @@
             "title": "Episodio 1",
             "thumbnail": "https://s01.video.glbimg.com/x216/14245320.jpg",
             "overview": "Zuzu convence Janete a levar Agrado a um concurso de música. Jean Carlos envia uma carta para Janete falando sobre a filha deles. Agrado e Raul trocam medalhas da sorte. Jean Carlos conhece Agrado.",
-            "stream": "https://watch.brplayer.cc/m3u8/27/59b2aface30c16993c3a1d5ac9591da7/master.txt?s=1&id=35921&cache=1"
+            "stream": "https://watch.brplayer.cc/m3u8/27/59b2aface30c16993c3a1d5ac9591da7/master.m3u8?s=1&id=35921&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Episodio 2",
+            "thumbnail": "https://oplanetatv.clickgratis.com.br/_upload/content/2026/01/12/coracao-acelerado-saiba-tudo-sobre-o-primeiro-capitulo-da-sua-nova-novela-das-7-6964e1ebe89c2.webp",
+            "overview": "Mari avisa a Eurico que João Raul cantará em seu aniversário. Agrado é humilhada por Eurico. João Raul pede que Lucas encontre Walmir, que aposta numa mesa de jogos. Natália comenta com Agrado sobre João Raul. João Raul resgata Walmir. Zuzu lembra de quando Janete se apresentava como cantora. Agrado é convidada para o aniversário de Eurico.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/061a107cb23e524a972dec77e905d9ca/master.m3u8?s=1&id=35938&cache=1"
           }
         ]
       }
