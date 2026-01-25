@@ -1,5 +1,203 @@
 [
   {
+    "id": "desprazer-em-te-conhecer",
+    "tmdb": 285770,
+    "type": "series",
+    "name": "Desprazer em Te Conhecer",
+    "runtime": "120 min",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/9SWkM0d5nocTD0GOZeE7R6i8NUL.jpg",
+    "background": "https://m.media-amazon.com/images/S/pv-target-images/d59aaf399780e8a95d6bbd3d4d48c2577d1e4aee623ef2e58826e1bdba3717dd.jpg",
+    "logo": "https://m.media-amazon.com/images/S/pv-target-images/6f0b5f2768cfba6427eb2c563777fcf06ac5aeab4dbdd8f22a9f8905206342de._BR-6_AC_SX500_FMwebp_.png",
+    "description": "Jornalista política renomada é transferida para cobertura de entretenimento e encontra um ator em declínio. Entre os bastidores caóticos e momentos inesperados, um romance divertido e cheio de química surge.",
+    "year": 2025,
+    "categoria": "Prime Vídeo",
+    "genres": ["Coreano", "Comédia", "Drama"],
+
+    "cast": [
+      { "name": "Lee Jung-jae" },
+      { "name": "Lim Ji-yeon" },
+      { "name": "Kim Ji-hoon" },
+      { "name": "Seo Ji-hye" }
+    ],
+
+    "directors": [
+      { "name": "Kim Ga-ram", "role": "Creator" }
+    ],
+
+    "rating": {
+      "imdb": "6.8",
+      "imdb_id": "tt37506062"
+    },
+
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "Episódio 1",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/b1961aa0a69fccd8c179585077bc720e982eb269623e7cd01000b56ac5555e59._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Hyeon-jun era um ator em ascensão, até um vídeo estudantil transformá-lo numa estrela. 7 anos depois, a repórter Jeong-sin aparece na vida dele!",
+            "stream": "https://watch.brplayer.cc/m3u8/27/17cb0fd774819a31e16d20b88ca85326/master.txt?s=1&id=34669&cache=1"
+          },
+          {
+            "episode": 2,
+            "title": "Episódio 2",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/146c84b2842bc51b916a39f6f2e4ca7ee9364780d41d0eb7fcb7622e4c526662._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "Após um encontro intenso no tapete vermelho, Jeong-sin expõe Hyeon-jun. Furioso, ele a expulsa de um evento, e ela jura vingança!",
+            "stream": "https://watch.brplayer.cc/m3u8/27/7991414f1fb147d65ca8fb117934f94b/master.txt?s=1&id=34670&cache=1"
+          },
+          {
+            "episode": 3,
+            "title": "Episódio 3",
+            "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/541bd7a93b53748ff58e6bfac520e926a7f099bba49491527605aaba05ec7960._BR-6_AC_SX480_FMwebp_.jpg",
+            "overview": "A frustração de Hyeon-jun cresce, e a mãe dele, Ae-suk, aparece sem avisar. Hwa-yeong promete uma transferência a Jeong-sin se ela conseguir um furo.",
+            "stream": "https://watch.brplayer.cc/m3u8/27/b80b8aad9b9104c9b2cfb95c6d1fdc97/master.txt?s=1&id=34667&cache=1"
+          },
+          {
+            "episode": 4,
+            "title": "Episódio 4",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 5,
+            "title": "Episódio 5",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 6,
+            "title": "Episódio 6",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 7,
+            "title": "",
+            "thumbnail": "Episódio 7",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 8,
+            "title": "Episódio 8",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 9,
+            "title": "Episódio 9",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 10,
+            "title": "Episódio 10",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 11,
+            "title": "Episódio ",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 12,
+            "title": "Episódio ",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          }
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 2,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 3,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 4,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 5,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 6,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 7,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 8,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 9,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          },
+          {
+            "episode": 10,
+            "title": "",
+            "thumbnail": "",
+            "overview": "",
+            "stream": ""
+          }
+        ]
+      }
+    ]
+  },
+    
+  {
     "id": "best-games-forte-esperto-2025",
     "tmdb": 249522,
     "type": "series",
